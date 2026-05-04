@@ -3,6 +3,7 @@
     {
         "TCC 1":
         {
+            "event-num":1,
             "date":"July 26, 2024",
             "players":12,
             "teams":4,
@@ -14,6 +15,7 @@
         },
         "TCC 2":
         {
+            "event-num":2,
             "date":"July 31, 2024",
             "players":12,
             "teams":4,
@@ -25,6 +27,7 @@
         },
         "TCC 3":
         {
+            "event-num":3,
             "date":"August 9, 2024",
             "players":12,
             "teams":4,
@@ -36,6 +39,7 @@
         },
         "TCC 4":
         {
+            "event-num":4,
             "date":"August 17, 2024",
             "players":15,
             "teams":5,
@@ -47,6 +51,7 @@
         },
         "The Certified Championships":
         {
+            "event-num":5,
             "date":"July 26, 2024",
             "players":12,
             "teams":4,
@@ -58,6 +63,7 @@
         },
         "TCC 5":
         {
+            "event-num":6,
             "date":"September 13, 2024",
             "players":12,
             "teams":4,
@@ -69,6 +75,7 @@
         },
         "TCC 6":
         {
+            "event-num":7,
             "date":"September 23, 2024",
             "players":12,
             "teams":4,
@@ -80,6 +87,7 @@
         },
         "TCC 7":
         {
+            "event-num":8,
             "date":"October 5, 2024",
             "players":21,
             "teams":7,
@@ -94,6 +102,7 @@
     {
         "TCC KO":
         {
+            "event-num":1,
             "date":"January 4, 2025",
             "players":32,
             "teams":8,
@@ -105,6 +114,7 @@
         },
         "TCC X":
         {
+            "event-num":2,
             "date":"February 1, 2025",
             "players":32,
             "teams":8,
@@ -116,6 +126,7 @@
         },
         "TCC Charity Challenge":
         {
+            "event-num":3,
             "date":"February 23, 2025",
             "players":32,
             "teams":8,
@@ -127,6 +138,7 @@
         },
         "TCC Underdogs":
         {
+            "event-num":4,
             "date":"March 30, 2025",
             "players":32,
             "teams":8,
@@ -138,6 +150,7 @@
         },
         "TCC Rushed":
         {
+            "event-num":5,
             "date":"April 26, 2025",
             "players":32,
             "teams":8,
@@ -151,6 +164,7 @@
         },
         "ITCC Heart Of The Seas":
         {
+            "event-num":6,
             "date":"May 17, 2025",
             "players":32,
             "teams":8,
@@ -162,6 +176,7 @@
         },
         "TCC WOC":
         {
+            "event-num":7,
             "date":"June 20, 2025",
             "players":40,
             "teams":10,
@@ -173,6 +188,7 @@
         },
         "TCC PARTY!":
         {
+            "event-num":8,
             "date":"July 26, 2025",
             "players":32,
             "teams":8,
@@ -184,6 +200,7 @@
         },
         "TCC 17":
         {
+            "event-num":9,
             "date":"August 6, 2025",
             "players":32,
             "teams":8,
@@ -195,6 +212,7 @@
         },
         "TCC Underdogs 2":
         {
+            "event-num":10,
             "date":"September 13, 2025",
             "players":32,
             "teams":8,
@@ -206,6 +224,7 @@
         },
         "TCC MM":
         {
+            "event-num":11,
             "date":"October 25, 2025",
             "players":32,
             "teams":8,
@@ -217,6 +236,7 @@
         },
         "TCC AS":
         {
+            "event-num":12,
             "date":"November 22, 2025",
             "players":32,
             "teams":8,
@@ -228,6 +248,7 @@
         },
         "TCC FF":
         {
+            "event-num":13,
             "date":"December 14, 2025",
             "players":32,
             "teams":8,
