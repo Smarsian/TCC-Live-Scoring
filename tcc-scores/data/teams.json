@@ -1,0 +1,52 @@
+{
+    "Red Rabbits":
+    {
+        "color": "red",
+        "logo": "Red_Rabbits.jpg"
+    },
+    "Orange Ocelots":
+    {
+        "color": "orange",
+        "logo": "Orange_Ocelots.jpg"
+    },
+    "Yellow Yaks":
+    {
+        "color": "yellow",
+        "logo": "Yellow_Yaks.jpg"
+    },
+    "Lime Llamas":
+    {
+        "color": "lime",
+        "logo": "Lime_Llamas.jpg"
+    },
+    "Green Geckos":
+    {
+        "color": "green",
+        "logo": "Green_Geckos.jpg"
+    },
+    "Cyan Coyotes":
+    {
+        "color": "cyan",
+        "logo": "Cyan_Coyotes.jpg"
+    },
+    "Aqua_Axolotls":
+    {
+        "color": "aqua",
+        "logo": "Aqua_Axolotls.jpg"
+    },
+    "Blue Bats":
+    {
+        "color": "blue",
+        "logo": "Blue_Bats.jpg"
+    },
+    "Purple Pandas":
+    {
+        "color": "purple",
+        "logo": "Purple_Pandas.jpg"
+    },
+    "Pink_Parrots":
+    {
+        "color": "pink",
+        "logo": "Pink_Parrots.jpg"
+    }
+}
