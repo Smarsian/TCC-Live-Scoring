@@ -1,8 +1,19 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import events from '../data/events.json'
 import './App.css'
 
 function App() {
+  const getInitialTheme = () => {
+    const storedTheme = localStorage.getItem('theme')
+
+    if (storedTheme === 'light' || storedTheme === 'dark') {
+      return storedTheme
+    }
+
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  }
+
+  const [theme, setTheme] = useState(getInitialTheme)
   const seasons = useMemo(() => Object.keys(events), [])
   const [selectedSeason, setSelectedSeason] = useState(seasons[0] ?? '')
 
@@ -48,9 +59,23 @@ function App() {
 
   const gameOrder = eventData?.['game-order'] ?? []
 
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('theme', theme)
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'))
+  }
+
   return (
     <main className="event-page">
-      <h1>TCC Events</h1>
+      <header className="page-header">
+        <h1>TCC Events</h1>
+        <button type="button" className="theme-toggle" onClick={toggleTheme}>
+          {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+        </button>
+      </header>
 
       <section className="filters" aria-label="Season and event selectors">
         <label>
