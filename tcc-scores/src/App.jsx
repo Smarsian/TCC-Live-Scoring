@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
 import events from '../data/events.json'
+import teams from '../data/teams.json'
 import './App.css'
+
+const normalizeTeamName = (name) => name.toLowerCase().replaceAll('_', ' ').trim()
+
+const toLabel = (name) => name.replaceAll('_', ' ')
 
 function App() {
   const getInitialTheme = () => {
@@ -59,6 +64,33 @@ function App() {
 
   const gameOrder = eventData?.['game-order'] ?? []
 
+  const teamLookup = useMemo(() => {
+    return Object.entries(teams).reduce((lookup, [teamName, teamData]) => {
+      lookup[normalizeTeamName(teamName)] = {
+        name: toLabel(teamName),
+        color: teamData.color,
+        logoUrl: new URL(`../images/${teamData.logo}`, import.meta.url).href,
+      }
+      return lookup
+    }, {})
+  }, [])
+
+  const mapTeamsWithAssets = (teamNames) => {
+    return teamNames.map((teamName) => {
+      const formattedName = toLabel(teamName)
+      const match = teamLookup[normalizeTeamName(teamName)]
+
+      return {
+        name: formattedName,
+        color: match?.color,
+        logoUrl: match?.logoUrl ?? null,
+      }
+    })
+  }
+
+  const winnerTeams = mapTeamsWithAssets(winners)
+  const runnerUpTeams = mapTeamsWithAssets(runnerUps)
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
     localStorage.setItem('theme', theme)
@@ -103,41 +135,69 @@ function App() {
 
       {eventData ? (
         <section className="event-card" aria-live="polite">
-          <h2>{selectedEvent}</h2>
-          <dl>
-            <div>
-              <dt>Date</dt>
-              <dd>{eventData.date || 'TBD'}</dd>
+          <div className="event-banner">
+            <h2>{selectedEvent}</h2>
+            <div className="banner-tags">
+              <span>{eventData.date || 'TBD'}</span>
+              <span>Score: {eventData.score || 'TBD'}</span>
             </div>
-            <div>
-              <dt>Players</dt>
-              <dd>{eventData.players ?? 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Teams</dt>
-              <dd>{eventData.teams ?? 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Game Order</dt>
-              <dd>{gameOrder.length > 0 ? gameOrder.join(' -> ') : 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Winner</dt>
-              <dd>{winners.length > 0 ? winners.join(', ') : 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Runner-up</dt>
-              <dd>{runnerUps.length > 0 ? runnerUps.join(', ') : 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Score</dt>
-              <dd>{eventData.score || 'TBD'}</dd>
-            </div>
-            <div>
-              <dt>Points</dt>
-              <dd>{eventData.points ?? 'To Be Added Later'}</dd>
-            </div>
-          </dl>
+          </div>
+
+          <section className="stat-grid" aria-label="Event stats">
+            <article>
+              <h3>Points</h3>
+              <p>{eventData.points ?? 'To Be Added Later'}</p>
+            </article>
+          </section>
+
+          <section className="podium-grid" aria-label="Event results">
+            <article className="result-column">
+              <h3>Winners</h3>
+              {winnerTeams.length > 0 ? (
+                <div className="team-list">
+                  {winnerTeams.map((team) => (
+                    <div key={team.name} className="team-pill" style={{ '--team-color': team.color }}>
+                      {team.logoUrl ? <img src={team.logoUrl} alt={`${team.name} logo`} /> : null}
+                      <span>{team.name}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="result-empty">TBD</p>
+              )}
+            </article>
+
+            <article className="result-column">
+              <h3>Runner-ups</h3>
+              {runnerUpTeams.length > 0 ? (
+                <div className="team-list">
+                  {runnerUpTeams.map((team) => (
+                    <div key={team.name} className="team-pill" style={{ '--team-color': team.color }}>
+                      {team.logoUrl ? <img src={team.logoUrl} alt={`${team.name} logo`} /> : null}
+                      <span>{team.name}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="result-empty">TBD</p>
+              )}
+            </article>
+          </section>
+
+          <section className="games-section" aria-label="Game order">
+            <h3>Game Order</h3>
+            {gameOrder.length > 0 ? (
+              <div className="game-order-list">
+                {gameOrder.map((game, index) => (
+                  <span key={`${game}-${index}`} className="game-chip">
+                    {index + 1}. {game}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="result-empty">TBD</p>
+            )}
+          </section>
         </section>
       ) : (
         <p className="empty-state">No event data available.</p>
