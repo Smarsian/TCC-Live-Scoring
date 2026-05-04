@@ -1,0 +1,277 @@
+{
+    "Season 1":
+    {
+        "TCC 1":
+        {
+            "date":"July 26, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["TGTTOS","HITW","SB","BB","RSR"],
+            "winner":"Green Guardians",
+            "score":"2-0",
+            "runner-up":"Pink Parrots",
+            "points":null
+        },
+        "TCC 2":
+        {
+            "date":"July 31, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["RSR","TGTTOS","BB","SB","HITW"],
+            "winner":"Pink Parrots",
+            "runner-ups":"Red Rabbits",
+            "score":"2-0",
+            "points":null
+        },
+        "TCC 3":
+        {
+            "date":"August 9, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["PKW","HITW","RSR","BB","SB"],
+            "winner":"Lime Llamas",
+            "runner-up":"Purple Pandas",
+            "score":"2-0",
+            "points":null
+        },
+        "TCC 4":
+        {
+            "date":"August 17, 2024",
+            "players":15,
+            "teams":5,
+            "game-order":["PKW","HITW","SB","RSR","BB"],
+            "winner":"Pink Parrots",
+            "runner-up":"Red Rabbits",
+            "score":"2-1",
+            "points":null
+        },
+        "The Certified Championships":
+        {
+            "date":"July 26, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["TGTTOS","SB","HITW","RSR","PKW"],
+            "winner":"Yellow Yappers",
+            "runner-up":"Cyan Certifieds",
+            "score":"2-0",
+            "points":null
+        },
+        "TCC 5":
+        {
+            "date":"September 13, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["SB","BB","RSR","PKW","HITW"],
+            "winner":"Purple Pandas",
+            "runner-up":"Blue Bats",
+            "score":"2-0",
+            "points":null
+        },
+        "TCC 6":
+        {
+            "date":"September 23, 2024",
+            "players":12,
+            "teams":4,
+            "game-order":["HITW","PKW","RSR","SB","BB"],
+            "winner":"Yellow Yaks",
+            "runner-up":"Pink Parrots",
+            "score":"2-0",
+            "points":null
+        },
+        "TCC 7":
+        {
+            "date":"October 5, 2024",
+            "players":21,
+            "teams":7,
+            "game-order":["TGTTOS","SB","RSR","HITW","PKW"],
+            "winner":"Lime Liches",
+            "runner-up":"Orange Oozes",
+            "score":"2-1",
+            "points":null
+        }
+    },
+    "Season 2":
+    {
+        "TCC KO":
+        {
+            "date":"January 4, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["RSR","TGTTOS","SB","BB","HITW"],
+            "winner":"Purple Pandas",
+            "runner-up":"Blue Bats",
+            "score":"3-0",
+            "points":null
+        },
+        "TCC X":
+        {
+            "date":"February 1, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["TGTTOS","BB","HITW","RSR","SB"],
+            "winner":"Blue Bats",
+            "runner-up":"Aqua Axolotls",
+            "score":"3-2",
+            "points":null
+        },
+        "TCC Charity Challenge":
+        {
+            "date":"February 23, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["PKW", "HITW","BB","RSR","SB"],
+            "winner":"Red Rabbits",
+            "runner-up":"Aqua Axolotls",
+            "score":"3-0",
+            "points":null
+        },
+        "TCC Underdogs":
+        {
+            "date":"March 30, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["BB","PKW","RSR","SB","HITW"],
+            "winner":"Aqua Axolotls",
+            "runner-up":"Red Rabbits",
+            "score":"3-1",
+            "points":null
+        },
+        "TCC Rushed":
+        {
+            "date":"April 26, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["HITW","SB","BB","PKW","RSR"],
+            "winner":"Pink Parrots",
+            "winner-2":"Cyan Coyotes",
+            "runner-up":"Aqua Axolotls",
+            "runner-up-2":"Orange Ocelots",
+            "score":"3-2",
+            "points":null
+        },
+        "ITCC Heart Of The Seas":
+        {
+            "date":"May 17, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["SB","PKW","BB","HITW","RSR"],
+            "winner":"Pink Parrots",
+            "runner-up":"Yellow Yaks",
+            "score":"3-0",
+            "points":null
+        },
+        "TCC WOC":
+        {
+            "date":"June 20, 2025",
+            "players":40,
+            "teams":10,
+            "game-order":["TGTTOS","BB","RSR","PKW","HITW"],
+            "winner":"Pink Parrots",
+            "runner-up":"Yellow Yaks",
+            "score":"3-2",
+            "points":null
+        },
+        "TCC PARTY!":
+        {
+            "date":"July 26, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["SB","BB","RSR","TGTTOS","HITW"],
+            "winner":"Purple Pandas",
+            "runner-up":"Blue Bats",
+            "score":"3-2",
+            "points":null
+        },
+        "TCC 17":
+        {
+            "date":"August 6, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["PKW","BB","RSR","SB","HITW"],
+            "winner":"Lime Llamas",
+            "runner-up":"Pink Parrots",
+            "score":"3-1",
+            "points":null
+        },
+        "TCC Underdogs 2":
+        {
+            "date":"September 13, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["RSR","PKW","BB","HITW","SB"],
+            "winner":"Cyan Coyotes",
+            "runner-up":"Blue Bats",
+            "score":"3-2",
+            "points":null
+        },
+        "TCC MM":
+        {
+            "date":"October 25, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["TGTTOS","BB","PKW","SB","RSR"],
+            "winner":"Mustard Mummies",
+            "runner-up":"Lime Liches",
+            "score":"3-0",
+            "points":null
+        },
+        "TCC AS":
+        {
+            "date":"November 22, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["PKW","RSR","HITW","BB","SB"],
+            "winner":"Yellow Yaks",
+            "runner-up":"Lime Llamas",
+            "score":"3-2",
+            "points":null
+        },
+        "TCC FF":
+        {
+            "date":"December 14, 2025",
+            "players":32,
+            "teams":8,
+            "game-order":["TGTTOS","PKW","RSR","HITW","SB"],
+            "winner":"Teal Turkeys",
+            "runner-up":"Cerulean Candy Canes",
+            "score":"3-1",
+            "points":null
+        }
+    },
+    "Season 3":
+    {
+        "TCC GP":
+        {
+            "date":"March 14, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":["BB","TGTTOS","RSR","SB","HITW"],
+            "winner":"Yellow Yaks",
+            "runner-up":"Blue Bats",
+            "score":"4-0",
+            "points":null
+        },
+        "TCC Cooked":
+        {
+            "date":"April 19, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":["BB","TGTTOS","SB","PKW","HITW"],
+            "winner":"Yellow Yaks",
+            "runner-up":"Orange Ocelots",
+            "score":"515-490",
+            "points":null
+        },
+        "TCC RTS":
+        {
+            "date":"May 23, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":[],
+            "winner":"",
+            "runner-up":"",
+            "score":"",
+            "points":null
+        }
+    }
+}
