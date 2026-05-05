@@ -11,17 +11,23 @@
 
 .page-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
   margin-bottom: 20px;
 }
 
 .page-header h1 {
   margin: 0;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  letter-spacing: -0.6px;
+  line-height: 1.12;
+  text-wrap: balance;
+  max-width: 16ch;
 }
 
 .theme-toggle {
+  flex-shrink: 0;
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 10px 12px;
@@ -167,12 +173,6 @@
   width: 44px;
   height: 44px;
   object-fit: contain;
-  mix-blend-mode: multiply;
-}
-
-:root[data-theme='dark'] .team-pill img {
-  mix-blend-mode: normal;
-  filter: saturate(1.08) contrast(1.1) brightness(1.08);
 }
 
 .team-pill span {
