@@ -8,10 +8,12 @@
             "players":12,
             "teams":4,
             "game-order":["TGTTOS","Hole In The Wall","Sky Battle","Battle Box","Rocket Spleef Rush"],
+            "finale-game":"DYNA",
             "winner":"Green Guardians",
             "score":"2-0",
             "runner-up":"Pink Parrots",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 2":
         {
@@ -20,10 +22,12 @@
             "players":12,
             "teams":4,
             "game-order":["Rocket Spleef Rush","TGTTOS","Battle Box","Sky Battle","Hole In The Wall"],
+            "finale-game":"DYNA",
             "winner":"Pink Parrots",
             "runner-ups":"Red Rabbits",
             "score":"2-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 3":
         {
@@ -32,10 +36,12 @@
             "players":12,
             "teams":4,
             "game-order":["Parkour Warrior","Hole In The Wall","Rocket Spleef Rush","Battle Box","Sky Battle"],
+            "finale-game":"DYNA",
             "winner":"Lime Llamas",
             "runner-up":"Purple Pandas",
             "score":"2-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 4":
         {
@@ -44,10 +50,12 @@
             "players":15,
             "teams":5,
             "game-order":["Parkour Warrior","Hole In The Wall","Sky Battle","Rocket Spleef Rush","Battle Box"],
+            "finale-game":"DYNA",
             "winner":"Pink Parrots",
             "runner-up":"Red Rabbits",
             "score":"2-1",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "The Certified Championships":
         {
@@ -56,10 +64,12 @@
             "players":12,
             "teams":4,
             "game-order":["TGTTOS","Sky Battle","Hole In The Wall","Rocket Spleef Rush","Parkour Warrior"],
+            "finale-game":"DYNA",
             "winner":"Yellow Yappers",
             "runner-up":"Cyan Certifieds",
             "score":"2-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 5":
         {
@@ -68,10 +78,12 @@
             "players":12,
             "teams":4,
             "game-order":["Sky Battle","Battle Box","Rocket Spleef Rush","Parkour Warrior","Hole In The Wall"],
+            "finale-game":"DYNA",
             "winner":"Purple Pandas",
             "runner-up":"Blue Bats",
             "score":"2-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 6":
         {
@@ -80,10 +92,12 @@
             "players":12,
             "teams":4,
             "game-order":["Hole In The Wall","Parkour Warrior","Rocket Spleef Rush","Sky Battle","Battle Box"],
+            "finale-game":"DYNA",
             "winner":"Yellow Yaks",
             "runner-up":"Pink Parrots",
             "score":"2-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 7":
         {
@@ -92,10 +106,12 @@
             "players":21,
             "teams":7,
             "game-order":["TGTTOS","Sky Battle","Rocket Spleef Rush","Hole In The Wall","Parkour Warrior"],
+            "finale-game":"DYNA",
             "winner":"Lime Liches",
             "runner-up":"Orange Oozes",
             "score":"2-1",
-            "points":null
+            "points":null,
+            "is-live":false
         }
     },
     "Season 2":
@@ -107,10 +123,12 @@
             "players":32,
             "teams":8,
             "game-order":["Rocket Spleef Rush","TGTTOS","Sky Battle","Battle Box","Hole In The Wall"],
+            "finale-game":"DB",
             "winner":"Purple Pandas",
             "runner-up":"Blue Bats",
             "score":"3-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC X":
         {
@@ -119,10 +137,12 @@
             "players":32,
             "teams":8,
             "game-order":["TGTTOS","Battle Box","Hole In The Wall","Rocket Spleef Rush","Sky Battle"],
+            "finale-game":"DB",
             "winner":"Blue Bats",
             "runner-up":"Aqua Axolotls",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC Charity Challenge":
         {
@@ -131,10 +151,12 @@
             "players":32,
             "teams":8,
             "game-order":["Parkour Warrior", "Hole In The Wall","Battle Box","Rocket Spleef Rush","Sky Battle"],
+            "finale-game":"DB",
             "winner":"Red Rabbits",
             "runner-up":"Aqua Axolotls",
             "score":"3-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC Underdogs":
         {
@@ -143,10 +165,12 @@
             "players":32,
             "teams":8,
             "game-order":["Battle Box","Parkour Warrior","Rocket Spleef Rush","Sky Battle","Hole In The Wall"],
+            "finale-game":"DB",
             "winner":"Aqua Axolotls",
             "runner-up":"Red Rabbits",
             "score":"3-1",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC Rushed":
         {
@@ -155,12 +179,14 @@
             "players":32,
             "teams":8,
             "game-order":["Hole In The Wall","Sky Battle","Battle Box","Parkour Warrior","Rocket Spleef Rush"],
+            "finale-game":"DB",
             "winner":"Pink Parrots",
             "winner-2":"Cyan Coyotes",
             "runner-up":"Aqua Axolotls",
             "runner-up-2":"Orange Ocelots",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "ITCC Heart Of The Seas":
         {
@@ -169,10 +195,12 @@
             "players":32,
             "teams":8,
             "game-order":["Sky Battle","Parkour Warrior","Battle Box","Hole In The Wall","Rocket Spleef Rush"],
+            "finale-game":"DB",
             "winner":"Pink Parrots",
             "runner-up":"Yellow Yaks",
             "score":"3-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC WOC":
         {
@@ -181,10 +209,12 @@
             "players":40,
             "teams":10,
             "game-order":["TGTTOS","Battle Box","Rocket Spleef Rush","Parkour Warrior","Hole In The Wall"],
+            "finale-game":"DB",
             "winner":"Pink Parrots",
             "runner-up":"Yellow Yaks",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC PARTY!":
         {
@@ -193,10 +223,12 @@
             "players":32,
             "teams":8,
             "game-order":["Sky Battle","Battle Box","Rocket Spleef Rush","TGTTOS","Hole In The Wall"],
+            "finale-game":"DB",
             "winner":"Purple Pandas",
             "runner-up":"Blue Bats",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC 17":
         {
@@ -205,10 +237,12 @@
             "players":32,
             "teams":8,
             "game-order":["Parkour Warrior","Battle Box","Rocket Spleef Rush","Sky Battle","Hole In The Wall"],
+            "finale-game":"DB",
             "winner":"Lime Llamas",
             "runner-up":"Pink Parrots",
             "score":"3-1",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC Underdogs 2":
         {
@@ -217,10 +251,12 @@
             "players":32,
             "teams":8,
             "game-order":["Rocket Spleef Rush","Parkour Warrior","Battle Box","Hole In The Wall","Sky Battle"],
+            "finale-game":"DB",
             "winner":"Cyan Coyotes",
             "runner-up":"Blue Bats",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC MM":
         {
@@ -229,10 +265,12 @@
             "players":32,
             "teams":8,
             "game-order":["TGTTOS","Battle Box","Parkour Warrior","Sky Battle","Rocket Spleef Rush"],
+            "finale-game":"DB",
             "winner":"Mustard Mummies",
             "runner-up":"Lime Liches",
             "score":"3-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC AS":
         {
@@ -241,10 +279,12 @@
             "players":32,
             "teams":8,
             "game-order":["Parkour Warrior","Rocket Spleef Rush","Hole In The Wall","Battle Box","Sky Battle"],
+            "finale-game":"DB",
             "winner":"Yellow Yaks",
             "runner-up":"Lime Llamas",
             "score":"3-2",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC FF":
         {
@@ -253,10 +293,12 @@
             "players":32,
             "teams":8,
             "game-order":["TGTTOS","Parkour Warrior","Rocket Spleef Rush","Hole In The Wall","Sky Battle"],
+            "finale-game":"DB",
             "winner":"Teal Turkeys",
             "runner-up":"Cerulean Candy Canes",
             "score":"3-1",
-            "points":null
+            "points":null,
+            "is-live":false
         }
     },
     "Season 3":
@@ -268,10 +310,12 @@
             "players":32,
             "teams":8,
             "game-order":["Battle Box","TGTTOS","Rocket Spleef Rush","Sky Battle","Hole In The Wall"],
+            "finale-game":"Extraction",
             "winner":"Yellow Yaks",
             "runner-up":"Blue Bats",
             "score":"4-0",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC Cooked":
         {
@@ -280,10 +324,12 @@
             "players":32,
             "teams":8,
             "game-order":["Battle Box","TGTTOS","Sky Battle","Parkour Warrior","Hole In The Wall"],
+            "finale-game":"Cooked",
             "winner":"Yellow Yaks",
             "runner-up":"Orange Ocelots",
             "score":"515-490",
-            "points":null
+            "points":null,
+            "is-live":false
         },
         "TCC RTS":
         {
@@ -292,10 +338,12 @@
             "players":32,
             "teams":8,
             "game-order":[],
+            "finale-game":"Surged",
             "winner":"",
             "runner-up":"",
             "score":"",
-            "points":null
+            "points":null,
+            "is-live":true
         }
     }
 }

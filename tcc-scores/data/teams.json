@@ -48,5 +48,10 @@
     {
         "color": "pink",
         "logo": "Pink_Parrots.png"
+    },
+    "Green_Guardians":
+    {
+        "color": "green",
+        "logo": "Green_Guardians.png"
     }
 }

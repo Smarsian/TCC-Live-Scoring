@@ -7,6 +7,27 @@ const normalizeTeamName = (name) => name.toLowerCase().replaceAll('_', ' ').trim
 
 const toLabel = (name) => name.replaceAll('_', ' ')
 
+const imageModules = import.meta.glob('../images/**/*.{png,jpg,jpeg,svg,webp}', {
+  eager: true,
+  import: 'default',
+})
+
+const resolveLogoUrl = (logoFileName) => {
+  if (!logoFileName) {
+    return null
+  }
+
+  const normalizedFileName = logoFileName.toLowerCase()
+
+  for (const [imagePath, imageUrl] of Object.entries(imageModules)) {
+    if (imagePath.toLowerCase().endsWith(`/${normalizedFileName}`)) {
+      return imageUrl
+    }
+  }
+
+  return null
+}
+
 function App() {
   const getInitialTheme = () => {
     const storedTheme = localStorage.getItem('theme')
@@ -69,7 +90,7 @@ function App() {
       lookup[normalizeTeamName(teamName)] = {
         name: toLabel(teamName),
         color: teamData.color,
-        logoUrl: new URL(`../images/${teamData.logo}`, import.meta.url).href,
+        logoUrl: resolveLogoUrl(teamData.logo),
       }
       return lookup
     }, {})

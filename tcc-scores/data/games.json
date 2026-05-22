@@ -1,0 +1,56 @@
+{
+    "Sky Battle":{
+        "abbreviation":"SB",
+        "image":""
+    },
+    "TGTTOS":{
+        "abbreviation":"TGTTOS",
+        "image":""
+    },
+    "Hole In The Wall":{
+        "abbreviation":"HITW",
+        "image":""
+    },
+    "Parkour Warrior":{
+        "abbreviation":"PKW",
+        "image":""
+    },
+    "Rocket Spleef Rush":{
+        "abbreviation":"RSR",
+        "image":""
+    },
+    "Battle Box":{
+        "abbreviation":"BB",
+        "image":""
+    },
+    "Dynaball":{
+        "abbreviation":"DYNA",
+        "image":"",
+        "finale-game":true
+    },
+    "Dodgebolt":{
+        "abbreviation":"DB",
+        "image":"",
+        "finale-game":true
+    },
+    "Extraction":{
+        "abbreviation":"Extraction",
+        "image":"",
+        "finale-game":true
+    },
+    "Cooked":{
+        "abbreviation":"Cooked",
+        "image":"",
+        "finale-game":true
+    },
+    "Surged":{
+        "abbreviation":"Surged",
+        "image":"",
+        "finale-game":true
+    },
+    "Battle Box (finale)":{
+        "abbreviation":"BB",
+        "image":"",
+        "finale-game":true
+    }
+}
