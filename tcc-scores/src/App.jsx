@@ -1,11 +1,86 @@
 import { useEffect, useMemo, useState } from 'react'
 import events from '../data/events.json'
+import games from '../data/games.json'
 import teams from '../data/teams.json'
 import './App.css'
 
 const normalizeTeamName = (name) => name.toLowerCase().replaceAll('_', ' ').trim()
 
+const normalizeGameName = (name) => name.toLowerCase().replaceAll('_', ' ').trim()
+
 const toLabel = (name) => name.replaceAll('_', ' ')
+
+const getSeasonNumber = (seasonName) => {
+  const match = seasonName.match(/\d+/)
+  return match ? Number(match[0]) : 0
+}
+
+const getMostRecentEventNameForSeason = (seasonEvents) => {
+  const candidates = Object.entries(seasonEvents ?? {}).map(([eventName, eventData], index) => {
+    const parsedDate = Date.parse(eventData?.date ?? '')
+
+    return {
+      eventName,
+      dateValue: Number.isNaN(parsedDate) ? Number.NEGATIVE_INFINITY : parsedDate,
+      eventNumber: Number(eventData?.['event-num']) || 0,
+      index,
+    }
+  })
+
+  if (candidates.length === 0) {
+    return ''
+  }
+
+  candidates.sort(
+    (left, right) =>
+      right.dateValue - left.dateValue ||
+      right.eventNumber - left.eventNumber ||
+      right.index - left.index,
+  )
+
+  return candidates[0].eventName
+}
+
+const getMostRecentEventSelection = (allEvents) => {
+  const candidates = []
+
+  Object.entries(allEvents).forEach(([seasonName, seasonEvents], seasonIndex) => {
+    Object.entries(seasonEvents ?? {}).forEach(([eventName, eventData], eventIndex) => {
+      const parsedDate = Date.parse(eventData?.date ?? '')
+
+      candidates.push({
+        seasonName,
+        eventName,
+        dateValue: Number.isNaN(parsedDate) ? Number.NEGATIVE_INFINITY : parsedDate,
+        seasonNumber: getSeasonNumber(seasonName),
+        eventNumber: Number(eventData?.['event-num']) || 0,
+        seasonIndex,
+        eventIndex,
+      })
+    })
+  })
+
+  if (candidates.length === 0) {
+    return {
+      seasonName: '',
+      eventName: '',
+    }
+  }
+
+  candidates.sort(
+    (left, right) =>
+      right.dateValue - left.dateValue ||
+      right.seasonNumber - left.seasonNumber ||
+      right.eventNumber - left.eventNumber ||
+      right.seasonIndex - left.seasonIndex ||
+      right.eventIndex - left.eventIndex,
+  )
+
+  return {
+    seasonName: candidates[0].seasonName,
+    eventName: candidates[0].eventName,
+  }
+}
 
 const imageModules = import.meta.glob('../images/**/*.{png,jpg,jpeg,svg,webp}', {
   eager: true,
@@ -39,9 +114,11 @@ function App() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   }
 
+  const initialSelection = useMemo(() => getMostRecentEventSelection(events), [])
   const [theme, setTheme] = useState(getInitialTheme)
   const seasons = useMemo(() => Object.keys(events), [])
-  const [selectedSeason, setSelectedSeason] = useState(seasons[0] ?? '')
+  const initialSeason = initialSelection.seasonName || seasons[0] || ''
+  const [selectedSeason, setSelectedSeason] = useState(initialSeason)
 
   const eventNames = useMemo(() => {
     if (!selectedSeason || !events[selectedSeason]) {
@@ -51,7 +128,9 @@ function App() {
     return Object.keys(events[selectedSeason])
   }, [selectedSeason])
 
-  const [selectedEvent, setSelectedEvent] = useState(eventNames[0] ?? '')
+  const [selectedEvent, setSelectedEvent] = useState(
+    initialSelection.eventName || getMostRecentEventNameForSeason(events[initialSeason]),
+  )
 
   const eventData = useMemo(() => {
     if (!selectedSeason || !selectedEvent) {
@@ -63,10 +142,10 @@ function App() {
 
   const handleSeasonChange = (event) => {
     const nextSeason = event.target.value
-    const nextEventNames = Object.keys(events[nextSeason] ?? {})
+    const nextEventName = getMostRecentEventNameForSeason(events[nextSeason])
 
     setSelectedSeason(nextSeason)
-    setSelectedEvent(nextEventNames[0] ?? '')
+    setSelectedEvent(nextEventName)
   }
 
   const handleEventChange = (event) => {
@@ -84,6 +163,24 @@ function App() {
     : []
 
   const gameOrder = eventData?.['game-order'] ?? []
+  const isLiveEvent = Boolean(eventData?.['is-live'])
+
+  const gameLookup = useMemo(() => {
+    return Object.entries(games).reduce((lookup, [gameName, gameData]) => {
+      const gameEntry = {
+        name: gameName,
+        logoUrl: resolveLogoUrl(gameData.image),
+      }
+
+      lookup[normalizeGameName(gameName)] = gameEntry
+
+      if (gameData.abbreviation) {
+        lookup[normalizeGameName(gameData.abbreviation)] = gameEntry
+      }
+
+      return lookup
+    }, {})
+  }, [])
 
   const teamLookup = useMemo(() => {
     return Object.entries(teams).reduce((lookup, [teamName, teamData]) => {
@@ -112,6 +209,15 @@ function App() {
   const winnerTeams = mapTeamsWithAssets(winners)
   const runnerUpTeams = mapTeamsWithAssets(runnerUps)
 
+  const gameOrderWithAssets = gameOrder.map((gameName) => {
+    const match = gameLookup[normalizeGameName(gameName)]
+
+    return {
+      name: match?.name ?? toLabel(gameName),
+      logoUrl: match?.logoUrl ?? null,
+    }
+  })
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
     localStorage.setItem('theme', theme)
@@ -124,7 +230,7 @@ function App() {
   return (
     <main className="event-page">
       <header className="page-header">
-        <h1>The Coolio Championships Scores</h1>
+        <h1>The Coolio Championships LIVE Scores</h1>
         <button type="button" className="theme-toggle" onClick={toggleTheme}>
           {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
         </button>
@@ -157,7 +263,15 @@ function App() {
       {eventData ? (
         <section className="event-card" aria-live="polite">
           <div className="event-banner">
-            <h2>{selectedEvent}</h2>
+            <div className="event-title-row">
+              <h2>{selectedEvent}</h2>
+              {isLiveEvent ? (
+                <span className="live-indicator" role="status" aria-label="Event is live">
+                  <span className="live-dot" aria-hidden="true" />
+                  LIVE
+                </span>
+              ) : null}
+            </div>
             <div className="banner-tags">
               <span>{eventData.date || 'TBD'}</span>
               <span>Score: {eventData.score || 'TBD'}</span>
@@ -207,11 +321,16 @@ function App() {
 
           <section className="games-section" aria-label="Game order">
             <h3>Game Order</h3>
-            {gameOrder.length > 0 ? (
+            {gameOrderWithAssets.length > 0 ? (
               <div className="game-order-list">
-                {gameOrder.map((game, index) => (
-                  <span key={`${game}-${index}`} className="game-chip">
-                    {index + 1}. {game}
+                {gameOrderWithAssets.map((game, index) => (
+                  <span key={`${game.name}-${index}`} className="game-chip">
+                    <span className="game-chip-order">{index + 1}</span>
+                    {game.logoUrl ? (
+                      <img className="game-chip-image" src={game.logoUrl} alt={`${game.name} logo`} />
+                    ) : (
+                      <span className="game-chip-text">{game.name}</span>
+                    )}
                   </span>
                 ))}
               </div>

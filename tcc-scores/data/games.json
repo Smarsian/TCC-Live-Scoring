@@ -1,36 +1,36 @@
 {
     "Sky Battle":{
         "abbreviation":"SB",
-        "image":""
+        "image":"SB.png"
     },
     "TGTTOS":{
         "abbreviation":"TGTTOS",
-        "image":""
+        "image":"TGTTOS.png"
     },
     "Hole In The Wall":{
         "abbreviation":"HITW",
-        "image":""
+        "image":"HITW.png"
     },
     "Parkour Warrior":{
         "abbreviation":"PKW",
-        "image":""
+        "image":"PKW.png"
     },
     "Rocket Spleef Rush":{
         "abbreviation":"RSR",
-        "image":""
+        "image":"RSR.png"
     },
     "Battle Box":{
         "abbreviation":"BB",
-        "image":""
+        "image":"BB.png"
     },
     "Dynaball":{
         "abbreviation":"DYNA",
-        "image":"",
+        "image":"DYNA.png",
         "finale-game":true
     },
     "Dodgebolt":{
         "abbreviation":"DB",
-        "image":"",
+        "image":"DB.png",
         "finale-game":true
     },
     "Extraction":{
@@ -50,7 +50,7 @@
     },
     "Battle Box (finale)":{
         "abbreviation":"BB",
-        "image":"",
+        "image":"BB.png",
         "finale-game":true
     }
 }

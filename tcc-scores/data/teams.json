@@ -53,5 +53,10 @@
     {
         "color": "green",
         "logo": "Green_Guardians.png"
+    },
+    "Cyan Creepers":
+    {
+        "color": "cyan",
+        "logo": "Cyan_Creepers.png"
     }
 }
