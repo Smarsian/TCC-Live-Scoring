@@ -142,7 +142,7 @@ function App() {
 
   const handleSeasonChange = (event) => {
     const nextSeason = event.target.value
-    const nextEventName = getMostRecentEventNameForSeason(events[nextSeason])
+    const nextEventName = Object.keys(events[nextSeason] ?? {})[0] ?? ''
 
     setSelectedSeason(nextSeason)
     setSelectedEvent(nextEventName)
