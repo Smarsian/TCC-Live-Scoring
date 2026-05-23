@@ -227,6 +227,18 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.game-chip.is-active {
+  border-color: color-mix(in srgb, var(--accent) 70%, var(--border));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.game-chip:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 55%, #fff);
+  outline-offset: 2px;
 }
 
 .game-chip-order {
@@ -254,6 +266,100 @@
   font-weight: 600;
   font-size: 0.9rem;
   padding-right: 6px;
+}
+
+.game-stats-card {
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+}
+
+.game-stats-card h4 {
+  margin: 0 0 10px;
+  color: var(--text-h);
+  font-size: 1rem;
+}
+
+.game-stats-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.game-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 8px;
+}
+
+.game-stat-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px;
+  background: color-mix(in srgb, var(--bg) 84%, transparent);
+  display: grid;
+  gap: 4px;
+}
+
+.game-stat-item span {
+  color: var(--text);
+  font-size: 0.8rem;
+}
+
+.game-stat-item strong {
+  color: var(--text-h);
+  font-size: 0.95rem;
+}
+
+.leaderboard-layout {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.leaderboard-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--bg) 84%, transparent);
+  padding: 10px;
+}
+
+.leaderboard-card h5 {
+  margin: 0 0 8px;
+  color: var(--text-h);
+  font-size: 0.92rem;
+}
+
+.leaderboard-table-wrap {
+  overflow-x: auto;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 460px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  border: 1px solid var(--border);
+  padding: 7px 8px;
+  font-size: 0.84rem;
+  color: var(--text-h);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.leaderboard-table th {
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  font-weight: 700;
+}
+
+.leaderboard-table td {
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
 }
 
 .result-empty {

@@ -10,6 +10,63 @@ const normalizeGameName = (name) => name.toLowerCase().replaceAll('_', ' ').trim
 
 const toLabel = (name) => name.replaceAll('_', ' ')
 
+const getFirstGameNameForEvent = (eventData) => eventData?.['game-order']?.[0] ?? ''
+const defaultGameMultipliers = [1, 1.5, 2, 2.5, 3]
+
+const toNumber = (value) => {
+  if (typeof value === 'number') {
+    return Number.isFinite(value) ? value : null
+  }
+
+  if (typeof value === 'string') {
+    const normalized = value.replaceAll(',', '').replaceAll('+', '').trim()
+    const parsed = Number(normalized)
+    return Number.isFinite(parsed) ? parsed : null
+  }
+
+  return null
+}
+
+const formatMultiplier = (value) => {
+  if (value === null || value === undefined || value === '') {
+    return null
+  }
+
+  if (typeof value === 'number') {
+    return `${value}x`
+  }
+
+  if (typeof value === 'string') {
+    const normalized = value.trim().replace(/x$/i, '')
+    const parsed = toNumber(normalized)
+    return parsed !== null ? `${parsed}x` : value
+  }
+
+  return String(value)
+}
+
+const sortLeaderboardEntries = (entries) => {
+  return [...entries].sort((left, right) => {
+    const leftPlace = toNumber(left.place)
+    const rightPlace = toNumber(right.place)
+
+    if (leftPlace !== null || rightPlace !== null) {
+      return (leftPlace ?? Number.POSITIVE_INFINITY) - (rightPlace ?? Number.POSITIVE_INFINITY)
+    }
+
+    const leftPoints = toNumber(left.points) ?? toNumber(left.coins)
+    const rightPoints = toNumber(right.points) ?? toNumber(right.coins)
+
+    if (leftPoints !== null || rightPoints !== null) {
+      return (rightPoints ?? Number.NEGATIVE_INFINITY) - (leftPoints ?? Number.NEGATIVE_INFINITY)
+    }
+
+    return String(left.name ?? left.player ?? left.team ?? '').localeCompare(
+      String(right.name ?? right.player ?? right.team ?? ''),
+    )
+  })
+}
+
 const getSeasonNumber = (seasonName) => {
   const match = seasonName.match(/\d+/)
   return match ? Number(match[0]) : 0
@@ -131,6 +188,7 @@ function App() {
   const [selectedEvent, setSelectedEvent] = useState(
     initialSelection.eventName || getMostRecentEventNameForSeason(events[initialSeason]),
   )
+  const [selectedGameIndex, setSelectedGameIndex] = useState(0)
 
   const eventData = useMemo(() => {
     if (!selectedSeason || !selectedEvent) {
@@ -143,13 +201,19 @@ function App() {
   const handleSeasonChange = (event) => {
     const nextSeason = event.target.value
     const nextEventName = Object.keys(events[nextSeason] ?? {})[0] ?? ''
+    const nextEventData = events[nextSeason]?.[nextEventName]
 
     setSelectedSeason(nextSeason)
     setSelectedEvent(nextEventName)
+    setSelectedGameIndex(getFirstGameNameForEvent(nextEventData) ? 0 : -1)
   }
 
   const handleEventChange = (event) => {
-    setSelectedEvent(event.target.value)
+    const nextEventName = event.target.value
+    const nextEventData = events[selectedSeason]?.[nextEventName]
+
+    setSelectedEvent(nextEventName)
+    setSelectedGameIndex(getFirstGameNameForEvent(nextEventData) ? 0 : -1)
   }
 
   const winners = eventData
@@ -169,6 +233,7 @@ function App() {
     return Object.entries(games).reduce((lookup, [gameName, gameData]) => {
       const gameEntry = {
         name: gameName,
+        abbreviation: gameData.abbreviation,
         logoUrl: resolveLogoUrl(gameData.image),
       }
 
@@ -213,10 +278,134 @@ function App() {
     const match = gameLookup[normalizeGameName(gameName)]
 
     return {
+      rawName: gameName,
       name: match?.name ?? toLabel(gameName),
+      abbreviation: match?.abbreviation ?? null,
       logoUrl: match?.logoUrl ?? null,
     }
   })
+
+  const selectedGame =
+    gameOrderWithAssets[selectedGameIndex] ??
+    gameOrderWithAssets[0] ?? {
+      rawName: '',
+      name: '',
+      abbreviation: null,
+      logoUrl: null,
+    }
+
+  const gameStatsLookup = eventData?.['game-stats'] ?? {}
+  const selectedGameStats =
+    gameStatsLookup[normalizeGameName(selectedGame.rawName)] ??
+    gameStatsLookup[normalizeGameName(selectedGame.name)] ??
+    (selectedGame.abbreviation
+      ? gameStatsLookup[normalizeGameName(selectedGame.abbreviation)]
+      : null) ??
+    null
+
+  const selectedGameStatsObject =
+    selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}
+
+  const uniqueMultiplierConfig = eventData?.['unique-multiplier'] ?? eventData?.['unique-multipliers']
+
+  const eventLevelMultiplier = (() => {
+    if (Array.isArray(uniqueMultiplierConfig)) {
+      return uniqueMultiplierConfig[selectedGameIndex] ?? null
+    }
+
+    if (!uniqueMultiplierConfig || typeof uniqueMultiplierConfig !== 'object') {
+      return null
+    }
+
+    return (
+      uniqueMultiplierConfig[normalizeGameName(selectedGame.rawName)] ??
+      uniqueMultiplierConfig[normalizeGameName(selectedGame.name)] ??
+      (selectedGame.abbreviation
+        ? uniqueMultiplierConfig[normalizeGameName(selectedGame.abbreviation)]
+        : null) ??
+      null
+    )
+  })()
+
+  const inferredMultiplier =
+    selectedGameIndex >= 0 && selectedGameIndex < defaultGameMultipliers.length
+      ? defaultGameMultipliers[selectedGameIndex]
+      : null
+
+  const playerLeaderboard = sortLeaderboardEntries(
+    Array.isArray(selectedGameStatsObject['player-leaderboard'])
+      ? selectedGameStatsObject['player-leaderboard']
+      : Array.isArray(selectedGameStatsObject.players)
+        ? selectedGameStatsObject.players
+        : [],
+  )
+
+  const teamLeaderboard = sortLeaderboardEntries(
+    Array.isArray(selectedGameStatsObject['team-leaderboard'])
+      ? selectedGameStatsObject['team-leaderboard']
+      : Array.isArray(selectedGameStatsObject.teams)
+        ? selectedGameStatsObject.teams
+        : [],
+  )
+
+  const overallStandings = sortLeaderboardEntries(
+    Array.isArray(selectedGameStatsObject['overall-team-leaderboard'])
+      ? selectedGameStatsObject['overall-team-leaderboard']
+      : Array.isArray(selectedGameStatsObject['current-standings'])
+        ? selectedGameStatsObject['current-standings']
+        : Array.isArray(selectedGameStatsObject['standings-impact'])
+          ? selectedGameStatsObject['standings-impact']
+          : Array.isArray(selectedGameStatsObject['overall-standings-impact'])
+            ? selectedGameStatsObject['overall-standings-impact']
+            : [],
+  )
+
+  const statRows = [
+    {
+      label: 'Placement Multiplier',
+      value: formatMultiplier(
+        selectedGameStatsObject.multiplier ??
+          selectedGameStatsObject['placement-multiplier'] ??
+          eventLevelMultiplier ??
+          inferredMultiplier,
+      ),
+    },
+    {
+      label: 'Top Team',
+      value: selectedGameStatsObject['top-team'],
+    },
+    {
+      label: 'Top Player',
+      value: selectedGameStatsObject['top-player'],
+    },
+    {
+      label: 'Notes',
+      value: selectedGameStatsObject.notes,
+    },
+  ]
+
+  const knownGameStatKeys = new Set([
+    'multiplier',
+    'placement-multiplier',
+    'top-team',
+    'top-player',
+    'notes',
+    'player-leaderboard',
+    'players',
+    'team-leaderboard',
+    'teams',
+    'overall-team-leaderboard',
+    'current-standings',
+    'standings-impact',
+    'overall-standings-impact',
+  ])
+
+  const additionalStatRows = Object.entries(selectedGameStatsObject)
+    .filter(([key]) => !knownGameStatKeys.has(key))
+    .map(([key, value]) => ({
+      label: toLabel(key),
+      value,
+    }))
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
@@ -324,19 +513,155 @@ function App() {
             {gameOrderWithAssets.length > 0 ? (
               <div className="game-order-list">
                 {gameOrderWithAssets.map((game, index) => (
-                  <span key={`${game.name}-${index}`} className="game-chip">
+                  <button
+                    key={`${game.name}-${index}`}
+                    type="button"
+                    className={`game-chip ${index === selectedGameIndex ? 'is-active' : ''}`}
+                    onClick={() => setSelectedGameIndex(index)}
+                    aria-pressed={index === selectedGameIndex}
+                  >
                     <span className="game-chip-order">{index + 1}</span>
                     {game.logoUrl ? (
                       <img className="game-chip-image" src={game.logoUrl} alt={`${game.name} logo`} />
                     ) : (
                       <span className="game-chip-text">{game.name}</span>
                     )}
-                  </span>
+                  </button>
                 ))}
               </div>
             ) : (
               <p className="result-empty">TBD</p>
             )}
+
+            <article className="game-stats-card" aria-live="polite">
+              <h4>{selectedGame.name || 'Game stats'}</h4>
+              {selectedGame.logoUrl ? (
+                <img className="game-stats-logo" src={selectedGame.logoUrl} alt={`${selectedGame.name} logo`} />
+              ) : null}
+
+              {selectedGame.name ? (
+                <div className="game-stats-grid">
+                  {statRows.map((row) => (
+                    <div key={row.label} className="game-stat-item">
+                      <span>{row.label}</span>
+                      <strong>{row.value ?? 'TBD'}</strong>
+                    </div>
+                  ))}
+
+                  {additionalStatRows.map((row) => (
+                    <div key={row.label} className="game-stat-item">
+                      <span>{row.label}</span>
+                      <strong>{String(row.value)}</strong>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="result-empty">Select a game to view stats.</p>
+              )}
+
+              {selectedGame.name ? (
+                <div className="leaderboard-layout">
+                  <section className="leaderboard-card" aria-label="Player leaderboard">
+                    <h5>Player Leaderboard</h5>
+                    <div className="leaderboard-table-wrap">
+                      <table className="leaderboard-table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Player</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {playerLeaderboard.length > 0 ? (
+                            playerLeaderboard.map((row, index) => (
+                              <tr key={`${row.player ?? row.name ?? 'player'}-${index}`}>
+                                <td>{row.place ?? index + 1}</td>
+                                <td>{row.player ?? row.name ?? 'TBD'}</td>
+                                <td>{row.team ?? 'TBD'}</td>
+                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                              </tr>
+                            ))
+                          ) : (
+                            <tr>
+                              <td>1</td>
+                              <td>TBD</td>
+                              <td>TBD</td>
+                              <td>TBD</td>
+                            </tr>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+
+                  <section className="leaderboard-card" aria-label="Team leaderboard">
+                    <h5>Team Leaderboard</h5>
+                    <div className="leaderboard-table-wrap">
+                      <table className="leaderboard-table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {teamLeaderboard.length > 0 ? (
+                            teamLeaderboard.map((row, index) => (
+                              <tr key={`${row.team ?? row.name ?? 'team'}-${index}`}>
+                                <td>{row.place ?? index + 1}</td>
+                                <td>{row.team ?? row.name ?? 'TBD'}</td>
+                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                              </tr>
+                            ))
+                          ) : (
+                            <tr>
+                              <td>1</td>
+                              <td>TBD</td>
+                              <td>TBD</td>
+                            </tr>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+
+                  <section className="leaderboard-card" aria-label="Overall team leaderboard">
+                    <h5>Overall Team Leaderboard</h5>
+                    <div className="leaderboard-table-wrap">
+                      <table className="leaderboard-table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Team</th>
+                            <th scope="col">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {overallStandings.length > 0 ? (
+                            overallStandings.map((row, index) => (
+                              <tr key={`${row.team ?? row.name ?? 'impact'}-${index}`}>
+                                <td>{row.place ?? row.after ?? row['after-rank'] ?? row['current-standing'] ?? row.rank ?? index + 1}</td>
+                                <td>{row.team ?? row.name ?? 'TBD'}</td>
+                                <td>{row.points ?? row.coins ?? row.total ?? 'TBD'}</td>
+                              </tr>
+                            ))
+                          ) : (
+                            <tr>
+                              <td>1</td>
+                              <td>TBD</td>
+                              <td>TBD</td>
+                            </tr>
+                          )}
+                        </tbody>
+                      </table>
+                    </div>
+                  </section>
+                </div>
+              ) : null}
+            </article>
           </section>
         </section>
       ) : (
