@@ -58,5 +58,125 @@
     {
         "color": "cyan",
         "logo": "Cyan_Creepers.png"
+    },
+    "Cyan Certifieds":
+    {
+        "color": "cyan",
+        "logo": "Cyan_Certifieds.png"
+    },
+    "Pink Pepes":
+    {
+        "color": "pink",
+        "logo": "Pink_Pepes.png"
+    },
+    "Red Rabbids":
+    {
+        "color": "red",
+        "logo": "Red_Rabbids.png"
+    },
+    "Yellow_Yappers":
+    {
+        "color": "yellow",
+        "logo": "Yellow_Yappers.png"
+    },
+    "Red Ravens":
+    {
+        "color": "red",
+        "logo": "Red_Ravens.png"
+    },
+    "Orange Oozes":
+    {
+        "color": "orange",
+        "logo": "Orange_Oozes.png"
+    },
+    "Mustard Mummies":
+    {
+        "color": "yellow",
+        "logo": "Mustard_Mummies.png"
+    },
+    "Lime Liches":
+    {
+        "color": "lime",
+        "logo": "Lime_Liches.png"
+    },
+    "Green Goblins":
+    {
+        "color": "green",
+        "logo": "Green_Goblins.png"
+    },
+    "Cyan Centipedes":
+    {
+        "color": "cyan",
+        "logo": "Cyan_Centipedes.png"
+    },
+    "Aqua Abominations":
+    {
+        "color": "aqua",
+        "logo": "Aqua_Abominations.png"
+    },
+    "Blue Banshees":
+    {
+        "color": "blue",
+        "logo": "Blue_Banshees.png"
+    },
+    "Violet Vampires":
+    {
+        "color": "purple",
+        "logo": "Violet_Vampires.png"
+    },
+    "Fuchsia Frankensteins":
+    {
+        "color": "pink",
+        "logo": "Fuchsia_Frankensteins.png"
+    },
+    "Red Reindeer":
+    {
+        "color": "red",
+        "logo": "Red_Reindeer.png"
+    },
+    "Ginger Breadmen":
+    {
+        "color": "orange",
+        "logo": "Ginger_Breadmen.png"
+    },
+    "Yellow_Yetis":
+    {
+        "color": "yellow",
+        "logo": "Yellow_Yetis.png"
+    },
+    "Mint Mistletoes":
+    {
+        "color": "lime",
+        "logo": "Mint_Mistletoes.png"
+    },
+    "Emerald Elves":
+    {
+        "color": "green",
+        "logo": "Emerald_Elves.png"
+    },
+    "Teal Turkeys":
+    {
+        "color": "cyan",
+        "logo": "Teal_Turkeys.png"
+    },
+    "Cerulean Candy Canes":
+    {
+        "color": "aqua",
+        "logo": "Cerulean_Candy_Canes.png"
+    },
+    "Sapphire Santas":
+    {
+        "color": "blue",
+        "logo": "Saphire_Santas.png"
+    },
+    "Purple Penguins":
+    {
+        "color": "purple",
+        "logo": "Purple_Penguins.png"
+    },
+    "Pink_Presents":
+    {
+        "color": "pink",
+        "logo": "Pink_Presents.png"
     }
 }
