@@ -532,6 +532,12 @@ function App() {
       : [],
   )
 
+  const finalEventPlayerLeaderboard = sortLeaderboardEntries(
+    Array.isArray(eventDataWithParsed?.['event-player-leaderboard'])
+      ? eventDataWithParsed['event-player-leaderboard']
+      : [],
+  )
+
   const selectedGamePlayerLeaderboard = useMemo(
     () =>
       sortLeaderboardEntries(
@@ -686,60 +692,6 @@ function App() {
             </div>
           </div>
 
-          <section className="stat-grid" aria-label="Event stats">
-            <article className="points-standings-card">
-              <h3>Points</h3>
-              <div className="leaderboard-table-wrap">
-                <table className="leaderboard-table">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Team</th>
-                      <th scope="col">Points</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {finalEventTeamLeaderboard.length > 0 ? (
-                      finalEventTeamLeaderboard.map((row, index) => {
-                        const teamName = row.team ?? row.name ?? 'TBD'
-                        const teamVisual = getTeamVisual(teamName)
-
-                        return (
-                          <tr
-                            key={`${teamName}-${index}`}
-                            className={teamVisual?.color ? 'leaderboard-team-row' : ''}
-                            style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
-                          >
-                            <td>{row.place ?? index + 1}</td>
-                            <td>
-                              <span className="leaderboard-team-cell">
-                                {teamVisual?.logoUrl ? (
-                                  <img
-                                    className="leaderboard-team-logo"
-                                    src={teamVisual.logoUrl}
-                                    alt={`${teamVisual.name} logo`}
-                                  />
-                                ) : null}
-                                <span>{teamVisual?.name ?? teamName}</span>
-                              </span>
-                            </td>
-                            <td>{row.points ?? row.coins ?? 'TBD'}</td>
-                          </tr>
-                        )
-                      })
-                    ) : (
-                      <tr>
-                        <td>1</td>
-                        <td>TBD</td>
-                        <td>TBD</td>
-                      </tr>
-                    )}
-                  </tbody>
-                </table>
-              </div>
-            </article>
-          </section>
-
           <section className="podium-grid" aria-label="Event results">
             <article className="result-column">
               <h3>Winners</h3>
@@ -771,6 +723,120 @@ function App() {
               ) : (
                 <p className="result-empty">TBD</p>
               )}
+            </article>
+          </section>
+
+          <section className="stat-grid" aria-label="Event stats">
+            <article className="points-standings-card">
+              <h3>Points</h3>
+              <div className="points-standings-layout">
+                <section className="leaderboard-card" aria-label="Final team placements">
+                  <h5>Team Placements</h5>
+                  <div className="leaderboard-table-wrap">
+                    <table className="leaderboard-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Team</th>
+                          <th scope="col">Points</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {finalEventTeamLeaderboard.length > 0 ? (
+                          finalEventTeamLeaderboard.map((row, index) => {
+                            const teamName = row.team ?? row.name ?? 'TBD'
+                            const teamVisual = getTeamVisual(teamName)
+
+                            return (
+                              <tr
+                                key={`${teamName}-${index}`}
+                                className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                                style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                              >
+                                <td>{row.place ?? index + 1}</td>
+                                <td>
+                                  <span className="leaderboard-team-cell">
+                                    {teamVisual?.logoUrl ? (
+                                      <img
+                                        className="leaderboard-team-logo"
+                                        src={teamVisual.logoUrl}
+                                        alt={`${teamVisual.name} logo`}
+                                      />
+                                    ) : null}
+                                    <span>{teamVisual?.name ?? teamName}</span>
+                                  </span>
+                                </td>
+                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                              </tr>
+                            )
+                          })
+                        ) : (
+                          <tr>
+                            <td>1</td>
+                            <td>TBD</td>
+                            <td>TBD</td>
+                          </tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </section>
+
+                <section className="leaderboard-card" aria-label="Final player placements">
+                  <h5>Individual Placements</h5>
+                  <div className="leaderboard-table-wrap">
+                    <table className="leaderboard-table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Player</th>
+                          <th scope="col">Team</th>
+                          <th scope="col">Points</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {finalEventPlayerLeaderboard.length > 0 ? (
+                          finalEventPlayerLeaderboard.map((row, index) => {
+                            const teamName = row.team ?? 'TBD'
+                            const teamVisual = getTeamVisual(teamName)
+
+                            return (
+                              <tr
+                                key={`${row.player ?? row.name ?? 'player'}-${index}`}
+                                className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                                style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                              >
+                                <td>{row.place ?? index + 1}</td>
+                                <td>{row.player ?? row.name ?? 'TBD'}</td>
+                                <td>
+                                  <span className="leaderboard-team-cell">
+                                    {teamVisual?.logoUrl ? (
+                                      <img
+                                        className="leaderboard-team-logo"
+                                        src={teamVisual.logoUrl}
+                                        alt={`${teamVisual.name} logo`}
+                                      />
+                                    ) : null}
+                                    <span>{teamVisual?.name ?? teamName}</span>
+                                  </span>
+                                </td>
+                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                              </tr>
+                            )
+                          })
+                        ) : (
+                          <tr>
+                            <td>1</td>
+                            <td>TBD</td>
+                            <td>TBD</td>
+                            <td>TBD</td>
+                          </tr>
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </section>
+              </div>
             </article>
           </section>
 
