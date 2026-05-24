@@ -1,0 +1,82 @@
+TCC3
+
+Teams:
+Red Rabbits:
+Oniqed
+AlexTK473
+foufouv
+
+Lime Llamas:
+PorpolUmbrella
+Xd_Hashbrown
+GamingGuy907
+
+Blue Bats:
+SeniorTurtle981
+Smarsian
+Kodex13
+
+Purple Pandas:
+thedracobee
+KaydenCoolio
+BABOUSCA
+
+Games:
+Game 1: PKW
+Points:
+1 Xd_Hashbrown 13
+2 Oniqed 11
+3 GamingGuy907 10
+4 Smarsian 9
+5 BABOUSCA 7
+6 thedracobee 7
+7 PorpolUmbrella 6
+8 Kodex13 3
+
+Game 2: HITW
+Points:
+1 Kodex13 14.5
+2 Smarsian 11
+3 GamingGuy907 9
+4 Oniqed 7.5
+5 AlexTK473 7.5
+6 Xd_Hashbrown 4.5
+7 BABOUSCA 3
+8 SeniorTurtle981 3
+9 PorpolUmbrella 2
+10 KaydenCoolio 1.5
+
+Game 3: RSR
+Points:
+1 Xd_Hashbrown 24
+2 Kodex13 14
+3 Oniqed 12
+4 GamingGuy907 10
+5 KaydenCoolio 10
+6 thedracobee 6
+7 Smarsian 2
+
+Game 4: BB
+Points:
+1 BABOUSCA 22.5
+2 Oniqed 17.5
+3 thedracobee 15
+4 GamingGuy907 12.5
+5 PorpolUmbrella 12.5
+6 foufouv 10
+7 Xd_Hashbrown 10
+8 KaydenCoolio 7.5
+9 AlexTK473 5
+10 Kodex13 2.5
+
+Game 5: SB
+Points:
+1 Xd_Hashbrown 30
+2 BABOUSCA 24
+3 Oniqed 21
+4 PorpolUmbrella 21
+5 GamingGuy907 12
+6 thedracobee 12
+7 SeniorTurtle981 6
+8 AlexTK473 6
+9 Kodex13 3
