@@ -12,7 +12,7 @@
             "winner":"Green Guardians",
             "score":"2-0",
             "runner-up":"Pink Parrots",
-            "points":null,
+            "points":"TCC1-Points.txt",
             "is-live":false
         },
         "TCC 2":

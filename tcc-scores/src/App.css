@@ -392,6 +392,23 @@
   background: color-mix(in srgb, var(--bg) 88%, transparent);
 }
 
+.leaderboard-team-row td {
+  background: color-mix(in srgb, var(--team-row-color) 20%, var(--bg));
+  border-color: color-mix(in srgb, var(--team-row-color) 35%, var(--border));
+}
+
+.leaderboard-team-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.leaderboard-team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 .result-empty {
   margin: 0;
   color: var(--text);

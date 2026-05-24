@@ -144,6 +144,11 @@ const imageModules = import.meta.glob('../images/**/*.{png,jpg,jpeg,svg,webp}', 
   import: 'default',
 })
 
+const parsedEventDataModules = import.meta.glob('../data/Scoring/JSON-data/*.json', {
+  eager: true,
+  import: 'default',
+})
+
 const resolveLogoUrl = (logoFileName) => {
   if (!logoFileName) {
     return null
@@ -154,6 +159,22 @@ const resolveLogoUrl = (logoFileName) => {
   for (const [imagePath, imageUrl] of Object.entries(imageModules)) {
     if (imagePath.toLowerCase().endsWith(`/${normalizedFileName}`)) {
       return imageUrl
+    }
+  }
+
+  return null
+}
+
+const resolveParsedEventData = (pointsValue) => {
+  if (typeof pointsValue !== 'string' || !pointsValue.toLowerCase().endsWith('.txt')) {
+    return null
+  }
+
+  const normalizedStem = pointsValue.slice(0, -4).toLowerCase()
+
+  for (const [jsonPath, jsonData] of Object.entries(parsedEventDataModules)) {
+    if (jsonPath.toLowerCase().endsWith(`/${normalizedStem}.json`)) {
+      return jsonData
     }
   }
 
@@ -199,6 +220,26 @@ function App() {
     return events[selectedSeason]?.[selectedEvent] ?? null
   }, [selectedSeason, selectedEvent])
 
+  const eventDataWithParsed = useMemo(() => {
+    if (!eventData) {
+      return null
+    }
+
+    const parsedData = resolveParsedEventData(eventData.points)
+    if (!parsedData || typeof parsedData !== 'object') {
+      return eventData
+    }
+
+    return {
+      ...eventData,
+      'game-order': eventData['game-order']?.length ? eventData['game-order'] : parsedData.games ?? [],
+      'game-stats': parsedData['game-stats'] ?? eventData['game-stats'],
+      'event-player-leaderboard':
+        parsedData['event-player-leaderboard'] ?? eventData['event-player-leaderboard'],
+      'event-team-leaderboard': parsedData['event-team-leaderboard'] ?? eventData['event-team-leaderboard'],
+    }
+  }, [eventData])
+
   const handleSeasonChange = (event) => {
     const nextSeason = event.target.value
     const nextEventName = Object.keys(events[nextSeason] ?? {})[0] ?? ''
@@ -217,18 +258,18 @@ function App() {
     setSelectedGameIndex(getFirstGameNameForEvent(nextEventData) ? 0 : -1)
   }
 
-  const winners = eventData
-    ? [eventData.winner, eventData['winner-2']].filter(Boolean)
+  const winners = eventDataWithParsed
+    ? [eventDataWithParsed.winner, eventDataWithParsed['winner-2']].filter(Boolean)
     : []
 
-  const runnerUps = eventData
-    ? [eventData['runner-up'] ?? eventData['runner-ups'], eventData['runner-up-2']].filter(
+  const runnerUps = eventDataWithParsed
+    ? [eventDataWithParsed['runner-up'] ?? eventDataWithParsed['runner-ups'], eventDataWithParsed['runner-up-2']].filter(
         Boolean,
       )
     : []
 
-  const gameOrder = eventData?.['game-order'] ?? []
-  const isLiveEvent = Boolean(eventData?.['is-live'])
+  const gameOrder = useMemo(() => eventDataWithParsed?.['game-order'] ?? [], [eventDataWithParsed])
+  const isLiveEvent = Boolean(eventDataWithParsed?.['is-live'])
 
   const gameLookup = useMemo(() => {
     return Object.entries(games).reduce((lookup, [gameName, gameData]) => {
@@ -272,19 +313,29 @@ function App() {
     })
   }
 
+  const getTeamVisual = (teamNameValue) => {
+    if (!teamNameValue) {
+      return null
+    }
+
+    return teamLookup[normalizeTeamName(String(teamNameValue))] ?? null
+  }
+
   const winnerTeams = mapTeamsWithAssets(winners)
   const runnerUpTeams = mapTeamsWithAssets(runnerUps)
 
-  const gameOrderWithAssets = gameOrder.map((gameName) => {
-    const match = gameLookup[normalizeGameName(gameName)]
+  const gameOrderWithAssets = useMemo(() => {
+    return gameOrder.map((gameName) => {
+      const match = gameLookup[normalizeGameName(gameName)]
 
-    return {
-      rawName: gameName,
-      name: match?.name ?? toLabel(gameName),
-      abbreviation: match?.abbreviation ?? null,
-      logoUrl: match?.logoUrl ?? null,
-    }
-  })
+      return {
+        rawName: gameName,
+        name: match?.name ?? toLabel(gameName),
+        abbreviation: match?.abbreviation ?? null,
+        logoUrl: match?.logoUrl ?? null,
+      }
+    })
+  }, [gameOrder, gameLookup])
 
   const selectedGame =
     gameOrderWithAssets[selectedGameIndex] ??
@@ -295,7 +346,20 @@ function App() {
       logoUrl: null,
     }
 
-  const gameStatsLookup = eventData?.['game-stats'] ?? {}
+  const gameStatsLookup = useMemo(() => {
+    const rawStats = eventDataWithParsed?.['game-stats']
+
+    if (!rawStats || typeof rawStats !== 'object') {
+      return {}
+    }
+
+    return Object.entries(rawStats).reduce((lookup, [key, value]) => {
+      lookup[key] = value
+      lookup[normalizeGameName(key)] = value
+      return lookup
+    }, {})
+  }, [eventDataWithParsed])
+
   const selectedGameStats =
     gameStatsLookup[normalizeGameName(selectedGame.rawName)] ??
     gameStatsLookup[normalizeGameName(selectedGame.name)] ??
@@ -307,12 +371,114 @@ function App() {
   const selectedGameStatsObject =
     selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}
 
+  const cumulativeEventLeaderboard = useMemo(() => {
+    if (!eventDataWithParsed || selectedGameIndex < 0 || gameOrderWithAssets.length === 0) {
+      return null
+    }
+
+    const gamesToInclude = gameOrderWithAssets.slice(0, selectedGameIndex + 1)
+    const playerTotals = new Map()
+    const teamTotals = new Map()
+
+    gamesToInclude.forEach((game) => {
+      const stats =
+        gameStatsLookup[normalizeGameName(game.rawName)] ??
+        gameStatsLookup[normalizeGameName(game.name)] ??
+        (game.abbreviation ? gameStatsLookup[normalizeGameName(game.abbreviation)] : null) ??
+        null
+
+      if (!stats || typeof stats !== 'object') {
+        return
+      }
+
+      const playerRows = Array.isArray(stats['player-leaderboard'])
+        ? stats['player-leaderboard']
+        : Array.isArray(stats.players)
+          ? stats.players
+          : []
+
+      const teamRows = Array.isArray(stats['team-leaderboard'])
+        ? stats['team-leaderboard']
+        : Array.isArray(stats.teams)
+          ? stats.teams
+          : []
+
+      playerRows.forEach((row) => {
+        const playerName = row.player ?? row.name
+        if (!playerName) {
+          return
+        }
+
+        const rowPoints = toNumber(row.points ?? row.coins) ?? 0
+        const teamName = row.team ?? null
+        const existing = playerTotals.get(playerName) ?? {
+          player: playerName,
+          team: teamName,
+          points: 0,
+        }
+
+        playerTotals.set(playerName, {
+          ...existing,
+          team: existing.team ?? teamName,
+          points: existing.points + rowPoints,
+        })
+      })
+
+      if (teamRows.length > 0) {
+        teamRows.forEach((row) => {
+          const teamName = row.team ?? row.name
+          if (!teamName) {
+            return
+          }
+
+          const rowPoints = toNumber(row.points ?? row.coins) ?? 0
+          const existing = teamTotals.get(teamName) ?? {
+            team: teamName,
+            points: 0,
+          }
+
+          teamTotals.set(teamName, {
+            ...existing,
+            points: existing.points + rowPoints,
+          })
+        })
+      }
+    })
+
+    const sortedPlayers = [...playerTotals.values()].sort((left, right) => {
+      if (right.points !== left.points) {
+        return right.points - left.points
+      }
+
+      return String(left.player).localeCompare(String(right.player))
+    })
+
+    const sortedTeams = [...teamTotals.values()].sort((left, right) => {
+      if (right.points !== left.points) {
+        return right.points - left.points
+      }
+
+      return String(left.team).localeCompare(String(right.team))
+    })
+
+    return {
+      'player-leaderboard': sortedPlayers.map((row, index) => ({
+        ...row,
+        place: index + 1,
+      })),
+      'team-leaderboard': sortedTeams.map((row, index) => ({
+        ...row,
+        place: index + 1,
+      })),
+    }
+  }, [eventDataWithParsed, selectedGameIndex, gameOrderWithAssets, gameStatsLookup])
+
   const leaderboardDataSource =
-    leaderboardView === 'event' && eventData && typeof eventData === 'object'
-      ? eventData
+    leaderboardView === 'event' && eventDataWithParsed && typeof eventDataWithParsed === 'object'
+      ? cumulativeEventLeaderboard ?? eventDataWithParsed
       : selectedGameStatsObject
 
-  const uniqueMultiplierConfig = eventData?.['unique-multiplier'] ?? eventData?.['unique-multipliers']
+  const uniqueMultiplierConfig = eventDataWithParsed?.['unique-multiplier'] ?? eventDataWithParsed?.['unique-multipliers']
 
   const eventLevelMultiplier = (() => {
     if (Array.isArray(uniqueMultiplierConfig)) {
@@ -447,7 +613,7 @@ function App() {
         </label>
       </section>
 
-      {eventData ? (
+      {eventDataWithParsed ? (
         <section className="event-card" aria-live="polite">
           <div className="event-banner">
             <div className="event-title-row">
@@ -460,15 +626,19 @@ function App() {
               ) : null}
             </div>
             <div className="banner-tags">
-              <span>{eventData.date || 'TBD'}</span>
-              <span>Score: {eventData.score || 'TBD'}</span>
+              <span>{eventDataWithParsed.date || 'TBD'}</span>
+              <span>Score: {eventDataWithParsed.score || 'TBD'}</span>
             </div>
           </div>
 
           <section className="stat-grid" aria-label="Event stats">
             <article>
               <h3>Points</h3>
-              <p>{eventData.points ?? 'To Be Added Later'}</p>
+              <p>
+                {typeof eventDataWithParsed.points === 'string' && eventDataWithParsed.points.toLowerCase().endsWith('.txt')
+                  ? 'Loaded from parsed file'
+                  : (eventDataWithParsed.points ?? 'To Be Added Later')}
+              </p>
             </article>
           </section>
 
@@ -594,14 +764,34 @@ function App() {
                         </thead>
                         <tbody>
                           {playerLeaderboard.length > 0 ? (
-                            playerLeaderboard.map((row, index) => (
-                              <tr key={`${row.player ?? row.name ?? 'player'}-${index}`}>
-                                <td>{row.place ?? index + 1}</td>
-                                <td>{row.player ?? row.name ?? 'TBD'}</td>
-                                <td>{row.team ?? 'TBD'}</td>
-                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
-                              </tr>
-                            ))
+                            playerLeaderboard.map((row, index) => {
+                              const teamName = row.team ?? 'TBD'
+                              const teamVisual = getTeamVisual(teamName)
+
+                              return (
+                                <tr
+                                  key={`${row.player ?? row.name ?? 'player'}-${index}`}
+                                  className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                                  style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                                >
+                                  <td>{row.place ?? index + 1}</td>
+                                  <td>{row.player ?? row.name ?? 'TBD'}</td>
+                                  <td>
+                                    <span className="leaderboard-team-cell">
+                                      {teamVisual?.logoUrl ? (
+                                        <img
+                                          className="leaderboard-team-logo"
+                                          src={teamVisual.logoUrl}
+                                          alt={`${teamVisual.name} logo`}
+                                        />
+                                      ) : null}
+                                      <span>{teamVisual?.name ?? teamName}</span>
+                                    </span>
+                                  </td>
+                                  <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                                </tr>
+                              )
+                            })
                           ) : (
                             <tr>
                               <td>1</td>
@@ -628,13 +818,33 @@ function App() {
                         </thead>
                         <tbody>
                           {teamLeaderboard.length > 0 ? (
-                            teamLeaderboard.map((row, index) => (
-                              <tr key={`${row.team ?? row.name ?? 'team'}-${index}`}>
-                                <td>{row.place ?? index + 1}</td>
-                                <td>{row.team ?? row.name ?? 'TBD'}</td>
-                                <td>{row.points ?? row.coins ?? 'TBD'}</td>
-                              </tr>
-                            ))
+                            teamLeaderboard.map((row, index) => {
+                              const teamName = row.team ?? row.name ?? 'TBD'
+                              const teamVisual = getTeamVisual(teamName)
+
+                              return (
+                                <tr
+                                  key={`${row.team ?? row.name ?? 'team'}-${index}`}
+                                  className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                                  style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                                >
+                                  <td>{row.place ?? index + 1}</td>
+                                  <td>
+                                    <span className="leaderboard-team-cell">
+                                      {teamVisual?.logoUrl ? (
+                                        <img
+                                          className="leaderboard-team-logo"
+                                          src={teamVisual.logoUrl}
+                                          alt={`${teamVisual.name} logo`}
+                                        />
+                                      ) : null}
+                                      <span>{teamVisual?.name ?? teamName}</span>
+                                    </span>
+                                  </td>
+                                  <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                                </tr>
+                              )
+                            })
                           ) : (
                             <tr>
                               <td>1</td>

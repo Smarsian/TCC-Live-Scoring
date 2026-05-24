@@ -1,0 +1,657 @@
+{
+  "event-name": "TCC1",
+  "teams": {
+    "Orange Ocelots": [
+      "Aceotts1",
+      "Spareddd",
+      "WhiteBirdPoop"
+    ],
+    "Green Guardians": [
+      "Kodex13",
+      "AlexTK473",
+      "Dr_OrangeFox_"
+    ],
+    "Aqua Axolotls": [
+      "GamingGuy907",
+      "PorpolUmbrella",
+      "foufouv"
+    ],
+    "Pink Parrots": [
+      "KaydenCoolio",
+      "Shadowcade",
+      "Repotato",
+      "Oniqed"
+    ]
+  },
+  "games": [
+    "TGTTOS",
+    "HITW",
+    "SB",
+    "BB",
+    "RSR"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "Repotato",
+      "team": "Pink Parrots",
+      "points": 59,
+      "place": 1
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Aqua Axolotls",
+      "points": 54,
+      "place": 2
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Green Guardians",
+      "points": 53.5,
+      "place": 3
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Pink Parrots",
+      "points": 52.5,
+      "place": 4
+    },
+    {
+      "player": "WhiteBirdPoop",
+      "team": "Orange Ocelots",
+      "points": 42,
+      "place": 5
+    },
+    {
+      "player": "Shadowcade",
+      "team": "Pink Parrots",
+      "points": 35,
+      "place": 6
+    },
+    {
+      "player": "Kodex13",
+      "team": "Green Guardians",
+      "points": 31,
+      "place": 7
+    },
+    {
+      "player": "Spareddd",
+      "team": "Orange Ocelots",
+      "points": 26,
+      "place": 8
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Green Guardians",
+      "points": 24.5,
+      "place": 9
+    },
+    {
+      "player": "Aceotts1",
+      "team": "Orange Ocelots",
+      "points": 18,
+      "place": 10
+    },
+    {
+      "player": "PorpolUmbrella",
+      "team": "Aqua Axolotls",
+      "points": 17.5,
+      "place": 11
+    },
+    {
+      "player": "foufouv",
+      "team": "Aqua Axolotls",
+      "points": 15,
+      "place": 12
+    },
+    {
+      "player": "Oniqed",
+      "team": "Pink Parrots",
+      "points": 12.5,
+      "place": 13
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Pink Parrots",
+      "points": 159.0,
+      "place": 1
+    },
+    {
+      "team": "Green Guardians",
+      "points": 109.0,
+      "place": 2
+    },
+    {
+      "team": "Aqua Axolotls",
+      "points": 86.5,
+      "place": 3
+    },
+    {
+      "team": "Orange Ocelots",
+      "points": 86,
+      "place": 4
+    }
+  ],
+  "game-stats": {
+    "TGTTOS": {
+      "player-leaderboard": [
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 13,
+          "place": 1
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Green Guardians",
+          "points": 8,
+          "place": 2
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Orange Ocelots",
+          "points": 5,
+          "place": 3
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Parrots",
+          "points": 5,
+          "place": 4
+        },
+        {
+          "player": "Spareddd",
+          "team": "Orange Ocelots",
+          "points": 5,
+          "place": 5
+        },
+        {
+          "player": "foufouv",
+          "team": "Aqua Axolotls",
+          "points": 4,
+          "place": 6
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Aqua Axolotls",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Guardians",
+          "points": 2,
+          "place": 8
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Pink Parrots",
+          "points": 2,
+          "place": 9
+        },
+        {
+          "player": "Kodex13",
+          "team": "Green Guardians",
+          "points": 2,
+          "place": 10
+        },
+        {
+          "player": "Repotato",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Shadowcade",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "WhiteBirdPoop",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 13
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Aqua Axolotls",
+          "points": 20,
+          "place": 1
+        },
+        {
+          "team": "Green Guardians",
+          "points": 12,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 10,
+          "place": 3
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 7,
+          "place": 4
+        }
+      ]
+    },
+    "HITW": {
+      "player-leaderboard": [
+        {
+          "player": "KaydenCoolio",
+          "team": "Pink Parrots",
+          "points": 9,
+          "place": 1
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Parrots",
+          "points": 7.5,
+          "place": 2
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Aqua Axolotls",
+          "points": 6,
+          "place": 3
+        },
+        {
+          "player": "Spareddd",
+          "team": "Orange Ocelots",
+          "points": 6,
+          "place": 4
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 5,
+          "place": 5
+        },
+        {
+          "player": "Kodex13",
+          "team": "Green Guardians",
+          "points": 5,
+          "place": 6
+        },
+        {
+          "player": "Repotato",
+          "team": "Pink Parrots",
+          "points": 5,
+          "place": 7
+        },
+        {
+          "player": "WhiteBirdPoop",
+          "team": "Orange Ocelots",
+          "points": 4,
+          "place": 8
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Guardians",
+          "points": 3,
+          "place": 9
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "foufouv",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "Shadowcade",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 13
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Pink Parrots",
+          "points": 21.5,
+          "place": 1
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 11,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 10,
+          "place": 3
+        },
+        {
+          "team": "Green Guardians",
+          "points": 8,
+          "place": 4
+        }
+      ]
+    },
+    "SB": {
+      "player-leaderboard": [
+        {
+          "player": "Repotato",
+          "team": "Pink Parrots",
+          "points": 19,
+          "place": 1
+        },
+        {
+          "player": "WhiteBirdPoop",
+          "team": "Orange Ocelots",
+          "points": 12,
+          "place": 2
+        },
+        {
+          "player": "foufouv",
+          "team": "Aqua Axolotls",
+          "points": 11,
+          "place": 3
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Green Guardians",
+          "points": 8,
+          "place": 4
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Pink Parrots",
+          "points": 7.5,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Guardians",
+          "points": 7,
+          "place": 6
+        },
+        {
+          "player": "Shadowcade",
+          "team": "Pink Parrots",
+          "points": 5,
+          "place": 7
+        },
+        {
+          "player": "Spareddd",
+          "team": "Orange Ocelots",
+          "points": 5,
+          "place": 8
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 1,
+          "place": 9
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "Kodex13",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 13
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Pink Parrots",
+          "points": 31.5,
+          "place": 1
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 17,
+          "place": 2
+        },
+        {
+          "team": "Green Guardians",
+          "points": 15,
+          "place": 3
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 12,
+          "place": 4
+        }
+      ]
+    },
+    "BB": {
+      "player-leaderboard": [
+        {
+          "player": "Repotato",
+          "team": "Pink Parrots",
+          "points": 35,
+          "place": 1
+        },
+        {
+          "player": "Shadowcade",
+          "team": "Pink Parrots",
+          "points": 30,
+          "place": 2
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Guardians",
+          "points": 12.5,
+          "place": 3
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Orange Ocelots",
+          "points": 10,
+          "place": 4
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Pink Parrots",
+          "points": 10,
+          "place": 5
+        },
+        {
+          "player": "Spareddd",
+          "team": "Orange Ocelots",
+          "points": 10,
+          "place": 6
+        },
+        {
+          "player": "WhiteBirdPoop",
+          "team": "Orange Ocelots",
+          "points": 10,
+          "place": 7
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Green Guardians",
+          "points": 7.5,
+          "place": 8
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 5,
+          "place": 9
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Aqua Axolotls",
+          "points": 2.5,
+          "place": 10
+        },
+        {
+          "player": "foufouv",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Kodex13",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 13
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Pink Parrots",
+          "points": 75,
+          "place": 1
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 30,
+          "place": 2
+        },
+        {
+          "team": "Green Guardians",
+          "points": 20.0,
+          "place": 3
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 7.5,
+          "place": 4
+        }
+      ]
+    },
+    "RSR": {
+      "player-leaderboard": [
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Green Guardians",
+          "points": 30,
+          "place": 1
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 30,
+          "place": 2
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Pink Parrots",
+          "points": 24,
+          "place": 3
+        },
+        {
+          "player": "Kodex13",
+          "team": "Green Guardians",
+          "points": 24,
+          "place": 4
+        },
+        {
+          "player": "WhiteBirdPoop",
+          "team": "Orange Ocelots",
+          "points": 16,
+          "place": 5
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Aqua Axolotls",
+          "points": 6,
+          "place": 6
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Orange Ocelots",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 8
+        },
+        {
+          "player": "foufouv",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 9
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "Repotato",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Shadowcade",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "Spareddd",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 13
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Green Guardians",
+          "points": 54,
+          "place": 1
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 36,
+          "place": 2
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 24,
+          "place": 3
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 19,
+          "place": 4
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+TCC1
+
+Teams:
+Orange Ocelots:
+Aceotts1
+Spareddd
+WhiteBirdPoop
+
+Green Guardians:
+Kodex13
+AlexTK473
+Dr_OrangeFox_
+
+Aqua Axolotls:
+GamingGuy907
+PorpolUmbrella
+foufouv
+
+Pink Parrots:
+KaydenCoolio
+Shadowcade
+Repotato
+Oniqed
+
+Games:
+Game 1: TGTTOS
+Points:
+1 GamingGuy907 13
+2 Dr_OrangeFox_ 8
+3 Oniqed 5
+4 Spareddd 5
+5 Aceotts1 5
+6 foufouv 4
+7 PorpolUmbrella 3
+8 Kodex13 2
+9 KaydenCoolio 2
+10 AlexTK473 2
+
+Game 2: HITW
+Points:
+1 KaydenCoolio 9
+2 Oniqed 7.5
+3 Spareddd 6
+4 PorpolUmbrella 6
+5 Repotato 5
+6 GamingGuy907 5
+7 Kodex13 5
+8 WhiteBirdPoop 4
+9 AlexTK473 3
+
+Game 3: SB
+Points:
+1 Repotato 19
+2 WhiteBirdPoop 12
+3 foufouv 11
+4 Dr_OrangeFox_ 8
+5 KaydenCoolio 7.5
+6 AlexTK473 7
+7 Spareddd 5
+8 Shadowcade 5
+9 GamingGuy907 1
+
+Game 4: BB
+Points:
+1 Repotato 35
+2 Shadowcade 30
+3 AlexTK473 12.5
+4 KaydenCoolio 10
+5 Aceotts1 10
+6 Spareddd 10
+8 WhiteBirdPoop 10
+9 Dr_OrangeFox_ 7.5
+10 GamingGuy907 5
+11 PorpolUmbrella 2.5
+
+Game 5: RSR
+Points:
+1 GamingGuy907 30
+2 Dr_OrangeFox_ 30
+3 KaydenCoolio 24
+4 Kodex13 24
+5 WhiteBirdPoop 16
+6 PorpolUmbrella 6
+7 Aceotts1 3
