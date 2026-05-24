@@ -368,8 +368,10 @@ function App() {
       : null) ??
     null
 
-  const selectedGameStatsObject =
-    selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}
+  const selectedGameStatsObject = useMemo(
+    () => (selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}),
+    [selectedGameStats],
+  )
 
   const cumulativeEventLeaderboard = useMemo(() => {
     if (!eventDataWithParsed || selectedGameIndex < 0 || gameOrderWithAssets.length === 0) {
@@ -524,6 +526,63 @@ function App() {
         : [],
   )
 
+  const finalEventTeamLeaderboard = sortLeaderboardEntries(
+    Array.isArray(eventDataWithParsed?.['event-team-leaderboard'])
+      ? eventDataWithParsed['event-team-leaderboard']
+      : [],
+  )
+
+  const selectedGamePlayerLeaderboard = useMemo(
+    () =>
+      sortLeaderboardEntries(
+        Array.isArray(selectedGameStatsObject['player-leaderboard'])
+          ? selectedGameStatsObject['player-leaderboard']
+          : Array.isArray(selectedGameStatsObject.players)
+            ? selectedGameStatsObject.players
+            : [],
+      ),
+    [selectedGameStatsObject],
+  )
+
+  const selectedGameTeamLeaderboard = useMemo(
+    () =>
+      sortLeaderboardEntries(
+        Array.isArray(selectedGameStatsObject['team-leaderboard'])
+          ? selectedGameStatsObject['team-leaderboard']
+          : Array.isArray(selectedGameStatsObject.teams)
+            ? selectedGameStatsObject.teams
+            : [],
+      ),
+    [selectedGameStatsObject],
+  )
+
+  const selectedGameTopPlayer =
+    selectedGameStatsObject['top-player'] ??
+    (selectedGamePlayerLeaderboard.length > 0
+      ? selectedGamePlayerLeaderboard[0]?.player ?? selectedGamePlayerLeaderboard[0]?.name
+      : null)
+
+  const selectedGameTopTeam =
+    selectedGameStatsObject['top-team'] ??
+    (selectedGameTeamLeaderboard.length > 0
+      ? selectedGameTeamLeaderboard[0]?.team ?? selectedGameTeamLeaderboard[0]?.name
+      : null)
+
+  const selectedGameTopPlayerTeam = (() => {
+    if (!selectedGameTopPlayer) {
+      return null
+    }
+
+    const match = selectedGamePlayerLeaderboard.find(
+      (row) => (row.player ?? row.name) === selectedGameTopPlayer,
+    )
+
+    return match?.team ?? null
+  })()
+
+  const topTeamVisual = getTeamVisual(selectedGameTopTeam)
+  const topPlayerTeamVisual = getTeamVisual(selectedGameTopPlayerTeam)
+
   const statRows = [
     {
       label: 'Placement Multiplier',
@@ -536,15 +595,13 @@ function App() {
     },
     {
       label: 'Top Team',
-      value: selectedGameStatsObject['top-team'],
+      value: selectedGameTopTeam,
+      teamColor: topTeamVisual?.color ?? null,
     },
     {
       label: 'Top Player',
-      value: selectedGameStatsObject['top-player'],
-    },
-    {
-      label: 'Notes',
-      value: selectedGameStatsObject.notes,
+      value: selectedGameTopPlayer,
+      teamColor: topPlayerTeamVisual?.color ?? null,
     },
   ]
 
@@ -632,13 +689,56 @@ function App() {
           </div>
 
           <section className="stat-grid" aria-label="Event stats">
-            <article>
+            <article className="points-standings-card">
               <h3>Points</h3>
-              <p>
-                {typeof eventDataWithParsed.points === 'string' && eventDataWithParsed.points.toLowerCase().endsWith('.txt')
-                  ? 'Loaded from parsed file'
-                  : (eventDataWithParsed.points ?? 'To Be Added Later')}
-              </p>
+              <div className="leaderboard-table-wrap">
+                <table className="leaderboard-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Team</th>
+                      <th scope="col">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {finalEventTeamLeaderboard.length > 0 ? (
+                      finalEventTeamLeaderboard.map((row, index) => {
+                        const teamName = row.team ?? row.name ?? 'TBD'
+                        const teamVisual = getTeamVisual(teamName)
+
+                        return (
+                          <tr
+                            key={`${teamName}-${index}`}
+                            className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                            style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                          >
+                            <td>{row.place ?? index + 1}</td>
+                            <td>
+                              <span className="leaderboard-team-cell">
+                                {teamVisual?.logoUrl ? (
+                                  <img
+                                    className="leaderboard-team-logo"
+                                    src={teamVisual.logoUrl}
+                                    alt={`${teamVisual.name} logo`}
+                                  />
+                                ) : null}
+                                <span>{teamVisual?.name ?? teamName}</span>
+                              </span>
+                            </td>
+                            <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                          </tr>
+                        )
+                      })
+                    ) : (
+                      <tr>
+                        <td>1</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                      </tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
             </article>
           </section>
 
@@ -710,7 +810,11 @@ function App() {
               {selectedGame.name ? (
                 <div className="game-stats-grid">
                   {statRows.map((row) => (
-                    <div key={row.label} className="game-stat-item">
+                    <div
+                      key={row.label}
+                      className={`game-stat-item ${row.teamColor ? 'game-stat-item-team' : ''}`}
+                      style={row.teamColor ? { '--stat-team-color': row.teamColor } : undefined}
+                    >
                       <span>{row.label}</span>
                       <strong>{row.value ?? 'TBD'}</strong>
                     </div>
