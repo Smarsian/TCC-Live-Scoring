@@ -54,7 +54,7 @@
             "winner":"Pink Parrots",
             "runner-up":"Red Rabbits",
             "score":"2-1",
-            "points":null,
+            "points":"TCC4-Points.txt",
             "is-live":false
         },
         "The Certified Championships":

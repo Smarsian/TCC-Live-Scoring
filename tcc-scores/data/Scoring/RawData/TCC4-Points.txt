@@ -1,0 +1,90 @@
+TCC4
+
+Teams:
+Red Rabbits:
+Certifiedd
+KaydenCoolio
+xBellxd
+
+Yellow Yaks:
+Cronism
+Kodex13
+Stripes
+
+Aqua Axolotls:
+AlexTK473
+BABOUSCA
+Spareddd
+
+Purple Pandas:
+APurplePenguin
+Dr_OrangeFox_
+GamingGuy907
+
+Pink Parrots:
+PorpolUmbrella
+Smarsian
+thedracobee
+
+Games:
+Game 1: PKW
+Points:
+1 GamingGuy907 13
+2 Kodex13 10
+3 thedracobee 10
+4 BABOUSCA 8
+5 KaydenCoolio 7
+6 Smarsian 6
+7 Certifiedd 3
+8 Stripes 3
+9 APurplePenguin 3
+10 PorpolUmbrella 3
+
+Game 2: HITW
+Points:
+1 GamingGuy907 21
+2 Certifiedd 15
+3 AlexTK473 10.5
+4 Kodex13 7.5
+5 BABOUSCA 6
+6 KaydenCoolio 3
+7 PorpolUmbrella 3
+8 Smarsian 1.5
+
+Game 3: SB
+Points:
+1 thedracobee 22
+2 Certifiedd 19
+3 AlexTK473 14
+4 Dr_OrangeFox_ 10
+5 Kodex13 6
+6 KaydenCoolio 6
+7 PorpolUmbrella 4
+8 GamingGuy907 4
+9 BABOUSCA 2
+10 Smarsian 2
+11 APurplePenguin 2
+
+Game 4: RSR
+Points:
+1 Certifiedd 24.5
+2 Kodex13 17.5
+3 thedracobee 15
+4 GamingGuy907 15
+5 BABOUSCA 10
+6 APurplePenguin 10
+7 Dr_OrangeFox_ 7.5
+8 Stripes 7.5
+9 PorpolUmbrella 2.5
+10 AlexTK473 2.5
+
+Game 5: BB
+Points:
+1 PorpolUmbrella 30
+2 thedracobee 30
+3 Spareddd 24
+4 Certifiedd 21
+5 Smarsian 18
+6 BABOUSCA 6
+7 Stripes 6
+8 AlexTK473 3
