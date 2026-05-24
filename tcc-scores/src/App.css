@@ -287,6 +287,30 @@
   font-size: 1rem;
 }
 
+.game-stats-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.game-stats-header h4 {
+  margin: 0;
+}
+
+.multiplier-badge {
+  border: 1px solid color-mix(in srgb, var(--accent) 60%, var(--border));
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg));
+  color: var(--text-h);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
 .game-stats-logo {
   width: 64px;
   height: 64px;

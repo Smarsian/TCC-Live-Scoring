@@ -583,16 +583,14 @@ function App() {
   const topTeamVisual = getTeamVisual(selectedGameTopTeam)
   const topPlayerTeamVisual = getTeamVisual(selectedGameTopPlayerTeam)
 
+  const placementMultiplier = formatMultiplier(
+    selectedGameStatsObject.multiplier ??
+      selectedGameStatsObject['placement-multiplier'] ??
+      eventLevelMultiplier ??
+      inferredMultiplier,
+  )
+
   const statRows = [
-    {
-      label: 'Placement Multiplier',
-      value: formatMultiplier(
-        selectedGameStatsObject.multiplier ??
-          selectedGameStatsObject['placement-multiplier'] ??
-          eventLevelMultiplier ??
-          inferredMultiplier,
-      ),
-    },
     {
       label: 'Top Team',
       value: selectedGameTopTeam,
@@ -802,7 +800,14 @@ function App() {
             )}
 
             <article className="game-stats-card" aria-live="polite">
-              <h4>{selectedGame.name || 'Game stats'}</h4>
+              <div className="game-stats-header">
+                <h4>{selectedGame.name || 'Game stats'}</h4>
+                {selectedGame.name ? (
+                  <span className="multiplier-badge">
+                    {placementMultiplier ?? 'TBD'}
+                  </span>
+                ) : null}
+              </div>
               {selectedGame.logoUrl ? (
                 <img className="game-stats-logo" src={selectedGame.logoUrl} alt={`${selectedGame.name} logo`} />
               ) : null}
