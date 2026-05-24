@@ -340,13 +340,14 @@
             "date":"May 23, 2026",
             "players":32,
             "teams":8,
-            "game-order":[],
+            "game-order":["Rocket Spleef Rush","Sky Battle","Parkour Warrior","Hole In The Wall","Battle Box","Parkour Warrior","TGTTOS"],
+            "unique-multiplier":[1,1.5,2,2.5,3,1,1],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Aqua Axolotls",
+            "runner-up":"Purple Pandas",
+            "score":"7-5",
             "points":null,
-            "is-live":true
+            "is-live":false
         }
     }
 }

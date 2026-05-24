@@ -189,6 +189,7 @@ function App() {
     initialSelection.eventName || getMostRecentEventNameForSeason(events[initialSeason]),
   )
   const [selectedGameIndex, setSelectedGameIndex] = useState(0)
+  const [leaderboardView, setLeaderboardView] = useState('game')
 
   const eventData = useMemo(() => {
     if (!selectedSeason || !selectedEvent) {
@@ -306,6 +307,11 @@ function App() {
   const selectedGameStatsObject =
     selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}
 
+  const leaderboardDataSource =
+    leaderboardView === 'event' && eventData && typeof eventData === 'object'
+      ? eventData
+      : selectedGameStatsObject
+
   const uniqueMultiplierConfig = eventData?.['unique-multiplier'] ?? eventData?.['unique-multipliers']
 
   const eventLevelMultiplier = (() => {
@@ -333,31 +339,23 @@ function App() {
       : null
 
   const playerLeaderboard = sortLeaderboardEntries(
-    Array.isArray(selectedGameStatsObject['player-leaderboard'])
-      ? selectedGameStatsObject['player-leaderboard']
-      : Array.isArray(selectedGameStatsObject.players)
-        ? selectedGameStatsObject.players
+    Array.isArray(leaderboardDataSource['player-leaderboard'])
+      ? leaderboardDataSource['player-leaderboard']
+      : Array.isArray(leaderboardDataSource.players)
+        ? leaderboardDataSource.players
+        : Array.isArray(leaderboardDataSource['event-player-leaderboard'])
+          ? leaderboardDataSource['event-player-leaderboard']
         : [],
   )
 
   const teamLeaderboard = sortLeaderboardEntries(
-    Array.isArray(selectedGameStatsObject['team-leaderboard'])
-      ? selectedGameStatsObject['team-leaderboard']
-      : Array.isArray(selectedGameStatsObject.teams)
-        ? selectedGameStatsObject.teams
+    Array.isArray(leaderboardDataSource['team-leaderboard'])
+      ? leaderboardDataSource['team-leaderboard']
+      : Array.isArray(leaderboardDataSource.teams)
+        ? leaderboardDataSource.teams
+        : Array.isArray(leaderboardDataSource['event-team-leaderboard'])
+          ? leaderboardDataSource['event-team-leaderboard']
         : [],
-  )
-
-  const overallStandings = sortLeaderboardEntries(
-    Array.isArray(selectedGameStatsObject['overall-team-leaderboard'])
-      ? selectedGameStatsObject['overall-team-leaderboard']
-      : Array.isArray(selectedGameStatsObject['current-standings'])
-        ? selectedGameStatsObject['current-standings']
-        : Array.isArray(selectedGameStatsObject['standings-impact'])
-          ? selectedGameStatsObject['standings-impact']
-          : Array.isArray(selectedGameStatsObject['overall-standings-impact'])
-            ? selectedGameStatsObject['overall-standings-impact']
-            : [],
   )
 
   const statRows = [
@@ -561,6 +559,27 @@ function App() {
 
               {selectedGame.name ? (
                 <div className="leaderboard-layout">
+                  <div className="leaderboard-toggle" role="tablist" aria-label="Leaderboard view">
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={leaderboardView === 'game'}
+                      className={`leaderboard-toggle-button ${leaderboardView === 'game' ? 'is-active' : ''}`}
+                      onClick={() => setLeaderboardView('game')}
+                    >
+                      Game Leaderboard
+                    </button>
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={leaderboardView === 'event'}
+                      className={`leaderboard-toggle-button ${leaderboardView === 'event' ? 'is-active' : ''}`}
+                      onClick={() => setLeaderboardView('event')}
+                    >
+                      Event Leaderboard
+                    </button>
+                  </div>
+
                   <section className="leaderboard-card" aria-label="Player leaderboard">
                     <h5>Player Leaderboard</h5>
                     <div className="leaderboard-table-wrap">
@@ -628,37 +647,6 @@ function App() {
                     </div>
                   </section>
 
-                  <section className="leaderboard-card" aria-label="Overall team leaderboard">
-                    <h5>Overall Team Leaderboard</h5>
-                    <div className="leaderboard-table-wrap">
-                      <table className="leaderboard-table">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Team</th>
-                            <th scope="col">Points</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {overallStandings.length > 0 ? (
-                            overallStandings.map((row, index) => (
-                              <tr key={`${row.team ?? row.name ?? 'impact'}-${index}`}>
-                                <td>{row.place ?? row.after ?? row['after-rank'] ?? row['current-standing'] ?? row.rank ?? index + 1}</td>
-                                <td>{row.team ?? row.name ?? 'TBD'}</td>
-                                <td>{row.points ?? row.coins ?? row.total ?? 'TBD'}</td>
-                              </tr>
-                            ))
-                          ) : (
-                            <tr>
-                              <td>1</td>
-                              <td>TBD</td>
-                              <td>TBD</td>
-                            </tr>
-                          )}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
                 </div>
               ) : null}
             </article>
