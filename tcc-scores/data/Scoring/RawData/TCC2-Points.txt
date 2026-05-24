@@ -1,0 +1,78 @@
+TCC2
+
+Teams:
+Red Rabbits:
+thedracobee
+Oniqed
+Shadowcade
+
+Cyan Creepers:
+KaydenCoolio
+Spareddd
+PorpolUmbrella
+
+Blue Bats:
+JuztKillz
+Cronism
+ResearchLive
+
+Pink Parrots:
+GamingGuy907
+Dr_OrangeFox_
+Stripes
+
+Games:
+Game 1: RSR
+Points:
+1 JuztKillz 14
+2 Oniqed 10
+3 thedracobee 9
+4 GamingGuy907 6
+5 Stripes 3
+6 KaydenCoolio 2
+7 Dr_OrangeFox_ 1
+
+Game 2: TGTTOS
+Points:
+1 Oniqed 20.5
+2 GamingGuy907 13
+3 JuztKillz 12
+4 Shadowcade 9
+5 Stripes 6
+6 Spareddd 3
+7 thedracobee 3
+8 KaydenCoolio 1.5
+9 Dr_OrangeFox_ 1.5
+
+Game 3: BB
+Points:
+1 Oniqed 28
+2 thedracobee 26
+3 Dr_OrangeFox_ 16
+4 Shadowcade 14
+5 Cronism 4
+6 Stripes 4
+7 GamingGuy907 2
+
+Game 4: SB
+Points:
+1 Oniqed 25
+2 thedracobee 17.5
+3 Stripes 15
+4 Spareddd 12.5
+5 JuztKillz 10
+6 Shadowcade 10
+7 Dr_OrangeFox_ 10
+8 GamingGuy907 7.5
+9 PorpolUmbrella 2.5
+
+Game 5: HITW
+Points:
+1 GamingGuy907 30
+2 Stripes 24
+3 Oniqed 18
+4 thedracobee 18
+5 JuztKillz 15
+6 Spareddd 9
+7 PorpolUmbrella 6
+8 KaydenCoolio 6

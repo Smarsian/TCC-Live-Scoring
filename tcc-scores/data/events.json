@@ -26,7 +26,7 @@
             "winner":"Pink Parrots",
             "runner-ups":"Red Rabbits",
             "score":"2-0",
-            "points":null,
+            "points":"TCC2-Points.txt",
             "is-live":false
         },
         "TCC 3":
