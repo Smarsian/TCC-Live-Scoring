@@ -97,7 +97,7 @@
             "winner":"Yellow Yaks",
             "runner-up":"Pink Parrots",
             "score":"2-0",
-            "points":null,
+            "points":"TCC6-Points.txt",
             "is-live":false
         },
         "TCC 7":
@@ -111,7 +111,7 @@
             "winner":"Lime Liches",
             "runner-up":"Orange Oozes",
             "score":"2-1",
-            "points":null,
+            "points":"TCC7-Points.txt",
             "is-live":false
         }
     },

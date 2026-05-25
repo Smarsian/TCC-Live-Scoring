@@ -1,0 +1,90 @@
+TCC6
+
+Teams:
+Yellow Yaks:
+AlexTK473
+Stripes
+Spareddd
+thedracobee
+
+Cyan Creepers:
+foufouv
+GigaDrake
+ResearchLive
+PorpolUmbrella
+
+Aqua Axolotls:
+Aceotts1
+GamingGuy907
+KaydenCoolio
+Smarsian
+
+Pink Parrots:
+APurplePenguin
+JuztKillz
+SolarFalcon
+Xd_Hashbrown
+
+Games:
+Game 1: HITW
+Points:
+1 GamingGuy907 13
+2 Smarsian 10
+3 JuztKillz 9
+4 thedracobee 7
+5 PorpolUmbrella 5
+6 AlexTK473 3
+7 APurplePenguin 2
+8 Stripes 1
+9 GigaDrake 1
+
+Game 2: PKW
+Points:
+1 JuztKillz 21
+2 Xd_Hashbrown 19.5
+3 PorpolUmbrella 15
+4 Smarsian 15
+5 Stripes 10.5
+6 GamingGuy907 9
+7 KaydenCoolio 9
+8 APurplePenguin 9
+9 AlexTK473 4.5
+10 Spareddd 4.5
+11 Aceotts1 4.5
+12 GigaDrake 4.5
+13 thedracobee 4.5
+
+Game 3: RSR
+Points:
+1 JuztKillz 20
+2 APurplePenguin 18
+3 Stripes 14
+4 Xd_Hashbrown 10
+5 GamingGuy907 8
+6 GigaDrake 6
+7 Spareddd 6
+8 thedracobee 6
+9 PorpolUmbrella 2
+
+Game 4: SB
+Points:
+1 Stripes 25
+2 GigaDrake 15
+3 Spareddd 12.5
+4 JuztKillz 12.5
+5 PorpolUmbrella 12.5
+6 AlexTK473 10
+7 foufouv 7.5
+6 Xd_Hashbrown 7.5
+7 Smarsian 5
+8 KaydenCoolio 5
+
+Game 5: BB
+Points:
+1 Stripes 36
+2 thedracobee 36
+3 Spareddd 27
+4 AlexTK473 24
+5 Smarsian 9
+6 Aceotts1 3
+7 GamingGuy907 3

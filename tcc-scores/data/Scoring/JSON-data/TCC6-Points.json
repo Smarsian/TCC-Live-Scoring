@@ -1,0 +1,1420 @@
+{
+  "event-name": "TCC6",
+  "teams": {
+    "Yellow Yaks": [
+      "AlexTK473",
+      "Stripes",
+      "Spareddd",
+      "thedracobee"
+    ],
+    "Cyan Creepers": [
+      "foufouv",
+      "GigaDrake",
+      "ResearchLive",
+      "PorpolUmbrella"
+    ],
+    "Aqua Axolotls": [
+      "Aceotts1",
+      "GamingGuy907",
+      "KaydenCoolio",
+      "Smarsian"
+    ],
+    "Pink Parrots": [
+      "APurplePenguin",
+      "JuztKillz",
+      "SolarFalcon",
+      "Xd_Hashbrown"
+    ]
+  },
+  "games": [
+    "HITW",
+    "PKW",
+    "RSR",
+    "SB",
+    "BB"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "Stripes",
+      "team": "Yellow Yaks",
+      "points": 86.5,
+      "place": 1
+    },
+    {
+      "player": "JuztKillz",
+      "team": "Pink Parrots",
+      "points": 62.5,
+      "place": 2
+    },
+    {
+      "player": "thedracobee",
+      "team": "Yellow Yaks",
+      "points": 53.5,
+      "place": 3
+    },
+    {
+      "player": "Spareddd",
+      "team": "Yellow Yaks",
+      "points": 50.0,
+      "place": 4
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Yellow Yaks",
+      "points": 41.5,
+      "place": 5
+    },
+    {
+      "player": "Smarsian",
+      "team": "Aqua Axolotls",
+      "points": 39,
+      "place": 6
+    },
+    {
+      "player": "Xd_Hashbrown",
+      "team": "Pink Parrots",
+      "points": 37.0,
+      "place": 7
+    },
+    {
+      "player": "PorpolUmbrella",
+      "team": "Cyan Creepers",
+      "points": 34.5,
+      "place": 8
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Aqua Axolotls",
+      "points": 33,
+      "place": 9
+    },
+    {
+      "player": "APurplePenguin",
+      "team": "Pink Parrots",
+      "points": 29,
+      "place": 10
+    },
+    {
+      "player": "GigaDrake",
+      "team": "Cyan Creepers",
+      "points": 26.5,
+      "place": 11
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Aqua Axolotls",
+      "points": 14,
+      "place": 12
+    },
+    {
+      "player": "Aceotts1",
+      "team": "Aqua Axolotls",
+      "points": 7.5,
+      "place": 13
+    },
+    {
+      "player": "foufouv",
+      "team": "Cyan Creepers",
+      "points": 7.5,
+      "place": 14
+    },
+    {
+      "player": "ResearchLive",
+      "team": "Cyan Creepers",
+      "points": 0,
+      "place": 15
+    },
+    {
+      "player": "SolarFalcon",
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 16
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Yellow Yaks",
+      "points": 231.5,
+      "place": 1
+    },
+    {
+      "team": "Pink Parrots",
+      "points": 128.5,
+      "place": 2
+    },
+    {
+      "team": "Aqua Axolotls",
+      "points": 93.5,
+      "place": 3
+    },
+    {
+      "team": "Cyan Creepers",
+      "points": 68.5,
+      "place": 4
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "HITW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 13,
+          "place": 1
+        },
+        {
+          "player": "Smarsian",
+          "team": "Aqua Axolotls",
+          "points": 10,
+          "place": 2
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Pink Parrots",
+          "points": 9,
+          "place": 3
+        },
+        {
+          "player": "thedracobee",
+          "team": "Yellow Yaks",
+          "points": 7,
+          "place": 4
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Cyan Creepers",
+          "points": 5,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Yellow Yaks",
+          "points": 3,
+          "place": 6
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Parrots",
+          "points": 2,
+          "place": 7
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Cyan Creepers",
+          "points": 1,
+          "place": 8
+        },
+        {
+          "player": "Stripes",
+          "team": "Yellow Yaks",
+          "points": 1,
+          "place": 9
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "SolarFalcon",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yaks",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Aqua Axolotls",
+          "points": 23,
+          "place": 1
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 11,
+          "place": 2
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 11,
+          "place": 3
+        },
+        {
+          "team": "Cyan Creepers",
+          "points": 6,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "JuztKillz",
+          "team": "Pink Parrots",
+          "points": 21,
+          "place": 1
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Pink Parrots",
+          "points": 19.5,
+          "place": 2
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Cyan Creepers",
+          "points": 15,
+          "place": 3
+        },
+        {
+          "player": "Smarsian",
+          "team": "Aqua Axolotls",
+          "points": 15,
+          "place": 4
+        },
+        {
+          "player": "Stripes",
+          "team": "Yellow Yaks",
+          "points": 10.5,
+          "place": 5
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Parrots",
+          "points": 9,
+          "place": 6
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 9,
+          "place": 7
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Aqua Axolotls",
+          "points": 9,
+          "place": 8
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Aqua Axolotls",
+          "points": 4.5,
+          "place": 9
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Yellow Yaks",
+          "points": 4.5,
+          "place": 10
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Cyan Creepers",
+          "points": 4.5,
+          "place": 11
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yaks",
+          "points": 4.5,
+          "place": 12
+        },
+        {
+          "player": "thedracobee",
+          "team": "Yellow Yaks",
+          "points": 4.5,
+          "place": 13
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "SolarFalcon",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Pink Parrots",
+          "points": 49.5,
+          "place": 1
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 37.5,
+          "place": 2
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 24.0,
+          "place": 3
+        },
+        {
+          "team": "Cyan Creepers",
+          "points": 19.5,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "JuztKillz",
+          "team": "Pink Parrots",
+          "points": 20,
+          "place": 1
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Parrots",
+          "points": 18,
+          "place": 2
+        },
+        {
+          "player": "Stripes",
+          "team": "Yellow Yaks",
+          "points": 14,
+          "place": 3
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Pink Parrots",
+          "points": 10,
+          "place": 4
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 8,
+          "place": 5
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Cyan Creepers",
+          "points": 6,
+          "place": 6
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yaks",
+          "points": 6,
+          "place": 7
+        },
+        {
+          "player": "thedracobee",
+          "team": "Yellow Yaks",
+          "points": 6,
+          "place": 8
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Cyan Creepers",
+          "points": 2,
+          "place": 9
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Yellow Yaks",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Smarsian",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "SolarFalcon",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Pink Parrots",
+          "points": 48,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 26,
+          "place": 2
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 8,
+          "place": 3
+        },
+        {
+          "team": "Cyan Creepers",
+          "points": 8,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Stripes",
+          "team": "Yellow Yaks",
+          "points": 25,
+          "place": 1
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Cyan Creepers",
+          "points": 15,
+          "place": 2
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Pink Parrots",
+          "points": 12.5,
+          "place": 3
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Cyan Creepers",
+          "points": 12.5,
+          "place": 4
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yaks",
+          "points": 12.5,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Yellow Yaks",
+          "points": 10,
+          "place": 6
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Creepers",
+          "points": 7.5,
+          "place": 7
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Pink Parrots",
+          "points": 7.5,
+          "place": 8
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Aqua Axolotls",
+          "points": 5,
+          "place": 9
+        },
+        {
+          "player": "Smarsian",
+          "team": "Aqua Axolotls",
+          "points": 5,
+          "place": 10
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "SolarFalcon",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "thedracobee",
+          "team": "Yellow Yaks",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Yellow Yaks",
+          "points": 47.5,
+          "place": 1
+        },
+        {
+          "team": "Cyan Creepers",
+          "points": 35.0,
+          "place": 2
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 20.0,
+          "place": 3
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 10,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "BB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Stripes",
+          "team": "Yellow Yaks",
+          "points": 36,
+          "place": 1
+        },
+        {
+          "player": "thedracobee",
+          "team": "Yellow Yaks",
+          "points": 36,
+          "place": 2
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yaks",
+          "points": 27,
+          "place": 3
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Yellow Yaks",
+          "points": 24,
+          "place": 4
+        },
+        {
+          "player": "Smarsian",
+          "team": "Aqua Axolotls",
+          "points": 9,
+          "place": 5
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Aqua Axolotls",
+          "points": 3,
+          "place": 6
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Aqua Axolotls",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 8
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 9
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Aqua Axolotls",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "SolarFalcon",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Yellow Yaks",
+          "points": 123,
+          "place": 1
+        },
+        {
+          "team": "Aqua Axolotls",
+          "points": 15,
+          "place": 2
+        },
+        {
+          "team": "Cyan Creepers",
+          "points": 0,
+          "place": 3
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 0,
+          "place": 4
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "HITW": [
+      {
+        "game-number": 1,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "GamingGuy907",
+            "team": "Aqua Axolotls",
+            "points": 13,
+            "place": 1
+          },
+          {
+            "player": "Smarsian",
+            "team": "Aqua Axolotls",
+            "points": 10,
+            "place": 2
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Pink Parrots",
+            "points": 9,
+            "place": 3
+          },
+          {
+            "player": "thedracobee",
+            "team": "Yellow Yaks",
+            "points": 7,
+            "place": 4
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Cyan Creepers",
+            "points": 5,
+            "place": 5
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Yellow Yaks",
+            "points": 3,
+            "place": 6
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Parrots",
+            "points": 2,
+            "place": 7
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Cyan Creepers",
+            "points": 1,
+            "place": 8
+          },
+          {
+            "player": "Stripes",
+            "team": "Yellow Yaks",
+            "points": 1,
+            "place": 9
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "SolarFalcon",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 23,
+            "place": 1
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 11,
+            "place": 2
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 11,
+            "place": 3
+          },
+          {
+            "team": "Cyan Creepers",
+            "points": 6,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 2,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "JuztKillz",
+            "team": "Pink Parrots",
+            "points": 21,
+            "place": 1
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Pink Parrots",
+            "points": 19.5,
+            "place": 2
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Cyan Creepers",
+            "points": 15,
+            "place": 3
+          },
+          {
+            "player": "Smarsian",
+            "team": "Aqua Axolotls",
+            "points": 15,
+            "place": 4
+          },
+          {
+            "player": "Stripes",
+            "team": "Yellow Yaks",
+            "points": 10.5,
+            "place": 5
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Parrots",
+            "points": 9,
+            "place": 6
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Aqua Axolotls",
+            "points": 9,
+            "place": 7
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Aqua Axolotls",
+            "points": 9,
+            "place": 8
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Aqua Axolotls",
+            "points": 4.5,
+            "place": 9
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Yellow Yaks",
+            "points": 4.5,
+            "place": 10
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Cyan Creepers",
+            "points": 4.5,
+            "place": 11
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yaks",
+            "points": 4.5,
+            "place": 12
+          },
+          {
+            "player": "thedracobee",
+            "team": "Yellow Yaks",
+            "points": 4.5,
+            "place": 13
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "SolarFalcon",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Pink Parrots",
+            "points": 49.5,
+            "place": 1
+          },
+          {
+            "team": "Aqua Axolotls",
+            "points": 37.5,
+            "place": 2
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 24.0,
+            "place": 3
+          },
+          {
+            "team": "Cyan Creepers",
+            "points": 19.5,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 3,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "JuztKillz",
+            "team": "Pink Parrots",
+            "points": 20,
+            "place": 1
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Parrots",
+            "points": 18,
+            "place": 2
+          },
+          {
+            "player": "Stripes",
+            "team": "Yellow Yaks",
+            "points": 14,
+            "place": 3
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Pink Parrots",
+            "points": 10,
+            "place": 4
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Aqua Axolotls",
+            "points": 8,
+            "place": 5
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Cyan Creepers",
+            "points": 6,
+            "place": 6
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yaks",
+            "points": 6,
+            "place": 7
+          },
+          {
+            "player": "thedracobee",
+            "team": "Yellow Yaks",
+            "points": 6,
+            "place": 8
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Cyan Creepers",
+            "points": 2,
+            "place": 9
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Smarsian",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "SolarFalcon",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Pink Parrots",
+            "points": 48,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 26,
+            "place": 2
+          },
+          {
+            "team": "Aqua Axolotls",
+            "points": 8,
+            "place": 3
+          },
+          {
+            "team": "Cyan Creepers",
+            "points": 8,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 4,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Stripes",
+            "team": "Yellow Yaks",
+            "points": 25,
+            "place": 1
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Cyan Creepers",
+            "points": 15,
+            "place": 2
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Pink Parrots",
+            "points": 12.5,
+            "place": 3
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Cyan Creepers",
+            "points": 12.5,
+            "place": 4
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yaks",
+            "points": 12.5,
+            "place": 5
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Yellow Yaks",
+            "points": 10,
+            "place": 6
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Creepers",
+            "points": 7.5,
+            "place": 7
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Pink Parrots",
+            "points": 7.5,
+            "place": 8
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Aqua Axolotls",
+            "points": 5,
+            "place": 9
+          },
+          {
+            "player": "Smarsian",
+            "team": "Aqua Axolotls",
+            "points": 5,
+            "place": 10
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "SolarFalcon",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "thedracobee",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Yellow Yaks",
+            "points": 47.5,
+            "place": 1
+          },
+          {
+            "team": "Cyan Creepers",
+            "points": 35.0,
+            "place": 2
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 20.0,
+            "place": 3
+          },
+          {
+            "team": "Aqua Axolotls",
+            "points": 10,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "BB": [
+      {
+        "game-number": 5,
+        "game-name": "BB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Stripes",
+            "team": "Yellow Yaks",
+            "points": 36,
+            "place": 1
+          },
+          {
+            "player": "thedracobee",
+            "team": "Yellow Yaks",
+            "points": 36,
+            "place": 2
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yaks",
+            "points": 27,
+            "place": 3
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Yellow Yaks",
+            "points": 24,
+            "place": 4
+          },
+          {
+            "player": "Smarsian",
+            "team": "Aqua Axolotls",
+            "points": 9,
+            "place": 5
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Aqua Axolotls",
+            "points": 3,
+            "place": 6
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Aqua Axolotls",
+            "points": 3,
+            "place": 7
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "SolarFalcon",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Yellow Yaks",
+            "points": 123,
+            "place": 1
+          },
+          {
+            "team": "Aqua Axolotls",
+            "points": 15,
+            "place": 2
+          },
+          {
+            "team": "Cyan Creepers",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 4
+          }
+        ]
+      }
+    ]
+  }
+}

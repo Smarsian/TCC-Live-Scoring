@@ -31,7 +31,7 @@
     },
     "Aqua_Axolotls":
     {
-        "color": "aqua",
+        "color": "#8fdcff",
         "logo": "Aqua_Axolotls.png"
     },
     "Blue Bats":
@@ -111,7 +111,7 @@
     },
     "Aqua Abominations":
     {
-        "color": "aqua",
+        "color": "#8fdcff",
         "logo": "Aqua_Abominations.png"
     },
     "Blue Banshees":
@@ -161,7 +161,7 @@
     },
     "Cerulean Candy Canes":
     {
-        "color": "aqua",
+        "color": "#8fdcff",
         "logo": "Cerulean_Candy_Canes.png"
     },
     "Sapphire Santas":
