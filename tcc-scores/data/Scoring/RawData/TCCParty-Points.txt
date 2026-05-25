@@ -1,0 +1,226 @@
+TCCParty
+
+Teams:
+Red Rabbits:
+LillyWhiteWolf
+mini9573
+Oniqed
+TheDracoBee
+
+Orange Ocelots:
+AresDaMartian
+cheeetahs
+Reccie
+Roy_Awesome_R
+
+Green Geckos:
+AlexTK473
+Dr_OrangeFox_
+gigadrake83
+ItsCosmo
+
+Cyan Coyotes:
+Aceotts1
+JuztKillz
+KaydenCoolio
+yoshzz
+
+Aqua Axolotls:
+foufouv
+GamingGuy907
+mMiror
+_Slimeball
+
+Blue Bats:
+AndyR927
+SeniorTurtle981
+Be_Realistic
+Xd_Hashbrown
+
+Purple Pandas:
+APurplePenguin
+Boxise
+AltForMe
+IronArch
+
+Pink Parrots:
+_Stripes
+TheSlushyDealer
+Ace_Ragez
+Sparkour
+
+Games:
+Game 1: SB
+Points:
+AltForMe	324
+Xd_Hashbrown	316
+Roy_Awesome_R	288
+cheeetahs	229
+TheDracoBee	203
+_Stripes	162
+TheSlushyDealer	142
+Dr_OrangeFox_	139
+AlexTK473	138
+APurplePenguin	125
+JuztKillz	113
+_Slimeball	110
+mMiror	108
+KaydenCoolio	107
+AndyR927	79
+IronArch	76
+LillyWhiteWolf	75
+foufouv	73
+Ace_Ragez	65
+AresDaMartian	59
+gigadrake83	55
+SeniorTurtle981	54
+Boxise	46
+Sparkour	41
+Aceotts1	38
+yoshzz	32
+ItsCosmo	31
+GamingGuy907	30
+Oniqed	27
+mini9573	26
+Reccie	23
+Be_Realistic	22
+
+Game 2: BB
+Points:
+Xd_Hashbrown	577
+TheDracoBee	492
+AltForMe	394
+gigadrake83	367
+Roy_Awesome_R	307
+TheSlushyDealer	297
+LillyWhiteWolf	267
+AlexTK473	255
+APurplePenguin	244
+Be_Realistic	240
+mini9573	229
+Dr_OrangeFox_	217
+AndyR927	203
+SeniorTurtle981	202
+Oniqed	192
+ItsCosmo	181
+JuztKillz	172
+GamingGuy907	162
+KaydenCoolio	135
+Boxise	132
+IronArch	132
+cheeetahs	120
+Reccie	120
+Ace_Ragez	72
+yoshzz	60
+mMiror	50
+_Slimeball	49
+AresDaMartian	45
+_Stripes	35
+Sparkour	34
+Aceotts1	23
+foufouv	12
+
+Game 3: RSR
+Points:
+Roy_Awesome_R	432
+TheDracoBee	406
+KaydenCoolio	406
+AltForMe	382
+APurplePenguin	352
+AlexTK473	324
+Dr_OrangeFox_	318
+Xd_Hashbrown	300
+Oniqed	296
+TheSlushyDealer	296
+IronArch	282
+Ace_Ragez	272
+JuztKillz	264
+cheeetahs	220
+GamingGuy907	212
+Be_Realistic	206
+mMiror	202
+AndyR927	200
+_Stripes	188
+LillyWhiteWolf	170
+gigadrake83	138
+Aceotts1	136
+AresDaMartian	114
+Boxise	110
+SeniorTurtle981	102
+_Slimeball	72
+foufouv	66
+Sparkour	64
+Reccie	62
+ItsCosmo	60
+mini9573	58
+yoshzz	16
+
+Game 4: TGTTOS
+Points:
+TheSlushyDealer	467
+Roy_Awesome_R	377
+JuztKillz	335
+AltForMe	332
+cheeetahs	323
+GamingGuy907	323
+Boxise	310
+Xd_Hashbrown	305
+TheDracoBee	278
+Be_Realistic	278
+Oniqed	255
+APurplePenguin	252
+mMiror	250
+Dr_OrangeFox_	242
+AlexTK473	238
+AndyR927	232
+_Stripes	230
+foufouv	227
+IronArch	225
+KaydenCoolio	215
+gigadrake83	158
+LillyWhiteWolf	157
+SeniorTurtle981	155
+Aceotts1	152
+_Slimeball	147
+mini9573	132
+Ace_Ragez	121
+Reccie	120
+AresDaMartian	115
+Sparkour	112
+yoshzz	107
+ItsCosmo	82
+
+Game 5: HITW
+Points:
+AltForMe	669
+Roy_Awesome_R	639
+APurplePenguin	624
+Xd_Hashbrown	612
+TheSlushyDealer	531
+AlexTK473	501
+Dr_OrangeFox_	495
+_Slimeball	495
+TheDracoBee	489
+mMiror	474
+Be_Realistic	474
+JuztKillz	441
+GamingGuy907	414
+_Stripes	399
+cheeetahs	396
+KaydenCoolio	384
+gigadrake83	369
+Ace_Ragez	321
+foufouv	300
+AndyR927	273
+Aceotts1	258
+Sparkour	237
+yoshzz	231
+Oniqed	225
+LillyWhiteWolf	216
+IronArch	207
+AresDaMartian	201
+mini9573	159
+SeniorTurtle981	147
+Boxise	147
+ItsCosmo	132
+Reccie	63

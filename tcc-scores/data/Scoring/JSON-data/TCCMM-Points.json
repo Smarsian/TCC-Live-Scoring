@@ -1,0 +1,2720 @@
+{
+  "event-name": "TCCMM",
+  "teams": {
+    "Red Ravens": [
+      "Andreayay",
+      "AppleJaxxs",
+      "FairRoseYT",
+      "rai2i"
+    ],
+    "Orange Oozes": [
+      "AresDaMartian",
+      "Dr_OrangeFox_",
+      "KubaBabilon",
+      "PogForLive"
+    ],
+    "Mustard Mummies": [
+      "cheeetahs",
+      "Kodex13",
+      "mini9573",
+      "Pikachu_girl9"
+    ],
+    "Lime Liches": [
+      "LillyWhiteWolf",
+      "OP_Riptide",
+      "Roy_Awesome_R",
+      "juliopolis"
+    ],
+    "Green Goblins": [
+      "AlexTK473",
+      "foufouv",
+      "JuztKillz",
+      "mMiror"
+    ],
+    "Cyan Centipedes": [
+      "APurplePenguin_",
+      "GamingGuy907",
+      "Mine_Crafting",
+      "SKITATSTIC"
+    ],
+    "Aqua Abominations": [
+      "AV80",
+      "bohead_",
+      "gigadrake83",
+      "ZSpektre"
+    ],
+    "Violet Vampires": [
+      "_Stripes",
+      "_Slimeball",
+      "KaydenCoolio",
+      "spareddd"
+    ]
+  },
+  "games": [
+    "TGTTOS",
+    "BB",
+    "PKW",
+    "SB",
+    "RSR"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "Pikachu_girl9",
+      "team": "Mustard Mummies",
+      "points": 2131,
+      "place": 1
+    },
+    {
+      "player": "PogForLive",
+      "team": "Orange Oozes",
+      "points": 1911,
+      "place": 2
+    },
+    {
+      "player": "Roy_Awesome_R",
+      "team": "Lime Liches",
+      "points": 1753,
+      "place": 3
+    },
+    {
+      "player": "OP_Riptide",
+      "team": "Lime Liches",
+      "points": 1736,
+      "place": 4
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Violet Vampires",
+      "points": 1712,
+      "place": 5
+    },
+    {
+      "player": "cheeetahs",
+      "team": "Mustard Mummies",
+      "points": 1645,
+      "place": 6
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Green Goblins",
+      "points": 1630,
+      "place": 7
+    },
+    {
+      "player": "AppleJaxxs",
+      "team": "Red Ravens",
+      "points": 1616,
+      "place": 8
+    },
+    {
+      "player": "_Stripes",
+      "team": "Violet Vampires",
+      "points": 1438,
+      "place": 9
+    },
+    {
+      "player": "JuztKillz",
+      "team": "Green Goblins",
+      "points": 1411,
+      "place": 10
+    },
+    {
+      "player": "KubaBabilon",
+      "team": "Orange Oozes",
+      "points": 1138,
+      "place": 11
+    },
+    {
+      "player": "mMiror",
+      "team": "Green Goblins",
+      "points": 1128,
+      "place": 12
+    },
+    {
+      "player": "rai2i",
+      "team": "Red Ravens",
+      "points": 1127,
+      "place": 13
+    },
+    {
+      "player": "AV80",
+      "team": "Aqua Abominations",
+      "points": 1095,
+      "place": 14
+    },
+    {
+      "player": "Andreayay",
+      "team": "Red Ravens",
+      "points": 1041,
+      "place": 15
+    },
+    {
+      "player": "juliopolis",
+      "team": "Lime Liches",
+      "points": 986,
+      "place": 16
+    },
+    {
+      "player": "ZSpektre",
+      "team": "Aqua Abominations",
+      "points": 964,
+      "place": 17
+    },
+    {
+      "player": "bohead_",
+      "team": "Aqua Abominations",
+      "points": 958,
+      "place": 18
+    },
+    {
+      "player": "Kodex13",
+      "team": "Mustard Mummies",
+      "points": 948,
+      "place": 19
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Orange Oozes",
+      "points": 938,
+      "place": 20
+    },
+    {
+      "player": "APurplePenguin_",
+      "team": "Cyan Centipedes",
+      "points": 900,
+      "place": 21
+    },
+    {
+      "player": "spareddd",
+      "team": "Violet Vampires",
+      "points": 899,
+      "place": 22
+    },
+    {
+      "player": "gigadrake83",
+      "team": "Aqua Abominations",
+      "points": 876,
+      "place": 23
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Cyan Centipedes",
+      "points": 875,
+      "place": 24
+    },
+    {
+      "player": "_Slimeball",
+      "team": "Violet Vampires",
+      "points": 873,
+      "place": 25
+    },
+    {
+      "player": "Mine_Crafting",
+      "team": "Cyan Centipedes",
+      "points": 810,
+      "place": 26
+    },
+    {
+      "player": "LillyWhiteWolf",
+      "team": "Lime Liches",
+      "points": 787,
+      "place": 27
+    },
+    {
+      "player": "foufouv",
+      "team": "Green Goblins",
+      "points": 649,
+      "place": 28
+    },
+    {
+      "player": "mini9573",
+      "team": "Mustard Mummies",
+      "points": 600,
+      "place": 29
+    },
+    {
+      "player": "AresDaMartian",
+      "team": "Orange Oozes",
+      "points": 478,
+      "place": 30
+    },
+    {
+      "player": "FairRoseYT",
+      "team": "Red Ravens",
+      "points": 353,
+      "place": 31
+    },
+    {
+      "player": "SKITATSTIC",
+      "team": "Cyan Centipedes",
+      "points": 147,
+      "place": 32
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Mustard Mummies",
+      "points": 5324,
+      "place": 1
+    },
+    {
+      "team": "Lime Liches",
+      "points": 5262,
+      "place": 2
+    },
+    {
+      "team": "Violet Vampires",
+      "points": 4922,
+      "place": 3
+    },
+    {
+      "team": "Green Goblins",
+      "points": 4818,
+      "place": 4
+    },
+    {
+      "team": "Orange Oozes",
+      "points": 4465,
+      "place": 5
+    },
+    {
+      "team": "Red Ravens",
+      "points": 4137,
+      "place": 6
+    },
+    {
+      "team": "Aqua Abominations",
+      "points": 3893,
+      "place": 7
+    },
+    {
+      "team": "Cyan Centipedes",
+      "points": 2732,
+      "place": 8
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "TGTTOS",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Pikachu_girl9",
+          "team": "Mustard Mummies",
+          "points": 168,
+          "place": 1
+        },
+        {
+          "player": "AppleJaxxs",
+          "team": "Red Ravens",
+          "points": 159,
+          "place": 2
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Green Goblins",
+          "points": 152,
+          "place": 3
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 146,
+          "place": 4
+        },
+        {
+          "player": "PogForLive",
+          "team": "Orange Oozes",
+          "points": 138,
+          "place": 5
+        },
+        {
+          "player": "rai2i",
+          "team": "Red Ravens",
+          "points": 130,
+          "place": 6
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Lime Liches",
+          "points": 124,
+          "place": 7
+        },
+        {
+          "player": "ZSpektre",
+          "team": "Aqua Abominations",
+          "points": 114,
+          "place": 8
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Lime Liches",
+          "points": 111,
+          "place": 9
+        },
+        {
+          "player": "spareddd",
+          "team": "Violet Vampires",
+          "points": 106,
+          "place": 10
+        },
+        {
+          "player": "AV80",
+          "team": "Aqua Abominations",
+          "points": 102,
+          "place": 11
+        },
+        {
+          "player": "juliopolis",
+          "team": "Lime Liches",
+          "points": 101,
+          "place": 12
+        },
+        {
+          "player": "Andreayay",
+          "team": "Red Ravens",
+          "points": 100,
+          "place": 13
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 99,
+          "place": 14
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Goblins",
+          "points": 96,
+          "place": 15
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Oozes",
+          "points": 92,
+          "place": 16
+        },
+        {
+          "player": "_Slimeball",
+          "team": "Violet Vampires",
+          "points": 84,
+          "place": 17
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Violet Vampires",
+          "points": 82,
+          "place": 18
+        },
+        {
+          "player": "Kodex13",
+          "team": "Mustard Mummies",
+          "points": 82,
+          "place": 19
+        },
+        {
+          "player": "APurplePenguin_",
+          "team": "Cyan Centipedes",
+          "points": 77,
+          "place": 20
+        },
+        {
+          "player": "bohead_",
+          "team": "Aqua Abominations",
+          "points": 73,
+          "place": 21
+        },
+        {
+          "player": "gigadrake83",
+          "team": "Aqua Abominations",
+          "points": 70,
+          "place": 22
+        },
+        {
+          "player": "_Stripes",
+          "team": "Violet Vampires",
+          "points": 64,
+          "place": 23
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Lime Liches",
+          "points": 63,
+          "place": 24
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Centipedes",
+          "points": 61,
+          "place": 25
+        },
+        {
+          "player": "Mine_Crafting",
+          "team": "Cyan Centipedes",
+          "points": 57,
+          "place": 26
+        },
+        {
+          "player": "mMiror",
+          "team": "Green Goblins",
+          "points": 55,
+          "place": 27
+        },
+        {
+          "player": "mini9573",
+          "team": "Mustard Mummies",
+          "points": 49,
+          "place": 28
+        },
+        {
+          "player": "foufouv",
+          "team": "Green Goblins",
+          "points": 45,
+          "place": 29
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Cyan Centipedes",
+          "points": 38,
+          "place": 30
+        },
+        {
+          "player": "AresDaMartian",
+          "team": "Orange Oozes",
+          "points": 33,
+          "place": 31
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Red Ravens",
+          "points": 25,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Red Ravens",
+          "points": 414,
+          "place": 1
+        },
+        {
+          "team": "Orange Oozes",
+          "points": 409,
+          "place": 2
+        },
+        {
+          "team": "Lime Liches",
+          "points": 399,
+          "place": 3
+        },
+        {
+          "team": "Mustard Mummies",
+          "points": 398,
+          "place": 4
+        },
+        {
+          "team": "Aqua Abominations",
+          "points": 359,
+          "place": 5
+        },
+        {
+          "team": "Green Goblins",
+          "points": 348,
+          "place": 6
+        },
+        {
+          "team": "Violet Vampires",
+          "points": 336,
+          "place": 7
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 233,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "BB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "_Stripes",
+          "team": "Violet Vampires",
+          "points": 465,
+          "place": 1
+        },
+        {
+          "player": "AppleJaxxs",
+          "team": "Red Ravens",
+          "points": 357,
+          "place": 2
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 330,
+          "place": 3
+        },
+        {
+          "player": "spareddd",
+          "team": "Violet Vampires",
+          "points": 315,
+          "place": 4
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Lime Liches",
+          "points": 304,
+          "place": 5
+        },
+        {
+          "player": "rai2i",
+          "team": "Red Ravens",
+          "points": 282,
+          "place": 6
+        },
+        {
+          "player": "juliopolis",
+          "team": "Lime Liches",
+          "points": 267,
+          "place": 7
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Lime Liches",
+          "points": 267,
+          "place": 8
+        },
+        {
+          "player": "_Slimeball",
+          "team": "Violet Vampires",
+          "points": 240,
+          "place": 9
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Violet Vampires",
+          "points": 240,
+          "place": 10
+        },
+        {
+          "player": "foufouv",
+          "team": "Green Goblins",
+          "points": 232,
+          "place": 11
+        },
+        {
+          "player": "mMiror",
+          "team": "Green Goblins",
+          "points": 232,
+          "place": 12
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Lime Liches",
+          "points": 229,
+          "place": 13
+        },
+        {
+          "player": "PogForLive",
+          "team": "Orange Oozes",
+          "points": 222,
+          "place": 14
+        },
+        {
+          "player": "Pikachu_girl9",
+          "team": "Mustard Mummies",
+          "points": 217,
+          "place": 15
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 184,
+          "place": 16
+        },
+        {
+          "player": "AV80",
+          "team": "Aqua Abominations",
+          "points": 172,
+          "place": 17
+        },
+        {
+          "player": "ZSpektre",
+          "team": "Aqua Abominations",
+          "points": 172,
+          "place": 18
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Red Ravens",
+          "points": 169,
+          "place": 19
+        },
+        {
+          "player": "APurplePenguin_",
+          "team": "Cyan Centipedes",
+          "points": 162,
+          "place": 20
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Green Goblins",
+          "points": 157,
+          "place": 21
+        },
+        {
+          "player": "AresDaMartian",
+          "team": "Orange Oozes",
+          "points": 147,
+          "place": 22
+        },
+        {
+          "player": "Kodex13",
+          "team": "Mustard Mummies",
+          "points": 142,
+          "place": 23
+        },
+        {
+          "player": "bohead_",
+          "team": "Aqua Abominations",
+          "points": 135,
+          "place": 24
+        },
+        {
+          "player": "Mine_Crafting",
+          "team": "Cyan Centipedes",
+          "points": 124,
+          "place": 25
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Goblins",
+          "points": 120,
+          "place": 26
+        },
+        {
+          "player": "mini9573",
+          "team": "Mustard Mummies",
+          "points": 105,
+          "place": 27
+        },
+        {
+          "player": "Andreayay",
+          "team": "Red Ravens",
+          "points": 94,
+          "place": 28
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Centipedes",
+          "points": 87,
+          "place": 29
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Oozes",
+          "points": 72,
+          "place": 30
+        },
+        {
+          "player": "gigadrake83",
+          "team": "Aqua Abominations",
+          "points": 22,
+          "place": 31
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Cyan Centipedes",
+          "points": 12,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Violet Vampires",
+          "points": 1260,
+          "place": 1
+        },
+        {
+          "team": "Lime Liches",
+          "points": 1067,
+          "place": 2
+        },
+        {
+          "team": "Red Ravens",
+          "points": 902,
+          "place": 3
+        },
+        {
+          "team": "Mustard Mummies",
+          "points": 794,
+          "place": 4
+        },
+        {
+          "team": "Green Goblins",
+          "points": 741,
+          "place": 5
+        },
+        {
+          "team": "Orange Oozes",
+          "points": 625,
+          "place": 6
+        },
+        {
+          "team": "Aqua Abominations",
+          "points": 501,
+          "place": 7
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 385,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "OP_Riptide",
+          "team": "Lime Liches",
+          "points": 630,
+          "place": 1
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Lime Liches",
+          "points": 422,
+          "place": 2
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Violet Vampires",
+          "points": 408,
+          "place": 3
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Centipedes",
+          "points": 400,
+          "place": 4
+        },
+        {
+          "player": "mMiror",
+          "team": "Green Goblins",
+          "points": 378,
+          "place": 5
+        },
+        {
+          "player": "Kodex13",
+          "team": "Mustard Mummies",
+          "points": 370,
+          "place": 6
+        },
+        {
+          "player": "Andreayay",
+          "team": "Red Ravens",
+          "points": 368,
+          "place": 7
+        },
+        {
+          "player": "Pikachu_girl9",
+          "team": "Mustard Mummies",
+          "points": 364,
+          "place": 8
+        },
+        {
+          "player": "rai2i",
+          "team": "Red Ravens",
+          "points": 358,
+          "place": 9
+        },
+        {
+          "player": "AppleJaxxs",
+          "team": "Red Ravens",
+          "points": 352,
+          "place": 10
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 352,
+          "place": 11
+        },
+        {
+          "player": "PogForLive",
+          "team": "Orange Oozes",
+          "points": 308,
+          "place": 12
+        },
+        {
+          "player": "_Slimeball",
+          "team": "Violet Vampires",
+          "points": 278,
+          "place": 13
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 268,
+          "place": 14
+        },
+        {
+          "player": "AV80",
+          "team": "Aqua Abominations",
+          "points": 260,
+          "place": 15
+        },
+        {
+          "player": "gigadrake83",
+          "team": "Aqua Abominations",
+          "points": 258,
+          "place": 16
+        },
+        {
+          "player": "_Stripes",
+          "team": "Violet Vampires",
+          "points": 236,
+          "place": 17
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Green Goblins",
+          "points": 234,
+          "place": 18
+        },
+        {
+          "player": "APurplePenguin_",
+          "team": "Cyan Centipedes",
+          "points": 232,
+          "place": 19
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Goblins",
+          "points": 208,
+          "place": 20
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Lime Liches",
+          "points": 202,
+          "place": 21
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Oozes",
+          "points": 192,
+          "place": 22
+        },
+        {
+          "player": "bohead_",
+          "team": "Aqua Abominations",
+          "points": 178,
+          "place": 23
+        },
+        {
+          "player": "mini9573",
+          "team": "Mustard Mummies",
+          "points": 164,
+          "place": 24
+        },
+        {
+          "player": "spareddd",
+          "team": "Violet Vampires",
+          "points": 146,
+          "place": 25
+        },
+        {
+          "player": "Mine_Crafting",
+          "team": "Cyan Centipedes",
+          "points": 108,
+          "place": 26
+        },
+        {
+          "player": "foufouv",
+          "team": "Green Goblins",
+          "points": 106,
+          "place": 27
+        },
+        {
+          "player": "juliopolis",
+          "team": "Lime Liches",
+          "points": 92,
+          "place": 28
+        },
+        {
+          "player": "ZSpektre",
+          "team": "Aqua Abominations",
+          "points": 88,
+          "place": 29
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Red Ravens",
+          "points": 68,
+          "place": 30
+        },
+        {
+          "player": "AresDaMartian",
+          "team": "Orange Oozes",
+          "points": 62,
+          "place": 31
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Cyan Centipedes",
+          "points": 28,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Lime Liches",
+          "points": 1346,
+          "place": 1
+        },
+        {
+          "team": "Mustard Mummies",
+          "points": 1166,
+          "place": 2
+        },
+        {
+          "team": "Red Ravens",
+          "points": 1146,
+          "place": 3
+        },
+        {
+          "team": "Violet Vampires",
+          "points": 1068,
+          "place": 4
+        },
+        {
+          "team": "Green Goblins",
+          "points": 926,
+          "place": 5
+        },
+        {
+          "team": "Orange Oozes",
+          "points": 914,
+          "place": 6
+        },
+        {
+          "team": "Aqua Abominations",
+          "points": 784,
+          "place": 7
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 768,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "PogForLive",
+          "team": "Orange Oozes",
+          "points": 880,
+          "place": 1
+        },
+        {
+          "player": "Pikachu_girl9",
+          "team": "Mustard Mummies",
+          "points": 752,
+          "place": 2
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Goblins",
+          "points": 612,
+          "place": 3
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Green Goblins",
+          "points": 487,
+          "place": 4
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Lime Liches",
+          "points": 482,
+          "place": 5
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 420,
+          "place": 6
+        },
+        {
+          "player": "_Stripes",
+          "team": "Violet Vampires",
+          "points": 352,
+          "place": 7
+        },
+        {
+          "player": "AppleJaxxs",
+          "team": "Red Ravens",
+          "points": 337,
+          "place": 8
+        },
+        {
+          "player": "Andreayay",
+          "team": "Red Ravens",
+          "points": 317,
+          "place": 9
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Oozes",
+          "points": 282,
+          "place": 10
+        },
+        {
+          "player": "Mine_Crafting",
+          "team": "Cyan Centipedes",
+          "points": 242,
+          "place": 11
+        },
+        {
+          "player": "spareddd",
+          "team": "Violet Vampires",
+          "points": 242,
+          "place": 12
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 240,
+          "place": 13
+        },
+        {
+          "player": "Kodex13",
+          "team": "Mustard Mummies",
+          "points": 237,
+          "place": 14
+        },
+        {
+          "player": "juliopolis",
+          "team": "Lime Liches",
+          "points": 220,
+          "place": 15
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Lime Liches",
+          "points": 210,
+          "place": 16
+        },
+        {
+          "player": "bohead_",
+          "team": "Aqua Abominations",
+          "points": 200,
+          "place": 17
+        },
+        {
+          "player": "ZSpektre",
+          "team": "Aqua Abominations",
+          "points": 197,
+          "place": 18
+        },
+        {
+          "player": "AresDaMartian",
+          "team": "Orange Oozes",
+          "points": 182,
+          "place": 19
+        },
+        {
+          "player": "APurplePenguin_",
+          "team": "Cyan Centipedes",
+          "points": 162,
+          "place": 20
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Violet Vampires",
+          "points": 160,
+          "place": 21
+        },
+        {
+          "player": "_Slimeball",
+          "team": "Violet Vampires",
+          "points": 145,
+          "place": 22
+        },
+        {
+          "player": "mMiror",
+          "team": "Green Goblins",
+          "points": 145,
+          "place": 23
+        },
+        {
+          "player": "AV80",
+          "team": "Aqua Abominations",
+          "points": 135,
+          "place": 24
+        },
+        {
+          "player": "gigadrake83",
+          "team": "Aqua Abominations",
+          "points": 112,
+          "place": 25
+        },
+        {
+          "player": "mini9573",
+          "team": "Mustard Mummies",
+          "points": 102,
+          "place": 26
+        },
+        {
+          "player": "foufouv",
+          "team": "Green Goblins",
+          "points": 95,
+          "place": 27
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Lime Liches",
+          "points": 80,
+          "place": 28
+        },
+        {
+          "player": "rai2i",
+          "team": "Red Ravens",
+          "points": 57,
+          "place": 29
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Red Ravens",
+          "points": 52,
+          "place": 30
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Centipedes",
+          "points": 42,
+          "place": 31
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Cyan Centipedes",
+          "points": 42,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Orange Oozes",
+          "points": 1584,
+          "place": 1
+        },
+        {
+          "team": "Mustard Mummies",
+          "points": 1511,
+          "place": 2
+        },
+        {
+          "team": "Green Goblins",
+          "points": 1339,
+          "place": 3
+        },
+        {
+          "team": "Lime Liches",
+          "points": 992,
+          "place": 4
+        },
+        {
+          "team": "Violet Vampires",
+          "points": 899,
+          "place": 5
+        },
+        {
+          "team": "Red Ravens",
+          "points": 763,
+          "place": 6
+        },
+        {
+          "team": "Aqua Abominations",
+          "points": 644,
+          "place": 7
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 488,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "KaydenCoolio",
+          "team": "Violet Vampires",
+          "points": 822,
+          "place": 1
+        },
+        {
+          "player": "Pikachu_girl9",
+          "team": "Mustard Mummies",
+          "points": 630,
+          "place": 2
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Green Goblins",
+          "points": 594,
+          "place": 3
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Lime Liches",
+          "points": 543,
+          "place": 4
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 528,
+          "place": 5
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Lime Liches",
+          "points": 471,
+          "place": 6
+        },
+        {
+          "player": "AV80",
+          "team": "Aqua Abominations",
+          "points": 426,
+          "place": 7
+        },
+        {
+          "player": "gigadrake83",
+          "team": "Aqua Abominations",
+          "points": 414,
+          "place": 8
+        },
+        {
+          "player": "AppleJaxxs",
+          "team": "Red Ravens",
+          "points": 411,
+          "place": 9
+        },
+        {
+          "player": "ZSpektre",
+          "team": "Aqua Abominations",
+          "points": 393,
+          "place": 10
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Green Goblins",
+          "points": 381,
+          "place": 11
+        },
+        {
+          "player": "bohead_",
+          "team": "Aqua Abominations",
+          "points": 372,
+          "place": 12
+        },
+        {
+          "player": "PogForLive",
+          "team": "Orange Oozes",
+          "points": 363,
+          "place": 13
+        },
+        {
+          "player": "_Stripes",
+          "team": "Violet Vampires",
+          "points": 321,
+          "place": 14
+        },
+        {
+          "player": "mMiror",
+          "team": "Green Goblins",
+          "points": 318,
+          "place": 15
+        },
+        {
+          "player": "juliopolis",
+          "team": "Lime Liches",
+          "points": 306,
+          "place": 16
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Oozes",
+          "points": 300,
+          "place": 17
+        },
+        {
+          "player": "rai2i",
+          "team": "Red Ravens",
+          "points": 300,
+          "place": 18
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Centipedes",
+          "points": 285,
+          "place": 19
+        },
+        {
+          "player": "Mine_Crafting",
+          "team": "Cyan Centipedes",
+          "points": 279,
+          "place": 20
+        },
+        {
+          "player": "APurplePenguin_",
+          "team": "Cyan Centipedes",
+          "points": 267,
+          "place": 21
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 216,
+          "place": 22
+        },
+        {
+          "player": "mini9573",
+          "team": "Mustard Mummies",
+          "points": 180,
+          "place": 23
+        },
+        {
+          "player": "foufouv",
+          "team": "Green Goblins",
+          "points": 171,
+          "place": 24
+        },
+        {
+          "player": "Andreayay",
+          "team": "Red Ravens",
+          "points": 162,
+          "place": 25
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Lime Liches",
+          "points": 138,
+          "place": 26
+        },
+        {
+          "player": "_Slimeball",
+          "team": "Violet Vampires",
+          "points": 126,
+          "place": 27
+        },
+        {
+          "player": "Kodex13",
+          "team": "Mustard Mummies",
+          "points": 117,
+          "place": 28
+        },
+        {
+          "player": "spareddd",
+          "team": "Violet Vampires",
+          "points": 90,
+          "place": 29
+        },
+        {
+          "player": "AresDaMartian",
+          "team": "Orange Oozes",
+          "points": 54,
+          "place": 30
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Red Ravens",
+          "points": 39,
+          "place": 31
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Cyan Centipedes",
+          "points": 27,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Aqua Abominations",
+          "points": 1605,
+          "place": 1
+        },
+        {
+          "team": "Green Goblins",
+          "points": 1464,
+          "place": 2
+        },
+        {
+          "team": "Lime Liches",
+          "points": 1458,
+          "place": 3
+        },
+        {
+          "team": "Mustard Mummies",
+          "points": 1455,
+          "place": 4
+        },
+        {
+          "team": "Violet Vampires",
+          "points": 1359,
+          "place": 5
+        },
+        {
+          "team": "Orange Oozes",
+          "points": 933,
+          "place": 6
+        },
+        {
+          "team": "Red Ravens",
+          "points": 912,
+          "place": 7
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 858,
+          "place": 8
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "TGTTOS": [
+      {
+        "game-number": 1,
+        "game-name": "TGTTOS",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Pikachu_girl9",
+            "team": "Mustard Mummies",
+            "points": 168,
+            "place": 1
+          },
+          {
+            "player": "AppleJaxxs",
+            "team": "Red Ravens",
+            "points": 159,
+            "place": 2
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Green Goblins",
+            "points": 152,
+            "place": 3
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 146,
+            "place": 4
+          },
+          {
+            "player": "PogForLive",
+            "team": "Orange Oozes",
+            "points": 138,
+            "place": 5
+          },
+          {
+            "player": "rai2i",
+            "team": "Red Ravens",
+            "points": 130,
+            "place": 6
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Lime Liches",
+            "points": 124,
+            "place": 7
+          },
+          {
+            "player": "ZSpektre",
+            "team": "Aqua Abominations",
+            "points": 114,
+            "place": 8
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Lime Liches",
+            "points": 111,
+            "place": 9
+          },
+          {
+            "player": "spareddd",
+            "team": "Violet Vampires",
+            "points": 106,
+            "place": 10
+          },
+          {
+            "player": "AV80",
+            "team": "Aqua Abominations",
+            "points": 102,
+            "place": 11
+          },
+          {
+            "player": "juliopolis",
+            "team": "Lime Liches",
+            "points": 101,
+            "place": 12
+          },
+          {
+            "player": "Andreayay",
+            "team": "Red Ravens",
+            "points": 100,
+            "place": 13
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 99,
+            "place": 14
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Green Goblins",
+            "points": 96,
+            "place": 15
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Oozes",
+            "points": 92,
+            "place": 16
+          },
+          {
+            "player": "_Slimeball",
+            "team": "Violet Vampires",
+            "points": 84,
+            "place": 17
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Violet Vampires",
+            "points": 82,
+            "place": 18
+          },
+          {
+            "player": "Kodex13",
+            "team": "Mustard Mummies",
+            "points": 82,
+            "place": 19
+          },
+          {
+            "player": "APurplePenguin_",
+            "team": "Cyan Centipedes",
+            "points": 77,
+            "place": 20
+          },
+          {
+            "player": "bohead_",
+            "team": "Aqua Abominations",
+            "points": 73,
+            "place": 21
+          },
+          {
+            "player": "gigadrake83",
+            "team": "Aqua Abominations",
+            "points": 70,
+            "place": 22
+          },
+          {
+            "player": "_Stripes",
+            "team": "Violet Vampires",
+            "points": 64,
+            "place": 23
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Lime Liches",
+            "points": 63,
+            "place": 24
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Centipedes",
+            "points": 61,
+            "place": 25
+          },
+          {
+            "player": "Mine_Crafting",
+            "team": "Cyan Centipedes",
+            "points": 57,
+            "place": 26
+          },
+          {
+            "player": "mMiror",
+            "team": "Green Goblins",
+            "points": 55,
+            "place": 27
+          },
+          {
+            "player": "mini9573",
+            "team": "Mustard Mummies",
+            "points": 49,
+            "place": 28
+          },
+          {
+            "player": "foufouv",
+            "team": "Green Goblins",
+            "points": 45,
+            "place": 29
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Cyan Centipedes",
+            "points": 38,
+            "place": 30
+          },
+          {
+            "player": "AresDaMartian",
+            "team": "Orange Oozes",
+            "points": 33,
+            "place": 31
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Red Ravens",
+            "points": 25,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Red Ravens",
+            "points": 414,
+            "place": 1
+          },
+          {
+            "team": "Orange Oozes",
+            "points": 409,
+            "place": 2
+          },
+          {
+            "team": "Lime Liches",
+            "points": 399,
+            "place": 3
+          },
+          {
+            "team": "Mustard Mummies",
+            "points": 398,
+            "place": 4
+          },
+          {
+            "team": "Aqua Abominations",
+            "points": 359,
+            "place": 5
+          },
+          {
+            "team": "Green Goblins",
+            "points": 348,
+            "place": 6
+          },
+          {
+            "team": "Violet Vampires",
+            "points": 336,
+            "place": 7
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 233,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "BB": [
+      {
+        "game-number": 2,
+        "game-name": "BB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "_Stripes",
+            "team": "Violet Vampires",
+            "points": 465,
+            "place": 1
+          },
+          {
+            "player": "AppleJaxxs",
+            "team": "Red Ravens",
+            "points": 357,
+            "place": 2
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 330,
+            "place": 3
+          },
+          {
+            "player": "spareddd",
+            "team": "Violet Vampires",
+            "points": 315,
+            "place": 4
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Lime Liches",
+            "points": 304,
+            "place": 5
+          },
+          {
+            "player": "rai2i",
+            "team": "Red Ravens",
+            "points": 282,
+            "place": 6
+          },
+          {
+            "player": "juliopolis",
+            "team": "Lime Liches",
+            "points": 267,
+            "place": 7
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Lime Liches",
+            "points": 267,
+            "place": 8
+          },
+          {
+            "player": "_Slimeball",
+            "team": "Violet Vampires",
+            "points": 240,
+            "place": 9
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Violet Vampires",
+            "points": 240,
+            "place": 10
+          },
+          {
+            "player": "foufouv",
+            "team": "Green Goblins",
+            "points": 232,
+            "place": 11
+          },
+          {
+            "player": "mMiror",
+            "team": "Green Goblins",
+            "points": 232,
+            "place": 12
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Lime Liches",
+            "points": 229,
+            "place": 13
+          },
+          {
+            "player": "PogForLive",
+            "team": "Orange Oozes",
+            "points": 222,
+            "place": 14
+          },
+          {
+            "player": "Pikachu_girl9",
+            "team": "Mustard Mummies",
+            "points": 217,
+            "place": 15
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 184,
+            "place": 16
+          },
+          {
+            "player": "AV80",
+            "team": "Aqua Abominations",
+            "points": 172,
+            "place": 17
+          },
+          {
+            "player": "ZSpektre",
+            "team": "Aqua Abominations",
+            "points": 172,
+            "place": 18
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Red Ravens",
+            "points": 169,
+            "place": 19
+          },
+          {
+            "player": "APurplePenguin_",
+            "team": "Cyan Centipedes",
+            "points": 162,
+            "place": 20
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Green Goblins",
+            "points": 157,
+            "place": 21
+          },
+          {
+            "player": "AresDaMartian",
+            "team": "Orange Oozes",
+            "points": 147,
+            "place": 22
+          },
+          {
+            "player": "Kodex13",
+            "team": "Mustard Mummies",
+            "points": 142,
+            "place": 23
+          },
+          {
+            "player": "bohead_",
+            "team": "Aqua Abominations",
+            "points": 135,
+            "place": 24
+          },
+          {
+            "player": "Mine_Crafting",
+            "team": "Cyan Centipedes",
+            "points": 124,
+            "place": 25
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Green Goblins",
+            "points": 120,
+            "place": 26
+          },
+          {
+            "player": "mini9573",
+            "team": "Mustard Mummies",
+            "points": 105,
+            "place": 27
+          },
+          {
+            "player": "Andreayay",
+            "team": "Red Ravens",
+            "points": 94,
+            "place": 28
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Centipedes",
+            "points": 87,
+            "place": 29
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Oozes",
+            "points": 72,
+            "place": 30
+          },
+          {
+            "player": "gigadrake83",
+            "team": "Aqua Abominations",
+            "points": 22,
+            "place": 31
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Cyan Centipedes",
+            "points": 12,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Violet Vampires",
+            "points": 1260,
+            "place": 1
+          },
+          {
+            "team": "Lime Liches",
+            "points": 1067,
+            "place": 2
+          },
+          {
+            "team": "Red Ravens",
+            "points": 902,
+            "place": 3
+          },
+          {
+            "team": "Mustard Mummies",
+            "points": 794,
+            "place": 4
+          },
+          {
+            "team": "Green Goblins",
+            "points": 741,
+            "place": 5
+          },
+          {
+            "team": "Orange Oozes",
+            "points": 625,
+            "place": 6
+          },
+          {
+            "team": "Aqua Abominations",
+            "points": 501,
+            "place": 7
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 385,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 3,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "OP_Riptide",
+            "team": "Lime Liches",
+            "points": 630,
+            "place": 1
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Lime Liches",
+            "points": 422,
+            "place": 2
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Violet Vampires",
+            "points": 408,
+            "place": 3
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Centipedes",
+            "points": 400,
+            "place": 4
+          },
+          {
+            "player": "mMiror",
+            "team": "Green Goblins",
+            "points": 378,
+            "place": 5
+          },
+          {
+            "player": "Kodex13",
+            "team": "Mustard Mummies",
+            "points": 370,
+            "place": 6
+          },
+          {
+            "player": "Andreayay",
+            "team": "Red Ravens",
+            "points": 368,
+            "place": 7
+          },
+          {
+            "player": "Pikachu_girl9",
+            "team": "Mustard Mummies",
+            "points": 364,
+            "place": 8
+          },
+          {
+            "player": "rai2i",
+            "team": "Red Ravens",
+            "points": 358,
+            "place": 9
+          },
+          {
+            "player": "AppleJaxxs",
+            "team": "Red Ravens",
+            "points": 352,
+            "place": 10
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 352,
+            "place": 11
+          },
+          {
+            "player": "PogForLive",
+            "team": "Orange Oozes",
+            "points": 308,
+            "place": 12
+          },
+          {
+            "player": "_Slimeball",
+            "team": "Violet Vampires",
+            "points": 278,
+            "place": 13
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 268,
+            "place": 14
+          },
+          {
+            "player": "AV80",
+            "team": "Aqua Abominations",
+            "points": 260,
+            "place": 15
+          },
+          {
+            "player": "gigadrake83",
+            "team": "Aqua Abominations",
+            "points": 258,
+            "place": 16
+          },
+          {
+            "player": "_Stripes",
+            "team": "Violet Vampires",
+            "points": 236,
+            "place": 17
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Green Goblins",
+            "points": 234,
+            "place": 18
+          },
+          {
+            "player": "APurplePenguin_",
+            "team": "Cyan Centipedes",
+            "points": 232,
+            "place": 19
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Green Goblins",
+            "points": 208,
+            "place": 20
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Lime Liches",
+            "points": 202,
+            "place": 21
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Oozes",
+            "points": 192,
+            "place": 22
+          },
+          {
+            "player": "bohead_",
+            "team": "Aqua Abominations",
+            "points": 178,
+            "place": 23
+          },
+          {
+            "player": "mini9573",
+            "team": "Mustard Mummies",
+            "points": 164,
+            "place": 24
+          },
+          {
+            "player": "spareddd",
+            "team": "Violet Vampires",
+            "points": 146,
+            "place": 25
+          },
+          {
+            "player": "Mine_Crafting",
+            "team": "Cyan Centipedes",
+            "points": 108,
+            "place": 26
+          },
+          {
+            "player": "foufouv",
+            "team": "Green Goblins",
+            "points": 106,
+            "place": 27
+          },
+          {
+            "player": "juliopolis",
+            "team": "Lime Liches",
+            "points": 92,
+            "place": 28
+          },
+          {
+            "player": "ZSpektre",
+            "team": "Aqua Abominations",
+            "points": 88,
+            "place": 29
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Red Ravens",
+            "points": 68,
+            "place": 30
+          },
+          {
+            "player": "AresDaMartian",
+            "team": "Orange Oozes",
+            "points": 62,
+            "place": 31
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Cyan Centipedes",
+            "points": 28,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Lime Liches",
+            "points": 1346,
+            "place": 1
+          },
+          {
+            "team": "Mustard Mummies",
+            "points": 1166,
+            "place": 2
+          },
+          {
+            "team": "Red Ravens",
+            "points": 1146,
+            "place": 3
+          },
+          {
+            "team": "Violet Vampires",
+            "points": 1068,
+            "place": 4
+          },
+          {
+            "team": "Green Goblins",
+            "points": 926,
+            "place": 5
+          },
+          {
+            "team": "Orange Oozes",
+            "points": 914,
+            "place": 6
+          },
+          {
+            "team": "Aqua Abominations",
+            "points": 784,
+            "place": 7
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 768,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 4,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "PogForLive",
+            "team": "Orange Oozes",
+            "points": 880,
+            "place": 1
+          },
+          {
+            "player": "Pikachu_girl9",
+            "team": "Mustard Mummies",
+            "points": 752,
+            "place": 2
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Green Goblins",
+            "points": 612,
+            "place": 3
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Green Goblins",
+            "points": 487,
+            "place": 4
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Lime Liches",
+            "points": 482,
+            "place": 5
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 420,
+            "place": 6
+          },
+          {
+            "player": "_Stripes",
+            "team": "Violet Vampires",
+            "points": 352,
+            "place": 7
+          },
+          {
+            "player": "AppleJaxxs",
+            "team": "Red Ravens",
+            "points": 337,
+            "place": 8
+          },
+          {
+            "player": "Andreayay",
+            "team": "Red Ravens",
+            "points": 317,
+            "place": 9
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Oozes",
+            "points": 282,
+            "place": 10
+          },
+          {
+            "player": "Mine_Crafting",
+            "team": "Cyan Centipedes",
+            "points": 242,
+            "place": 11
+          },
+          {
+            "player": "spareddd",
+            "team": "Violet Vampires",
+            "points": 242,
+            "place": 12
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 240,
+            "place": 13
+          },
+          {
+            "player": "Kodex13",
+            "team": "Mustard Mummies",
+            "points": 237,
+            "place": 14
+          },
+          {
+            "player": "juliopolis",
+            "team": "Lime Liches",
+            "points": 220,
+            "place": 15
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Lime Liches",
+            "points": 210,
+            "place": 16
+          },
+          {
+            "player": "bohead_",
+            "team": "Aqua Abominations",
+            "points": 200,
+            "place": 17
+          },
+          {
+            "player": "ZSpektre",
+            "team": "Aqua Abominations",
+            "points": 197,
+            "place": 18
+          },
+          {
+            "player": "AresDaMartian",
+            "team": "Orange Oozes",
+            "points": 182,
+            "place": 19
+          },
+          {
+            "player": "APurplePenguin_",
+            "team": "Cyan Centipedes",
+            "points": 162,
+            "place": 20
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Violet Vampires",
+            "points": 160,
+            "place": 21
+          },
+          {
+            "player": "_Slimeball",
+            "team": "Violet Vampires",
+            "points": 145,
+            "place": 22
+          },
+          {
+            "player": "mMiror",
+            "team": "Green Goblins",
+            "points": 145,
+            "place": 23
+          },
+          {
+            "player": "AV80",
+            "team": "Aqua Abominations",
+            "points": 135,
+            "place": 24
+          },
+          {
+            "player": "gigadrake83",
+            "team": "Aqua Abominations",
+            "points": 112,
+            "place": 25
+          },
+          {
+            "player": "mini9573",
+            "team": "Mustard Mummies",
+            "points": 102,
+            "place": 26
+          },
+          {
+            "player": "foufouv",
+            "team": "Green Goblins",
+            "points": 95,
+            "place": 27
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Lime Liches",
+            "points": 80,
+            "place": 28
+          },
+          {
+            "player": "rai2i",
+            "team": "Red Ravens",
+            "points": 57,
+            "place": 29
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Red Ravens",
+            "points": 52,
+            "place": 30
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Centipedes",
+            "points": 42,
+            "place": 31
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Cyan Centipedes",
+            "points": 42,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Orange Oozes",
+            "points": 1584,
+            "place": 1
+          },
+          {
+            "team": "Mustard Mummies",
+            "points": 1511,
+            "place": 2
+          },
+          {
+            "team": "Green Goblins",
+            "points": 1339,
+            "place": 3
+          },
+          {
+            "team": "Lime Liches",
+            "points": 992,
+            "place": 4
+          },
+          {
+            "team": "Violet Vampires",
+            "points": 899,
+            "place": 5
+          },
+          {
+            "team": "Red Ravens",
+            "points": 763,
+            "place": 6
+          },
+          {
+            "team": "Aqua Abominations",
+            "points": 644,
+            "place": 7
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 488,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 5,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "KaydenCoolio",
+            "team": "Violet Vampires",
+            "points": 822,
+            "place": 1
+          },
+          {
+            "player": "Pikachu_girl9",
+            "team": "Mustard Mummies",
+            "points": 630,
+            "place": 2
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Green Goblins",
+            "points": 594,
+            "place": 3
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Lime Liches",
+            "points": 543,
+            "place": 4
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 528,
+            "place": 5
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Lime Liches",
+            "points": 471,
+            "place": 6
+          },
+          {
+            "player": "AV80",
+            "team": "Aqua Abominations",
+            "points": 426,
+            "place": 7
+          },
+          {
+            "player": "gigadrake83",
+            "team": "Aqua Abominations",
+            "points": 414,
+            "place": 8
+          },
+          {
+            "player": "AppleJaxxs",
+            "team": "Red Ravens",
+            "points": 411,
+            "place": 9
+          },
+          {
+            "player": "ZSpektre",
+            "team": "Aqua Abominations",
+            "points": 393,
+            "place": 10
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Green Goblins",
+            "points": 381,
+            "place": 11
+          },
+          {
+            "player": "bohead_",
+            "team": "Aqua Abominations",
+            "points": 372,
+            "place": 12
+          },
+          {
+            "player": "PogForLive",
+            "team": "Orange Oozes",
+            "points": 363,
+            "place": 13
+          },
+          {
+            "player": "_Stripes",
+            "team": "Violet Vampires",
+            "points": 321,
+            "place": 14
+          },
+          {
+            "player": "mMiror",
+            "team": "Green Goblins",
+            "points": 318,
+            "place": 15
+          },
+          {
+            "player": "juliopolis",
+            "team": "Lime Liches",
+            "points": 306,
+            "place": 16
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Oozes",
+            "points": 300,
+            "place": 17
+          },
+          {
+            "player": "rai2i",
+            "team": "Red Ravens",
+            "points": 300,
+            "place": 18
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Centipedes",
+            "points": 285,
+            "place": 19
+          },
+          {
+            "player": "Mine_Crafting",
+            "team": "Cyan Centipedes",
+            "points": 279,
+            "place": 20
+          },
+          {
+            "player": "APurplePenguin_",
+            "team": "Cyan Centipedes",
+            "points": 267,
+            "place": 21
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 216,
+            "place": 22
+          },
+          {
+            "player": "mini9573",
+            "team": "Mustard Mummies",
+            "points": 180,
+            "place": 23
+          },
+          {
+            "player": "foufouv",
+            "team": "Green Goblins",
+            "points": 171,
+            "place": 24
+          },
+          {
+            "player": "Andreayay",
+            "team": "Red Ravens",
+            "points": 162,
+            "place": 25
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Lime Liches",
+            "points": 138,
+            "place": 26
+          },
+          {
+            "player": "_Slimeball",
+            "team": "Violet Vampires",
+            "points": 126,
+            "place": 27
+          },
+          {
+            "player": "Kodex13",
+            "team": "Mustard Mummies",
+            "points": 117,
+            "place": 28
+          },
+          {
+            "player": "spareddd",
+            "team": "Violet Vampires",
+            "points": 90,
+            "place": 29
+          },
+          {
+            "player": "AresDaMartian",
+            "team": "Orange Oozes",
+            "points": 54,
+            "place": 30
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Red Ravens",
+            "points": 39,
+            "place": 31
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Cyan Centipedes",
+            "points": 27,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Abominations",
+            "points": 1605,
+            "place": 1
+          },
+          {
+            "team": "Green Goblins",
+            "points": 1464,
+            "place": 2
+          },
+          {
+            "team": "Lime Liches",
+            "points": 1458,
+            "place": 3
+          },
+          {
+            "team": "Mustard Mummies",
+            "points": 1455,
+            "place": 4
+          },
+          {
+            "team": "Violet Vampires",
+            "points": 1359,
+            "place": 5
+          },
+          {
+            "team": "Orange Oozes",
+            "points": 933,
+            "place": 6
+          },
+          {
+            "team": "Red Ravens",
+            "points": 912,
+            "place": 7
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 858,
+            "place": 8
+          }
+        ]
+      }
+    ]
+  }
+}

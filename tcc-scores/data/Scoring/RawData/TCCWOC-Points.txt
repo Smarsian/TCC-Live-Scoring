@@ -1,0 +1,277 @@
+TCCWOC
+
+Teams:
+Red Rabbits:
+APurplePenguin
+IronArch
+ResearchRTX
+Wo0o0o0ble_
+
+Orange Ocelots:
+AltForMe
+Dr_OrangeFox_
+gigadrake83
+ValorVanquish
+
+Yellow Yaks:
+_Stripes
+AppleJaxxs
+mMiror
+Stuww
+
+Lime Llamas:
+BreezyBubbs
+Kodex13
+sturmcheese
+TheSlushyDealer
+
+Green Geckos:
+foufouv
+GamingGuy907
+JuztKillz
+SKITATSTIC
+
+Cyan Coyotes:
+bohead
+Boxise
+KubaBabilon
+mini9573
+
+Aqua Axolotls:
+0MN1G0D
+BubblesTheFriend
+IzzyBee
+UltraTeal
+
+Blue Bats:
+AriesZeDragon
+PulseOranges
+rai2i
+rAnble_
+
+Purple Pandas:
+LillyWhiteWolf
+Reccie
+Roy_Awesome_R
+ThatDudecChr1s
+
+Pink Parrots:
+Apples05
+JAY_matwr
+KaydenCoolio
+Mine_Crafting
+
+Games:
+Game 1: TGTTOS
+Points:
+UltraTeal	201
+TheSlushyDealer	156
+GamingGuy907	155
+ThatDudecChr1s	140
+Wo0o0o0ble_	130
+rai2i	129
+JuztKillz	126
+BubblesTheFriend	122
+KubaBabilon	116
+AppleJaxxs	108
+sturmcheese	106
+Kodex13	103
+AltForMe	100
+mMiror	96
+Stuww	92
+Roy_Awesome_R	90
+rAnble_	88
+Boxise	84
+PulseOranges	84
+APurplePenguin	81
+Dr_OrangeFox_	81
+JAY_matwr	74
+0MN1G0D	70
+AriesZeDragon	69
+Apples05	68
+ValorVanquish	67
+_Stripes	66
+foufouv	64
+KaydenCoolio	60
+LillyWhiteWolf	60
+mini9573	58
+IzzyBee	58
+Mine_Crafting	58
+ResearchRTX	57
+gigadrake83	45
+bohead	41
+Reccie	38
+IronArch	36
+BreezyBubbs	18
+SKITATSTIC	10
+
+Game 2: BB
+Points:
+AppleJaxxs	568
+AltForMe	559
+Mine_Crafting	502
+Wo0o0o0ble_	475
+Stuww	418
+KaydenCoolio	352
+Apples05	352
+Dr_OrangeFox_	334
+Roy_Awesome_R	327
+ThatDudecChr1s	327
+JAY_matwr	315
+PulseOranges	307
+APurplePenguin	288
+bohead	280
+TheSlushyDealer	279
+BreezyBubbs	279
+0MN1G0D	261
+rAnble_	232
+_Stripes	231
+UltraTeal	223
+ValorVanquish	222
+LillyWhiteWolf	214
+ResearchRTX	213
+mMiror	193
+Kodex13	166
+gigadrake83	147
+mini9573	130
+AriesZeDragon	120
+rai2i	120
+BubblesTheFriend	111
+Reccie	102
+IronArch	100
+KubaBabilon	93
+sturmcheese	91
+foufouv	84
+IzzyBee	73
+Boxise	55
+GamingGuy907	46
+JuztKillz	9
+SKITATSTIC	9
+
+Game 3: RSR
+Points:
+ThatDudecChr1s	462
+JuztKillz	375
+AltForMe	352
+Roy_Awesome_R	337
+mMiror	332
+UltraTeal	322
+KaydenCoolio	322
+Apples05	322
+LillyWhiteWolf	315
+rAnble_	310
+rai2i	307
+BubblesTheFriend	305
+JAY_matwr	302
+_Stripes	300
+Wo0o0o0ble_	297
+Dr_OrangeFox_	292
+bohead	285
+gigadrake83	277
+AppleJaxxs	277
+APurplePenguin	285
+Stuww	272
+0MN1G0D	270
+mini9573	252
+IronArch	247
+KubaBabilon	227
+Boxise	222
+GamingGuy907	207
+sturmcheese	177
+AriesZeDragon	152
+TheSlushyDealer	132
+PulseOranges	97
+Mine_Crafting	90
+Kodex13	67
+ValorVanquish	62
+Reccie	47
+foufouv	40
+ResearchRTX	30
+IzzyBee	20
+BreezyBubbs	15
+SKITATSTIC	10
+
+Game 4: PKW
+Points:
+KubaBabilon	635
+TheSlushyDealer	562
+rai2i	525
+0MN1G0D	510
+UltraTeal	473
+GamingGuy907	437
+ThatDudecChr1s	437
+Apples05	431
+Roy_Awesome_R	429
+Kodex13	421
+Boxise	392
+sturmcheese	390
+gigadrake83	379
+Stuww	373
+KaydenCoolio	373
+APurplePenguin	362
+BubblesTheFriend	360
+Wo0o0o0ble_	354
+AltForMe	350
+_Stripes	328
+bohead	325
+AppleJaxxs	321
+JuztKillz	285
+mMiror	276
+AriesZeDragon	253
+PulseOranges	245
+JAY_matwr	240
+Dr_OrangeFox_	214
+rAnble_	203
+LillyWhiteWolf	198
+foufouv	154
+Mine_Crafting	153
+mini9573	151
+IzzyBee	143
+IronArch	112
+ValorVanquish	78
+Reccie	57
+BreezyBubbs	37
+ResearchRTX	29
+SKITATSTIC	23
+
+Game 5: HITW
+Points:
+rai2i	626
+UltraTeal	613
+APurplePenguin	601
+GamingGuy907	586
+KubaBabilon	545
+KaydenCoolio	534
+Roy_Awesome_R	506
+bohead	478
+Stuww	472
+BubblesTheFriend	472
+PulseOranges	472
+rAnble_	472
+_Stripes	466
+AppleJaxxs	450
+JAY_matwr	450
+AltForMe	438
+ThatDudecChr1s	421
+TheSlushyDealer	410
+Kodex13	410
+Boxise	410
+gigadrake83	399
+JuztKillz	343
+mini9573	343
+mMiror	281
+Dr_OrangeFox_	264
+Mine_Crafting	253
+sturmcheese	247
+0MN1G0D	236
+IzzyBee	225
+Apples05	225
+AriesZeDragon	185
+ResearchRTX	180
+LillyWhiteWolf	174
+Reccie	163
+IronArch	140
+foufouv	123
+ValorVanquish	95
+SKITATSTIC	73
+BreezyBubbs	67

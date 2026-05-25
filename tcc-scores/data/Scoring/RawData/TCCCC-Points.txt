@@ -1,0 +1,226 @@
+TCCCC
+
+Teams:
+Red Rabbits:
+AriesZeDragon
+PulseOranges
+Tazerrr
+TheIcyFlames
+
+Yellow Yaks:
+AppleJaxxs
+KubaBabilon
+rabbitbrained
+Repotato
+
+Lime Llamas:
+JuztKillz
+LillyWhiteWolf
+Reccie
+Smarsian
+
+Green Geckos:
+JAY_matwr
+KaydenCoolio
+olivehoodies
+TheRealGhusky
+
+Aqua Axolotls:
+dollymouse
+foufouv
+mMiror
+TheSlushyDealer
+
+Blue Bats:
+APurplePenguin
+Boxise
+Miniboru
+MjsHere
+
+Purple Pandas:
+EternalCacti
+iFoxify
+MatrixMation
+Stumberr
+
+Pink Parrots:
+Clovish
+PogForLive
+Terror33
+Zombreyy
+
+Games:
+Game 1: PKW
+Points:
+Tazerrr	240
+olivehoodies	135
+JAY_matwr	135
+Clovish	124
+Miniboru	122
+dollymouse	120
+TheSlushyDealer	120
+Smarsian	109
+Stumberr	109
+KubaBabilon	108
+MatrixMation	108
+rabbitbrained	105
+EternalCacti	104
+KaydenCoolio	101
+Boxise	77
+iFoxify	75
+TheIcyFlames	66
+APurplePenguin	66
+AriesZeDragon	65
+TheRealGhusky	63
+AppleJaxxs	60
+Repotato	60
+JuztKillz	59
+PulseOranges	50
+MjsHere	48
+PogForLive	48
+Terror33	37
+LillyWhiteWolf	30
+mMiror	27
+foufouv	18
+Zombreyy	16
+Reccie	5
+
+Game 2: HITW
+Points:
+rabbitbrained	342
+dollymouse	311
+KubaBabilon	262
+TheSlushyDealer	236
+mMiror	225
+Clovish	208
+Tazerrr	205
+Stumberr	205
+Smarsian	188
+MatrixMation	180
+PogForLive	174
+Miniboru	151
+olivehoodies	146
+Boxise	146
+TheIcyFlames	137
+AppleJaxxs	137
+iFoxify	137
+APurplePenguin	132
+AriesZeDragon	123
+JAY_matwr	115
+KaydenCoolio	112
+foufouv	98
+JuztKillz	95
+PulseOranges	81
+LillyWhiteWolf	81
+EternalCacti	81
+MjsHere	78
+Repotato	75
+Reccie	61
+Terror33	42
+Zombreyy	39
+TheRealGhusky	33
+
+Game 3: BB
+Points:
+TheIcyFlames	720
+Tazerrr	670
+JuztKillz	630
+Miniboru	605
+JAY_matwr	540
+olivehoodies	390
+iFoxify	375
+TheSlushyDealer	345
+KubaBabilon	315
+PogForLive	310
+Clovish	310
+Boxise	305
+mMiror	295
+TheRealGhusky	290
+Zombreyy	260
+KaydenCoolio	240
+PulseOranges	220
+MjsHere	205
+AriesZeDragon	170
+rabbitbrained	165
+Terror33	160
+APurplePenguin	155
+foufouv	145
+Stumberr	125
+EternalCacti	125
+Repotato	115
+dollymouse	95
+Smarsian	80
+LillyWhiteWolf	80
+MatrixMation	75
+Reccie	30
+AppleJaxxs	15
+
+Game 4: RSR
+Points:
+dollymouse	680
+Miniboru	620
+JuztKillz	482
+Stumberr	425
+PogForLive	410
+AppleJaxxs	357
+MatrixMation	342
+KaydenCoolio	338
+JAY_matwr	336
+iFoxify	327
+Tazerrr	311
+EternalCacti	277
+rabbitbrained	264
+olivehoodies	262
+Terror33	253
+AriesZeDragon	251
+PulseOranges	234
+Clovish	232
+mMiror	208
+Boxise	192
+APurplePenguin	191
+TheRealGhusky	189
+Smarsian	185
+KubaBabilon	182
+TheSlushyDealer	181
+Repotato	125
+TheIcyFlames	85
+LillyWhiteWolf	85
+MjsHere	62
+Reccie	42
+foufouv	42
+Zombreyy	27
+
+Game 5: SB
+Points:
+Tazerrr	901
+AppleJaxxs	852
+Repotato	808
+TheSlushyDealer	690
+olivehoodies	688
+TheIcyFlames	676
+dollymouse	616
+LillyWhiteWolf	444
+rabbitbrained	408
+foufouv	392
+JAY_matwr	387
+mMiror	384
+MjsHere	354
+JuztKillz	351
+AriesZeDragon	342
+KubaBabilon	333
+iFoxify	326
+EternalCacti	255
+PulseOranges	189
+KaydenCoolio	186
+Stumberr	159
+TheRealGhusky	150
+Miniboru	126
+APurplePenguin	126
+Smarsian	105
+Reccie	104
+Clovish	101
+Zombreyy	69
+MatrixMation	67
+Terror33	66
+PogForLive	52
+Boxise	40

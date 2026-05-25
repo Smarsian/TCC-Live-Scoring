@@ -1,0 +1,227 @@
+TCCAS
+
+Teams:
+Red Rabbits:
+GamingGuy907
+Kodex13
+Smarsian
+thedracobee
+
+Yellow Yaks:
+_Stripes
+AltForMe
+mMiror
+Slimeball
+
+Lime Llamas:
+AppleJaxxs
+fruitcereal
+mini9573
+W0xst
+
+Cyan Coyotes:
+DylanWMC
+MatrixMation
+Tazerrr
+Terror33
+
+Aqua Axolotls:
+AresDaMartian
+Dr_OrangeFox_
+Sk8eight
+TGVAM
+
+Blue Bats:
+JAY_matwr
+KaydenCoolio
+Mine_Crafting
+Rhil
+
+Purple Pandas:
+Aceotts1
+APurplePenguin
+JuztKillz
+TheIcyFlames
+
+Pink Parrots:
+AlexTK473
+Certifiedd_
+Boxise
+TheeJahmes
+spareddd
+
+Games:
+Game 1: PKW
+Points:
+Tazerrr	303
+Certifiedd_	203
+MatrixMation	202
+GamingGuy907	193
+Sk8eight	191
+Rhil	184
+AppleJaxxs	179
+JAY_matwr	177
+Smarsian	175
+KaydenCoolio	162
+thedracobee	161
+JuztKillz	152
+TheIcyFlames	144
+Kodex13	128
+AltForMe	114
+W0xst	114
+_Stripes	107
+fruitcereal	102
+TGVAM	97
+mMiror	96
+Terror33	89
+spareddd	88
+Slimeball	87
+APurplePenguin	87
+AlexTK473	87
+mini9573	74
+Mine_Crafting	69
+DylanWMC	65
+Dr_OrangeFox_	63
+Aceotts1	30
+AresDaMartian	30
+TheeJahmes	16
+
+Game 2: RSR
+Points:
+KaydenCoolio	293
+Tazerrr	266
+_Stripes	261
+Sk8eight	254
+JAY_matwr	254
+AlexTK473	234
+APurplePenguin	231
+AppleJaxxs	221
+JuztKillz	210
+Certifiedd_	201
+AltForMe	183
+Dr_OrangeFox_	177
+mMiror	168
+TGVAM	161
+GamingGuy907	159
+Kodex13	156
+Rhil	152
+Mine_Crafting	149
+Terror33	147
+Smarsian	128
+MatrixMation	126
+thedracobee	120
+W0xst	107
+AresDaMartian	99
+Slimeball	95
+DylanWMC	83
+Boxise	75
+TheIcyFlames	69
+spareddd	69
+fruitcereal	62
+Aceotts1	62
+mini9573	30
+
+Game 3: HITW
+Points:
+Certifiedd_	474
+AltForMe	412
+KaydenCoolio	394
+AppleJaxxs	382
+Rhil	346
+Tazerrr	344
+JAY_matwr	344
+AlexTK473	318
+Boxise	294
+MatrixMation	288
+Smarsian	274
+Slimeball	270
+APurplePenguin	268
+Sk8eight	266
+JuztKillz	248
+Kodex13	232
+thedracobee	228
+DylanWMC	214
+mini9573	208
+W0xst	200
+Terror33	192
+Dr_OrangeFox_	184
+spareddd	178
+TGVAM	176
+GamingGuy907	172
+_Stripes	172
+TheIcyFlames	146
+AresDaMartian	130
+fruitcereal	96
+Mine_Crafting	82
+mMiror	70
+Aceotts1	66
+
+Game 4: BB
+Points:
+Sk8eight	783
+AltForMe	775
+fruitcereal	638
+Certifiedd_	613
+mMiror	588
+MatrixMation	588
+thedracobee	558
+spareddd	488
+DylanWMC	463
+Tazerrr	463
+Terror33	463
+mini9573	450
+Smarsian	370
+AlexTK473	363
+APurplePenguin	350
+Dr_OrangeFox_	345
+Slimeball	338
+AppleJaxxs	325
+Boxise	300
+TheIcyFlames	288
+TGVAM	283
+_Stripes	275
+W0xst	263
+Aceotts1	225
+AresDaMartian	220
+KaydenCoolio	208
+Rhil	208
+Kodex13	183
+Mine_Crafting	145
+GamingGuy907	120
+JuztKillz	100
+JAY_matwr	83
+
+Game 5: SB
+Points:
+AppleJaxxs	1284
+Sk8eight	927
+AltForMe	516
+_Stripes	510
+Tazerrr	504
+Rhil	453
+W0xst	450
+Terror33	420
+Kodex13	402
+fruitcereal	363
+Slimeball	360
+KaydenCoolio	348
+thedracobee	318
+Certifiedd_	291
+Mine_Crafting	258
+GamingGuy907	249
+JuztKillz	225
+AresDaMartian	219
+Smarsian	171
+TheIcyFlames	171
+Dr_OrangeFox_	150
+mini9573	147
+AlexTK473	138
+Boxise	135
+JAY_matwr	129
+mMiror	126
+DylanWMC	90
+MatrixMation	90
+APurplePenguin	87
+TGVAM	78
+Aceotts1	69
+spareddd	59

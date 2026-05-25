@@ -1,0 +1,226 @@
+TCC17
+
+Teams:
+Red Rabbits:
+Cronism
+monkebing
+Oniqed
+gigadrake83
+
+Yellow Yaks:
+AltForMe
+Dr_OrangeFox_
+LillyWhiteWolf
+vellow1000
+
+Lime Llamas:
+Cosheed
+KaydenCoolio
+Sk8eight
+MatrixMation
+
+Green Geckos:
+AndyR927
+Hykia
+ItsCosmoMC
+Rutile13
+
+Cyan Coyotes:
+APurplePenguin
+HariboSolo
+TGVAM
+Reccie
+
+Blue Bats:
+Boxise
+JuztKillz
+KubaBabilon
+_Slimeball
+
+Purple Pandas:
+AlexTK473
+foufouv
+Kodex13
+TheDracoBee
+
+Pink Parrots:
+_Stripes
+mMiror
+LaggdLol
+rabbitbrained
+
+Games:
+Game 1: PKW
+Points:
+HariboSolo	298
+AndyR927	216
+Hykia	179
+KubaBabilon	174
+Oniqed	172
+Sk8eight	172
+KaydenCoolio	170
+APurplePenguin	161
+MatrixMation	159
+LaggdLol	159
+TheDracoBee	151
+_Slimeball	149
+rabbitbrained	148
+JuztKillz	143
+_Stripes	136
+monkebing	135
+AlexTK473	119
+mMiror	115
+Boxise	108
+Kodex13	108
+AltForMe	106
+TGVAM	99
+LillyWhiteWolf	92
+Dr_OrangeFox_	70
+foufouv	68
+ItsCosmoMC	55
+gigadrake83	49
+Cronism	35
+vellow1000	35
+Rutile13	31
+Cosheed	22
+Reccie	16
+
+Game 2: BB
+Points:
+HariboSolo	690
+Hykia	582
+Sk8eight	417
+Dr_OrangeFox_	345
+_Stripes	330
+TGVAM	315
+rabbitbrained	292
+Cosheed	267
+MatrixMation	267
+mMiror	255
+KubaBabilon	237
+AlexTK473	222
+TheDracoBee	222
+LaggdLol	217
+gigadrake83	210
+Kodex13	184
+Oniqed	172
+foufouv	147
+monkebing	135
+AndyR927	132
+Reccie	127
+AltForMe	120
+LillyWhiteWolf	120
+vellow1000	120
+KaydenCoolio	117
+Cronism	97
+ItsCosmoMC	94
+APurplePenguin	90
+Boxise	87
+_Slimeball	87
+Rutile13	57
+JuztKillz	49
+
+Game 3: RSR
+Points:
+HariboSolo	526
+Dr_OrangeFox_	482
+_Stripes	376
+KaydenCoolio	374
+TheDracoBee	346
+AltForMe	330
+JuztKillz	264
+mMiror	258
+Kodex13	256
+MatrixMation	246
+AndyR927	228
+monkebing	226
+APurplePenguin	212
+Sk8eight	208
+TGVAM	198
+KubaBabilon	192
+LaggdLol	190
+Hykia	182
+AlexTK473	170
+LillyWhiteWolf	162
+ItsCosmoMC	142
+rabbitbrained	134
+Rutile13	130
+Boxise	120
+Oniqed	110
+gigadrake83	108
+foufouv	106
+_Slimeball	102
+vellow1000	76
+Cosheed	76
+Cronism	58
+Reccie	34
+
+Game 4: SB
+Points:
+JuztKillz	915
+HariboSolo	727
+Sk8eight	722
+Hykia	662
+_Stripes	407
+rabbitbrained	392
+Dr_OrangeFox_	390
+AlexTK473	370
+TheDracoBee	315
+AltForMe	280
+monkebing	265
+gigadrake83	260
+mMiror	215
+AndyR927	202
+vellow1000	200
+Cronism	192
+TGVAM	160
+Rutile13	157
+LaggdLol	147
+LillyWhiteWolf	140
+Oniqed	132
+Reccie	97
+ItsCosmoMC	82
+APurplePenguin	82
+_Slimeball	77
+KubaBabilon	72
+KaydenCoolio	67
+MatrixMation	67
+Cosheed	65
+Boxise	65
+foufouv	57
+Kodex13	50
+
+Game 5: HITW:
+Points:
+HariboSolo	690
+rabbitbrained	651
+JuztKillz	615
+KaydenCoolio	606
+Sk8eight	582
+AlexTK473	549
+MatrixMation	495
+Kodex13	489
+KubaBabilon	468
+AltForMe	426
+mMiror	426
+monkebing	420
+gigadrake83	390
+Oniqed	363
+AndyR927	357
+foufouv	357
+_Stripes	357
+vellow1000	300
+Dr_OrangeFox_	288
+_Slimeball	285
+APurplePenguin	282
+Hykia	279
+TheDracoBee	273
+Cosheed	255
+TGVAM	252
+LaggdLol	249
+LillyWhiteWolf	243
+ItsCosmoMC	180
+Rutile13	153
+Boxise	147
+Cronism	132
+Reccie	90

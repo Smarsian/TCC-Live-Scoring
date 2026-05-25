@@ -1,0 +1,227 @@
+TCCUD
+
+Teams:
+Red Rabbits:
+AlexTK473
+PogForLive
+ResearchRTX
+vomRests
+
+Orange Ocelots:
+bohead
+ElMellowYellow
+Dr_OrangeFox_
+EndingSoon
+
+Green Geckos:
+cheeetahs
+DylanWMC
+Ender162
+KubaBabilon
+
+Cyan Coyotes:
+apurplepenguin
+Cosheed
+foufouv
+KaydenCoolio
+
+Aqua Axolotls:
+AmIGracie
+Be_Realistic
+iFoxify
+Terror33
+
+Blue Bats:
+Boxise
+BrandonMP611
+CeaTurtill
+LillyWhiteWolf
+
+Purple Pandas:
+craftdude8407
+Wet_Floor123
+Reccie
+qlozu
+ZombieNinja131
+
+Pink Parrots:
+heistfaux
+km23
+spicymeln
+Springer_Nocti
+
+Games:
+Game 1: BB
+Points:
+Terror33	285
+qlozu	258
+Cosheed	255
+CeaTurtill	253
+Be_Realistic	253
+cheeetahs	213
+DylanWMC	213
+Boxise	203
+BrandonMP611	203
+km23	198
+bohead	195
+ElMellowYellow	195
+iFoxify	185
+LillyWhiteWolf	178
+EndingSoon	170
+AmIGracie	160
+heistfaux	148
+Dr_OrangeFox_	145
+ResearchRTX	140
+Ender162	138
+foufouv	130
+AlexTK473	115
+KaydenCoolio	105
+Springer_Nocti	98
+PogForLive	90
+apurplepenguin	80
+Wet_Floor123	58
+ZombieNinja131	58
+spicymeln	48
+vomRests	40
+KubaBabilon	38
+craftdude8407	8
+
+Game 2: PKW
+Points:
+apurplepenguin	400
+AlexTK473	336
+KaydenCoolio	315
+Be_Realistic	302
+BrandonMP611	300
+iFoxify	273
+PogForLive	269
+Boxise	258
+km23	254
+Dr_OrangeFox_	247
+CeaTurtill	232
+cheeetahs	227
+AmIGracie	217
+DylanWMC	214
+qlozu	204
+bohead	195
+Terror33	164
+heistfaux	136
+LillyWhiteWolf	131
+Springer_Nocti	129
+EndingSoon	121
+Ender162	118
+foufouv	118
+craftdude8407	110
+vomRests	98
+Cosheed	90
+ZombieNinja131	57
+ResearchRTX	52
+KubaBabilon	47
+spicymeln	46
+ElMellowYellow	32
+Wet_Floor123	11
+
+Game 3: RSR
+Points:
+AlexTK473	464
+KaydenCoolio	426
+PogForLive	366
+Boxise	363
+bohead	331
+apurplepenguin	327
+AmIGracie	326
+Be_Realistic	307
+BrandonMP611	297
+iFoxify	293
+Terror33	293
+cheeetahs	284
+ElMellowYellow	209
+DylanWMC	199
+Dr_OrangeFox_	196
+km23	173
+Ender162	161
+LillyWhiteWolf	161
+CeaTurtill	154
+vomRests	144
+Springer_Nocti	141
+EndingSoon	139
+KubaBabilon	103
+ZombieNinja131	98
+Reccie	91
+spicymeln	91
+heistfaux	84
+ResearchRTX	75
+craftdude8407	75
+foufouv	69
+Cosheed	51
+Wet_Floor123	22
+
+Game 4: SB
+Points:
+AlexTK473	1078
+cheeetahs	489
+EndingSoon	481
+km23	480
+Dr_OrangeFox_	412
+iFoxify	380
+Terror33	309
+PogForLive	300
+ResearchRTX	299
+BrandonMP611	297
+Boxise	234
+Ender162	231
+spicymeln	227
+bohead	226
+KaydenCoolio	184
+Be_Realistic	174
+vomRests	172
+apurplepenguin	155
+Springer_Nocti	152
+AmIGracie	120
+CeaTurtill	115
+Reccie	102
+DylanWMC	98
+ZombieNinja131	95
+ElMellowYellow	94
+craftdude8407	94
+KubaBabilon	88
+foufouv	88
+heistfaux	76
+Cosheed	73
+LillyWhiteWolf	36
+Wet_Floor123	28
+
+Game 5: HITW
+Points:
+bohead	729
+PogForLive	598
+apurplepenguin	595
+cheeetahs	527
+Terror33	525
+iFoxify	506
+KaydenCoolio	499
+AmIGracie	485
+Be_Realistic	478
+KubaBabilon	443
+ZombieNinja131	443
+AlexTK473	422
+Ender162	387
+km23	380
+vomRests	359
+BrandonMP611	359
+ElMellowYellow	352
+Cosheed	338
+DylanWMC	316
+Boxise	309
+craftdude8407	302
+LillyWhiteWolf	295
+Springer_Nocti	274
+CeaTurtill	267
+spicymeln	225
+foufouv	218
+Reccie	211
+EndingSoon	204
+ResearchRTX	190
+heistfaux	190
+Dr_OrangeFox_	176
+Wet_Floor123	91

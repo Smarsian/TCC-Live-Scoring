@@ -9,6 +9,7 @@ GAMES_HEADER = "Games:"
 POINTS_HEADER = "Points:"
 GAME_HEADER_PATTERN = re.compile(r"^Game\s+(\d+)\s*:\s*(.+)$", re.IGNORECASE)
 SPECIAL_SCORING_HEADER_PATTERN = re.compile(r"^Triv(?:ia|a)\s+Segment:$", re.IGNORECASE)
+NUMERIC_TOKEN_PATTERN = re.compile(r"^[+-]?\d+(?:\.\d+)?$")
 
 
 def parse_numeric(value: str):
@@ -22,6 +23,10 @@ def parse_numeric(value: str):
 			return float(value)
 		except ValueError:
 			return 0
+
+
+def is_numeric_token(value: str) -> bool:
+	return bool(NUMERIC_TOKEN_PATTERN.match(value.strip()))
 
 
 def normalize_for_sort(name: str) -> str:
@@ -117,13 +122,19 @@ def parse_games(lines):
 			continue
 
 		parts = re.split(r"\s+", line)
-		if len(parts) < 3:
+		if len(parts) < 2:
 			continue
 
-		placement = parse_numeric(parts[0])
+		has_leading_placement = is_numeric_token(parts[0])
+		placement = parse_numeric(parts[0]) if has_leading_placement else 0
+		content_start = 1 if has_leading_placement else 0
+
 		if current_game.get("special-scoring"):
+			if len(parts) - content_start < 2:
+				continue
+
 			points = parse_numeric(parts[-1])
-			team = " ".join(parts[1:-1]).strip()
+			team = " ".join(parts[content_start:-1]).strip()
 			if team:
 				current_game["entries"].append(
 					{
@@ -134,8 +145,11 @@ def parse_games(lines):
 				)
 			continue
 
-		points = parse_numeric(parts[2])
-		player = parts[1]
+		if len(parts) - content_start < 2:
+			continue
+
+		player = parts[content_start]
+		points = parse_numeric(parts[-1])
 		current_game["entries"].append(
 			{
 				"place": placement,

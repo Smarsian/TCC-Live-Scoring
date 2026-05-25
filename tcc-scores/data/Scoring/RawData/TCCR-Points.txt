@@ -1,0 +1,226 @@
+TCCR
+
+Teams:
+Red Rabbits:
+Dr_OrangeFox_
+foufouv
+GamingGuy907
+LillyWhiteWolf
+
+Orange Ocelots:
+Cosheed
+KaydenCoolio
+SKITATSTIC
+yoshzz
+
+Yellow Yaks:
+AresDaMartian
+KubaBabilon
+mini9573
+PorpolUmbrella
+
+Cyan Coyotes:
+_Stripes
+applejaxxs
+Ess4nce
+Oniqed
+
+Aqua Axolotls:
+bohead_
+Boxise
+Glitch3959
+JAY_matwr
+
+Blue Bats:
+AlexTK473
+IronArch
+TheRealGhusky
+ResearchRTX
+
+Purple Pandas:
+APurplePenguin
+gigadrake83
+Sk8eight
+vomRests
+
+Pink Parrots:
+cheeetahs
+Pikachu_girl9
+TGVAM
+ValorVanquish
+
+Games:
+Game 1: HITW:
+Points:
+KubaBabilon	507
+Sk8eight	412
+foufouv	387
+Pikachu_girl9	379
+PorpolUmbrella	351
+gigadrake83	342
+Glitch3959	337
+bohead_	309
+AlexTK473	290
+JAY_matwr	271
+GamingGuy907	267
+_Stripes	262
+IronArch	262
+APurplePenguin	257
+KaydenCoolio	253
+TGVAM	229
+applejaxxs	215
+ResearchRTX	215
+Ess4nce	210
+cheeetahs	201
+SKITATSTIC	196
+Dr_OrangeFox_	178
+LillyWhiteWolf	178
+mini9573	173
+AresDaMartian	164
+vomRests	164
+Oniqed	159
+Boxise	154
+TheRealGhusky	121
+yoshzz	112
+ValorVanquish	32
+Cosheed	18
+
+Game 2: SB
+Points:
+Sk8eight	501
+KubaBabilon	187
+cheeetahs	185
+Boxise	163
+Dr_OrangeFox_	160
+AlexTK473	157
+TGVAM	155
+PorpolUmbrella	137
+TheRealGhusky	130
+bohead_	127
+vomRests	116
+Ess4nce	104
+APurplePenguin	91
+gigadrake83	88
+IronArch	83
+foufouv	79
+applejaxxs	78
+Glitch3959	72
+_Stripes	61
+LillyWhiteWolf	58
+mini9573	57
+GamingGuy907	55
+JAY_matwr	52
+Pikachu_girl9	50
+KaydenCoolio	44
+SKITATSTIC	43
+yoshzz	42
+Cosheed	38
+AresDaMartian	29
+ResearchRTX	25
+Oniqed	16
+ValorVanquish	14
+
+Game 3: BB
+Points:
+bohead_	337
+gigadrake83	310
+Sk8eight	260
+KubaBabilon	247
+AlexTK473	195
+Pikachu_girl9	190
+GamingGuy907	180
+ResearchRTX	170
+Dr_OrangeFox_	155
+JAY_matwr	152
+TheRealGhusky	145
+IronArch	
+cheeetahs	140
+APurplePenguin	135
+KaydenCoolio	132
+LillyWhiteWolf	130
+applejaxxs	112
+foufouv	105
+mini9573	97
+Ess4nce	87
+vomRests	85
+Boxise	77
+Glitch3959	77
+TGVAM	65
+_Stripes	62
+Cosheed	57
+PorpolUmbrella	47
+AresDaMartian	
+Oniqed	37
+yoshzz	32
+SKITATSTIC	
+ValorVanquish	15
+
+Game 4: PKW
+Points:
+Pikachu_girl9	754
+KubaBabilon	525
+KaydenCoolio	462
+Sk8eight	450
+JAY_matwr	439
+applejaxxs	437
+cheeetahs	435
+APurplePenguin	402
+GamingGuy907	390
+PorpolUmbrella	388
+gigadrake83	369
+Ess4nce	355
+TheRealGhusky	353
+Glitch3959	351
+bohead_	332
+AlexTK473	330
+Boxise	320
+TGVAM	314
+_Stripes	312
+LillyWhiteWolf	279
+Dr_OrangeFox_	222
+mini9573	173
+vomRests	173
+AresDaMartian	171
+foufouv	156
+IronArch	156
+ResearchRTX	107
+Cosheed	89
+yoshzz	87
+Oniqed	83
+SKITATSTIC	58
+ValorVanquish	17
+
+Game 5: RSR
+Points:
+cheeetahs	591
+GamingGuy907	497
+bohead_	481
+KaydenCoolio	477
+JAY_matwr	455
+Sk8eight	436
+Pikachu_girl9	434
+TGVAM	423
+Boxise	399
+AlexTK473	367
+Dr_OrangeFox_	364
+KubaBabilon	355
+Glitch3959	347
+Oniqed	339
+IronArch	329
+Ess4nce	315
+AresDaMartian	311
+APurplePenguin	309
+PorpolUmbrella	283
+applejaxxs	266
+_Stripes	259
+gigadrake83	229
+LillyWhiteWolf	215
+mini9573	192
+TheRealGhusky	175
+vomRests	103
+Cosheed	95
+ResearchRTX	89
+yoshzz	84
+foufouv	56
+SKITATSTIC	46
+ValorVanquish	14

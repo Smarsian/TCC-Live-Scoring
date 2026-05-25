@@ -1,0 +1,226 @@
+TCCUDC
+
+Teams:
+Red Rabbits:
+Andreayay
+IronArch
+ItsCosmoMC
+Rutile13
+
+Orange Ocelots:
+Dr_OrangeFox_
+EndingSoon
+LillyWhiteWolf
+Reccie
+
+Yellow Yaks:
+AresDaMartian
+Boxise
+vomRests
+ZSpektre
+
+Green Geckos:
+Aceotts1
+Bohead_
+spareddd
+Th3spaniard
+
+Cyan Coyotes:
+beanrollup
+fruitcereal
+mellaril
+W0xst
+
+Blue Bats:
+FairRoseYT
+foufouv
+Mine_Crafting
+juliopolis
+
+Purple Pandas:
+Glitch3959_
+KubaBabilon
+_Slimeball
+xBellxd
+
+Pink Parrots:
+Kodex13
+rhemedy
+SKITATSTIC
+Smarsian
+
+Games:
+Game 1: RSR
+Points:
+Glitch3959_	219
+ZSpektre	183
+Boxise	182
+Smarsian	174
+Andreayay	173
+Bohead_	150
+spareddd	149
+Mine_Crafting	134
+IronArch	129
+W0xst	125
+vomRests	121
+AresDaMartian	115
+ItsCosmoMC	109
+fruitcereal	109
+Kodex13	100
+mellaril	96
+Dr_OrangeFox_	95
+LillyWhiteWolf	91
+foufouv	88
+juliopolis	87
+_Slimeball	87
+EndingSoon	75
+beanrollup	73
+Aceotts1	66
+FairRoseYT	59
+Rutile13	54
+KubaBabilon	53
+Reccie	29
+xBellxd	19
+rhemedy	19
+Th3spaniard	16
+SKITATSTIC	11
+
+Game 2: PKW
+Points:
+W0xst	448
+Andreayay	307
+_Slimeball	301
+Smarsian	300
+Glitch3959_	297
+Boxise	286
+Kodex13	283
+fruitcereal	258
+LillyWhiteWolf	256
+Dr_OrangeFox_	232
+Bohead_	226
+ZSpektre	217
+vomRests	208
+foufouv	204
+spareddd	198
+juliopolis	169
+EndingSoon	163
+IronArch	159
+Mine_Crafting	139
+beanrollup	138
+mellaril	136
+FairRoseYT	126
+Aceotts1	124
+AresDaMartian	123
+ItsCosmoMC	93
+Rutile13	93
+Reccie	82
+SKITATSTIC	54
+KubaBabilon	46
+xBellxd	45
+rhemedy	29
+Th3spaniard	23
+
+Game 3: BB
+Points:
+Bohead_	670
+spareddd	620
+_Slimeball	546
+Mine_Crafting	456
+mellaril	426
+foufouv	406
+juliopolis	406
+fruitcereal	376
+Kodex13	340
+Smarsian	340
+ZSpektre	330
+Dr_OrangeFox_	310
+Reccie	310
+IronArch	280
+Aceotts1	270
+EndingSoon	260
+FairRoseYT	206
+rhemedy	190
+Andreayay	180
+W0xst	176
+xBellxd	146
+Glitch3959_	146
+ItsCosmoMC	130
+Rutile13	130
+AresDaMartian	130
+Boxise	130
+vomRests	130
+beanrollup	126
+Th3spaniard	120
+LillyWhiteWolf	110
+SKITATSTIC	90
+KubaBabilon	46
+
+Game 4: HITW
+Points:
+W0xst	568
+Smarsian	540
+foufouv	535
+Boxise	472
+ZSpektre	450
+Bohead_	450
+Glitch3959_	407
+_Slimeball	382
+juliopolis	380
+fruitcereal	355
+Mine_Crafting	355
+vomRests	337
+spareddd	337
+ItsCosmoMC	312
+Dr_OrangeFox_	307
+KubaBabilon	290
+Kodex13	272
+EndingSoon	257
+LillyWhiteWolf	257
+Reccie	255
+Andreayay	245
+mellaril	232
+IronArch	220
+Rutile13	210
+beanrollup	197
+SKITATSTIC	185
+FairRoseYT	167
+rhemedy	150
+Aceotts1	137
+AresDaMartian	115
+Th3spaniard	110
+xBellxd	92
+
+Game 5: SB
+Points:
+W0xst	885
+Bohead_	732
+Mine_Crafting	684
+juliopolis	456
+spareddd	420
+fruitcereal	414
+ZSpektre	405
+Andreayay	393
+foufouv	390
+beanrollup	348
+vomRests	330
+EndingSoon	324
+LillyWhiteWolf	324
+Dr_OrangeFox_	306
+FairRoseYT	306
+Smarsian	303
+Aceotts1	300
+Reccie	240
+mellaril	219
+Boxise	177
+IronArch	174
+AresDaMartian	171
+_Slimeball	147
+Kodex13	132
+Rutile13	93
+Th3spaniard	93
+ItsCosmoMC	84
+Glitch3959_	84
+rhemedy	75
+KubaBabilon	69
+xBellxd	63
+SKITATSTIC	57

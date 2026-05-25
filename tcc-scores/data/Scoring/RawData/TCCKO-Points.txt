@@ -1,0 +1,227 @@
+TCCKO
+
+Teams:
+Red Rabbits:
+Bogdandagoat
+foufouv
+Kodex13
+Rai2i
+
+Orange Ocelots:
+Cheeetahs
+Dr_OrangeFox_
+EndingSoon
+Flower
+
+Yellow Yaks:
+_Stripes
+APurplePenguin
+mMiror
+Sparkour
+
+Green Geckos:
+Dollymouse
+GamingGuy907
+Mini9573
+ResearchRTX
+
+Aqua Axolotls:
+DoritoWolf
+PorpolUmbrella
+SolarFalcon47
+TheDracoBee
+
+Blue Bats:
+AresDaMartian
+LunaScarlet
+Roy_Awesome_R
+TGVAM
+
+Purple Pandas:
+Aceotts1
+JuztKillz
+qlozu
+Certifiedd_
+WhiteBirdPoop
+
+Pink Parrots:
+KaydenCoolio
+LillyWhiteWolf
+MineCrafting/Apple
+qtad
+
+Games:
+Game 1: RSR
+Points:
+Rai2i	188
+Dollymouse	160
+GamingGuy907	148
+TheDracoBee	145
+TGVAM	133
+qtad	131
+LunaScarlet	123
+Roy_Awesome_R	117
+PorpolUmbrella	103
+Dr_OrangeFox_	99
+JuztKillz	94
+Aceotts1	90
+APurplePenguin	89
+Cheeetahs	83
+KaydenCoolio	80
+mMiror	79
+_Stripes	73
+MineCrafting/Apple	73
+AresDaMartian	60
+WhiteBirdPoop	59
+Mini9573	54
+Flower	46
+LillyWhiteWolf	46
+EndingSoon	43
+qlozu	43
+Bogdandagoat	39
+Sparkour	33
+SolarFalcon47	33
+foufouv	28
+DoritoWolf	16
+ResearchRTX	11
+Kodex13	0
+
+Game 2: TGTTOS
+Points:
+Dollymouse	311
+qtad	281
+Rai2i	255
+Bogdandagoat	252
+GamingGuy907	251
+Flower	218
+_Stripes	203
+KaydenCoolio	178
+Roy_Awesome_R	169
+JuztKillz	165
+mMiror	155
+qlozu	141
+TheDracoBee	140
+Dr_OrangeFox_	135
+LunaScarlet	134
+MineCrafting/Apple	131
+Aceotts1	128
+Mini9573	121
+WhiteBirdPoop	120
+APurplePenguin	114
+TGVAM	94
+Sparkour	90
+Cheeetahs	77
+AresDaMartian	76
+foufouv	75
+LillyWhiteWolf	62
+EndingSoon	61
+PorpolUmbrella	61
+DoritoWolf	52
+SolarFalcon47	29
+ResearchRTX	23
+Kodex13	0
+
+Game 3: SB
+Points:
+qlozu	606
+Flower	471
+WhiteBirdPoop	359
+TheDracoBee	336
+Roy_Awesome_R	281
+Bogdandagoat	246
+Rai2i	240
+SolarFalcon47	233
+Mini9573	231
+APurplePenguin	204
+Cheeetahs	196
+TGVAM	190
+MineCrafting/Apple	178
+Aceotts1	174
+LunaScarlet	166
+AresDaMartian	165
+JuztKillz	161
+Dr_OrangeFox_	153
+_Stripes	151
+mMiror	141
+KaydenCoolio	124
+PorpolUmbrella	119
+GamingGuy907	110
+Dollymouse	108
+EndingSoon	106
+LillyWhiteWolf	104
+DoritoWolf	94
+Sparkour	74
+qtad	63
+foufouv	58
+ResearchRTX	34
+Kodex13	0
+
+Game 4: BB
+Points:
+Certifiedd_	863
+_Stripes	617
+TGVAM	614
+MineCrafting/Apple	567
+Rai2i	540
+LunaScarlet	514
+JuztKillz	513
+Kodex13	491
+Dollymouse	470
+Roy_Awesome_R	464
+qtad	447
+Flower	444
+GamingGuy907	420
+WhiteBirdPoop	413
+Dr_OrangeFox_	394
+Bogdandagoat	391
+TheDracoBee	373
+mMiror	367
+APurplePenguin	317
+Aceotts1	313
+ResearchRTX	270
+KaydenCoolio	247
+Cheeetahs	244
+AresDaMartian	214
+LillyWhiteWolf	147
+EndingSoon	144
+foufouv	140
+SolarFalcon47	123
+Sparkour	117
+PorpolUmbrella	73
+Mini9573	70
+DoritoWolf	23
+
+Game 5: HITW
+Points:
+GamingGuy907	595
+qtad	497
+Rai2i	473
+_Stripes	394
+APurplePenguin	366
+Roy_Awesome_R	352
+MineCrafting/Apple	352
+Kodex13	347
+mMiror	305
+JuztKillz	300
+TheDracoBee	295
+TGVAM	267
+PorpolUmbrella	263
+Cheeetahs	234
+EndingSoon	234
+Certifiedd_	230
+KaydenCoolio	230
+Dollymouse	225
+Mini9573	192
+AresDaMartian	192
+WhiteBirdPoop	192
+LillyWhiteWolf	183
+Bogdandagoat	173
+Sparkour	169
+LunaScarlet	169
+Flower	150
+foufouv	117
+Aceotts1	84
+Dr_OrangeFox_	80
+ResearchRTX	80
+DoritoWolf	70
+SolarFalcon47	70

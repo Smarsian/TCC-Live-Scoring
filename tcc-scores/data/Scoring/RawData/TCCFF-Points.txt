@@ -1,0 +1,226 @@
+TCCFF
+
+Teams:
+Red Reindeer:
+Apples05
+ItsCosmoMC
+KubaBabilon
+stuww
+
+Ginger Breadmen:
+Andreayay
+ASilentDragon
+dollymouse
+Kodex13
+
+Mint Mistletoes:
+ResearchLive
+Sk8eight
+Sparkour
+ThatzRed
+
+Emerald Elves:
+AlexTK473
+GamingGuy907
+KaydenCoolio
+SKITATSTIC
+
+Teal Turkeys:
+cheeetahs
+IronArch
+JavaJoseph_
+ValorVanquish
+
+Cerulean Candy Canes:
+LightSeeker_
+LillyWhiteWolf
+AV80
+Wo0o0o0ble_
+
+Sapphire Santas:
+FairRoseYT
+JAY_matwr
+OP_Riptide
+vellow
+
+Pink Presents:
+APurplePenguin
+foufouv
+Glitch3959_
+Roy_Awesome_R
+
+Games:
+Game 1: TGTTOS
+Points:
+dollymouse	198
+Wo0o0o0ble_	151
+Apples05	133
+Roy_Awesome_R	133
+OP_Riptide	127
+Sk8eight	124
+ThatzRed	115
+LightSeeker_	115
+ValorVanquish	110
+stuww	108
+cheeetahs	108
+KubaBabilon	102
+KaydenCoolio	101
+AV80	96
+vellow	95
+Andreayay	93
+GamingGuy907	90
+JavaJoseph_	87
+JAY_matwr	87
+foufouv	83
+APurplePenguin	82
+Glitch3959_	74
+Kodex13	67
+ASilentDragon	65
+AlexTK473	65
+ResearchLive	62
+LillyWhiteWolf	60
+IronArch	56
+Sparkour	43
+SKITATSTIC	40
+FairRoseYT	31
+ItsCosmoMC	22
+
+Game 2: PKW
+Points:
+dollymouse	362
+ThatzRed	357
+KaydenCoolio	321
+Wo0o0o0ble_	302
+Kodex13	294
+Sk8eight	281
+JavaJoseph_	270
+Apples05	358
+OP_Riptide	258
+JAY_matwr	231
+KubaBabilon	227
+stuww	219
+Andreayay	213
+APurplePenguin	210
+Roy_Awesome_R	189
+GamingGuy907	182
+AlexTK473	179
+cheeetahs	171
+AV80	147
+IronArch	140
+ValorVanquish	134
+vellow	134
+Sparkour	121
+Glitch3959_	116
+LillyWhiteWolf	104
+foufouv	101
+LightSeeker_	83
+FairRoseYT	80
+ItsCosmoMC	62
+ResearchLive	47
+ASilentDragon	27
+SKITATSTIC	17
+
+Game 3: RSR
+Points:
+KaydenCoolio	396
+Andreayay	384
+Roy_Awesome_R	380
+Sk8eight	346
+OP_Riptide	340
+JavaJoseph_	328
+dollymouse	326
+AlexTK473	304
+ValorVanquish	262
+stuww	242
+KubaBabilon	238
+cheeetahs	238
+ThatzRed	232
+LillyWhiteWolf	204
+APurplePenguin	200
+vellow	192
+Wo0o0o0ble_	188
+GamingGuy907	182
+Kodex13	176
+IronArch	174
+Apples05	152
+JAY_matwr	150
+AV80	140
+Glitch3959_	136
+ItsCosmoMC	114
+foufouv	112
+Sparkour	102
+FairRoseYT	94
+LightSeeker_	58
+SKITATSTIC	40
+ResearchLive	28
+ASilentDragon	24
+
+Game 4: HITW
+Points:
+Wo0o0o0ble_	618
+GamingGuy907	533
+KubaBabilon	513
+IronArch	468
+ThatzRed	443
+JavaJoseph_	428
+Roy_Awesome_R	413
+stuww	408
+KaydenCoolio	408
+OP_Riptide	383
+APurplePenguin	380
+cheeetahs	350
+Sk8eight	343
+Apples05	338
+AlexTK473	318
+vellow	308
+dollymouse	303
+Sparkour	303
+Andreayay	285
+ValorVanquish	273
+foufouv	258
+JAY_matwr	223
+FairRoseYT	220
+ItsCosmoMC	203
+Glitch3959_	200
+ResearchLive	173
+AV80	158
+Kodex13	145
+ASilentDragon	120
+SKITATSTIC	105
+LillyWhiteWolf	105
+LightSeeker_	58
+
+Game 5: SB
+Points:
+JavaJoseph_	1134
+Wo0o0o0ble_	762
+AV80	759
+Sk8eight	615
+KaydenCoolio	597
+Roy_Awesome_R	561
+LightSeeker_	438
+JAY_matwr	411
+cheeetahs	375
+dollymouse	309
+ValorVanquish	309
+KubaBabilon	297
+GamingGuy907	267
+OP_Riptide	252
+Andreayay	237
+LillyWhiteWolf	225
+stuww	222
+AlexTK473	192
+Kodex13	171
+vellow	159
+Glitch3959_	141
+ThatzRed	135
+IronArch	129
+SKITATSTIC	108
+APurplePenguin	93
+FairRoseYT	87
+ASilentDragon	84
+Apples05	75
+ResearchLive	75
+foufouv	75
+Sparkour	66
+ItsCosmoMC	63

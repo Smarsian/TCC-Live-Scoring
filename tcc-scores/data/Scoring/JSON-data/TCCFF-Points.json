@@ -1,0 +1,2720 @@
+{
+  "event-name": "TCCFF",
+  "teams": {
+    "Red Reindeer": [
+      "Apples05",
+      "ItsCosmoMC",
+      "KubaBabilon",
+      "stuww"
+    ],
+    "Ginger Breadmen": [
+      "Andreayay",
+      "ASilentDragon",
+      "dollymouse",
+      "Kodex13"
+    ],
+    "Mint Mistletoes": [
+      "ResearchLive",
+      "Sk8eight",
+      "Sparkour",
+      "ThatzRed"
+    ],
+    "Emerald Elves": [
+      "AlexTK473",
+      "GamingGuy907",
+      "KaydenCoolio",
+      "SKITATSTIC"
+    ],
+    "Teal Turkeys": [
+      "cheeetahs",
+      "IronArch",
+      "JavaJoseph_",
+      "ValorVanquish"
+    ],
+    "Cerulean Candy Canes": [
+      "LightSeeker_",
+      "LillyWhiteWolf",
+      "AV80",
+      "Wo0o0o0ble_"
+    ],
+    "Sapphire Santas": [
+      "FairRoseYT",
+      "JAY_matwr",
+      "OP_Riptide",
+      "vellow"
+    ],
+    "Pink Presents": [
+      "APurplePenguin",
+      "foufouv",
+      "Glitch3959_",
+      "Roy_Awesome_R"
+    ]
+  },
+  "games": [
+    "TGTTOS",
+    "PKW",
+    "RSR",
+    "HITW",
+    "SB"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "JavaJoseph_",
+      "team": "Teal Turkeys",
+      "points": 2247,
+      "place": 1
+    },
+    {
+      "player": "Wo0o0o0ble_",
+      "team": "Cerulean Candy Canes",
+      "points": 2021,
+      "place": 2
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Emerald Elves",
+      "points": 1823,
+      "place": 3
+    },
+    {
+      "player": "Sk8eight",
+      "team": "Mint Mistletoes",
+      "points": 1709,
+      "place": 4
+    },
+    {
+      "player": "Roy_Awesome_R",
+      "team": "Pink Presents",
+      "points": 1676,
+      "place": 5
+    },
+    {
+      "player": "dollymouse",
+      "team": "Ginger Breadmen",
+      "points": 1498,
+      "place": 6
+    },
+    {
+      "player": "KubaBabilon",
+      "team": "Red Reindeer",
+      "points": 1377,
+      "place": 7
+    },
+    {
+      "player": "OP_Riptide",
+      "team": "Sapphire Santas",
+      "points": 1360,
+      "place": 8
+    },
+    {
+      "player": "AV80",
+      "team": "Cerulean Candy Canes",
+      "points": 1300,
+      "place": 9
+    },
+    {
+      "player": "ThatzRed",
+      "team": "Mint Mistletoes",
+      "points": 1282,
+      "place": 10
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Emerald Elves",
+      "points": 1254,
+      "place": 11
+    },
+    {
+      "player": "cheeetahs",
+      "team": "Teal Turkeys",
+      "points": 1242,
+      "place": 12
+    },
+    {
+      "player": "Andreayay",
+      "team": "Ginger Breadmen",
+      "points": 1212,
+      "place": 13
+    },
+    {
+      "player": "stuww",
+      "team": "Red Reindeer",
+      "points": 1199,
+      "place": 14
+    },
+    {
+      "player": "JAY_matwr",
+      "team": "Sapphire Santas",
+      "points": 1102,
+      "place": 15
+    },
+    {
+      "player": "ValorVanquish",
+      "team": "Teal Turkeys",
+      "points": 1088,
+      "place": 16
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Emerald Elves",
+      "points": 1058,
+      "place": 17
+    },
+    {
+      "player": "Apples05",
+      "team": "Red Reindeer",
+      "points": 1056,
+      "place": 18
+    },
+    {
+      "player": "IronArch",
+      "team": "Teal Turkeys",
+      "points": 967,
+      "place": 19
+    },
+    {
+      "player": "APurplePenguin",
+      "team": "Pink Presents",
+      "points": 965,
+      "place": 20
+    },
+    {
+      "player": "vellow",
+      "team": "Sapphire Santas",
+      "points": 888,
+      "place": 21
+    },
+    {
+      "player": "Kodex13",
+      "team": "Ginger Breadmen",
+      "points": 853,
+      "place": 22
+    },
+    {
+      "player": "LightSeeker_",
+      "team": "Cerulean Candy Canes",
+      "points": 752,
+      "place": 23
+    },
+    {
+      "player": "LillyWhiteWolf",
+      "team": "Cerulean Candy Canes",
+      "points": 698,
+      "place": 24
+    },
+    {
+      "player": "Glitch3959_",
+      "team": "Pink Presents",
+      "points": 667,
+      "place": 25
+    },
+    {
+      "player": "Sparkour",
+      "team": "Mint Mistletoes",
+      "points": 635,
+      "place": 26
+    },
+    {
+      "player": "foufouv",
+      "team": "Pink Presents",
+      "points": 629,
+      "place": 27
+    },
+    {
+      "player": "FairRoseYT",
+      "team": "Sapphire Santas",
+      "points": 512,
+      "place": 28
+    },
+    {
+      "player": "ItsCosmoMC",
+      "team": "Red Reindeer",
+      "points": 464,
+      "place": 29
+    },
+    {
+      "player": "ResearchLive",
+      "team": "Mint Mistletoes",
+      "points": 385,
+      "place": 30
+    },
+    {
+      "player": "ASilentDragon",
+      "team": "Ginger Breadmen",
+      "points": 320,
+      "place": 31
+    },
+    {
+      "player": "SKITATSTIC",
+      "team": "Emerald Elves",
+      "points": 310,
+      "place": 32
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Teal Turkeys",
+      "points": 5544,
+      "place": 1
+    },
+    {
+      "team": "Cerulean Candy Canes",
+      "points": 4771,
+      "place": 2
+    },
+    {
+      "team": "Emerald Elves",
+      "points": 4445,
+      "place": 3
+    },
+    {
+      "team": "Red Reindeer",
+      "points": 4096,
+      "place": 4
+    },
+    {
+      "team": "Mint Mistletoes",
+      "points": 4011,
+      "place": 5
+    },
+    {
+      "team": "Pink Presents",
+      "points": 3937,
+      "place": 6
+    },
+    {
+      "team": "Ginger Breadmen",
+      "points": 3883,
+      "place": 7
+    },
+    {
+      "team": "Sapphire Santas",
+      "points": 3862,
+      "place": 8
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "TGTTOS",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "dollymouse",
+          "team": "Ginger Breadmen",
+          "points": 198,
+          "place": 1
+        },
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Cerulean Candy Canes",
+          "points": 151,
+          "place": 2
+        },
+        {
+          "player": "Apples05",
+          "team": "Red Reindeer",
+          "points": 133,
+          "place": 3
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Pink Presents",
+          "points": 133,
+          "place": 4
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Sapphire Santas",
+          "points": 127,
+          "place": 5
+        },
+        {
+          "player": "Sk8eight",
+          "team": "Mint Mistletoes",
+          "points": 124,
+          "place": 6
+        },
+        {
+          "player": "LightSeeker_",
+          "team": "Cerulean Candy Canes",
+          "points": 115,
+          "place": 7
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Mint Mistletoes",
+          "points": 115,
+          "place": 8
+        },
+        {
+          "player": "ValorVanquish",
+          "team": "Teal Turkeys",
+          "points": 110,
+          "place": 9
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Teal Turkeys",
+          "points": 108,
+          "place": 10
+        },
+        {
+          "player": "stuww",
+          "team": "Red Reindeer",
+          "points": 108,
+          "place": 11
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Red Reindeer",
+          "points": 102,
+          "place": 12
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Emerald Elves",
+          "points": 101,
+          "place": 13
+        },
+        {
+          "player": "AV80",
+          "team": "Cerulean Candy Canes",
+          "points": 96,
+          "place": 14
+        },
+        {
+          "player": "vellow",
+          "team": "Sapphire Santas",
+          "points": 95,
+          "place": 15
+        },
+        {
+          "player": "Andreayay",
+          "team": "Ginger Breadmen",
+          "points": 93,
+          "place": 16
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Emerald Elves",
+          "points": 90,
+          "place": 17
+        },
+        {
+          "player": "JavaJoseph_",
+          "team": "Teal Turkeys",
+          "points": 87,
+          "place": 18
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Sapphire Santas",
+          "points": 87,
+          "place": 19
+        },
+        {
+          "player": "foufouv",
+          "team": "Pink Presents",
+          "points": 83,
+          "place": 20
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Presents",
+          "points": 82,
+          "place": 21
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Pink Presents",
+          "points": 74,
+          "place": 22
+        },
+        {
+          "player": "Kodex13",
+          "team": "Ginger Breadmen",
+          "points": 67,
+          "place": 23
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Emerald Elves",
+          "points": 65,
+          "place": 24
+        },
+        {
+          "player": "ASilentDragon",
+          "team": "Ginger Breadmen",
+          "points": 65,
+          "place": 25
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Mint Mistletoes",
+          "points": 62,
+          "place": 26
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Cerulean Candy Canes",
+          "points": 60,
+          "place": 27
+        },
+        {
+          "player": "IronArch",
+          "team": "Teal Turkeys",
+          "points": 56,
+          "place": 28
+        },
+        {
+          "player": "Sparkour",
+          "team": "Mint Mistletoes",
+          "points": 43,
+          "place": 29
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Emerald Elves",
+          "points": 40,
+          "place": 30
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Sapphire Santas",
+          "points": 31,
+          "place": 31
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Red Reindeer",
+          "points": 22,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Ginger Breadmen",
+          "points": 423,
+          "place": 1
+        },
+        {
+          "team": "Cerulean Candy Canes",
+          "points": 422,
+          "place": 2
+        },
+        {
+          "team": "Pink Presents",
+          "points": 372,
+          "place": 3
+        },
+        {
+          "team": "Red Reindeer",
+          "points": 365,
+          "place": 4
+        },
+        {
+          "team": "Teal Turkeys",
+          "points": 361,
+          "place": 5
+        },
+        {
+          "team": "Mint Mistletoes",
+          "points": 344,
+          "place": 6
+        },
+        {
+          "team": "Sapphire Santas",
+          "points": 340,
+          "place": 7
+        },
+        {
+          "team": "Emerald Elves",
+          "points": 296,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "dollymouse",
+          "team": "Ginger Breadmen",
+          "points": 362,
+          "place": 1
+        },
+        {
+          "player": "Apples05",
+          "team": "Red Reindeer",
+          "points": 358,
+          "place": 2
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Mint Mistletoes",
+          "points": 357,
+          "place": 3
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Emerald Elves",
+          "points": 321,
+          "place": 4
+        },
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Cerulean Candy Canes",
+          "points": 302,
+          "place": 5
+        },
+        {
+          "player": "Kodex13",
+          "team": "Ginger Breadmen",
+          "points": 294,
+          "place": 6
+        },
+        {
+          "player": "Sk8eight",
+          "team": "Mint Mistletoes",
+          "points": 281,
+          "place": 7
+        },
+        {
+          "player": "JavaJoseph_",
+          "team": "Teal Turkeys",
+          "points": 270,
+          "place": 8
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Sapphire Santas",
+          "points": 258,
+          "place": 9
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Sapphire Santas",
+          "points": 231,
+          "place": 10
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Red Reindeer",
+          "points": 227,
+          "place": 11
+        },
+        {
+          "player": "stuww",
+          "team": "Red Reindeer",
+          "points": 219,
+          "place": 12
+        },
+        {
+          "player": "Andreayay",
+          "team": "Ginger Breadmen",
+          "points": 213,
+          "place": 13
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Presents",
+          "points": 210,
+          "place": 14
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Pink Presents",
+          "points": 189,
+          "place": 15
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Emerald Elves",
+          "points": 182,
+          "place": 16
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Emerald Elves",
+          "points": 179,
+          "place": 17
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Teal Turkeys",
+          "points": 171,
+          "place": 18
+        },
+        {
+          "player": "AV80",
+          "team": "Cerulean Candy Canes",
+          "points": 147,
+          "place": 19
+        },
+        {
+          "player": "IronArch",
+          "team": "Teal Turkeys",
+          "points": 140,
+          "place": 20
+        },
+        {
+          "player": "ValorVanquish",
+          "team": "Teal Turkeys",
+          "points": 134,
+          "place": 21
+        },
+        {
+          "player": "vellow",
+          "team": "Sapphire Santas",
+          "points": 134,
+          "place": 22
+        },
+        {
+          "player": "Sparkour",
+          "team": "Mint Mistletoes",
+          "points": 121,
+          "place": 23
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Pink Presents",
+          "points": 116,
+          "place": 24
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Cerulean Candy Canes",
+          "points": 104,
+          "place": 25
+        },
+        {
+          "player": "foufouv",
+          "team": "Pink Presents",
+          "points": 101,
+          "place": 26
+        },
+        {
+          "player": "LightSeeker_",
+          "team": "Cerulean Candy Canes",
+          "points": 83,
+          "place": 27
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Sapphire Santas",
+          "points": 80,
+          "place": 28
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Red Reindeer",
+          "points": 62,
+          "place": 29
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Mint Mistletoes",
+          "points": 47,
+          "place": 30
+        },
+        {
+          "player": "ASilentDragon",
+          "team": "Ginger Breadmen",
+          "points": 27,
+          "place": 31
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Emerald Elves",
+          "points": 17,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Ginger Breadmen",
+          "points": 896,
+          "place": 1
+        },
+        {
+          "team": "Red Reindeer",
+          "points": 866,
+          "place": 2
+        },
+        {
+          "team": "Mint Mistletoes",
+          "points": 806,
+          "place": 3
+        },
+        {
+          "team": "Teal Turkeys",
+          "points": 715,
+          "place": 4
+        },
+        {
+          "team": "Sapphire Santas",
+          "points": 703,
+          "place": 5
+        },
+        {
+          "team": "Emerald Elves",
+          "points": 699,
+          "place": 6
+        },
+        {
+          "team": "Cerulean Candy Canes",
+          "points": 636,
+          "place": 7
+        },
+        {
+          "team": "Pink Presents",
+          "points": 616,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "KaydenCoolio",
+          "team": "Emerald Elves",
+          "points": 396,
+          "place": 1
+        },
+        {
+          "player": "Andreayay",
+          "team": "Ginger Breadmen",
+          "points": 384,
+          "place": 2
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Pink Presents",
+          "points": 380,
+          "place": 3
+        },
+        {
+          "player": "Sk8eight",
+          "team": "Mint Mistletoes",
+          "points": 346,
+          "place": 4
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Sapphire Santas",
+          "points": 340,
+          "place": 5
+        },
+        {
+          "player": "JavaJoseph_",
+          "team": "Teal Turkeys",
+          "points": 328,
+          "place": 6
+        },
+        {
+          "player": "dollymouse",
+          "team": "Ginger Breadmen",
+          "points": 326,
+          "place": 7
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Emerald Elves",
+          "points": 304,
+          "place": 8
+        },
+        {
+          "player": "ValorVanquish",
+          "team": "Teal Turkeys",
+          "points": 262,
+          "place": 9
+        },
+        {
+          "player": "stuww",
+          "team": "Red Reindeer",
+          "points": 242,
+          "place": 10
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Teal Turkeys",
+          "points": 238,
+          "place": 11
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Red Reindeer",
+          "points": 238,
+          "place": 12
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Mint Mistletoes",
+          "points": 232,
+          "place": 13
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Cerulean Candy Canes",
+          "points": 204,
+          "place": 14
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Presents",
+          "points": 200,
+          "place": 15
+        },
+        {
+          "player": "vellow",
+          "team": "Sapphire Santas",
+          "points": 192,
+          "place": 16
+        },
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Cerulean Candy Canes",
+          "points": 188,
+          "place": 17
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Emerald Elves",
+          "points": 182,
+          "place": 18
+        },
+        {
+          "player": "Kodex13",
+          "team": "Ginger Breadmen",
+          "points": 176,
+          "place": 19
+        },
+        {
+          "player": "IronArch",
+          "team": "Teal Turkeys",
+          "points": 174,
+          "place": 20
+        },
+        {
+          "player": "Apples05",
+          "team": "Red Reindeer",
+          "points": 152,
+          "place": 21
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Sapphire Santas",
+          "points": 150,
+          "place": 22
+        },
+        {
+          "player": "AV80",
+          "team": "Cerulean Candy Canes",
+          "points": 140,
+          "place": 23
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Pink Presents",
+          "points": 136,
+          "place": 24
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Red Reindeer",
+          "points": 114,
+          "place": 25
+        },
+        {
+          "player": "foufouv",
+          "team": "Pink Presents",
+          "points": 112,
+          "place": 26
+        },
+        {
+          "player": "Sparkour",
+          "team": "Mint Mistletoes",
+          "points": 102,
+          "place": 27
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Sapphire Santas",
+          "points": 94,
+          "place": 28
+        },
+        {
+          "player": "LightSeeker_",
+          "team": "Cerulean Candy Canes",
+          "points": 58,
+          "place": 29
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Emerald Elves",
+          "points": 40,
+          "place": 30
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Mint Mistletoes",
+          "points": 28,
+          "place": 31
+        },
+        {
+          "player": "ASilentDragon",
+          "team": "Ginger Breadmen",
+          "points": 24,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Teal Turkeys",
+          "points": 1002,
+          "place": 1
+        },
+        {
+          "team": "Emerald Elves",
+          "points": 922,
+          "place": 2
+        },
+        {
+          "team": "Ginger Breadmen",
+          "points": 910,
+          "place": 3
+        },
+        {
+          "team": "Pink Presents",
+          "points": 828,
+          "place": 4
+        },
+        {
+          "team": "Sapphire Santas",
+          "points": 776,
+          "place": 5
+        },
+        {
+          "team": "Red Reindeer",
+          "points": 746,
+          "place": 6
+        },
+        {
+          "team": "Mint Mistletoes",
+          "points": 708,
+          "place": 7
+        },
+        {
+          "team": "Cerulean Candy Canes",
+          "points": 590,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "HITW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Cerulean Candy Canes",
+          "points": 618,
+          "place": 1
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Emerald Elves",
+          "points": 533,
+          "place": 2
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Red Reindeer",
+          "points": 513,
+          "place": 3
+        },
+        {
+          "player": "IronArch",
+          "team": "Teal Turkeys",
+          "points": 468,
+          "place": 4
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Mint Mistletoes",
+          "points": 443,
+          "place": 5
+        },
+        {
+          "player": "JavaJoseph_",
+          "team": "Teal Turkeys",
+          "points": 428,
+          "place": 6
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Pink Presents",
+          "points": 413,
+          "place": 7
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Emerald Elves",
+          "points": 408,
+          "place": 8
+        },
+        {
+          "player": "stuww",
+          "team": "Red Reindeer",
+          "points": 408,
+          "place": 9
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Sapphire Santas",
+          "points": 383,
+          "place": 10
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Presents",
+          "points": 380,
+          "place": 11
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Teal Turkeys",
+          "points": 350,
+          "place": 12
+        },
+        {
+          "player": "Sk8eight",
+          "team": "Mint Mistletoes",
+          "points": 343,
+          "place": 13
+        },
+        {
+          "player": "Apples05",
+          "team": "Red Reindeer",
+          "points": 338,
+          "place": 14
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Emerald Elves",
+          "points": 318,
+          "place": 15
+        },
+        {
+          "player": "vellow",
+          "team": "Sapphire Santas",
+          "points": 308,
+          "place": 16
+        },
+        {
+          "player": "dollymouse",
+          "team": "Ginger Breadmen",
+          "points": 303,
+          "place": 17
+        },
+        {
+          "player": "Sparkour",
+          "team": "Mint Mistletoes",
+          "points": 303,
+          "place": 18
+        },
+        {
+          "player": "Andreayay",
+          "team": "Ginger Breadmen",
+          "points": 285,
+          "place": 19
+        },
+        {
+          "player": "ValorVanquish",
+          "team": "Teal Turkeys",
+          "points": 273,
+          "place": 20
+        },
+        {
+          "player": "foufouv",
+          "team": "Pink Presents",
+          "points": 258,
+          "place": 21
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Sapphire Santas",
+          "points": 223,
+          "place": 22
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Sapphire Santas",
+          "points": 220,
+          "place": 23
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Red Reindeer",
+          "points": 203,
+          "place": 24
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Pink Presents",
+          "points": 200,
+          "place": 25
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Mint Mistletoes",
+          "points": 173,
+          "place": 26
+        },
+        {
+          "player": "AV80",
+          "team": "Cerulean Candy Canes",
+          "points": 158,
+          "place": 27
+        },
+        {
+          "player": "Kodex13",
+          "team": "Ginger Breadmen",
+          "points": 145,
+          "place": 28
+        },
+        {
+          "player": "ASilentDragon",
+          "team": "Ginger Breadmen",
+          "points": 120,
+          "place": 29
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Cerulean Candy Canes",
+          "points": 105,
+          "place": 30
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Emerald Elves",
+          "points": 105,
+          "place": 31
+        },
+        {
+          "player": "LightSeeker_",
+          "team": "Cerulean Candy Canes",
+          "points": 58,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Teal Turkeys",
+          "points": 1519,
+          "place": 1
+        },
+        {
+          "team": "Red Reindeer",
+          "points": 1462,
+          "place": 2
+        },
+        {
+          "team": "Emerald Elves",
+          "points": 1364,
+          "place": 3
+        },
+        {
+          "team": "Mint Mistletoes",
+          "points": 1262,
+          "place": 4
+        },
+        {
+          "team": "Pink Presents",
+          "points": 1251,
+          "place": 5
+        },
+        {
+          "team": "Sapphire Santas",
+          "points": 1134,
+          "place": 6
+        },
+        {
+          "team": "Cerulean Candy Canes",
+          "points": 939,
+          "place": 7
+        },
+        {
+          "team": "Ginger Breadmen",
+          "points": 853,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "JavaJoseph_",
+          "team": "Teal Turkeys",
+          "points": 1134,
+          "place": 1
+        },
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Cerulean Candy Canes",
+          "points": 762,
+          "place": 2
+        },
+        {
+          "player": "AV80",
+          "team": "Cerulean Candy Canes",
+          "points": 759,
+          "place": 3
+        },
+        {
+          "player": "Sk8eight",
+          "team": "Mint Mistletoes",
+          "points": 615,
+          "place": 4
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Emerald Elves",
+          "points": 597,
+          "place": 5
+        },
+        {
+          "player": "Roy_Awesome_R",
+          "team": "Pink Presents",
+          "points": 561,
+          "place": 6
+        },
+        {
+          "player": "LightSeeker_",
+          "team": "Cerulean Candy Canes",
+          "points": 438,
+          "place": 7
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Sapphire Santas",
+          "points": 411,
+          "place": 8
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Teal Turkeys",
+          "points": 375,
+          "place": 9
+        },
+        {
+          "player": "dollymouse",
+          "team": "Ginger Breadmen",
+          "points": 309,
+          "place": 10
+        },
+        {
+          "player": "ValorVanquish",
+          "team": "Teal Turkeys",
+          "points": 309,
+          "place": 11
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Red Reindeer",
+          "points": 297,
+          "place": 12
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Emerald Elves",
+          "points": 267,
+          "place": 13
+        },
+        {
+          "player": "OP_Riptide",
+          "team": "Sapphire Santas",
+          "points": 252,
+          "place": 14
+        },
+        {
+          "player": "Andreayay",
+          "team": "Ginger Breadmen",
+          "points": 237,
+          "place": 15
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Cerulean Candy Canes",
+          "points": 225,
+          "place": 16
+        },
+        {
+          "player": "stuww",
+          "team": "Red Reindeer",
+          "points": 222,
+          "place": 17
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Emerald Elves",
+          "points": 192,
+          "place": 18
+        },
+        {
+          "player": "Kodex13",
+          "team": "Ginger Breadmen",
+          "points": 171,
+          "place": 19
+        },
+        {
+          "player": "vellow",
+          "team": "Sapphire Santas",
+          "points": 159,
+          "place": 20
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Pink Presents",
+          "points": 141,
+          "place": 21
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Mint Mistletoes",
+          "points": 135,
+          "place": 22
+        },
+        {
+          "player": "IronArch",
+          "team": "Teal Turkeys",
+          "points": 129,
+          "place": 23
+        },
+        {
+          "player": "SKITATSTIC",
+          "team": "Emerald Elves",
+          "points": 108,
+          "place": 24
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Presents",
+          "points": 93,
+          "place": 25
+        },
+        {
+          "player": "FairRoseYT",
+          "team": "Sapphire Santas",
+          "points": 87,
+          "place": 26
+        },
+        {
+          "player": "ASilentDragon",
+          "team": "Ginger Breadmen",
+          "points": 84,
+          "place": 27
+        },
+        {
+          "player": "Apples05",
+          "team": "Red Reindeer",
+          "points": 75,
+          "place": 28
+        },
+        {
+          "player": "foufouv",
+          "team": "Pink Presents",
+          "points": 75,
+          "place": 29
+        },
+        {
+          "player": "ResearchLive",
+          "team": "Mint Mistletoes",
+          "points": 75,
+          "place": 30
+        },
+        {
+          "player": "Sparkour",
+          "team": "Mint Mistletoes",
+          "points": 66,
+          "place": 31
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Red Reindeer",
+          "points": 63,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Cerulean Candy Canes",
+          "points": 2184,
+          "place": 1
+        },
+        {
+          "team": "Teal Turkeys",
+          "points": 1947,
+          "place": 2
+        },
+        {
+          "team": "Emerald Elves",
+          "points": 1164,
+          "place": 3
+        },
+        {
+          "team": "Sapphire Santas",
+          "points": 909,
+          "place": 4
+        },
+        {
+          "team": "Mint Mistletoes",
+          "points": 891,
+          "place": 5
+        },
+        {
+          "team": "Pink Presents",
+          "points": 870,
+          "place": 6
+        },
+        {
+          "team": "Ginger Breadmen",
+          "points": 801,
+          "place": 7
+        },
+        {
+          "team": "Red Reindeer",
+          "points": 657,
+          "place": 8
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "TGTTOS": [
+      {
+        "game-number": 1,
+        "game-name": "TGTTOS",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "dollymouse",
+            "team": "Ginger Breadmen",
+            "points": 198,
+            "place": 1
+          },
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Cerulean Candy Canes",
+            "points": 151,
+            "place": 2
+          },
+          {
+            "player": "Apples05",
+            "team": "Red Reindeer",
+            "points": 133,
+            "place": 3
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Pink Presents",
+            "points": 133,
+            "place": 4
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Sapphire Santas",
+            "points": 127,
+            "place": 5
+          },
+          {
+            "player": "Sk8eight",
+            "team": "Mint Mistletoes",
+            "points": 124,
+            "place": 6
+          },
+          {
+            "player": "LightSeeker_",
+            "team": "Cerulean Candy Canes",
+            "points": 115,
+            "place": 7
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Mint Mistletoes",
+            "points": 115,
+            "place": 8
+          },
+          {
+            "player": "ValorVanquish",
+            "team": "Teal Turkeys",
+            "points": 110,
+            "place": 9
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Teal Turkeys",
+            "points": 108,
+            "place": 10
+          },
+          {
+            "player": "stuww",
+            "team": "Red Reindeer",
+            "points": 108,
+            "place": 11
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Red Reindeer",
+            "points": 102,
+            "place": 12
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Emerald Elves",
+            "points": 101,
+            "place": 13
+          },
+          {
+            "player": "AV80",
+            "team": "Cerulean Candy Canes",
+            "points": 96,
+            "place": 14
+          },
+          {
+            "player": "vellow",
+            "team": "Sapphire Santas",
+            "points": 95,
+            "place": 15
+          },
+          {
+            "player": "Andreayay",
+            "team": "Ginger Breadmen",
+            "points": 93,
+            "place": 16
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Emerald Elves",
+            "points": 90,
+            "place": 17
+          },
+          {
+            "player": "JavaJoseph_",
+            "team": "Teal Turkeys",
+            "points": 87,
+            "place": 18
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Sapphire Santas",
+            "points": 87,
+            "place": 19
+          },
+          {
+            "player": "foufouv",
+            "team": "Pink Presents",
+            "points": 83,
+            "place": 20
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Presents",
+            "points": 82,
+            "place": 21
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Pink Presents",
+            "points": 74,
+            "place": 22
+          },
+          {
+            "player": "Kodex13",
+            "team": "Ginger Breadmen",
+            "points": 67,
+            "place": 23
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Emerald Elves",
+            "points": 65,
+            "place": 24
+          },
+          {
+            "player": "ASilentDragon",
+            "team": "Ginger Breadmen",
+            "points": 65,
+            "place": 25
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Mint Mistletoes",
+            "points": 62,
+            "place": 26
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Cerulean Candy Canes",
+            "points": 60,
+            "place": 27
+          },
+          {
+            "player": "IronArch",
+            "team": "Teal Turkeys",
+            "points": 56,
+            "place": 28
+          },
+          {
+            "player": "Sparkour",
+            "team": "Mint Mistletoes",
+            "points": 43,
+            "place": 29
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Emerald Elves",
+            "points": 40,
+            "place": 30
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Sapphire Santas",
+            "points": 31,
+            "place": 31
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Red Reindeer",
+            "points": 22,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Ginger Breadmen",
+            "points": 423,
+            "place": 1
+          },
+          {
+            "team": "Cerulean Candy Canes",
+            "points": 422,
+            "place": 2
+          },
+          {
+            "team": "Pink Presents",
+            "points": 372,
+            "place": 3
+          },
+          {
+            "team": "Red Reindeer",
+            "points": 365,
+            "place": 4
+          },
+          {
+            "team": "Teal Turkeys",
+            "points": 361,
+            "place": 5
+          },
+          {
+            "team": "Mint Mistletoes",
+            "points": 344,
+            "place": 6
+          },
+          {
+            "team": "Sapphire Santas",
+            "points": 340,
+            "place": 7
+          },
+          {
+            "team": "Emerald Elves",
+            "points": 296,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 2,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "dollymouse",
+            "team": "Ginger Breadmen",
+            "points": 362,
+            "place": 1
+          },
+          {
+            "player": "Apples05",
+            "team": "Red Reindeer",
+            "points": 358,
+            "place": 2
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Mint Mistletoes",
+            "points": 357,
+            "place": 3
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Emerald Elves",
+            "points": 321,
+            "place": 4
+          },
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Cerulean Candy Canes",
+            "points": 302,
+            "place": 5
+          },
+          {
+            "player": "Kodex13",
+            "team": "Ginger Breadmen",
+            "points": 294,
+            "place": 6
+          },
+          {
+            "player": "Sk8eight",
+            "team": "Mint Mistletoes",
+            "points": 281,
+            "place": 7
+          },
+          {
+            "player": "JavaJoseph_",
+            "team": "Teal Turkeys",
+            "points": 270,
+            "place": 8
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Sapphire Santas",
+            "points": 258,
+            "place": 9
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Sapphire Santas",
+            "points": 231,
+            "place": 10
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Red Reindeer",
+            "points": 227,
+            "place": 11
+          },
+          {
+            "player": "stuww",
+            "team": "Red Reindeer",
+            "points": 219,
+            "place": 12
+          },
+          {
+            "player": "Andreayay",
+            "team": "Ginger Breadmen",
+            "points": 213,
+            "place": 13
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Presents",
+            "points": 210,
+            "place": 14
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Pink Presents",
+            "points": 189,
+            "place": 15
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Emerald Elves",
+            "points": 182,
+            "place": 16
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Emerald Elves",
+            "points": 179,
+            "place": 17
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Teal Turkeys",
+            "points": 171,
+            "place": 18
+          },
+          {
+            "player": "AV80",
+            "team": "Cerulean Candy Canes",
+            "points": 147,
+            "place": 19
+          },
+          {
+            "player": "IronArch",
+            "team": "Teal Turkeys",
+            "points": 140,
+            "place": 20
+          },
+          {
+            "player": "ValorVanquish",
+            "team": "Teal Turkeys",
+            "points": 134,
+            "place": 21
+          },
+          {
+            "player": "vellow",
+            "team": "Sapphire Santas",
+            "points": 134,
+            "place": 22
+          },
+          {
+            "player": "Sparkour",
+            "team": "Mint Mistletoes",
+            "points": 121,
+            "place": 23
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Pink Presents",
+            "points": 116,
+            "place": 24
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Cerulean Candy Canes",
+            "points": 104,
+            "place": 25
+          },
+          {
+            "player": "foufouv",
+            "team": "Pink Presents",
+            "points": 101,
+            "place": 26
+          },
+          {
+            "player": "LightSeeker_",
+            "team": "Cerulean Candy Canes",
+            "points": 83,
+            "place": 27
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Sapphire Santas",
+            "points": 80,
+            "place": 28
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Red Reindeer",
+            "points": 62,
+            "place": 29
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Mint Mistletoes",
+            "points": 47,
+            "place": 30
+          },
+          {
+            "player": "ASilentDragon",
+            "team": "Ginger Breadmen",
+            "points": 27,
+            "place": 31
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Emerald Elves",
+            "points": 17,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Ginger Breadmen",
+            "points": 896,
+            "place": 1
+          },
+          {
+            "team": "Red Reindeer",
+            "points": 866,
+            "place": 2
+          },
+          {
+            "team": "Mint Mistletoes",
+            "points": 806,
+            "place": 3
+          },
+          {
+            "team": "Teal Turkeys",
+            "points": 715,
+            "place": 4
+          },
+          {
+            "team": "Sapphire Santas",
+            "points": 703,
+            "place": 5
+          },
+          {
+            "team": "Emerald Elves",
+            "points": 699,
+            "place": 6
+          },
+          {
+            "team": "Cerulean Candy Canes",
+            "points": 636,
+            "place": 7
+          },
+          {
+            "team": "Pink Presents",
+            "points": 616,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 3,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "KaydenCoolio",
+            "team": "Emerald Elves",
+            "points": 396,
+            "place": 1
+          },
+          {
+            "player": "Andreayay",
+            "team": "Ginger Breadmen",
+            "points": 384,
+            "place": 2
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Pink Presents",
+            "points": 380,
+            "place": 3
+          },
+          {
+            "player": "Sk8eight",
+            "team": "Mint Mistletoes",
+            "points": 346,
+            "place": 4
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Sapphire Santas",
+            "points": 340,
+            "place": 5
+          },
+          {
+            "player": "JavaJoseph_",
+            "team": "Teal Turkeys",
+            "points": 328,
+            "place": 6
+          },
+          {
+            "player": "dollymouse",
+            "team": "Ginger Breadmen",
+            "points": 326,
+            "place": 7
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Emerald Elves",
+            "points": 304,
+            "place": 8
+          },
+          {
+            "player": "ValorVanquish",
+            "team": "Teal Turkeys",
+            "points": 262,
+            "place": 9
+          },
+          {
+            "player": "stuww",
+            "team": "Red Reindeer",
+            "points": 242,
+            "place": 10
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Teal Turkeys",
+            "points": 238,
+            "place": 11
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Red Reindeer",
+            "points": 238,
+            "place": 12
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Mint Mistletoes",
+            "points": 232,
+            "place": 13
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Cerulean Candy Canes",
+            "points": 204,
+            "place": 14
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Presents",
+            "points": 200,
+            "place": 15
+          },
+          {
+            "player": "vellow",
+            "team": "Sapphire Santas",
+            "points": 192,
+            "place": 16
+          },
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Cerulean Candy Canes",
+            "points": 188,
+            "place": 17
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Emerald Elves",
+            "points": 182,
+            "place": 18
+          },
+          {
+            "player": "Kodex13",
+            "team": "Ginger Breadmen",
+            "points": 176,
+            "place": 19
+          },
+          {
+            "player": "IronArch",
+            "team": "Teal Turkeys",
+            "points": 174,
+            "place": 20
+          },
+          {
+            "player": "Apples05",
+            "team": "Red Reindeer",
+            "points": 152,
+            "place": 21
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Sapphire Santas",
+            "points": 150,
+            "place": 22
+          },
+          {
+            "player": "AV80",
+            "team": "Cerulean Candy Canes",
+            "points": 140,
+            "place": 23
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Pink Presents",
+            "points": 136,
+            "place": 24
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Red Reindeer",
+            "points": 114,
+            "place": 25
+          },
+          {
+            "player": "foufouv",
+            "team": "Pink Presents",
+            "points": 112,
+            "place": 26
+          },
+          {
+            "player": "Sparkour",
+            "team": "Mint Mistletoes",
+            "points": 102,
+            "place": 27
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Sapphire Santas",
+            "points": 94,
+            "place": 28
+          },
+          {
+            "player": "LightSeeker_",
+            "team": "Cerulean Candy Canes",
+            "points": 58,
+            "place": 29
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Emerald Elves",
+            "points": 40,
+            "place": 30
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Mint Mistletoes",
+            "points": 28,
+            "place": 31
+          },
+          {
+            "player": "ASilentDragon",
+            "team": "Ginger Breadmen",
+            "points": 24,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Teal Turkeys",
+            "points": 1002,
+            "place": 1
+          },
+          {
+            "team": "Emerald Elves",
+            "points": 922,
+            "place": 2
+          },
+          {
+            "team": "Ginger Breadmen",
+            "points": 910,
+            "place": 3
+          },
+          {
+            "team": "Pink Presents",
+            "points": 828,
+            "place": 4
+          },
+          {
+            "team": "Sapphire Santas",
+            "points": 776,
+            "place": 5
+          },
+          {
+            "team": "Red Reindeer",
+            "points": 746,
+            "place": 6
+          },
+          {
+            "team": "Mint Mistletoes",
+            "points": 708,
+            "place": 7
+          },
+          {
+            "team": "Cerulean Candy Canes",
+            "points": 590,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "HITW": [
+      {
+        "game-number": 4,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Cerulean Candy Canes",
+            "points": 618,
+            "place": 1
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Emerald Elves",
+            "points": 533,
+            "place": 2
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Red Reindeer",
+            "points": 513,
+            "place": 3
+          },
+          {
+            "player": "IronArch",
+            "team": "Teal Turkeys",
+            "points": 468,
+            "place": 4
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Mint Mistletoes",
+            "points": 443,
+            "place": 5
+          },
+          {
+            "player": "JavaJoseph_",
+            "team": "Teal Turkeys",
+            "points": 428,
+            "place": 6
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Pink Presents",
+            "points": 413,
+            "place": 7
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Emerald Elves",
+            "points": 408,
+            "place": 8
+          },
+          {
+            "player": "stuww",
+            "team": "Red Reindeer",
+            "points": 408,
+            "place": 9
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Sapphire Santas",
+            "points": 383,
+            "place": 10
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Presents",
+            "points": 380,
+            "place": 11
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Teal Turkeys",
+            "points": 350,
+            "place": 12
+          },
+          {
+            "player": "Sk8eight",
+            "team": "Mint Mistletoes",
+            "points": 343,
+            "place": 13
+          },
+          {
+            "player": "Apples05",
+            "team": "Red Reindeer",
+            "points": 338,
+            "place": 14
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Emerald Elves",
+            "points": 318,
+            "place": 15
+          },
+          {
+            "player": "vellow",
+            "team": "Sapphire Santas",
+            "points": 308,
+            "place": 16
+          },
+          {
+            "player": "dollymouse",
+            "team": "Ginger Breadmen",
+            "points": 303,
+            "place": 17
+          },
+          {
+            "player": "Sparkour",
+            "team": "Mint Mistletoes",
+            "points": 303,
+            "place": 18
+          },
+          {
+            "player": "Andreayay",
+            "team": "Ginger Breadmen",
+            "points": 285,
+            "place": 19
+          },
+          {
+            "player": "ValorVanquish",
+            "team": "Teal Turkeys",
+            "points": 273,
+            "place": 20
+          },
+          {
+            "player": "foufouv",
+            "team": "Pink Presents",
+            "points": 258,
+            "place": 21
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Sapphire Santas",
+            "points": 223,
+            "place": 22
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Sapphire Santas",
+            "points": 220,
+            "place": 23
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Red Reindeer",
+            "points": 203,
+            "place": 24
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Pink Presents",
+            "points": 200,
+            "place": 25
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Mint Mistletoes",
+            "points": 173,
+            "place": 26
+          },
+          {
+            "player": "AV80",
+            "team": "Cerulean Candy Canes",
+            "points": 158,
+            "place": 27
+          },
+          {
+            "player": "Kodex13",
+            "team": "Ginger Breadmen",
+            "points": 145,
+            "place": 28
+          },
+          {
+            "player": "ASilentDragon",
+            "team": "Ginger Breadmen",
+            "points": 120,
+            "place": 29
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Cerulean Candy Canes",
+            "points": 105,
+            "place": 30
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Emerald Elves",
+            "points": 105,
+            "place": 31
+          },
+          {
+            "player": "LightSeeker_",
+            "team": "Cerulean Candy Canes",
+            "points": 58,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Teal Turkeys",
+            "points": 1519,
+            "place": 1
+          },
+          {
+            "team": "Red Reindeer",
+            "points": 1462,
+            "place": 2
+          },
+          {
+            "team": "Emerald Elves",
+            "points": 1364,
+            "place": 3
+          },
+          {
+            "team": "Mint Mistletoes",
+            "points": 1262,
+            "place": 4
+          },
+          {
+            "team": "Pink Presents",
+            "points": 1251,
+            "place": 5
+          },
+          {
+            "team": "Sapphire Santas",
+            "points": 1134,
+            "place": 6
+          },
+          {
+            "team": "Cerulean Candy Canes",
+            "points": 939,
+            "place": 7
+          },
+          {
+            "team": "Ginger Breadmen",
+            "points": 853,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 5,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "JavaJoseph_",
+            "team": "Teal Turkeys",
+            "points": 1134,
+            "place": 1
+          },
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Cerulean Candy Canes",
+            "points": 762,
+            "place": 2
+          },
+          {
+            "player": "AV80",
+            "team": "Cerulean Candy Canes",
+            "points": 759,
+            "place": 3
+          },
+          {
+            "player": "Sk8eight",
+            "team": "Mint Mistletoes",
+            "points": 615,
+            "place": 4
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Emerald Elves",
+            "points": 597,
+            "place": 5
+          },
+          {
+            "player": "Roy_Awesome_R",
+            "team": "Pink Presents",
+            "points": 561,
+            "place": 6
+          },
+          {
+            "player": "LightSeeker_",
+            "team": "Cerulean Candy Canes",
+            "points": 438,
+            "place": 7
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Sapphire Santas",
+            "points": 411,
+            "place": 8
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Teal Turkeys",
+            "points": 375,
+            "place": 9
+          },
+          {
+            "player": "dollymouse",
+            "team": "Ginger Breadmen",
+            "points": 309,
+            "place": 10
+          },
+          {
+            "player": "ValorVanquish",
+            "team": "Teal Turkeys",
+            "points": 309,
+            "place": 11
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Red Reindeer",
+            "points": 297,
+            "place": 12
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Emerald Elves",
+            "points": 267,
+            "place": 13
+          },
+          {
+            "player": "OP_Riptide",
+            "team": "Sapphire Santas",
+            "points": 252,
+            "place": 14
+          },
+          {
+            "player": "Andreayay",
+            "team": "Ginger Breadmen",
+            "points": 237,
+            "place": 15
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Cerulean Candy Canes",
+            "points": 225,
+            "place": 16
+          },
+          {
+            "player": "stuww",
+            "team": "Red Reindeer",
+            "points": 222,
+            "place": 17
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Emerald Elves",
+            "points": 192,
+            "place": 18
+          },
+          {
+            "player": "Kodex13",
+            "team": "Ginger Breadmen",
+            "points": 171,
+            "place": 19
+          },
+          {
+            "player": "vellow",
+            "team": "Sapphire Santas",
+            "points": 159,
+            "place": 20
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Pink Presents",
+            "points": 141,
+            "place": 21
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Mint Mistletoes",
+            "points": 135,
+            "place": 22
+          },
+          {
+            "player": "IronArch",
+            "team": "Teal Turkeys",
+            "points": 129,
+            "place": 23
+          },
+          {
+            "player": "SKITATSTIC",
+            "team": "Emerald Elves",
+            "points": 108,
+            "place": 24
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Presents",
+            "points": 93,
+            "place": 25
+          },
+          {
+            "player": "FairRoseYT",
+            "team": "Sapphire Santas",
+            "points": 87,
+            "place": 26
+          },
+          {
+            "player": "ASilentDragon",
+            "team": "Ginger Breadmen",
+            "points": 84,
+            "place": 27
+          },
+          {
+            "player": "Apples05",
+            "team": "Red Reindeer",
+            "points": 75,
+            "place": 28
+          },
+          {
+            "player": "foufouv",
+            "team": "Pink Presents",
+            "points": 75,
+            "place": 29
+          },
+          {
+            "player": "ResearchLive",
+            "team": "Mint Mistletoes",
+            "points": 75,
+            "place": 30
+          },
+          {
+            "player": "Sparkour",
+            "team": "Mint Mistletoes",
+            "points": 66,
+            "place": 31
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Red Reindeer",
+            "points": 63,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Cerulean Candy Canes",
+            "points": 2184,
+            "place": 1
+          },
+          {
+            "team": "Teal Turkeys",
+            "points": 1947,
+            "place": 2
+          },
+          {
+            "team": "Emerald Elves",
+            "points": 1164,
+            "place": 3
+          },
+          {
+            "team": "Sapphire Santas",
+            "points": 909,
+            "place": 4
+          },
+          {
+            "team": "Mint Mistletoes",
+            "points": 891,
+            "place": 5
+          },
+          {
+            "team": "Pink Presents",
+            "points": 870,
+            "place": 6
+          },
+          {
+            "team": "Ginger Breadmen",
+            "points": 801,
+            "place": 7
+          },
+          {
+            "team": "Red Reindeer",
+            "points": 657,
+            "place": 8
+          }
+        ]
+      }
+    ]
+  }
+}

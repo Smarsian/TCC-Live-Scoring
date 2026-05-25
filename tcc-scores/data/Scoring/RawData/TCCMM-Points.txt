@@ -1,0 +1,226 @@
+TCCMM
+
+Teams:
+Red Ravens:
+Andreayay
+AppleJaxxs
+FairRoseYT
+rai2i
+
+Orange Oozes:
+AresDaMartian
+Dr_OrangeFox_
+KubaBabilon
+PogForLive
+
+Mustard Mummies:
+cheeetahs
+Kodex13
+mini9573
+Pikachu_girl9
+
+Lime Liches:
+LillyWhiteWolf
+OP_Riptide
+Roy_Awesome_R
+juliopolis
+
+Green Goblins:
+AlexTK473
+foufouv
+JuztKillz
+mMiror
+
+Cyan Centipedes:
+APurplePenguin_
+GamingGuy907
+Mine_Crafting
+SKITATSTIC
+
+Aqua Abominations:
+AV80
+bohead_
+gigadrake83
+ZSpektre
+
+Violet Vampires:
+_Stripes
+_Slimeball
+KaydenCoolio
+spareddd
+
+Games:
+Game 1: TGTTOS
+Points:
+Pikachu_girl9	168
+AppleJaxxs	159
+JuztKillz	152
+KubaBabilon	146
+PogForLive	138
+rai2i	130
+OP_Riptide	124
+ZSpektre	114
+Roy_Awesome_R	111
+spareddd	106
+AV80	102
+juliopolis	101
+Andreayay	100
+cheeetahs	99
+AlexTK473	96
+Dr_OrangeFox_	92
+_Slimeball	84
+Kodex13	82
+KaydenCoolio	82
+APurplePenguin_	77
+bohead_	73
+gigadrake83	70
+_Stripes	64
+LillyWhiteWolf	63
+GamingGuy907	61
+Mine_Crafting	57
+mMiror	55
+mini9573	49
+foufouv	45
+SKITATSTIC	38
+AresDaMartian	33
+FairRoseYT	25
+
+Game 2: BB
+Points:
+_Stripes	465
+AppleJaxxs	357
+cheeetahs	330
+spareddd	315
+LillyWhiteWolf	304
+rai2i	282
+Roy_Awesome_R	267
+juliopolis	267
+_Slimeball	240
+KaydenCoolio	240
+foufouv	232
+mMiror	232
+OP_Riptide	229
+PogForLive	222
+Pikachu_girl9	217
+KubaBabilon	184
+ZSpektre	172
+AV80	172
+FairRoseYT	169
+APurplePenguin_	162
+JuztKillz	157
+AresDaMartian	147
+Kodex13	142
+bohead_	135
+Mine_Crafting	124
+AlexTK473	120
+mini9573	105
+Andreayay	94
+GamingGuy907	87
+Dr_OrangeFox_	72
+gigadrake83	22
+SKITATSTIC	12
+
+Game 3: PKW
+Points:
+OP_Riptide	630
+Roy_Awesome_R	422
+KaydenCoolio	408
+GamingGuy907	400
+mMiror	378
+Kodex13	370
+Andreayay	368
+Pikachu_girl9	364
+rai2i	358
+AppleJaxxs	352
+KubaBabilon	352
+PogForLive	308
+_Slimeball	278
+cheeetahs	268
+AV80	260
+gigadrake83	258
+_Stripes	236
+JuztKillz	234
+APurplePenguin_	232
+AlexTK473	208
+LillyWhiteWolf	202
+Dr_OrangeFox_	192
+bohead_	178
+mini9573	164
+spareddd	146
+Mine_Crafting	108
+foufouv	106
+juliopolis	92
+ZSpektre	88
+FairRoseYT	68
+AresDaMartian	62
+SKITATSTIC	28
+
+Game 4: SB
+Points:
+PogForLive	880
+Pikachu_girl9	752
+AlexTK473	612
+JuztKillz	487
+Roy_Awesome_R	482
+cheeetahs	420
+_Stripes	352
+AppleJaxxs	337
+Andreayay	317
+Dr_OrangeFox_	282
+Mine_Crafting	242
+spareddd	242
+KubaBabilon	240
+Kodex13	237
+juliopolis	220
+OP_Riptide	210
+bohead_	200
+ZSpektre	197
+AresDaMartian	182
+APurplePenguin_	162
+KaydenCoolio	160
+mMiror	145
+_Slimeball	145
+AV80	135
+gigadrake83	112
+mini9573	102
+foufouv	95
+LillyWhiteWolf	80
+rai2i	57
+FairRoseYT	52
+GamingGuy907	42
+SKITATSTIC	42
+
+Game 5: RSR
+Points:
+KaydenCoolio	822
+Pikachu_girl9	630
+AlexTK473	594
+OP_Riptide	543
+cheeetahs	528
+Roy_Awesome_R	471
+AV80	426
+gigadrake83	414
+AppleJaxxs	411
+ZSpektre	393
+JuztKillz	381
+bohead_	372
+PogForLive	363
+_Stripes	321
+mMiror	318
+juliopolis	306
+rai2i	300
+Dr_OrangeFox_	300
+GamingGuy907	285
+Mine_Crafting	279
+APurplePenguin_	267
+KubaBabilon	216
+mini9573	180
+foufouv	171
+Andreayay	162
+LillyWhiteWolf	138
+_Slimeball	126
+Kodex13	117
+spareddd	90
+AresDaMartian	54
+FairRoseYT	39
+SKITATSTIC	27

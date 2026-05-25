@@ -1,0 +1,226 @@
+TCCX
+
+Teams:
+Red Rabbits:
+AlexTK473
+BroWo9
+Dr_OrangeFox_
+ResearchRTX
+
+Yellow Yaks:
+_Stripes
+Narchu
+PogForLive
+SolarFalcon47
+
+Green Geckos:
+mMiror
+SeniorTurtle981
+Sk8eight
+Smarsian
+
+Cyan Coyotes:
+AppleJaxxs
+Ess4nce
+foufouv
+GigaDrake83
+
+Aqua Axolotls:
+LillywhiteWolf
+qTad
+RabbitBrained
+ThatzRed
+
+Blue Bats:
+AresDaMartian
+Chqqar
+PorpolUmbrella
+TGVAM
+
+Purple Pandas:
+JAY_matwr
+KaydenCoolio
+krokorach
+Mine_Crafting_
+
+Pink Parrots:
+APurplePenguin
+Dollymouse
+IronArch
+maxthecheesy
+
+Games:
+Game 1: TGTTOS
+Points:
+Chqqar	255
+Dollymouse	187
+Sk8eight	166
+BroWo9	158
+ThatzRed	136
+qTad	129
+GigaDrake83	108
+RabbitBrained	103
+AppleJaxxs	101
+PogForLive	92
+Ess4nce	89
+AlexTK473	84
+Dr_OrangeFox_	84
+APurplePenguin	80
+Smarsian	78
+JAY_matwr	74
+_Stripes	73
+IronArch	73
+KaydenCoolio	70
+mMiror	66
+TGVAM	66
+foufouv	65
+Narchu	63
+SeniorTurtle981	59
+krokorach	58
+LillywhiteWolf	51
+AresDaMartian	49
+Mine_Crafting_	43
+PorpolUmbrella	41
+SolarFalcon47	29
+ResearchRTX	28
+maxthecheesy	25
+
+Game 2: BB
+Points:
+ThatzRed	518
+Dollymouse	480
+Sk8eight	431
+Dr_OrangeFox_	420
+AppleJaxxs	416
+Ess4nce	379
+RabbitBrained	368
+Chqqar	334
+IronArch	330
+qTad	293
+BroWo9	270
+GigaDrake83	229
+LillywhiteWolf	218
+PogForLive	210
+SeniorTurtle981	206
+foufouv	191
+APurplePenguin	180
+AlexTK473	158
+Narchu	135
+mMiror	131
+Smarsian	131
+JAY_matwr	124
+ResearchRTX	120
+AresDaMartian	109
+PorpolUmbrella	109
+TGVAM	109
+maxthecheesy	105
+_Stripes	98
+SolarFalcon47	98
+KaydenCoolio	49
+Mine_Crafting_	49
+krokorach	11
+
+Game 3: HITW
+Points:
+Dollymouse	355
+qTad	305
+Chqqar	300
+PogForLive	296
+AlexTK473	289
+Ess4nce	281
+GigaDrake83	278
+RabbitBrained	263
+Sk8eight	259
+_Stripes	248
+AppleJaxxs	248
+mMiror	240
+Smarsian	221
+BroWo9	210
+PorpolUmbrella	206
+Narchu	195
+foufouv	195
+KaydenCoolio	191
+ThatzRed	173
+Mine_Crafting_	146
+JAY_matwr	139
+APurplePenguin	131
+SolarFalcon47	128
+SeniorTurtle981	124
+Dr_OrangeFox_	113
+AresDaMartian	109
+TGVAM	105
+LillywhiteWolf	94
+IronArch	83
+ResearchRTX	71
+krokorach	56
+maxthecheesy	41
+
+Game 4: RSR
+Points:
+qTad	588
+Chqqar	505
+Dollymouse	502
+BroWo9	463
+APurplePenguin	423
+PogForLive	418
+KaydenCoolio	405
+JAY_matwr	360
+Ess4nce	347
+Sk8eight	315
+RabbitBrained	313
+AlexTK473	279
+_Stripes	269
+ThatzRed	241
+AppleJaxxs	234
+Mine_Crafting_	224
+IronArch	218
+Dr_OrangeFox_	213
+AresDaMartian	211
+TGVAM	205
+PorpolUmbrella	191
+GigaDrake83	168
+Narchu	160
+Smarsian	142
+SeniorTurtle981	115
+LillywhiteWolf	107
+mMiror	99
+krokorach	59
+maxthecheesy	59
+SolarFalcon47	47
+foufouv	35
+ResearchRTX	23
+
+Game 5: SB
+Points:
+Chqqar	1271
+Sk8eight	929
+qTad	679
+RabbitBrained	619
+PogForLive	596
+Dollymouse	505
+LillywhiteWolf	479
+AlexTK473	434
+ThatzRed	403
+AppleJaxxs	394
+APurplePenguin	371
+TGVAM	334
+mMiror	287
+Narchu	278
+Ess4nce	277
+BroWo9	260
+PorpolUmbrella	256
+KaydenCoolio	225
+krokorach	220
+_Stripes	208
+Smarsian	199
+AresDaMartian	194
+SolarFalcon47	180
+foufouv	124
+IronArch	115
+maxthecheesy	111
+SeniorTurtle981	107
+Dr_OrangeFox_	94
+JAY_matwr	87
+ResearchRTX	86
+Mine_Crafting_	64
+GigaDrake83	63
