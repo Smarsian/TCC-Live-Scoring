@@ -316,7 +316,7 @@
             "winner":"Yellow Yaks",
             "runner-up":"Blue Bats",
             "score":"4-0",
-            "points":null,
+            "points":"TCCGP-Points.txt",
             "is-live":false
         },
         "TCC Cooked":
@@ -325,13 +325,13 @@
             "date":"April 19, 2026",
             "players":32,
             "teams":8,
-            "game-order":["Battle Box","TGTTOS","Sky Battle","Parkour Warrior","Hole In The Wall"],
-            "unique-multiplier":[1.5,1.5,1.5,1.5,2.5],
+            "game-order":["Trivia","Battle Box","TGTTOS","Sky Battle","Parkour Warrior","Hole In The Wall"],
+            "unique-multiplier":[1,1.5,1.5,1.5,1.5,2.5],
             "finale-game":"Cooked",
             "winner":"Yellow Yaks",
             "runner-up":"Orange Ocelots",
             "score":"515-490",
-            "points":null,
+            "points":"TCCCooked-Points.txt",
             "is-live":false
         },
         "TCC RTS":
@@ -346,7 +346,7 @@
             "winner":"Aqua Axolotls",
             "runner-up":"Purple Pandas",
             "score":"7-5",
-            "points":null,
+            "points":"TCCRTS-Points.txt",
             "is-live":false
         }
     }

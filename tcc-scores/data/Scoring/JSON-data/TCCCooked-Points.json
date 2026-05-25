@@ -1,0 +1,2819 @@
+{
+  "event-name": "TCCCooked",
+  "teams": {
+    "Red Rabbits": [
+      "Brandonando",
+      "mMiror",
+      "Kodex13",
+      "Rushynx"
+    ],
+    "Orange Ocelots": [
+      "only_chance",
+      "MatrixMation",
+      "monkebing",
+      "vellow"
+    ],
+    "Yellow Yaks": [
+      "ItzChoco",
+      "AV80",
+      "Dr_OrangeFox_",
+      "DylanWMC"
+    ],
+    "Lime Llamas": [
+      "PogForLive",
+      "Dollymouse",
+      "spareddd",
+      "TheeJames"
+    ],
+    "Green Geckos": [
+      "ThatDudecChr1s",
+      "JAY_matwr",
+      "APurplePenguin",
+      "Aceotts"
+    ],
+    "Cyan Coyotes": [
+      "KaydenCoolio",
+      "JuztKillz",
+      "foufouv",
+      "ResearchRTX"
+    ],
+    "Blue Bats": [
+      "cheeetahs",
+      "ThatzRed",
+      "Rosefiber",
+      "LillyWhiteWolf"
+    ],
+    "Pink Parrots": [
+      "MCCI_Foxy",
+      "KubaBabilon",
+      "Tezle",
+      "SapphicCentaur18"
+    ]
+  },
+  "games": [
+    "Trivia",
+    "BB",
+    "TGTTOS",
+    "SB",
+    "PKW",
+    "HITW"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "JAY_matwr",
+      "team": "Green Geckos",
+      "points": 1660.0,
+      "place": 1
+    },
+    {
+      "player": "APurplePenguin",
+      "team": "Green Geckos",
+      "points": 1630.0,
+      "place": 2
+    },
+    {
+      "player": "vellow",
+      "team": "Orange Ocelots",
+      "points": 1583.5,
+      "place": 3
+    },
+    {
+      "player": "ItzChoco",
+      "team": "Yellow Yaks",
+      "points": 1558.5,
+      "place": 4
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Yellow Yaks",
+      "points": 1529.25,
+      "place": 5
+    },
+    {
+      "player": "AV80",
+      "team": "Yellow Yaks",
+      "points": 1525.75,
+      "place": 6
+    },
+    {
+      "player": "monkebing",
+      "team": "Orange Ocelots",
+      "points": 1521.75,
+      "place": 7
+    },
+    {
+      "player": "only_chance",
+      "team": "Orange Ocelots",
+      "points": 1500.0,
+      "place": 8
+    },
+    {
+      "player": "cheeetahs",
+      "team": "Blue Bats",
+      "points": 1498,
+      "place": 9
+    },
+    {
+      "player": "MatrixMation",
+      "team": "Orange Ocelots",
+      "points": 1462.5,
+      "place": 10
+    },
+    {
+      "player": "Brandonando",
+      "team": "Red Rabbits",
+      "points": 1394.5,
+      "place": 11
+    },
+    {
+      "player": "MCCI_Foxy",
+      "team": "Pink Parrots",
+      "points": 1388.25,
+      "place": 12
+    },
+    {
+      "player": "ThatDudecChr1s",
+      "team": "Green Geckos",
+      "points": 1378.0,
+      "place": 13
+    },
+    {
+      "player": "JuztKillz",
+      "team": "Cyan Coyotes",
+      "points": 1377.0,
+      "place": 14
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Cyan Coyotes",
+      "points": 1360.5,
+      "place": 15
+    },
+    {
+      "player": "Dollymouse",
+      "team": "Lime Llamas",
+      "points": 1353.75,
+      "place": 16
+    },
+    {
+      "player": "DylanWMC",
+      "team": "Yellow Yaks",
+      "points": 1331.5,
+      "place": 17
+    },
+    {
+      "player": "Rosefiber",
+      "team": "Blue Bats",
+      "points": 1331.5,
+      "place": 18
+    },
+    {
+      "player": "KubaBabilon",
+      "team": "Pink Parrots",
+      "points": 1326.75,
+      "place": 19
+    },
+    {
+      "player": "Kodex13",
+      "team": "Red Rabbits",
+      "points": 1215.0,
+      "place": 20
+    },
+    {
+      "player": "LillyWhiteWolf",
+      "team": "Blue Bats",
+      "points": 1144.0,
+      "place": 21
+    },
+    {
+      "player": "foufouv",
+      "team": "Cyan Coyotes",
+      "points": 1140.25,
+      "place": 22
+    },
+    {
+      "player": "PogForLive",
+      "team": "Lime Llamas",
+      "points": 1102.5,
+      "place": 23
+    },
+    {
+      "player": "spareddd",
+      "team": "Lime Llamas",
+      "points": 1096.75,
+      "place": 24
+    },
+    {
+      "player": "ThatzRed",
+      "team": "Blue Bats",
+      "points": 976.5,
+      "place": 25
+    },
+    {
+      "player": "Aceotts",
+      "team": "Green Geckos",
+      "points": 919.5,
+      "place": 26
+    },
+    {
+      "player": "mMiror",
+      "team": "Red Rabbits",
+      "points": 872.25,
+      "place": 27
+    },
+    {
+      "player": "Rushynx",
+      "team": "Red Rabbits",
+      "points": 852.0,
+      "place": 28
+    },
+    {
+      "player": "ResearchRTX",
+      "team": "Cyan Coyotes",
+      "points": 746.25,
+      "place": 29
+    },
+    {
+      "player": "Tezle",
+      "team": "Pink Parrots",
+      "points": 645.25,
+      "place": 30
+    },
+    {
+      "player": "TheeJames",
+      "team": "Lime Llamas",
+      "points": 588.75,
+      "place": 31
+    },
+    {
+      "player": "SapphicCentaur18",
+      "team": "Pink Parrots",
+      "points": 424.5,
+      "place": 32
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Orange Ocelots",
+      "points": 6367.75,
+      "place": 1
+    },
+    {
+      "team": "Yellow Yaks",
+      "points": 6145.0,
+      "place": 2
+    },
+    {
+      "team": "Green Geckos",
+      "points": 5887.5,
+      "place": 3
+    },
+    {
+      "team": "Blue Bats",
+      "points": 5050.0,
+      "place": 4
+    },
+    {
+      "team": "Cyan Coyotes",
+      "points": 4724.0,
+      "place": 5
+    },
+    {
+      "team": "Red Rabbits",
+      "points": 4633.75,
+      "place": 6
+    },
+    {
+      "team": "Lime Llamas",
+      "points": 4141.75,
+      "place": 7
+    },
+    {
+      "team": "Pink Parrots",
+      "points": 3984.75,
+      "place": 8
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "Trivia",
+      "special-scoring": true,
+      "player-leaderboard": [],
+      "team-leaderboard": [
+        {
+          "team": "Green Geckos",
+          "points": 300,
+          "place": 1
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 300,
+          "place": 2
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 300,
+          "place": 3
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 200,
+          "place": 4
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 200,
+          "place": 5
+        },
+        {
+          "team": "Blue Bats",
+          "points": 100,
+          "place": 6
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 100,
+          "place": 7
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 0,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 1,
+      "game-name": "BB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "only_chance",
+          "team": "Orange Ocelots",
+          "points": 420,
+          "place": 1
+        },
+        {
+          "player": "DylanWMC",
+          "team": "Yellow Yaks",
+          "points": 390,
+          "place": 2
+        },
+        {
+          "player": "ItzChoco",
+          "team": "Yellow Yaks",
+          "points": 390,
+          "place": 3
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Yellow Yaks",
+          "points": 378.75,
+          "place": 4
+        },
+        {
+          "player": "monkebing",
+          "team": "Orange Ocelots",
+          "points": 371.25,
+          "place": 5
+        },
+        {
+          "player": "MatrixMation",
+          "team": "Orange Ocelots",
+          "points": 367.5,
+          "place": 6
+        },
+        {
+          "player": "vellow",
+          "team": "Orange Ocelots",
+          "points": 367.5,
+          "place": 7
+        },
+        {
+          "player": "AV80",
+          "team": "Yellow Yaks",
+          "points": 348.75,
+          "place": 8
+        },
+        {
+          "player": "ThatDudecChr1s",
+          "team": "Green Geckos",
+          "points": 345,
+          "place": 9
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Green Geckos",
+          "points": 330,
+          "place": 10
+        },
+        {
+          "player": "Aceotts",
+          "team": "Green Geckos",
+          "points": 322.5,
+          "place": 11
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Green Geckos",
+          "points": 322.5,
+          "place": 12
+        },
+        {
+          "player": "PogForLive",
+          "team": "Lime Llamas",
+          "points": 285,
+          "place": 13
+        },
+        {
+          "player": "Dollymouse",
+          "team": "Lime Llamas",
+          "points": 236.25,
+          "place": 14
+        },
+        {
+          "player": "ResearchRTX",
+          "team": "Cyan Coyotes",
+          "points": 236.25,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Lime Llamas",
+          "points": 236.25,
+          "place": 16
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Cyan Coyotes",
+          "points": 232.5,
+          "place": 17
+        },
+        {
+          "player": "spareddd",
+          "team": "Lime Llamas",
+          "points": 221.25,
+          "place": 18
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Cyan Coyotes",
+          "points": 217.5,
+          "place": 19
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Coyotes",
+          "points": 198.75,
+          "place": 20
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbits",
+          "points": 198.75,
+          "place": 21
+        },
+        {
+          "player": "Brandonando",
+          "team": "Red Rabbits",
+          "points": 195,
+          "place": 22
+        },
+        {
+          "player": "Rushynx",
+          "team": "Red Rabbits",
+          "points": 195,
+          "place": 23
+        },
+        {
+          "player": "Kodex13",
+          "team": "Red Rabbits",
+          "points": 187.5,
+          "place": 24
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Blue Bats",
+          "points": 165,
+          "place": 25
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Blue Bats",
+          "points": 142.5,
+          "place": 26
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Blue Bats",
+          "points": 142.5,
+          "place": 27
+        },
+        {
+          "player": "Rosefiber",
+          "team": "Blue Bats",
+          "points": 120,
+          "place": 28
+        },
+        {
+          "player": "MCCI_Foxy",
+          "team": "Pink Parrots",
+          "points": 101.25,
+          "place": 29
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Pink Parrots",
+          "points": 71.25,
+          "place": 30
+        },
+        {
+          "player": "Tezle",
+          "team": "Pink Parrots",
+          "points": 63.75,
+          "place": 31
+        },
+        {
+          "player": "SapphicCentaur18",
+          "team": "Pink Parrots",
+          "points": 60,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Orange Ocelots",
+          "points": 1526.25,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 1507.5,
+          "place": 2
+        },
+        {
+          "team": "Green Geckos",
+          "points": 1320.0,
+          "place": 3
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 978.75,
+          "place": 4
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 885.0,
+          "place": 5
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 776.25,
+          "place": 6
+        },
+        {
+          "team": "Blue Bats",
+          "points": 570.0,
+          "place": 7
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 296.25,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "TGTTOS",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Dollymouse",
+          "team": "Lime Llamas",
+          "points": 354,
+          "place": 1
+        },
+        {
+          "player": "ThatDudecChr1s",
+          "team": "Green Geckos",
+          "points": 319.5,
+          "place": 2
+        },
+        {
+          "player": "MCCI_Foxy",
+          "team": "Pink Parrots",
+          "points": 265.5,
+          "place": 3
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Pink Parrots",
+          "points": 253.5,
+          "place": 4
+        },
+        {
+          "player": "monkebing",
+          "team": "Orange Ocelots",
+          "points": 246,
+          "place": 5
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Cyan Coyotes",
+          "points": 231,
+          "place": 6
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Green Geckos",
+          "points": 226.5,
+          "place": 7
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Blue Bats",
+          "points": 219,
+          "place": 8
+        },
+        {
+          "player": "vellow",
+          "team": "Orange Ocelots",
+          "points": 219,
+          "place": 9
+        },
+        {
+          "player": "spareddd",
+          "team": "Lime Llamas",
+          "points": 213,
+          "place": 10
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Blue Bats",
+          "points": 207,
+          "place": 11
+        },
+        {
+          "player": "only_chance",
+          "team": "Orange Ocelots",
+          "points": 207,
+          "place": 12
+        },
+        {
+          "player": "MatrixMation",
+          "team": "Orange Ocelots",
+          "points": 205.5,
+          "place": 13
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Green Geckos",
+          "points": 204,
+          "place": 14
+        },
+        {
+          "player": "Brandonando",
+          "team": "Red Rabbits",
+          "points": 201,
+          "place": 15
+        },
+        {
+          "player": "ItzChoco",
+          "team": "Yellow Yaks",
+          "points": 198,
+          "place": 16
+        },
+        {
+          "player": "Kodex13",
+          "team": "Red Rabbits",
+          "points": 192,
+          "place": 17
+        },
+        {
+          "player": "Rosefiber",
+          "team": "Blue Bats",
+          "points": 178.5,
+          "place": 18
+        },
+        {
+          "player": "PogForLive",
+          "team": "Lime Llamas",
+          "points": 171,
+          "place": 19
+        },
+        {
+          "player": "AV80",
+          "team": "Yellow Yaks",
+          "points": 168,
+          "place": 20
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Coyotes",
+          "points": 157.5,
+          "place": 21
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Cyan Coyotes",
+          "points": 156,
+          "place": 22
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbits",
+          "points": 133.5,
+          "place": 23
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Yellow Yaks",
+          "points": 130.5,
+          "place": 24
+        },
+        {
+          "player": "DylanWMC",
+          "team": "Yellow Yaks",
+          "points": 115.5,
+          "place": 25
+        },
+        {
+          "player": "Rushynx",
+          "team": "Red Rabbits",
+          "points": 97.5,
+          "place": 26
+        },
+        {
+          "player": "Aceotts",
+          "team": "Green Geckos",
+          "points": 91.5,
+          "place": 27
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Blue Bats",
+          "points": 87,
+          "place": 28
+        },
+        {
+          "player": "ResearchRTX",
+          "team": "Cyan Coyotes",
+          "points": 64.5,
+          "place": 29
+        },
+        {
+          "player": "Tezle",
+          "team": "Pink Parrots",
+          "points": 54,
+          "place": 30
+        },
+        {
+          "player": "TheeJames",
+          "team": "Lime Llamas",
+          "points": 39,
+          "place": 31
+        },
+        {
+          "player": "SapphicCentaur18",
+          "team": "Pink Parrots",
+          "points": 24,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Orange Ocelots",
+          "points": 877.5,
+          "place": 1
+        },
+        {
+          "team": "Green Geckos",
+          "points": 841.5,
+          "place": 2
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 777,
+          "place": 3
+        },
+        {
+          "team": "Blue Bats",
+          "points": 691.5,
+          "place": 4
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 624.0,
+          "place": 5
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 612.0,
+          "place": 6
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 609.0,
+          "place": 7
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 597.0,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "MCCI_Foxy",
+          "team": "Pink Parrots",
+          "points": 327,
+          "place": 1
+        },
+        {
+          "player": "ItzChoco",
+          "team": "Yellow Yaks",
+          "points": 297,
+          "place": 2
+        },
+        {
+          "player": "monkebing",
+          "team": "Orange Ocelots",
+          "points": 268.5,
+          "place": 3
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Pink Parrots",
+          "points": 265.5,
+          "place": 4
+        },
+        {
+          "player": "Brandonando",
+          "team": "Red Rabbits",
+          "points": 256.5,
+          "place": 5
+        },
+        {
+          "player": "vellow",
+          "team": "Orange Ocelots",
+          "points": 225,
+          "place": 6
+        },
+        {
+          "player": "only_chance",
+          "team": "Orange Ocelots",
+          "points": 223.5,
+          "place": 7
+        },
+        {
+          "player": "Rosefiber",
+          "team": "Blue Bats",
+          "points": 216,
+          "place": 8
+        },
+        {
+          "player": "AV80",
+          "team": "Yellow Yaks",
+          "points": 214.5,
+          "place": 9
+        },
+        {
+          "player": "DylanWMC",
+          "team": "Yellow Yaks",
+          "points": 214.5,
+          "place": 10
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Blue Bats",
+          "points": 213,
+          "place": 11
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Cyan Coyotes",
+          "points": 211.5,
+          "place": 12
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Coyotes",
+          "points": 204,
+          "place": 13
+        },
+        {
+          "player": "MatrixMation",
+          "team": "Orange Ocelots",
+          "points": 196.5,
+          "place": 14
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Green Geckos",
+          "points": 190.5,
+          "place": 15
+        },
+        {
+          "player": "Kodex13",
+          "team": "Red Rabbits",
+          "points": 187.5,
+          "place": 16
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Blue Bats",
+          "points": 183,
+          "place": 17
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Cyan Coyotes",
+          "points": 180,
+          "place": 18
+        },
+        {
+          "player": "Rushynx",
+          "team": "Red Rabbits",
+          "points": 178.5,
+          "place": 19
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Green Geckos",
+          "points": 174,
+          "place": 20
+        },
+        {
+          "player": "spareddd",
+          "team": "Lime Llamas",
+          "points": 172.5,
+          "place": 21
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbits",
+          "points": 169.5,
+          "place": 22
+        },
+        {
+          "player": "Dollymouse",
+          "team": "Lime Llamas",
+          "points": 166.5,
+          "place": 23
+        },
+        {
+          "player": "ThatDudecChr1s",
+          "team": "Green Geckos",
+          "points": 165,
+          "place": 24
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Yellow Yaks",
+          "points": 157.5,
+          "place": 25
+        },
+        {
+          "player": "ResearchRTX",
+          "team": "Cyan Coyotes",
+          "points": 147,
+          "place": 26
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Blue Bats",
+          "points": 144,
+          "place": 27
+        },
+        {
+          "player": "Tezle",
+          "team": "Pink Parrots",
+          "points": 144,
+          "place": 28
+        },
+        {
+          "player": "PogForLive",
+          "team": "Lime Llamas",
+          "points": 136.5,
+          "place": 29
+        },
+        {
+          "player": "Aceotts",
+          "team": "Green Geckos",
+          "points": 127.5,
+          "place": 30
+        },
+        {
+          "player": "TheeJames",
+          "team": "Lime Llamas",
+          "points": 127.5,
+          "place": 31
+        },
+        {
+          "player": "SapphicCentaur18",
+          "team": "Pink Parrots",
+          "points": 114,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Orange Ocelots",
+          "points": 913.5,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 883.5,
+          "place": 2
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 850.5,
+          "place": 3
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 792.0,
+          "place": 4
+        },
+        {
+          "team": "Blue Bats",
+          "points": 756,
+          "place": 5
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 742.5,
+          "place": 6
+        },
+        {
+          "team": "Green Geckos",
+          "points": 657.0,
+          "place": 7
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 603.0,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "AV80",
+          "team": "Yellow Yaks",
+          "points": 357,
+          "place": 1
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Blue Bats",
+          "points": 342,
+          "place": 2
+        },
+        {
+          "player": "Rosefiber",
+          "team": "Blue Bats",
+          "points": 334.5,
+          "place": 3
+        },
+        {
+          "player": "Kodex13",
+          "team": "Red Rabbits",
+          "points": 333,
+          "place": 4
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Cyan Coyotes",
+          "points": 327,
+          "place": 5
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Blue Bats",
+          "points": 324,
+          "place": 6
+        },
+        {
+          "player": "PogForLive",
+          "team": "Lime Llamas",
+          "points": 300,
+          "place": 7
+        },
+        {
+          "player": "vellow",
+          "team": "Orange Ocelots",
+          "points": 297,
+          "place": 8
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Green Geckos",
+          "points": 289.5,
+          "place": 9
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Pink Parrots",
+          "points": 286.5,
+          "place": 10
+        },
+        {
+          "player": "monkebing",
+          "team": "Orange Ocelots",
+          "points": 276,
+          "place": 11
+        },
+        {
+          "player": "MCCI_Foxy",
+          "team": "Pink Parrots",
+          "points": 274.5,
+          "place": 12
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Green Geckos",
+          "points": 273,
+          "place": 13
+        },
+        {
+          "player": "ItzChoco",
+          "team": "Yellow Yaks",
+          "points": 261,
+          "place": 14
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Yellow Yaks",
+          "points": 255,
+          "place": 15
+        },
+        {
+          "player": "Brandonando",
+          "team": "Red Rabbits",
+          "points": 252,
+          "place": 16
+        },
+        {
+          "player": "only_chance",
+          "team": "Orange Ocelots",
+          "points": 252,
+          "place": 17
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Cyan Coyotes",
+          "points": 244.5,
+          "place": 18
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Blue Bats",
+          "points": 207,
+          "place": 19
+        },
+        {
+          "player": "DylanWMC",
+          "team": "Yellow Yaks",
+          "points": 196.5,
+          "place": 20
+        },
+        {
+          "player": "MatrixMation",
+          "team": "Orange Ocelots",
+          "points": 190.5,
+          "place": 21
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbits",
+          "points": 190.5,
+          "place": 22
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Coyotes",
+          "points": 180,
+          "place": 23
+        },
+        {
+          "player": "Dollymouse",
+          "team": "Lime Llamas",
+          "points": 169.5,
+          "place": 24
+        },
+        {
+          "player": "Aceotts",
+          "team": "Green Geckos",
+          "points": 145.5,
+          "place": 25
+        },
+        {
+          "player": "ThatDudecChr1s",
+          "team": "Green Geckos",
+          "points": 141,
+          "place": 26
+        },
+        {
+          "player": "ResearchRTX",
+          "team": "Cyan Coyotes",
+          "points": 73.5,
+          "place": 27
+        },
+        {
+          "player": "Rushynx",
+          "team": "Red Rabbits",
+          "points": 73.5,
+          "place": 28
+        },
+        {
+          "player": "Tezle",
+          "team": "Pink Parrots",
+          "points": 73.5,
+          "place": 29
+        },
+        {
+          "player": "SapphicCentaur18",
+          "team": "Pink Parrots",
+          "points": 54,
+          "place": 30
+        },
+        {
+          "player": "TheeJames",
+          "team": "Lime Llamas",
+          "points": 51,
+          "place": 31
+        },
+        {
+          "player": "spareddd",
+          "team": "Lime Llamas",
+          "points": 37.5,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Blue Bats",
+          "points": 1207.5,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 1069.5,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 1015.5,
+          "place": 3
+        },
+        {
+          "team": "Green Geckos",
+          "points": 849.0,
+          "place": 4
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 849.0,
+          "place": 5
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 825.0,
+          "place": 6
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 688.5,
+          "place": 7
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 558.0,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "HITW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "JAY_matwr",
+          "team": "Green Geckos",
+          "points": 647.5,
+          "place": 1
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Blue Bats",
+          "points": 640,
+          "place": 2
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Green Geckos",
+          "points": 632.5,
+          "place": 3
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Yellow Yaks",
+          "points": 607.5,
+          "place": 4
+        },
+        {
+          "player": "JuztKillz",
+          "team": "Cyan Coyotes",
+          "points": 532.5,
+          "place": 5
+        },
+        {
+          "player": "MatrixMation",
+          "team": "Orange Ocelots",
+          "points": 502.5,
+          "place": 6
+        },
+        {
+          "player": "Brandonando",
+          "team": "Red Rabbits",
+          "points": 490,
+          "place": 7
+        },
+        {
+          "player": "Rosefiber",
+          "team": "Blue Bats",
+          "points": 482.5,
+          "place": 8
+        },
+        {
+          "player": "vellow",
+          "team": "Orange Ocelots",
+          "points": 475,
+          "place": 9
+        },
+        {
+          "player": "spareddd",
+          "team": "Lime Llamas",
+          "points": 452.5,
+          "place": 10
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Pink Parrots",
+          "points": 450,
+          "place": 11
+        },
+        {
+          "player": "AV80",
+          "team": "Yellow Yaks",
+          "points": 437.5,
+          "place": 12
+        },
+        {
+          "player": "Dollymouse",
+          "team": "Lime Llamas",
+          "points": 427.5,
+          "place": 13
+        },
+        {
+          "player": "MCCI_Foxy",
+          "team": "Pink Parrots",
+          "points": 420,
+          "place": 14
+        },
+        {
+          "player": "DylanWMC",
+          "team": "Yellow Yaks",
+          "points": 415,
+          "place": 15
+        },
+        {
+          "player": "ItzChoco",
+          "team": "Yellow Yaks",
+          "points": 412.5,
+          "place": 16
+        },
+        {
+          "player": "LillyWhiteWolf",
+          "team": "Blue Bats",
+          "points": 407.5,
+          "place": 17
+        },
+        {
+          "player": "ThatDudecChr1s",
+          "team": "Green Geckos",
+          "points": 407.5,
+          "place": 18
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Cyan Coyotes",
+          "points": 405,
+          "place": 19
+        },
+        {
+          "player": "foufouv",
+          "team": "Cyan Coyotes",
+          "points": 400,
+          "place": 20
+        },
+        {
+          "player": "only_chance",
+          "team": "Orange Ocelots",
+          "points": 397.5,
+          "place": 21
+        },
+        {
+          "player": "monkebing",
+          "team": "Orange Ocelots",
+          "points": 360,
+          "place": 22
+        },
+        {
+          "player": "Kodex13",
+          "team": "Red Rabbits",
+          "points": 315,
+          "place": 23
+        },
+        {
+          "player": "Tezle",
+          "team": "Pink Parrots",
+          "points": 310,
+          "place": 24
+        },
+        {
+          "player": "Rushynx",
+          "team": "Red Rabbits",
+          "points": 307.5,
+          "place": 25
+        },
+        {
+          "player": "Aceotts",
+          "team": "Green Geckos",
+          "points": 232.5,
+          "place": 26
+        },
+        {
+          "player": "ResearchRTX",
+          "team": "Cyan Coyotes",
+          "points": 225,
+          "place": 27
+        },
+        {
+          "player": "PogForLive",
+          "team": "Lime Llamas",
+          "points": 210,
+          "place": 28
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Blue Bats",
+          "points": 195,
+          "place": 29
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbits",
+          "points": 180,
+          "place": 30
+        },
+        {
+          "player": "SapphicCentaur18",
+          "team": "Pink Parrots",
+          "points": 172.5,
+          "place": 31
+        },
+        {
+          "player": "TheeJames",
+          "team": "Lime Llamas",
+          "points": 135,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Green Geckos",
+          "points": 1920.0,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yaks",
+          "points": 1872.5,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 1735.0,
+          "place": 3
+        },
+        {
+          "team": "Blue Bats",
+          "points": 1725.0,
+          "place": 4
+        },
+        {
+          "team": "Cyan Coyotes",
+          "points": 1562.5,
+          "place": 5
+        },
+        {
+          "team": "Pink Parrots",
+          "points": 1352.5,
+          "place": 6
+        },
+        {
+          "team": "Red Rabbits",
+          "points": 1292.5,
+          "place": 7
+        },
+        {
+          "team": "Lime Llamas",
+          "points": 1225.0,
+          "place": 8
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "Trivia": [
+      {
+        "game-number": 1,
+        "game-name": "Trivia",
+        "special-scoring": true,
+        "player-leaderboard": [],
+        "team-leaderboard": [
+          {
+            "team": "Green Geckos",
+            "points": 300,
+            "place": 1
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 300,
+            "place": 2
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 300,
+            "place": 3
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 200,
+            "place": 4
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 200,
+            "place": 5
+          },
+          {
+            "team": "Blue Bats",
+            "points": 100,
+            "place": 6
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 100,
+            "place": 7
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "BB": [
+      {
+        "game-number": 1,
+        "game-name": "BB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "only_chance",
+            "team": "Orange Ocelots",
+            "points": 420,
+            "place": 1
+          },
+          {
+            "player": "DylanWMC",
+            "team": "Yellow Yaks",
+            "points": 390,
+            "place": 2
+          },
+          {
+            "player": "ItzChoco",
+            "team": "Yellow Yaks",
+            "points": 390,
+            "place": 3
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Yellow Yaks",
+            "points": 378.75,
+            "place": 4
+          },
+          {
+            "player": "monkebing",
+            "team": "Orange Ocelots",
+            "points": 371.25,
+            "place": 5
+          },
+          {
+            "player": "MatrixMation",
+            "team": "Orange Ocelots",
+            "points": 367.5,
+            "place": 6
+          },
+          {
+            "player": "vellow",
+            "team": "Orange Ocelots",
+            "points": 367.5,
+            "place": 7
+          },
+          {
+            "player": "AV80",
+            "team": "Yellow Yaks",
+            "points": 348.75,
+            "place": 8
+          },
+          {
+            "player": "ThatDudecChr1s",
+            "team": "Green Geckos",
+            "points": 345,
+            "place": 9
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Green Geckos",
+            "points": 330,
+            "place": 10
+          },
+          {
+            "player": "Aceotts",
+            "team": "Green Geckos",
+            "points": 322.5,
+            "place": 11
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Green Geckos",
+            "points": 322.5,
+            "place": 12
+          },
+          {
+            "player": "PogForLive",
+            "team": "Lime Llamas",
+            "points": 285,
+            "place": 13
+          },
+          {
+            "player": "Dollymouse",
+            "team": "Lime Llamas",
+            "points": 236.25,
+            "place": 14
+          },
+          {
+            "player": "ResearchRTX",
+            "team": "Cyan Coyotes",
+            "points": 236.25,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Lime Llamas",
+            "points": 236.25,
+            "place": 16
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Cyan Coyotes",
+            "points": 232.5,
+            "place": 17
+          },
+          {
+            "player": "spareddd",
+            "team": "Lime Llamas",
+            "points": 221.25,
+            "place": 18
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Cyan Coyotes",
+            "points": 217.5,
+            "place": 19
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Coyotes",
+            "points": 198.75,
+            "place": 20
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbits",
+            "points": 198.75,
+            "place": 21
+          },
+          {
+            "player": "Brandonando",
+            "team": "Red Rabbits",
+            "points": 195,
+            "place": 22
+          },
+          {
+            "player": "Rushynx",
+            "team": "Red Rabbits",
+            "points": 195,
+            "place": 23
+          },
+          {
+            "player": "Kodex13",
+            "team": "Red Rabbits",
+            "points": 187.5,
+            "place": 24
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Blue Bats",
+            "points": 165,
+            "place": 25
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Blue Bats",
+            "points": 142.5,
+            "place": 26
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Blue Bats",
+            "points": 142.5,
+            "place": 27
+          },
+          {
+            "player": "Rosefiber",
+            "team": "Blue Bats",
+            "points": 120,
+            "place": 28
+          },
+          {
+            "player": "MCCI_Foxy",
+            "team": "Pink Parrots",
+            "points": 101.25,
+            "place": 29
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Pink Parrots",
+            "points": 71.25,
+            "place": 30
+          },
+          {
+            "player": "Tezle",
+            "team": "Pink Parrots",
+            "points": 63.75,
+            "place": 31
+          },
+          {
+            "player": "SapphicCentaur18",
+            "team": "Pink Parrots",
+            "points": 60,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Orange Ocelots",
+            "points": 1526.25,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 1507.5,
+            "place": 2
+          },
+          {
+            "team": "Green Geckos",
+            "points": 1320.0,
+            "place": 3
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 978.75,
+            "place": 4
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 885.0,
+            "place": 5
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 776.25,
+            "place": 6
+          },
+          {
+            "team": "Blue Bats",
+            "points": 570.0,
+            "place": 7
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 296.25,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "TGTTOS": [
+      {
+        "game-number": 2,
+        "game-name": "TGTTOS",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Dollymouse",
+            "team": "Lime Llamas",
+            "points": 354,
+            "place": 1
+          },
+          {
+            "player": "ThatDudecChr1s",
+            "team": "Green Geckos",
+            "points": 319.5,
+            "place": 2
+          },
+          {
+            "player": "MCCI_Foxy",
+            "team": "Pink Parrots",
+            "points": 265.5,
+            "place": 3
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Pink Parrots",
+            "points": 253.5,
+            "place": 4
+          },
+          {
+            "player": "monkebing",
+            "team": "Orange Ocelots",
+            "points": 246,
+            "place": 5
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Cyan Coyotes",
+            "points": 231,
+            "place": 6
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Green Geckos",
+            "points": 226.5,
+            "place": 7
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Blue Bats",
+            "points": 219,
+            "place": 8
+          },
+          {
+            "player": "vellow",
+            "team": "Orange Ocelots",
+            "points": 219,
+            "place": 9
+          },
+          {
+            "player": "spareddd",
+            "team": "Lime Llamas",
+            "points": 213,
+            "place": 10
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Blue Bats",
+            "points": 207,
+            "place": 11
+          },
+          {
+            "player": "only_chance",
+            "team": "Orange Ocelots",
+            "points": 207,
+            "place": 12
+          },
+          {
+            "player": "MatrixMation",
+            "team": "Orange Ocelots",
+            "points": 205.5,
+            "place": 13
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Green Geckos",
+            "points": 204,
+            "place": 14
+          },
+          {
+            "player": "Brandonando",
+            "team": "Red Rabbits",
+            "points": 201,
+            "place": 15
+          },
+          {
+            "player": "ItzChoco",
+            "team": "Yellow Yaks",
+            "points": 198,
+            "place": 16
+          },
+          {
+            "player": "Kodex13",
+            "team": "Red Rabbits",
+            "points": 192,
+            "place": 17
+          },
+          {
+            "player": "Rosefiber",
+            "team": "Blue Bats",
+            "points": 178.5,
+            "place": 18
+          },
+          {
+            "player": "PogForLive",
+            "team": "Lime Llamas",
+            "points": 171,
+            "place": 19
+          },
+          {
+            "player": "AV80",
+            "team": "Yellow Yaks",
+            "points": 168,
+            "place": 20
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Coyotes",
+            "points": 157.5,
+            "place": 21
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Cyan Coyotes",
+            "points": 156,
+            "place": 22
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbits",
+            "points": 133.5,
+            "place": 23
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Yellow Yaks",
+            "points": 130.5,
+            "place": 24
+          },
+          {
+            "player": "DylanWMC",
+            "team": "Yellow Yaks",
+            "points": 115.5,
+            "place": 25
+          },
+          {
+            "player": "Rushynx",
+            "team": "Red Rabbits",
+            "points": 97.5,
+            "place": 26
+          },
+          {
+            "player": "Aceotts",
+            "team": "Green Geckos",
+            "points": 91.5,
+            "place": 27
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Blue Bats",
+            "points": 87,
+            "place": 28
+          },
+          {
+            "player": "ResearchRTX",
+            "team": "Cyan Coyotes",
+            "points": 64.5,
+            "place": 29
+          },
+          {
+            "player": "Tezle",
+            "team": "Pink Parrots",
+            "points": 54,
+            "place": 30
+          },
+          {
+            "player": "TheeJames",
+            "team": "Lime Llamas",
+            "points": 39,
+            "place": 31
+          },
+          {
+            "player": "SapphicCentaur18",
+            "team": "Pink Parrots",
+            "points": 24,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Orange Ocelots",
+            "points": 877.5,
+            "place": 1
+          },
+          {
+            "team": "Green Geckos",
+            "points": 841.5,
+            "place": 2
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 777,
+            "place": 3
+          },
+          {
+            "team": "Blue Bats",
+            "points": 691.5,
+            "place": 4
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 624.0,
+            "place": 5
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 612.0,
+            "place": 6
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 609.0,
+            "place": 7
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 597.0,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 3,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "MCCI_Foxy",
+            "team": "Pink Parrots",
+            "points": 327,
+            "place": 1
+          },
+          {
+            "player": "ItzChoco",
+            "team": "Yellow Yaks",
+            "points": 297,
+            "place": 2
+          },
+          {
+            "player": "monkebing",
+            "team": "Orange Ocelots",
+            "points": 268.5,
+            "place": 3
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Pink Parrots",
+            "points": 265.5,
+            "place": 4
+          },
+          {
+            "player": "Brandonando",
+            "team": "Red Rabbits",
+            "points": 256.5,
+            "place": 5
+          },
+          {
+            "player": "vellow",
+            "team": "Orange Ocelots",
+            "points": 225,
+            "place": 6
+          },
+          {
+            "player": "only_chance",
+            "team": "Orange Ocelots",
+            "points": 223.5,
+            "place": 7
+          },
+          {
+            "player": "Rosefiber",
+            "team": "Blue Bats",
+            "points": 216,
+            "place": 8
+          },
+          {
+            "player": "AV80",
+            "team": "Yellow Yaks",
+            "points": 214.5,
+            "place": 9
+          },
+          {
+            "player": "DylanWMC",
+            "team": "Yellow Yaks",
+            "points": 214.5,
+            "place": 10
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Blue Bats",
+            "points": 213,
+            "place": 11
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Cyan Coyotes",
+            "points": 211.5,
+            "place": 12
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Coyotes",
+            "points": 204,
+            "place": 13
+          },
+          {
+            "player": "MatrixMation",
+            "team": "Orange Ocelots",
+            "points": 196.5,
+            "place": 14
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Green Geckos",
+            "points": 190.5,
+            "place": 15
+          },
+          {
+            "player": "Kodex13",
+            "team": "Red Rabbits",
+            "points": 187.5,
+            "place": 16
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Blue Bats",
+            "points": 183,
+            "place": 17
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Cyan Coyotes",
+            "points": 180,
+            "place": 18
+          },
+          {
+            "player": "Rushynx",
+            "team": "Red Rabbits",
+            "points": 178.5,
+            "place": 19
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Green Geckos",
+            "points": 174,
+            "place": 20
+          },
+          {
+            "player": "spareddd",
+            "team": "Lime Llamas",
+            "points": 172.5,
+            "place": 21
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbits",
+            "points": 169.5,
+            "place": 22
+          },
+          {
+            "player": "Dollymouse",
+            "team": "Lime Llamas",
+            "points": 166.5,
+            "place": 23
+          },
+          {
+            "player": "ThatDudecChr1s",
+            "team": "Green Geckos",
+            "points": 165,
+            "place": 24
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Yellow Yaks",
+            "points": 157.5,
+            "place": 25
+          },
+          {
+            "player": "ResearchRTX",
+            "team": "Cyan Coyotes",
+            "points": 147,
+            "place": 26
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Blue Bats",
+            "points": 144,
+            "place": 27
+          },
+          {
+            "player": "Tezle",
+            "team": "Pink Parrots",
+            "points": 144,
+            "place": 28
+          },
+          {
+            "player": "PogForLive",
+            "team": "Lime Llamas",
+            "points": 136.5,
+            "place": 29
+          },
+          {
+            "player": "Aceotts",
+            "team": "Green Geckos",
+            "points": 127.5,
+            "place": 30
+          },
+          {
+            "player": "TheeJames",
+            "team": "Lime Llamas",
+            "points": 127.5,
+            "place": 31
+          },
+          {
+            "player": "SapphicCentaur18",
+            "team": "Pink Parrots",
+            "points": 114,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Orange Ocelots",
+            "points": 913.5,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 883.5,
+            "place": 2
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 850.5,
+            "place": 3
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 792.0,
+            "place": 4
+          },
+          {
+            "team": "Blue Bats",
+            "points": 756,
+            "place": 5
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 742.5,
+            "place": 6
+          },
+          {
+            "team": "Green Geckos",
+            "points": 657.0,
+            "place": 7
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 603.0,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 4,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "AV80",
+            "team": "Yellow Yaks",
+            "points": 357,
+            "place": 1
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Blue Bats",
+            "points": 342,
+            "place": 2
+          },
+          {
+            "player": "Rosefiber",
+            "team": "Blue Bats",
+            "points": 334.5,
+            "place": 3
+          },
+          {
+            "player": "Kodex13",
+            "team": "Red Rabbits",
+            "points": 333,
+            "place": 4
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Cyan Coyotes",
+            "points": 327,
+            "place": 5
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Blue Bats",
+            "points": 324,
+            "place": 6
+          },
+          {
+            "player": "PogForLive",
+            "team": "Lime Llamas",
+            "points": 300,
+            "place": 7
+          },
+          {
+            "player": "vellow",
+            "team": "Orange Ocelots",
+            "points": 297,
+            "place": 8
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Green Geckos",
+            "points": 289.5,
+            "place": 9
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Pink Parrots",
+            "points": 286.5,
+            "place": 10
+          },
+          {
+            "player": "monkebing",
+            "team": "Orange Ocelots",
+            "points": 276,
+            "place": 11
+          },
+          {
+            "player": "MCCI_Foxy",
+            "team": "Pink Parrots",
+            "points": 274.5,
+            "place": 12
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Green Geckos",
+            "points": 273,
+            "place": 13
+          },
+          {
+            "player": "ItzChoco",
+            "team": "Yellow Yaks",
+            "points": 261,
+            "place": 14
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Yellow Yaks",
+            "points": 255,
+            "place": 15
+          },
+          {
+            "player": "Brandonando",
+            "team": "Red Rabbits",
+            "points": 252,
+            "place": 16
+          },
+          {
+            "player": "only_chance",
+            "team": "Orange Ocelots",
+            "points": 252,
+            "place": 17
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Cyan Coyotes",
+            "points": 244.5,
+            "place": 18
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Blue Bats",
+            "points": 207,
+            "place": 19
+          },
+          {
+            "player": "DylanWMC",
+            "team": "Yellow Yaks",
+            "points": 196.5,
+            "place": 20
+          },
+          {
+            "player": "MatrixMation",
+            "team": "Orange Ocelots",
+            "points": 190.5,
+            "place": 21
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbits",
+            "points": 190.5,
+            "place": 22
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Coyotes",
+            "points": 180,
+            "place": 23
+          },
+          {
+            "player": "Dollymouse",
+            "team": "Lime Llamas",
+            "points": 169.5,
+            "place": 24
+          },
+          {
+            "player": "Aceotts",
+            "team": "Green Geckos",
+            "points": 145.5,
+            "place": 25
+          },
+          {
+            "player": "ThatDudecChr1s",
+            "team": "Green Geckos",
+            "points": 141,
+            "place": 26
+          },
+          {
+            "player": "ResearchRTX",
+            "team": "Cyan Coyotes",
+            "points": 73.5,
+            "place": 27
+          },
+          {
+            "player": "Rushynx",
+            "team": "Red Rabbits",
+            "points": 73.5,
+            "place": 28
+          },
+          {
+            "player": "Tezle",
+            "team": "Pink Parrots",
+            "points": 73.5,
+            "place": 29
+          },
+          {
+            "player": "SapphicCentaur18",
+            "team": "Pink Parrots",
+            "points": 54,
+            "place": 30
+          },
+          {
+            "player": "TheeJames",
+            "team": "Lime Llamas",
+            "points": 51,
+            "place": 31
+          },
+          {
+            "player": "spareddd",
+            "team": "Lime Llamas",
+            "points": 37.5,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Blue Bats",
+            "points": 1207.5,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 1069.5,
+            "place": 2
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 1015.5,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 849.0,
+            "place": 4
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 849.0,
+            "place": 5
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 825.0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 688.5,
+            "place": 7
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 558.0,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "HITW": [
+      {
+        "game-number": 5,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "JAY_matwr",
+            "team": "Green Geckos",
+            "points": 647.5,
+            "place": 1
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Blue Bats",
+            "points": 640,
+            "place": 2
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Green Geckos",
+            "points": 632.5,
+            "place": 3
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Yellow Yaks",
+            "points": 607.5,
+            "place": 4
+          },
+          {
+            "player": "JuztKillz",
+            "team": "Cyan Coyotes",
+            "points": 532.5,
+            "place": 5
+          },
+          {
+            "player": "MatrixMation",
+            "team": "Orange Ocelots",
+            "points": 502.5,
+            "place": 6
+          },
+          {
+            "player": "Brandonando",
+            "team": "Red Rabbits",
+            "points": 490,
+            "place": 7
+          },
+          {
+            "player": "Rosefiber",
+            "team": "Blue Bats",
+            "points": 482.5,
+            "place": 8
+          },
+          {
+            "player": "vellow",
+            "team": "Orange Ocelots",
+            "points": 475,
+            "place": 9
+          },
+          {
+            "player": "spareddd",
+            "team": "Lime Llamas",
+            "points": 452.5,
+            "place": 10
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Pink Parrots",
+            "points": 450,
+            "place": 11
+          },
+          {
+            "player": "AV80",
+            "team": "Yellow Yaks",
+            "points": 437.5,
+            "place": 12
+          },
+          {
+            "player": "Dollymouse",
+            "team": "Lime Llamas",
+            "points": 427.5,
+            "place": 13
+          },
+          {
+            "player": "MCCI_Foxy",
+            "team": "Pink Parrots",
+            "points": 420,
+            "place": 14
+          },
+          {
+            "player": "DylanWMC",
+            "team": "Yellow Yaks",
+            "points": 415,
+            "place": 15
+          },
+          {
+            "player": "ItzChoco",
+            "team": "Yellow Yaks",
+            "points": 412.5,
+            "place": 16
+          },
+          {
+            "player": "LillyWhiteWolf",
+            "team": "Blue Bats",
+            "points": 407.5,
+            "place": 17
+          },
+          {
+            "player": "ThatDudecChr1s",
+            "team": "Green Geckos",
+            "points": 407.5,
+            "place": 18
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Cyan Coyotes",
+            "points": 405,
+            "place": 19
+          },
+          {
+            "player": "foufouv",
+            "team": "Cyan Coyotes",
+            "points": 400,
+            "place": 20
+          },
+          {
+            "player": "only_chance",
+            "team": "Orange Ocelots",
+            "points": 397.5,
+            "place": 21
+          },
+          {
+            "player": "monkebing",
+            "team": "Orange Ocelots",
+            "points": 360,
+            "place": 22
+          },
+          {
+            "player": "Kodex13",
+            "team": "Red Rabbits",
+            "points": 315,
+            "place": 23
+          },
+          {
+            "player": "Tezle",
+            "team": "Pink Parrots",
+            "points": 310,
+            "place": 24
+          },
+          {
+            "player": "Rushynx",
+            "team": "Red Rabbits",
+            "points": 307.5,
+            "place": 25
+          },
+          {
+            "player": "Aceotts",
+            "team": "Green Geckos",
+            "points": 232.5,
+            "place": 26
+          },
+          {
+            "player": "ResearchRTX",
+            "team": "Cyan Coyotes",
+            "points": 225,
+            "place": 27
+          },
+          {
+            "player": "PogForLive",
+            "team": "Lime Llamas",
+            "points": 210,
+            "place": 28
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Blue Bats",
+            "points": 195,
+            "place": 29
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbits",
+            "points": 180,
+            "place": 30
+          },
+          {
+            "player": "SapphicCentaur18",
+            "team": "Pink Parrots",
+            "points": 172.5,
+            "place": 31
+          },
+          {
+            "player": "TheeJames",
+            "team": "Lime Llamas",
+            "points": 135,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Green Geckos",
+            "points": 1920.0,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 1872.5,
+            "place": 2
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 1735.0,
+            "place": 3
+          },
+          {
+            "team": "Blue Bats",
+            "points": 1725.0,
+            "place": 4
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 1562.5,
+            "place": 5
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 1352.5,
+            "place": 6
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 1292.5,
+            "place": 7
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 1225.0,
+            "place": 8
+          }
+        ]
+      }
+    ]
+  }
+}

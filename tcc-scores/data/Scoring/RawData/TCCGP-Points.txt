@@ -1,0 +1,226 @@
+TCCGP
+
+Teams:
+Red Rabbits:
+KaydenCoolio
+Logz2004
+LonelyBattlCruiser
+RoyAwesomeR
+
+Orange Ocelots:
+rushynx
+foufouv
+shortgayfurry
+Kodex13
+
+Yellow Yaks:
+OP_Riptide
+APurplePenguin
+bohead_
+Aceotts1
+
+Green Geckos:
+applejaxxs
+Woxst
+monkeking
+Sparkour
+
+Aqua Axolotls:
+IcyFlames
+fruitcereal
+qTad
+ItsCosmoMC
+
+Blue Bats:
+Wo0o0o0ble_
+Dr_OrangeFox_
+ZSpektre
+LightSeeker
+
+Purple Pandas:
+ItzChoco
+Rosefiber
+DylanWMC
+JAY_matwr
+
+Pink Parrots:
+slushydealer
+mMiror
+Andreayay
+juliopolis
+
+Games:
+Game 1: BB
+Points:
+OP_Riptide	305
+APurplePenguin	300
+rushynx	280
+bohead_	275
+JAY_matwr	275
+ItzChoco	270
+slushydealer	265
+applejaxxs	235
+Aceotts1	210
+RoyAwesomeR	205
+monkeking	200
+Rosefiber	200
+shortgayfurry	190
+foufouv	185
+Sparkour	185
+DylanWMC	185
+Andreayay	185
+mMiror	180
+juliopolis	180
+ZSpektre	175
+Kodex13	165
+qTad	155
+KaydenCoolio	150
+Woxst	145
+Dr_OrangeFox_	125
+LightSeeker	110
+Wo0o0o0ble_	90
+fruitcereal	85
+IcyFlames	80
+LonelyBattlCruiser	75
+Logz2004	65
+ItsCosmoMC	65
+
+Game 2: TGTTOS
+Points:
+shortgayfurry	381
+applejaxxs	309
+slushydealer	309
+ItzChoco	283.5
+RoyAwesomeR	279
+Woxst	232.5
+Andreayay	231
+KaydenCoolio	229.5
+IcyFlames	207
+monkeking	201
+OP_Riptide	189
+Kodex13	177
+APurplePenguin	172.5
+fruitcereal	171
+foufouv	166.5
+Wo0o0o0ble_	162
+ZSpektre	162
+JAY_matwr	157.5
+Rosefiber	156
+juliopolis	153
+bohead_	150
+Dr_OrangeFox_	145.5
+LightSeeker	135
+qTad	133.5
+mMiror	130.5
+DylanWMC	117
+Logz2004	115.5
+Sparkour	106.5
+ItsCosmoMC	102
+rushynx	91.5
+LonelyBattlCruiser	60
+Aceotts1	52.5
+
+Game 3: RSR
+Points:
+shortgayfurry	462
+KaydenCoolio	428
+Andreayay	416
+Wo0o0o0ble_	414
+OP_Riptide	384
+applejaxxs	370
+RoyAwesomeR	368
+qTad	348
+JAY_matwr	328
+Kodex13	300
+bohead_	280
+APurplePenguin	272
+Dr_OrangeFox_	252
+ItzChoco	236
+Woxst	220
+ZSpektre	220
+juliopolis	216
+fruitcereal	208
+slushydealer	208
+foufouv	204
+monkeking	204
+LightSeeker	184
+Rosefiber	184
+Aceotts1	136
+Sparkour	136
+mMiror	92
+DylanWMC	84
+ItsCosmoMC	72
+Logz2004	60
+IcyFlames	56
+rushynx	44
+LonelyBattlCruiser	24
+
+Game 4: SB
+Points:
+Dr_OrangeFox_	600
+OP_Riptide	545
+ItzChoco	525
+Wo0o0o0ble_	520
+APurplePenguin	467.5
+bohead_	462.5
+slushydealer	437.5
+LightSeeker	410
+ZSpektre	397.5
+Andreayay	380
+Rosefiber	345
+JAY_matwr	342.5
+RoyAwesomeR	327.5
+Aceotts1	317.5
+mMiror	310
+juliopolis	302.5
+shortgayfurry	297.5
+IcyFlames	292.5
+KaydenCoolio	270
+fruitcereal	270
+Woxst	267.5
+ItsCosmoMC	265
+qTad	250
+applejaxxs	230
+monkeking	230
+Logz2004	222.5
+DylanWMC	222.5
+LonelyBattlCruiser	212.5
+rushynx	210
+Kodex13	155
+foufouv	140
+Sparkour	135
+
+Game 5: HITW
+Points:
+APurplePenguin	804
+RoyAwesomeR	723
+OP_Riptide	723
+foufouv	711
+monkeking	693
+applejaxxs	648
+bohead_	612
+qTad	594
+JAY_matwr	567
+ZSpektre	531
+Rosefiber	525
+Wo0o0o0ble_	495
+slushydealer	450
+KaydenCoolio	441
+Woxst	441
+mMiror	432
+shortgayfurry	414
+Kodex13	405
+rushynx	369
+Sparkour	369
+DylanWMC	342
+Dr_OrangeFox_	333
+LightSeeker	333
+Andreayay	315
+juliopolis	297
+ItzChoco	288
+IcyFlames	234
+ItsCosmoMC	189
+fruitcereal	162
+Logz2004	153
+Aceotts1	117
+LonelyBattlCruiser	9

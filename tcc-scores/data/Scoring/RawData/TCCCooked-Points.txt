@@ -1,0 +1,236 @@
+TCCCooked
+
+Teams:
+Red Rabbits:
+Brandonando
+mMiror
+Kodex13
+Rushynx
+
+Orange Ocelots:
+only_chance
+MatrixMation
+monkebing
+vellow
+
+Yellow Yaks:
+ItzChoco
+AV80
+Dr_OrangeFox_
+DylanWMC
+
+Lime Llamas:
+PogForLive
+Dollymouse
+spareddd
+TheeJames
+
+Green Geckos:
+ThatDudecChr1s
+JAY_matwr
+APurplePenguin
+Aceotts
+
+Cyan Coyotes:
+KaydenCoolio
+JuztKillz
+foufouv
+ResearchRTX
+
+Blue Bats:
+cheeetahs
+ThatzRed
+Rosefiber
+LillyWhiteWolf
+
+Pink Parrots:
+MCCI_Foxy
+KubaBabilon
+Tezle
+SapphicCentaur18
+
+Games:
+Triva Segment:
+Points:
+1	Red Rabbits	300
+2	Orange Ocelots	300
+3	Green Geckos	300
+4	Yellow Yaks	200
+5	Pink Parrots	200
+6	Cyan Coyotes	100
+7	Blue Bats	100
+
+Game 1: BB
+Points:
+only_chance	420
+ItzChoco	390
+DylanWMC	390
+Dr_OrangeFox_	378.75
+monkebing	371.25
+MatrixMation	367.5
+vellow	367.5
+AV80	348.75
+ThatDudecChr1s	345
+APurplePenguin	330
+JAY_matwr	322.5
+Aceotts	322.5
+PogForLive	285
+Dollymouse	236.25
+TheeJames	236.25
+ResearchRTX	236.25
+JuztKillz	232.5
+spareddd	221.25
+KaydenCoolio	217.5
+mMiror	198.75
+foufouv	198.75
+Brandonando	195
+Rushynx	195
+Kodex13	187.5
+cheeetahs	165
+ThatzRed	142.5
+LillyWhiteWolf	142.5
+Rosefiber	120
+MCCI_Foxy	101.25
+KubaBabilon	71.25
+Tezle	63.75
+SapphicCentaur18	60
+
+Game 2: TGTTOS
+Points:
+Dollymouse	354
+ThatDudecChr1s	319.5
+MCCI_Foxy	265.5
+KubaBabilon	253.5
+monkebing	246
+KaydenCoolio	231
+JAY_matwr	226.5
+vellow	219
+ThatzRed	219
+spareddd	213
+only_chance	207
+cheeetahs	207
+MatrixMation	205.5
+APurplePenguin	204
+Brandonando	201
+ItzChoco	198
+Kodex13	192
+Rosefiber	178.5
+PogForLive	171
+AV80	168
+foufouv	157.5
+JuztKillz	156
+mMiror	133.5
+Dr_OrangeFox_	130.5
+DylanWMC	115.5
+Rushynx	97.5
+Aceotts	91.5
+LillyWhiteWolf	87
+ResearchRTX	64.5
+Tezle	54
+TheeJames	39
+SapphicCentaur18	24
+
+Game 3: SB
+Points:
+MCCI_Foxy	327
+ItzChoco	297
+monkebing	268.5
+KubaBabilon	265.5
+Brandonando	256.5
+vellow	225
+only_chance	223.5
+Rosefiber	216
+AV80	214.5
+DylanWMC	214.5
+ThatzRed	213
+JuztKillz	211.5
+foufouv	204
+MatrixMation	196.5
+JAY_matwr	190.5
+Kodex13	187.5
+LillyWhiteWolf	183
+KaydenCoolio	180
+Rushynx	178.5
+APurplePenguin	174
+spareddd	172.5
+mMiror	169.5
+Dollymouse	166.5
+ThatDudecChr1s	165
+Dr_OrangeFox_	157.5
+ResearchRTX	147
+cheeetahs	144
+Tezle	144
+PogForLive	136.5
+TheeJames	127.5
+Aceotts	127.5
+SapphicCentaur18	114
+
+Game 4: PKW
+Points:
+AV80	357
+cheeetahs	342
+Rosefiber	334.5
+Kodex13	333
+KaydenCoolio	327
+LillyWhiteWolf	324
+PogForLive	300
+vellow	297
+APurplePenguin	289.5
+KubaBabilon	286.5
+monkebing	276
+MCCI_Foxy	274.5
+JAY_matwr	273
+ItzChoco	261
+Dr_OrangeFox_	255
+Brandonando	252
+only_chance	252
+JuztKillz	244.5
+ThatzRed	207
+DylanWMC	196.5
+mMiror	190.5
+MatrixMation	190.5
+foufouv	180
+Dollymouse	169.5
+Aceotts	145.5
+ThatDudecChr1s	141
+Rushynx	73.5
+ResearchRTX	73.5
+Tezle	73.5
+SapphicCentaur18	54
+TheeJames	51
+spareddd	37.5
+
+Game 5: HITW
+Points:
+JAY_matwr	647.5
+cheeetahs	640
+APurplePenguin	632.5
+Dr_OrangeFox_	607.5
+JuztKillz	532.5
+MatrixMation	502.5
+Brandonando	490
+Rosefiber	482.5
+vellow	475
+spareddd	452.5
+KubaBabilon	450
+AV80	437.5
+Dollymouse	427.5
+MCCI_Foxy	420
+DylanWMC	415
+ItzChoco	412.5
+ThatDudecChr1s	407.5
+LillyWhiteWolf	407.5
+KaydenCoolio	405
+foufouv	400
+only_chance	397.5
+monkebing	360
+Kodex13	315
+Tezle	310
+Rushynx	307.5
+Aceotts	232.5
+ResearchRTX	225
+PogForLive	210
+ThatzRed	195
+mMiror	180
+SapphicCentaur18	172.5
+TheeJames	135

@@ -1,0 +1,296 @@
+TCC RTS
+
+Teams:
+Red Rabbits:
+SaltContent
+C12dawg
+RoryAnimatez
+NoNoMoney
+
+Yellow Yaks:
+pikachu_girl9
+cheeetahs
+zombreyy
+AxeSoulVA
+
+Green Geckos:
+GGgamer73
+SimpleFalcon
+ThatDarkPhoenix
+Glitch3959_
+
+Cyan Coyotes:
+Andreayay
+KubaBabilon
+APurplePenguin_
+GeneralAlexMC
+
+Aqua Axolotls:
+ItzChoco
+iiGirts
+Gin_Ibushi
+Aceotts1
+
+Blue Bats:
+RatkingGaming
+JuztKillz
+Kodex13
+ItsCosmoMC
+
+Purple Pandas:
+KaydenCoolio
+rai2i
+qTad
+MrPrawes
+
+Pink Parrots:
+Trolliant
+thedracobee
+BearsCancelled
+foufouv
+
+Games:
+Game 1: RSR
+Points:
+APurplePenguin_	218
+GGgamer73	217
+rai2i	202
+qTad	193
+pikachu_girl9	186
+iiGirts	184
+KubaBabilon	169
+cheeetahs	168
+JuztKillz	162
+KaydenCoolio	162
+RoryAnimatez	158
+Trolliant	144
+ItzChoco	140
+SimpleFalcon	138
+thedracobee	138
+SaltContent	126
+Andreayay	114
+Kodex13	102
+MrPrawes	94
+zombreyy	92
+foufouv	78
+RatkingGaming	74
+Gin_Ibushi	70
+BearsCancelled	68
+C12dawg	56
+Aceotts1	50
+ItsCosmoMC	50
+Glitch3959_	48
+AxeSoulVA	44
+GeneralAlexMC	44
+ThatDarkPhoenix	26
+NoNoMoney	20
+
+Game 2: SB
+Points:
+rai2i	444
+SimpleFalcon	396
+GGgamer73	265.5
+qTad	249
+KaydenCoolio	241.5
+ThatDarkPhoenix	232.5
+RatkingGaming	217.5
+Trolliant	211.5
+Kodex13	210
+pikachu_girl9	208.5
+MrPrawes	201
+ItzChoco	199.5
+C12dawg	195
+Glitch3959_	193.5
+zombreyy	186
+RoryAnimatez	171
+KubaBabilon	171
+iiGirts	162
+SaltContent	160.5
+APurplePenguin_	156
+JuztKillz	156
+Gin_Ibushi	153
+AxeSoulVA	150
+NoNoMoney	148.5
+cheeetahs	145.5
+Aceotts1	145.5
+Andreayay	139.5
+ItsCosmoMC	139.5
+GeneralAlexMC	127.5
+BearsCancelled	97.5
+thedracobee	96
+foufouv	79.5
+
+Game 3: PKW
+Points:
+GGgamer73	528
+iiGirts	516
+Trolliant	512
+Kodex13	508
+rai2i	502
+KubaBabilon	500
+pikachu_girl9	474
+RoryAnimatez	438
+Andreayay	398
+ItzChoco	398
+KaydenCoolio	376
+thedracobee	372
+Gin_Ibushi	360
+qTad	342
+APurplePenguin_	336
+SaltContent	324
+Glitch3959_	264
+RatkingGaming	252
+JuztKillz	244
+AxeSoulVA	240
+foufouv	204
+SimpleFalcon	186
+BearsCancelled	156
+ThatDarkPhoenix	126
+GeneralAlexMC	120
+cheeetahs	114
+C12dawg	90
+zombreyy	90
+MrPrawes	72
+ItsCosmoMC	66
+NoNoMoney	36
+Aceotts1	36
+
+Game 4: HITW
+Points:
+Kodex13	670
+rai2i	647.5
+KaydenCoolio	632.5
+pikachu_girl9	625
+ItzChoco	607.5
+KubaBabilon	595
+GGgamer73	540
+Trolliant	487.5
+JuztKillz	472.5
+Andreayay	442.5
+MrPrawes	435
+SaltContent	427.5
+RatkingGaming	412.5
+RoryAnimatez	390
+thedracobee	382.5
+iiGirts	360
+Gin_Ibushi	330
+qTad	315
+ItsCosmoMC	307.5
+cheeetahs	285
+APurplePenguin_	270
+SimpleFalcon	210
+foufouv	210
+zombreyy	180
+AxeSoulVA	180
+Aceotts1	157.5
+Glitch3959_	150
+BearsCancelled	150
+C12dawg	135
+GeneralAlexMC	97.5
+ThatDarkPhoenix	82.5
+NoNoMoney	75
+
+Game 5: BB
+Points:
+GGgamer73	660
+SimpleFalcon	630
+pikachu_girl9	600
+rai2i	570
+qTad	570
+cheeetahs	555
+zombreyy	540
+MrPrawes	510
+iiGirts	495
+Gin_Ibushi	495
+AxeSoulVA	480
+ItzChoco	480
+KaydenCoolio	480
+C12dawg	405
+Glitch3959_	405
+ThatDarkPhoenix	390
+Aceotts1	360
+SaltContent	345
+RoryAnimatez	315
+NoNoMoney	315
+RatkingGaming	300
+APurplePenguin_	255
+Trolliant	240
+JuztKillz	225
+thedracobee	225
+KubaBabilon	210
+foufouv	210
+BearsCancelled	195
+ItsCosmoMC	135
+Andreayay	120
+GeneralAlexMC	105
+Kodex13	105
+
+Game 6: PKW
+Points:
+rai2i	210
+Trolliant	192
+GGgamer73	177
+pikachu_girl9	169
+JuztKillz	156
+iiGirts	155
+KubaBabilon	150
+RoryAnimatez	138
+Kodex13	132
+ItzChoco	130
+APurplePenguin_	123
+KaydenCoolio	122
+SaltContent	120
+Andreayay	120
+BearsCancelled	99
+RatkingGaming	93
+thedracobee	90
+Gin_Ibushi	87
+qTad	81
+C12dawg	75
+MrPrawes	69
+SimpleFalcon	60
+foufouv	60
+AxeSoulVA	57
+Glitch3959_	54
+cheeetahs	39
+ThatDarkPhoenix	30
+ItsCosmoMC	24
+GeneralAlexMC	21
+Aceotts1	21
+NoNoMoney	3
+zombreyy	3
+
+Game 7: TGTTOS
+Points:
+iiGirts	228
+ItzChoco	195
+pikachu_girl9	192
+rai2i	183
+GGgamer73	172
+JuztKillz	172
+KubaBabilon	167
+SaltContent	165
+qTad	142
+cheeetahs	135
+Andreayay	133
+MrPrawes	133
+thedracobee	133
+APurplePenguin_	128
+RoryAnimatez	124
+SimpleFalcon	122
+Kodex13	120
+ThatDarkPhoenix	119
+Gin_Ibushi	115
+Glitch3959_	99
+RatkingGaming	98
+KaydenCoolio	97
+C12dawg	93
+Trolliant	85
+AxeSoulVA	80
+foufouv	80
+ItsCosmoMC	79
+Aceotts1	78
+BearsCancelled	75
+zombreyy	74
+NoNoMoney	64
+GeneralAlexMC	61
