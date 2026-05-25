@@ -304,11 +304,30 @@
   margin: 0;
 }
 
+.game-stats-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
 .multiplier-badge {
   border: 1px solid color-mix(in srgb, var(--accent) 60%, var(--border));
   border-radius: 999px;
   padding: 3px 8px;
   background: color-mix(in srgb, var(--accent) 18%, var(--bg));
+  color: var(--text-h);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.special-scoring-badge {
+  border: 1px solid color-mix(in srgb, #f59e0b 70%, var(--border));
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: color-mix(in srgb, #f59e0b 18%, var(--bg));
   color: var(--text-h);
   font-size: 0.78rem;
   font-weight: 700;

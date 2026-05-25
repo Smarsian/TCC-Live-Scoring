@@ -63,13 +63,13 @@
             "date":"July 26, 2024",
             "players":12,
             "teams":4,
-            "game-order":["TGTTOS","Sky Battle","Hole In The Wall","Rocket Spleef Rush","Parkour Warrior"],
-            "unique-multiplier":[1,1,1,1,5],
+            "game-order":["TGTTOS","Sky Battle","Hole In The Wall","Trivia","Rocket Spleef Rush","Parkour Warrior","Trivia"],
+            "unique-multiplier":[1,1,1,1,1,5,1],
             "finale-game":"DYNA",
             "winner":"Yellow Yappers",
             "runner-up":"Cyan Certifieds",
             "score":"2-0",
-            "points":null,
+            "points":"TCC-CertifiedChampionships-Points.txt",
             "is-live":false
         },
         "TCC 5":
@@ -83,7 +83,7 @@
             "winner":"Purple Pandas",
             "runner-up":"Blue Bats",
             "score":"2-0",
-            "points":null,
+            "points":"TCC5-Points.txt",
             "is-live":false
         },
         "TCC 6":

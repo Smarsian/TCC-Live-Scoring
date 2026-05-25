@@ -1,0 +1,85 @@
+TCC5
+
+Teams:
+Orange Ocelots:
+AlexTK473
+Dr_OrangeFox_
+PorpolUmbrella
+thedracobee
+
+Green Guardians:
+TheeJames
+CryoKlout
+_TresLeches
+Stripes
+
+Blue Bats:
+BABOUSCA
+foufouv
+GamingGuy907
+GigaDrake
+
+Purple Pandas:
+Certifiedd
+Cronism
+Kodex13
+Smarsian
+
+Games:
+Game 1: SB
+Points:
+1 Certifiedd 11
+2 GamingGuy907 10
+3 BABOUSCA 7
+4 thedracobee 5
+5 Smarsian 4
+6 foufouv 4
+7 Stripes 3
+8 GigaDrake 1
+9 AlexTK473 1
+
+Game 2: BB
+Points:
+1 Certifiedd 18
+2 thedracobee 12
+3 Cronism 9
+4 Dr_OrangeFox_ 7.5
+5 PorpolUmbrella 7.5
+6 Smarsian 6
+7 AlexTK473 6
+8 Stripes 4.5
+9 Kodex13 3
+
+Game 3: RSR
+Points:
+1 Certifiedd 26
+2 thedracobee 18
+3 GamingGuy907 16
+4 Kodex13 8
+5 GigaDrake 8
+6 AlexTK473 6
+7 Dr_OrangeFox_ 6
+8 Stripes 2
+
+Game 4: PKW
+Points:
+1 Kodex13 25
+2 Smarsian 25
+3 PorpolUmbrella 22.5
+4 thedracobee 20
+5 GamingGuy907 17.5
+6 GigaDrake 17.5
+7 Dr_OrangeFox_ 15
+8 BABOUSCA 15
+9 Certifiedd 7
+
+Game 5: HITW
+Points:
+1 Certifiedd 42
+2 GamingGuy907 30
+3 GigaDrake 27
+4 Smarsian 15
+5 thedracobee 12
+6 AlexTK473 9
+7 BABOUSCA 6
+8 PorpolUmbrella 3

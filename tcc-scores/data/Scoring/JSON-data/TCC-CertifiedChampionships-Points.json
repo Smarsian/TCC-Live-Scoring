@@ -1,0 +1,1536 @@
+{
+  "event-name": "The Certified Champtionships",
+  "teams": {
+    "Red Rabbids": [
+      "AlexTK473",
+      "mMiror",
+      "Stripes",
+      "Xd_Hashbrown"
+    ],
+    "Yellow Yappers": [
+      "Aceotts1",
+      "Spareddd",
+      "KaydenCoolio",
+      "Certifiedd"
+    ],
+    "Cyan Certifieds": [
+      "GamingGuy907",
+      "Kodex13",
+      "Smarsian",
+      "thedracobee"
+    ],
+    "Pink Pepes": [
+      "APurplePenguin",
+      "Dr_OrangeFox_",
+      "Oniqed",
+      "PorpolUmbrella"
+    ]
+  },
+  "games": [
+    "TGTTOS",
+    "SB",
+    "HITW",
+    "Trivia",
+    "RSR",
+    "PKW",
+    "Trivia"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "Certifiedd",
+      "team": "Yellow Yappers",
+      "points": 81,
+      "place": 1
+    },
+    {
+      "player": "Oniqed",
+      "team": "Pink Pepes",
+      "points": 77,
+      "place": 2
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Cyan Certifieds",
+      "points": 73,
+      "place": 3
+    },
+    {
+      "player": "Xd_Hashbrown",
+      "team": "Red Rabbids",
+      "points": 65,
+      "place": 4
+    },
+    {
+      "player": "Kodex13",
+      "team": "Cyan Certifieds",
+      "points": 55,
+      "place": 5
+    },
+    {
+      "player": "thedracobee",
+      "team": "Cyan Certifieds",
+      "points": 45,
+      "place": 6
+    },
+    {
+      "player": "Smarsian",
+      "team": "Cyan Certifieds",
+      "points": 41,
+      "place": 7
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Pink Pepes",
+      "points": 33,
+      "place": 8
+    },
+    {
+      "player": "Spareddd",
+      "team": "Yellow Yappers",
+      "points": 33,
+      "place": 9
+    },
+    {
+      "player": "Stripes",
+      "team": "Red Rabbids",
+      "points": 31,
+      "place": 10
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Yellow Yappers",
+      "points": 18,
+      "place": 11
+    },
+    {
+      "player": "PorpolUmbrella",
+      "team": "Pink Pepes",
+      "points": 15,
+      "place": 12
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Red Rabbids",
+      "points": 9,
+      "place": 13
+    },
+    {
+      "player": "APurplePenguin",
+      "team": "Pink Pepes",
+      "points": 8,
+      "place": 14
+    },
+    {
+      "player": "mMiror",
+      "team": "Red Rabbids",
+      "points": 4,
+      "place": 15
+    },
+    {
+      "player": "Aceotts1",
+      "team": "Yellow Yappers",
+      "points": 3,
+      "place": 16
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Cyan Certifieds",
+      "points": 234,
+      "place": 1
+    },
+    {
+      "team": "Yellow Yappers",
+      "points": 155,
+      "place": 2
+    },
+    {
+      "team": "Pink Pepes",
+      "points": 153,
+      "place": 3
+    },
+    {
+      "team": "Red Rabbids",
+      "points": 114,
+      "place": 4
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "TGTTOS",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yappers",
+          "points": 13,
+          "place": 1
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Certifieds",
+          "points": 7,
+          "place": 2
+        },
+        {
+          "player": "thedracobee",
+          "team": "Cyan Certifieds",
+          "points": 7,
+          "place": 3
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Pepes",
+          "points": 5,
+          "place": 4
+        },
+        {
+          "player": "Certifiedd",
+          "team": "Yellow Yappers",
+          "points": 4,
+          "place": 5
+        },
+        {
+          "player": "Stripes",
+          "team": "Red Rabbids",
+          "points": 4,
+          "place": 6
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Pink Pepes",
+          "points": 2,
+          "place": 7
+        },
+        {
+          "player": "Kodex13",
+          "team": "Cyan Certifieds",
+          "points": 2,
+          "place": 8
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Yellow Yappers",
+          "points": 1,
+          "place": 9
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Yellow Yappers",
+          "points": 1,
+          "place": 10
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Smarsian",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Yellow Yappers",
+          "points": 19,
+          "place": 1
+        },
+        {
+          "team": "Cyan Certifieds",
+          "points": 16,
+          "place": 2
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 7,
+          "place": 3
+        },
+        {
+          "team": "Red Rabbids",
+          "points": 4,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Certifiedd",
+          "team": "Yellow Yappers",
+          "points": 10,
+          "place": 1
+        },
+        {
+          "player": "Kodex13",
+          "team": "Cyan Certifieds",
+          "points": 8,
+          "place": 2
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Red Rabbids",
+          "points": 8,
+          "place": 3
+        },
+        {
+          "player": "Stripes",
+          "team": "Red Rabbids",
+          "points": 6,
+          "place": 4
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yappers",
+          "points": 5,
+          "place": 5
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbids",
+          "points": 4,
+          "place": 6
+        },
+        {
+          "player": "Smarsian",
+          "team": "Cyan Certifieds",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Yellow Yappers",
+          "points": 2,
+          "place": 8
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Red Rabbids",
+          "points": 2,
+          "place": 9
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Yellow Yappers",
+          "points": 2,
+          "place": 10
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "thedracobee",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Red Rabbids",
+          "points": 20,
+          "place": 1
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 19,
+          "place": 2
+        },
+        {
+          "team": "Cyan Certifieds",
+          "points": 11,
+          "place": 3
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "HITW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Oniqed",
+          "team": "Pink Pepes",
+          "points": 10,
+          "place": 1
+        },
+        {
+          "player": "Certifiedd",
+          "team": "Yellow Yappers",
+          "points": 9,
+          "place": 2
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Certifieds",
+          "points": 8,
+          "place": 3
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Red Rabbids",
+          "points": 6,
+          "place": 4
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Pepes",
+          "points": 4,
+          "place": 5
+        },
+        {
+          "player": "Smarsian",
+          "team": "Cyan Certifieds",
+          "points": 3,
+          "place": 6
+        },
+        {
+          "player": "thedracobee",
+          "team": "Cyan Certifieds",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Red Rabbids",
+          "points": 2,
+          "place": 8
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 9
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Kodex13",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "Stripes",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Cyan Certifieds",
+          "points": 14,
+          "place": 1
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 14,
+          "place": 2
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 9,
+          "place": 3
+        },
+        {
+          "team": "Red Rabbids",
+          "points": 8,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "Trivia",
+      "special-scoring": true,
+      "player-leaderboard": [],
+      "team-leaderboard": [
+        {
+          "team": "Cyan Certifieds",
+          "points": 10,
+          "place": 1
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 10,
+          "place": 2
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 10,
+          "place": 3
+        },
+        {
+          "team": "Red Rabbids",
+          "points": -5,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Red Rabbids",
+          "points": 10,
+          "place": 1
+        },
+        {
+          "player": "Certifiedd",
+          "team": "Yellow Yappers",
+          "points": 8,
+          "place": 2
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Pepes",
+          "points": 7,
+          "place": 3
+        },
+        {
+          "player": "Stripes",
+          "team": "Red Rabbids",
+          "points": 6,
+          "place": 4
+        },
+        {
+          "player": "thedracobee",
+          "team": "Cyan Certifieds",
+          "points": 5,
+          "place": 5
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Pepes",
+          "points": 4,
+          "place": 6
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Certifieds",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Red Rabbids",
+          "points": 1,
+          "place": 8
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Pink Pepes",
+          "points": 1,
+          "place": 9
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Kodex13",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Smarsian",
+          "team": "Cyan Certifieds",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Red Rabbids",
+          "points": 17,
+          "place": 1
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 12,
+          "place": 2
+        },
+        {
+          "team": "Cyan Certifieds",
+          "points": 8,
+          "place": 3
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 8,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "GamingGuy907",
+          "team": "Cyan Certifieds",
+          "points": 55,
+          "place": 1
+        },
+        {
+          "player": "Oniqed",
+          "team": "Pink Pepes",
+          "points": 55,
+          "place": 2
+        },
+        {
+          "player": "Certifiedd",
+          "team": "Yellow Yappers",
+          "points": 50,
+          "place": 3
+        },
+        {
+          "player": "Kodex13",
+          "team": "Cyan Certifieds",
+          "points": 45,
+          "place": 4
+        },
+        {
+          "player": "Xd_Hashbrown",
+          "team": "Red Rabbids",
+          "points": 45,
+          "place": 5
+        },
+        {
+          "player": "Smarsian",
+          "team": "Cyan Certifieds",
+          "points": 35,
+          "place": 6
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Pink Pepes",
+          "points": 30,
+          "place": 7
+        },
+        {
+          "player": "thedracobee",
+          "team": "Cyan Certifieds",
+          "points": 30,
+          "place": 8
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Yellow Yappers",
+          "points": 15,
+          "place": 9
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Pink Pepes",
+          "points": 15,
+          "place": 10
+        },
+        {
+          "player": "Spareddd",
+          "team": "Yellow Yappers",
+          "points": 15,
+          "place": 11
+        },
+        {
+          "player": "Stripes",
+          "team": "Red Rabbids",
+          "points": 15,
+          "place": 12
+        },
+        {
+          "player": "Aceotts1",
+          "team": "Yellow Yappers",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "APurplePenguin",
+          "team": "Pink Pepes",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "mMiror",
+          "team": "Red Rabbids",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Cyan Certifieds",
+          "points": 165,
+          "place": 1
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 100,
+          "place": 2
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 80,
+          "place": 3
+        },
+        {
+          "team": "Red Rabbids",
+          "points": 60,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 7,
+      "game-name": "Trivia",
+      "special-scoring": true,
+      "player-leaderboard": [],
+      "team-leaderboard": [
+        {
+          "team": "Cyan Certifieds",
+          "points": 10,
+          "place": 1
+        },
+        {
+          "team": "Pink Pepes",
+          "points": 10,
+          "place": 2
+        },
+        {
+          "team": "Red Rabbids",
+          "points": 10,
+          "place": 3
+        },
+        {
+          "team": "Yellow Yappers",
+          "points": 10,
+          "place": 4
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "TGTTOS": [
+      {
+        "game-number": 1,
+        "game-name": "TGTTOS",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yappers",
+            "points": 13,
+            "place": 1
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Certifieds",
+            "points": 7,
+            "place": 2
+          },
+          {
+            "player": "thedracobee",
+            "team": "Cyan Certifieds",
+            "points": 7,
+            "place": 3
+          },
+          {
+            "player": "Oniqed",
+            "team": "Pink Pepes",
+            "points": 5,
+            "place": 4
+          },
+          {
+            "player": "Certifiedd",
+            "team": "Yellow Yappers",
+            "points": 4,
+            "place": 5
+          },
+          {
+            "player": "Stripes",
+            "team": "Red Rabbids",
+            "points": 4,
+            "place": 6
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Pink Pepes",
+            "points": 2,
+            "place": 7
+          },
+          {
+            "player": "Kodex13",
+            "team": "Cyan Certifieds",
+            "points": 2,
+            "place": 8
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Yellow Yappers",
+            "points": 1,
+            "place": 9
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Yellow Yappers",
+            "points": 1,
+            "place": 10
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Smarsian",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Yellow Yappers",
+            "points": 19,
+            "place": 1
+          },
+          {
+            "team": "Cyan Certifieds",
+            "points": 16,
+            "place": 2
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 7,
+            "place": 3
+          },
+          {
+            "team": "Red Rabbids",
+            "points": 4,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 2,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Certifiedd",
+            "team": "Yellow Yappers",
+            "points": 10,
+            "place": 1
+          },
+          {
+            "player": "Kodex13",
+            "team": "Cyan Certifieds",
+            "points": 8,
+            "place": 2
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Red Rabbids",
+            "points": 8,
+            "place": 3
+          },
+          {
+            "player": "Stripes",
+            "team": "Red Rabbids",
+            "points": 6,
+            "place": 4
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yappers",
+            "points": 5,
+            "place": 5
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbids",
+            "points": 4,
+            "place": 6
+          },
+          {
+            "player": "Smarsian",
+            "team": "Cyan Certifieds",
+            "points": 3,
+            "place": 7
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Yellow Yappers",
+            "points": 2,
+            "place": 8
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Red Rabbids",
+            "points": 2,
+            "place": 9
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Yellow Yappers",
+            "points": 2,
+            "place": 10
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "Oniqed",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "thedracobee",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Red Rabbids",
+            "points": 20,
+            "place": 1
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 19,
+            "place": 2
+          },
+          {
+            "team": "Cyan Certifieds",
+            "points": 11,
+            "place": 3
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "HITW": [
+      {
+        "game-number": 3,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Oniqed",
+            "team": "Pink Pepes",
+            "points": 10,
+            "place": 1
+          },
+          {
+            "player": "Certifiedd",
+            "team": "Yellow Yappers",
+            "points": 9,
+            "place": 2
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Certifieds",
+            "points": 8,
+            "place": 3
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Red Rabbids",
+            "points": 6,
+            "place": 4
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Pepes",
+            "points": 4,
+            "place": 5
+          },
+          {
+            "player": "Smarsian",
+            "team": "Cyan Certifieds",
+            "points": 3,
+            "place": 6
+          },
+          {
+            "player": "thedracobee",
+            "team": "Cyan Certifieds",
+            "points": 3,
+            "place": 7
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Red Rabbids",
+            "points": 2,
+            "place": 8
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "Kodex13",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "Stripes",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Cyan Certifieds",
+            "points": 14,
+            "place": 1
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 14,
+            "place": 2
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 9,
+            "place": 3
+          },
+          {
+            "team": "Red Rabbids",
+            "points": 8,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "Trivia": [
+      {
+        "game-number": 4,
+        "game-name": "Trivia",
+        "special-scoring": true,
+        "player-leaderboard": [],
+        "team-leaderboard": [
+          {
+            "team": "Cyan Certifieds",
+            "points": 10,
+            "place": 1
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 10,
+            "place": 2
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 10,
+            "place": 3
+          },
+          {
+            "team": "Red Rabbids",
+            "points": -5,
+            "place": 4
+          }
+        ]
+      },
+      {
+        "game-number": 7,
+        "game-name": "Trivia",
+        "special-scoring": true,
+        "player-leaderboard": [],
+        "team-leaderboard": [
+          {
+            "team": "Cyan Certifieds",
+            "points": 10,
+            "place": 1
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 10,
+            "place": 2
+          },
+          {
+            "team": "Red Rabbids",
+            "points": 10,
+            "place": 3
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 10,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 4,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Red Rabbids",
+            "points": 10,
+            "place": 1
+          },
+          {
+            "player": "Certifiedd",
+            "team": "Yellow Yappers",
+            "points": 8,
+            "place": 2
+          },
+          {
+            "player": "Oniqed",
+            "team": "Pink Pepes",
+            "points": 7,
+            "place": 3
+          },
+          {
+            "player": "Stripes",
+            "team": "Red Rabbids",
+            "points": 6,
+            "place": 4
+          },
+          {
+            "player": "thedracobee",
+            "team": "Cyan Certifieds",
+            "points": 5,
+            "place": 5
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Pepes",
+            "points": 4,
+            "place": 6
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Certifieds",
+            "points": 3,
+            "place": 7
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Red Rabbids",
+            "points": 1,
+            "place": 8
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Pink Pepes",
+            "points": 1,
+            "place": 9
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "Kodex13",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Smarsian",
+            "team": "Cyan Certifieds",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Red Rabbids",
+            "points": 17,
+            "place": 1
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 12,
+            "place": 2
+          },
+          {
+            "team": "Cyan Certifieds",
+            "points": 8,
+            "place": 3
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 8,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 5,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "GamingGuy907",
+            "team": "Cyan Certifieds",
+            "points": 55,
+            "place": 1
+          },
+          {
+            "player": "Oniqed",
+            "team": "Pink Pepes",
+            "points": 55,
+            "place": 2
+          },
+          {
+            "player": "Certifiedd",
+            "team": "Yellow Yappers",
+            "points": 50,
+            "place": 3
+          },
+          {
+            "player": "Kodex13",
+            "team": "Cyan Certifieds",
+            "points": 45,
+            "place": 4
+          },
+          {
+            "player": "Xd_Hashbrown",
+            "team": "Red Rabbids",
+            "points": 45,
+            "place": 5
+          },
+          {
+            "player": "Smarsian",
+            "team": "Cyan Certifieds",
+            "points": 35,
+            "place": 6
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Pink Pepes",
+            "points": 30,
+            "place": 7
+          },
+          {
+            "player": "thedracobee",
+            "team": "Cyan Certifieds",
+            "points": 30,
+            "place": 8
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Yellow Yappers",
+            "points": 15,
+            "place": 9
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Pink Pepes",
+            "points": 15,
+            "place": 10
+          },
+          {
+            "player": "Spareddd",
+            "team": "Yellow Yappers",
+            "points": 15,
+            "place": 11
+          },
+          {
+            "player": "Stripes",
+            "team": "Red Rabbids",
+            "points": 15,
+            "place": 12
+          },
+          {
+            "player": "Aceotts1",
+            "team": "Yellow Yappers",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "APurplePenguin",
+            "team": "Pink Pepes",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "mMiror",
+            "team": "Red Rabbids",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Cyan Certifieds",
+            "points": 165,
+            "place": 1
+          },
+          {
+            "team": "Pink Pepes",
+            "points": 100,
+            "place": 2
+          },
+          {
+            "team": "Yellow Yappers",
+            "points": 80,
+            "place": 3
+          },
+          {
+            "team": "Red Rabbids",
+            "points": 60,
+            "place": 4
+          }
+        ]
+      }
+    ]
+  }
+}

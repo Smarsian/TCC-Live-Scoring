@@ -277,6 +277,7 @@ function App() {
         name: gameName,
         abbreviation: gameData.abbreviation,
         logoUrl: resolveLogoUrl(gameData.image),
+        specialScoring: Boolean(gameData['special-scoring']),
       }
 
       lookup[normalizeGameName(gameName)] = gameEntry
@@ -333,6 +334,7 @@ function App() {
         name: match?.name ?? toLabel(gameName),
         abbreviation: match?.abbreviation ?? null,
         logoUrl: match?.logoUrl ?? null,
+        specialScoring: match?.specialScoring ?? false,
       }
     })
   }, [gameOrder, gameLookup])
@@ -344,29 +346,51 @@ function App() {
       name: '',
       abbreviation: null,
       logoUrl: null,
+      specialScoring: false,
     }
 
-  const gameStatsLookup = useMemo(() => {
-    const rawStats = eventDataWithParsed?.['game-stats']
+  const isSpecialScoringGame = Boolean(selectedGame.specialScoring)
 
-    if (!rawStats || typeof rawStats !== 'object') {
+  const rawGameStats = eventDataWithParsed?.['game-stats']
+  const rawGameStatsByName = eventDataWithParsed?.['game-stats-by-name']
+  const gameStatsSequence = Array.isArray(rawGameStats) ? rawGameStats : null
+
+  const gameStatsLookup = useMemo(() => {
+    if (!rawGameStats || Array.isArray(rawGameStats) || typeof rawGameStats !== 'object') {
       return {}
     }
 
-    return Object.entries(rawStats).reduce((lookup, [key, value]) => {
+    return Object.entries(rawGameStats).reduce((lookup, [key, value]) => {
       lookup[key] = value
       lookup[normalizeGameName(key)] = value
       return lookup
     }, {})
-  }, [eventDataWithParsed])
+  }, [rawGameStats])
 
-  const selectedGameStats =
-    gameStatsLookup[normalizeGameName(selectedGame.rawName)] ??
-    gameStatsLookup[normalizeGameName(selectedGame.name)] ??
-    (selectedGame.abbreviation
-      ? gameStatsLookup[normalizeGameName(selectedGame.abbreviation)]
-      : null) ??
-    null
+  const gameStatsByNameLookup = useMemo(() => {
+    if (!rawGameStatsByName || typeof rawGameStatsByName !== 'object') {
+      return {}
+    }
+
+    return Object.entries(rawGameStatsByName).reduce((lookup, [key, value]) => {
+      const resolvedValue = Array.isArray(value) ? value[0] ?? null : value
+      lookup[key] = resolvedValue
+      lookup[normalizeGameName(key)] = resolvedValue
+      return lookup
+    }, {})
+  }, [rawGameStatsByName])
+
+  const selectedGameStats = gameStatsSequence
+    ? gameStatsSequence[selectedGameIndex] ?? null
+    : gameStatsLookup[normalizeGameName(selectedGame.rawName)] ??
+      gameStatsLookup[normalizeGameName(selectedGame.name)] ??
+      gameStatsByNameLookup[normalizeGameName(selectedGame.rawName)] ??
+      gameStatsByNameLookup[normalizeGameName(selectedGame.name)] ??
+      (selectedGame.abbreviation
+        ? gameStatsLookup[normalizeGameName(selectedGame.abbreviation)] ??
+          gameStatsByNameLookup[normalizeGameName(selectedGame.abbreviation)]
+        : null) ??
+      null
 
   const selectedGameStatsObject = useMemo(
     () => (selectedGameStats && typeof selectedGameStats === 'object' ? selectedGameStats : {}),
@@ -382,12 +406,20 @@ function App() {
     const playerTotals = new Map()
     const teamTotals = new Map()
 
-    gamesToInclude.forEach((game) => {
+    gamesToInclude.forEach((game, index) => {
       const stats =
+        (gameStatsSequence ? gameStatsSequence[index] ?? null : null) ??
         gameStatsLookup[normalizeGameName(game.rawName)] ??
         gameStatsLookup[normalizeGameName(game.name)] ??
-        (game.abbreviation ? gameStatsLookup[normalizeGameName(game.abbreviation)] : null) ??
+        gameStatsByNameLookup[normalizeGameName(game.rawName)] ??
+        gameStatsByNameLookup[normalizeGameName(game.name)] ??
+        (game.abbreviation
+          ? gameStatsLookup[normalizeGameName(game.abbreviation)] ??
+            gameStatsByNameLookup[normalizeGameName(game.abbreviation)]
+          : null) ??
         null
+
+      const isSpecialScoring = Boolean(game.specialScoring)
 
       if (!stats || typeof stats !== 'object') {
         return
@@ -405,26 +437,28 @@ function App() {
           ? stats.teams
           : []
 
-      playerRows.forEach((row) => {
-        const playerName = row.player ?? row.name
-        if (!playerName) {
-          return
-        }
+      if (!isSpecialScoring) {
+        playerRows.forEach((row) => {
+          const playerName = row.player ?? row.name
+          if (!playerName) {
+            return
+          }
 
-        const rowPoints = toNumber(row.points ?? row.coins) ?? 0
-        const teamName = row.team ?? null
-        const existing = playerTotals.get(playerName) ?? {
-          player: playerName,
-          team: teamName,
-          points: 0,
-        }
+          const rowPoints = toNumber(row.points ?? row.coins) ?? 0
+          const teamName = row.team ?? null
+          const existing = playerTotals.get(playerName) ?? {
+            player: playerName,
+            team: teamName,
+            points: 0,
+          }
 
-        playerTotals.set(playerName, {
-          ...existing,
-          team: existing.team ?? teamName,
-          points: existing.points + rowPoints,
+          playerTotals.set(playerName, {
+            ...existing,
+            team: existing.team ?? teamName,
+            points: existing.points + rowPoints,
+          })
         })
-      })
+      }
 
       if (teamRows.length > 0) {
         teamRows.forEach((row) => {
@@ -473,7 +507,14 @@ function App() {
         place: index + 1,
       })),
     }
-  }, [eventDataWithParsed, selectedGameIndex, gameOrderWithAssets, gameStatsLookup])
+  }, [
+    eventDataWithParsed,
+    selectedGameIndex,
+    gameOrderWithAssets,
+    gameStatsLookup,
+    gameStatsByNameLookup,
+    gameStatsSequence,
+  ])
 
   const leaderboardDataSource =
     leaderboardView === 'event' && eventDataWithParsed && typeof eventDataWithParsed === 'object'
@@ -596,20 +637,31 @@ function App() {
       inferredMultiplier,
   )
 
+  const selectedGameTitle = isSpecialScoringGame
+    ? `${selectedGame.name || 'Game stats'} (Team-only)`
+    : selectedGame.name || 'Game stats'
+
   const statRows = [
     {
       label: 'Top Team',
       value: selectedGameTopTeam,
       teamColor: topTeamVisual?.color ?? null,
     },
-    {
-      label: 'Top Player',
-      value: selectedGameTopPlayer,
-      teamColor: topPlayerTeamVisual?.color ?? null,
-    },
+    ...(!isSpecialScoringGame
+      ? [
+          {
+            label: 'Top Player',
+            value: selectedGameTopPlayer,
+            teamColor: topPlayerTeamVisual?.color ?? null,
+          },
+        ]
+      : []),
   ]
 
   const knownGameStatKeys = new Set([
+    'game-number',
+    'game-name',
+    'special-scoring',
     'multiplier',
     'placement-multiplier',
     'top-team',
@@ -867,11 +919,12 @@ function App() {
 
             <article className="game-stats-card" aria-live="polite">
               <div className="game-stats-header">
-                <h4>{selectedGame.name || 'Game stats'}</h4>
+                <h4>{selectedGameTitle}</h4>
                 {selectedGame.name ? (
-                  <span className="multiplier-badge">
-                    {placementMultiplier ?? 'TBD'}
-                  </span>
+                  <div className="game-stats-badges">
+                    {isSpecialScoringGame ? <span className="special-scoring-badge">Team only</span> : null}
+                    <span className="multiplier-badge">{placementMultiplier ?? 'TBD'}</span>
+                  </div>
                 ) : null}
               </div>
               {selectedGame.logoUrl ? (
@@ -925,63 +978,65 @@ function App() {
                     </button>
                   </div>
 
-                  <section className="leaderboard-card" aria-label="Player leaderboard">
-                    <h5>Player Leaderboard</h5>
-                    <div className="leaderboard-table-wrap">
-                      <table className="leaderboard-table">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Player</th>
-                            <th scope="col">Team</th>
-                            <th scope="col">Points</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {playerLeaderboard.length > 0 ? (
-                            playerLeaderboard.map((row, index) => {
-                              const teamName = row.team ?? 'TBD'
-                              const teamVisual = getTeamVisual(teamName)
-
-                              return (
-                                <tr
-                                  key={`${row.player ?? row.name ?? 'player'}-${index}`}
-                                  className={teamVisual?.color ? 'leaderboard-team-row' : ''}
-                                  style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
-                                >
-                                  <td>{row.place ?? index + 1}</td>
-                                  <td>{row.player ?? row.name ?? 'TBD'}</td>
-                                  <td>
-                                    <span className="leaderboard-team-cell">
-                                      {teamVisual?.logoUrl ? (
-                                        <img
-                                          className="leaderboard-team-logo"
-                                          src={teamVisual.logoUrl}
-                                          alt={`${teamVisual.name} logo`}
-                                        />
-                                      ) : null}
-                                      <span>{teamVisual?.name ?? teamName}</span>
-                                    </span>
-                                  </td>
-                                  <td>{row.points ?? row.coins ?? 'TBD'}</td>
-                                </tr>
-                              )
-                            })
-                          ) : (
+                  {!isSpecialScoringGame || leaderboardView === 'event' ? (
+                    <section className="leaderboard-card" aria-label="Player leaderboard">
+                      <h5>Player Leaderboard</h5>
+                      <div className="leaderboard-table-wrap">
+                        <table className="leaderboard-table">
+                          <thead>
                             <tr>
-                              <td>1</td>
-                              <td>TBD</td>
-                              <td>TBD</td>
-                              <td>TBD</td>
+                              <th scope="col">#</th>
+                              <th scope="col">Player</th>
+                              <th scope="col">Team</th>
+                              <th scope="col">Points</th>
                             </tr>
-                          )}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
+                          </thead>
+                          <tbody>
+                            {playerLeaderboard.length > 0 ? (
+                              playerLeaderboard.map((row, index) => {
+                                const teamName = row.team ?? 'TBD'
+                                const teamVisual = getTeamVisual(teamName)
+
+                                return (
+                                  <tr
+                                    key={`${row.player ?? row.name ?? 'player'}-${index}`}
+                                    className={teamVisual?.color ? 'leaderboard-team-row' : ''}
+                                    style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
+                                  >
+                                    <td>{row.place ?? index + 1}</td>
+                                    <td>{row.player ?? row.name ?? 'TBD'}</td>
+                                    <td>
+                                      <span className="leaderboard-team-cell">
+                                        {teamVisual?.logoUrl ? (
+                                          <img
+                                            className="leaderboard-team-logo"
+                                            src={teamVisual.logoUrl}
+                                            alt={`${teamVisual.name} logo`}
+                                          />
+                                        ) : null}
+                                        <span>{teamVisual?.name ?? teamName}</span>
+                                      </span>
+                                    </td>
+                                    <td>{row.points ?? row.coins ?? 'TBD'}</td>
+                                  </tr>
+                                )
+                              })
+                            ) : (
+                              <tr>
+                                <td>1</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
+                              </tr>
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  ) : null}
 
                   <section className="leaderboard-card" aria-label="Team leaderboard">
-                    <h5>Team Leaderboard</h5>
+                    <h5>{isSpecialScoringGame ? `${selectedGame.name || 'Game'} Team Leaderboard` : 'Team Leaderboard'}</h5>
                     <div className="leaderboard-table-wrap">
                       <table className="leaderboard-table">
                         <thead>

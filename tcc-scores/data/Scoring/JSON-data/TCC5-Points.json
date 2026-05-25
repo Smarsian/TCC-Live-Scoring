@@ -1,0 +1,1420 @@
+{
+  "event-name": "TCC5",
+  "teams": {
+    "Orange Ocelots": [
+      "AlexTK473",
+      "Dr_OrangeFox_",
+      "PorpolUmbrella",
+      "thedracobee"
+    ],
+    "Green Guardians": [
+      "TheeJames",
+      "CryoKlout",
+      "_TresLeches",
+      "Stripes"
+    ],
+    "Blue Bats": [
+      "BABOUSCA",
+      "foufouv",
+      "GamingGuy907",
+      "GigaDrake"
+    ],
+    "Purple Pandas": [
+      "Certifiedd",
+      "Cronism",
+      "Kodex13",
+      "Smarsian"
+    ]
+  },
+  "games": [
+    "SB",
+    "BB",
+    "RSR",
+    "PKW",
+    "HITW"
+  ],
+  "event-player-leaderboard": [
+    {
+      "player": "Certifiedd",
+      "team": "Purple Pandas",
+      "points": 104,
+      "place": 1
+    },
+    {
+      "player": "GamingGuy907",
+      "team": "Blue Bats",
+      "points": 73.5,
+      "place": 2
+    },
+    {
+      "player": "thedracobee",
+      "team": "Orange Ocelots",
+      "points": 67,
+      "place": 3
+    },
+    {
+      "player": "GigaDrake",
+      "team": "Blue Bats",
+      "points": 53.5,
+      "place": 4
+    },
+    {
+      "player": "Smarsian",
+      "team": "Purple Pandas",
+      "points": 50,
+      "place": 5
+    },
+    {
+      "player": "Kodex13",
+      "team": "Purple Pandas",
+      "points": 36,
+      "place": 6
+    },
+    {
+      "player": "PorpolUmbrella",
+      "team": "Orange Ocelots",
+      "points": 33.0,
+      "place": 7
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Orange Ocelots",
+      "points": 28.5,
+      "place": 8
+    },
+    {
+      "player": "BABOUSCA",
+      "team": "Blue Bats",
+      "points": 28,
+      "place": 9
+    },
+    {
+      "player": "AlexTK473",
+      "team": "Orange Ocelots",
+      "points": 22,
+      "place": 10
+    },
+    {
+      "player": "Stripes",
+      "team": "Green Guardians",
+      "points": 9.5,
+      "place": 11
+    },
+    {
+      "player": "Cronism",
+      "team": "Purple Pandas",
+      "points": 9,
+      "place": 12
+    },
+    {
+      "player": "foufouv",
+      "team": "Blue Bats",
+      "points": 4,
+      "place": 13
+    },
+    {
+      "player": "_TresLeches",
+      "team": "Green Guardians",
+      "points": 0,
+      "place": 14
+    },
+    {
+      "player": "CryoKlout",
+      "team": "Green Guardians",
+      "points": 0,
+      "place": 15
+    },
+    {
+      "player": "TheeJames",
+      "team": "Green Guardians",
+      "points": 0,
+      "place": 16
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Purple Pandas",
+      "points": 199,
+      "place": 1
+    },
+    {
+      "team": "Blue Bats",
+      "points": 159.0,
+      "place": 2
+    },
+    {
+      "team": "Orange Ocelots",
+      "points": 150.5,
+      "place": 3
+    },
+    {
+      "team": "Green Guardians",
+      "points": 9.5,
+      "place": 4
+    }
+  ],
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "SB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Certifiedd",
+          "team": "Purple Pandas",
+          "points": 11,
+          "place": 1
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Blue Bats",
+          "points": 10,
+          "place": 2
+        },
+        {
+          "player": "BABOUSCA",
+          "team": "Blue Bats",
+          "points": 7,
+          "place": 3
+        },
+        {
+          "player": "thedracobee",
+          "team": "Orange Ocelots",
+          "points": 5,
+          "place": 4
+        },
+        {
+          "player": "foufouv",
+          "team": "Blue Bats",
+          "points": 4,
+          "place": 5
+        },
+        {
+          "player": "Smarsian",
+          "team": "Purple Pandas",
+          "points": 4,
+          "place": 6
+        },
+        {
+          "player": "Stripes",
+          "team": "Green Guardians",
+          "points": 3,
+          "place": 7
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 1,
+          "place": 8
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Blue Bats",
+          "points": 1,
+          "place": 9
+        },
+        {
+          "player": "_TresLeches",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "Cronism",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "CryoKlout",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "Kodex13",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Blue Bats",
+          "points": 22,
+          "place": 1
+        },
+        {
+          "team": "Purple Pandas",
+          "points": 15,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 6,
+          "place": 3
+        },
+        {
+          "team": "Green Guardians",
+          "points": 3,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 2,
+      "game-name": "BB",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Certifiedd",
+          "team": "Purple Pandas",
+          "points": 18,
+          "place": 1
+        },
+        {
+          "player": "thedracobee",
+          "team": "Orange Ocelots",
+          "points": 12,
+          "place": 2
+        },
+        {
+          "player": "Cronism",
+          "team": "Purple Pandas",
+          "points": 9,
+          "place": 3
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Ocelots",
+          "points": 7.5,
+          "place": 4
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Orange Ocelots",
+          "points": 7.5,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 6,
+          "place": 6
+        },
+        {
+          "player": "Smarsian",
+          "team": "Purple Pandas",
+          "points": 6,
+          "place": 7
+        },
+        {
+          "player": "Stripes",
+          "team": "Green Guardians",
+          "points": 4.5,
+          "place": 8
+        },
+        {
+          "player": "Kodex13",
+          "team": "Purple Pandas",
+          "points": 3,
+          "place": 9
+        },
+        {
+          "player": "_TresLeches",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "BABOUSCA",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "CryoKlout",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "foufouv",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Purple Pandas",
+          "points": 36,
+          "place": 1
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 33.0,
+          "place": 2
+        },
+        {
+          "team": "Green Guardians",
+          "points": 4.5,
+          "place": 3
+        },
+        {
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 3,
+      "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Certifiedd",
+          "team": "Purple Pandas",
+          "points": 26,
+          "place": 1
+        },
+        {
+          "player": "thedracobee",
+          "team": "Orange Ocelots",
+          "points": 18,
+          "place": 2
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Blue Bats",
+          "points": 16,
+          "place": 3
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Blue Bats",
+          "points": 8,
+          "place": 4
+        },
+        {
+          "player": "Kodex13",
+          "team": "Purple Pandas",
+          "points": 8,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 6,
+          "place": 6
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Ocelots",
+          "points": 6,
+          "place": 7
+        },
+        {
+          "player": "Stripes",
+          "team": "Green Guardians",
+          "points": 2,
+          "place": 8
+        },
+        {
+          "player": "_TresLeches",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 9
+        },
+        {
+          "player": "BABOUSCA",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "Cronism",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "CryoKlout",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "foufouv",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Smarsian",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Purple Pandas",
+          "points": 34,
+          "place": 1
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 30,
+          "place": 2
+        },
+        {
+          "team": "Blue Bats",
+          "points": 24,
+          "place": 3
+        },
+        {
+          "team": "Green Guardians",
+          "points": 2,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 4,
+      "game-name": "PKW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Kodex13",
+          "team": "Purple Pandas",
+          "points": 25,
+          "place": 1
+        },
+        {
+          "player": "Smarsian",
+          "team": "Purple Pandas",
+          "points": 25,
+          "place": 2
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Orange Ocelots",
+          "points": 22.5,
+          "place": 3
+        },
+        {
+          "player": "thedracobee",
+          "team": "Orange Ocelots",
+          "points": 20,
+          "place": 4
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Blue Bats",
+          "points": 17.5,
+          "place": 5
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Blue Bats",
+          "points": 17.5,
+          "place": 6
+        },
+        {
+          "player": "BABOUSCA",
+          "team": "Blue Bats",
+          "points": 15,
+          "place": 7
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Ocelots",
+          "points": 15,
+          "place": 8
+        },
+        {
+          "player": "Certifiedd",
+          "team": "Purple Pandas",
+          "points": 7,
+          "place": 9
+        },
+        {
+          "player": "_TresLeches",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Cronism",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "CryoKlout",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "foufouv",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Stripes",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Orange Ocelots",
+          "points": 57.5,
+          "place": 1
+        },
+        {
+          "team": "Purple Pandas",
+          "points": 57,
+          "place": 2
+        },
+        {
+          "team": "Blue Bats",
+          "points": 50.0,
+          "place": 3
+        },
+        {
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 4
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "HITW",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "Certifiedd",
+          "team": "Purple Pandas",
+          "points": 42,
+          "place": 1
+        },
+        {
+          "player": "GamingGuy907",
+          "team": "Blue Bats",
+          "points": 30,
+          "place": 2
+        },
+        {
+          "player": "GigaDrake",
+          "team": "Blue Bats",
+          "points": 27,
+          "place": 3
+        },
+        {
+          "player": "Smarsian",
+          "team": "Purple Pandas",
+          "points": 15,
+          "place": 4
+        },
+        {
+          "player": "thedracobee",
+          "team": "Orange Ocelots",
+          "points": 12,
+          "place": 5
+        },
+        {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 9,
+          "place": 6
+        },
+        {
+          "player": "BABOUSCA",
+          "team": "Blue Bats",
+          "points": 6,
+          "place": 7
+        },
+        {
+          "player": "PorpolUmbrella",
+          "team": "Orange Ocelots",
+          "points": 3,
+          "place": 8
+        },
+        {
+          "player": "_TresLeches",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 9
+        },
+        {
+          "player": "Cronism",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 10
+        },
+        {
+          "player": "CryoKlout",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 11
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Orange Ocelots",
+          "points": 0,
+          "place": 12
+        },
+        {
+          "player": "foufouv",
+          "team": "Blue Bats",
+          "points": 0,
+          "place": 13
+        },
+        {
+          "player": "Kodex13",
+          "team": "Purple Pandas",
+          "points": 0,
+          "place": 14
+        },
+        {
+          "player": "Stripes",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 15
+        },
+        {
+          "player": "TheeJames",
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 16
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Blue Bats",
+          "points": 63,
+          "place": 1
+        },
+        {
+          "team": "Purple Pandas",
+          "points": 57,
+          "place": 2
+        },
+        {
+          "team": "Orange Ocelots",
+          "points": 24,
+          "place": 3
+        },
+        {
+          "team": "Green Guardians",
+          "points": 0,
+          "place": 4
+        }
+      ]
+    }
+  ],
+  "game-stats-by-name": {
+    "SB": [
+      {
+        "game-number": 1,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Certifiedd",
+            "team": "Purple Pandas",
+            "points": 11,
+            "place": 1
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Blue Bats",
+            "points": 10,
+            "place": 2
+          },
+          {
+            "player": "BABOUSCA",
+            "team": "Blue Bats",
+            "points": 7,
+            "place": 3
+          },
+          {
+            "player": "thedracobee",
+            "team": "Orange Ocelots",
+            "points": 5,
+            "place": 4
+          },
+          {
+            "player": "foufouv",
+            "team": "Blue Bats",
+            "points": 4,
+            "place": 5
+          },
+          {
+            "player": "Smarsian",
+            "team": "Purple Pandas",
+            "points": 4,
+            "place": 6
+          },
+          {
+            "player": "Stripes",
+            "team": "Green Guardians",
+            "points": 3,
+            "place": 7
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 1,
+            "place": 8
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Blue Bats",
+            "points": 1,
+            "place": 9
+          },
+          {
+            "player": "_TresLeches",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "Cronism",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "CryoKlout",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "Kodex13",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Blue Bats",
+            "points": 22,
+            "place": 1
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 15,
+            "place": 2
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 6,
+            "place": 3
+          },
+          {
+            "team": "Green Guardians",
+            "points": 3,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "BB": [
+      {
+        "game-number": 2,
+        "game-name": "BB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Certifiedd",
+            "team": "Purple Pandas",
+            "points": 18,
+            "place": 1
+          },
+          {
+            "player": "thedracobee",
+            "team": "Orange Ocelots",
+            "points": 12,
+            "place": 2
+          },
+          {
+            "player": "Cronism",
+            "team": "Purple Pandas",
+            "points": 9,
+            "place": 3
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Ocelots",
+            "points": 7.5,
+            "place": 4
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Orange Ocelots",
+            "points": 7.5,
+            "place": 5
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 6,
+            "place": 6
+          },
+          {
+            "player": "Smarsian",
+            "team": "Purple Pandas",
+            "points": 6,
+            "place": 7
+          },
+          {
+            "player": "Stripes",
+            "team": "Green Guardians",
+            "points": 4.5,
+            "place": 8
+          },
+          {
+            "player": "Kodex13",
+            "team": "Purple Pandas",
+            "points": 3,
+            "place": 9
+          },
+          {
+            "player": "_TresLeches",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "BABOUSCA",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "CryoKlout",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "foufouv",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Purple Pandas",
+            "points": 36,
+            "place": 1
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 33.0,
+            "place": 2
+          },
+          {
+            "team": "Green Guardians",
+            "points": 4.5,
+            "place": 3
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 3,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Certifiedd",
+            "team": "Purple Pandas",
+            "points": 26,
+            "place": 1
+          },
+          {
+            "player": "thedracobee",
+            "team": "Orange Ocelots",
+            "points": 18,
+            "place": 2
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Blue Bats",
+            "points": 16,
+            "place": 3
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Blue Bats",
+            "points": 8,
+            "place": 4
+          },
+          {
+            "player": "Kodex13",
+            "team": "Purple Pandas",
+            "points": 8,
+            "place": 5
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 6,
+            "place": 6
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Ocelots",
+            "points": 6,
+            "place": 7
+          },
+          {
+            "player": "Stripes",
+            "team": "Green Guardians",
+            "points": 2,
+            "place": 8
+          },
+          {
+            "player": "_TresLeches",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "BABOUSCA",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "Cronism",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "CryoKlout",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "foufouv",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Smarsian",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Purple Pandas",
+            "points": 34,
+            "place": 1
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 30,
+            "place": 2
+          },
+          {
+            "team": "Blue Bats",
+            "points": 24,
+            "place": 3
+          },
+          {
+            "team": "Green Guardians",
+            "points": 2,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 4,
+        "game-name": "PKW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Kodex13",
+            "team": "Purple Pandas",
+            "points": 25,
+            "place": 1
+          },
+          {
+            "player": "Smarsian",
+            "team": "Purple Pandas",
+            "points": 25,
+            "place": 2
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Orange Ocelots",
+            "points": 22.5,
+            "place": 3
+          },
+          {
+            "player": "thedracobee",
+            "team": "Orange Ocelots",
+            "points": 20,
+            "place": 4
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Blue Bats",
+            "points": 17.5,
+            "place": 5
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Blue Bats",
+            "points": 17.5,
+            "place": 6
+          },
+          {
+            "player": "BABOUSCA",
+            "team": "Blue Bats",
+            "points": 15,
+            "place": 7
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Ocelots",
+            "points": 15,
+            "place": 8
+          },
+          {
+            "player": "Certifiedd",
+            "team": "Purple Pandas",
+            "points": 7,
+            "place": 9
+          },
+          {
+            "player": "_TresLeches",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "Cronism",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "CryoKlout",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "foufouv",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Stripes",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Orange Ocelots",
+            "points": 57.5,
+            "place": 1
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 57,
+            "place": 2
+          },
+          {
+            "team": "Blue Bats",
+            "points": 50.0,
+            "place": 3
+          },
+          {
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 4
+          }
+        ]
+      }
+    ],
+    "HITW": [
+      {
+        "game-number": 5,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "Certifiedd",
+            "team": "Purple Pandas",
+            "points": 42,
+            "place": 1
+          },
+          {
+            "player": "GamingGuy907",
+            "team": "Blue Bats",
+            "points": 30,
+            "place": 2
+          },
+          {
+            "player": "GigaDrake",
+            "team": "Blue Bats",
+            "points": 27,
+            "place": 3
+          },
+          {
+            "player": "Smarsian",
+            "team": "Purple Pandas",
+            "points": 15,
+            "place": 4
+          },
+          {
+            "player": "thedracobee",
+            "team": "Orange Ocelots",
+            "points": 12,
+            "place": 5
+          },
+          {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 9,
+            "place": 6
+          },
+          {
+            "player": "BABOUSCA",
+            "team": "Blue Bats",
+            "points": 6,
+            "place": 7
+          },
+          {
+            "player": "PorpolUmbrella",
+            "team": "Orange Ocelots",
+            "points": 3,
+            "place": 8
+          },
+          {
+            "player": "_TresLeches",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "Cronism",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "CryoKlout",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "foufouv",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "Kodex13",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "Stripes",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "TheeJames",
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 16
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Blue Bats",
+            "points": 63,
+            "place": 1
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 57,
+            "place": 2
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 24,
+            "place": 3
+          },
+          {
+            "team": "Green Guardians",
+            "points": 0,
+            "place": 4
+          }
+        ]
+      }
+    ]
+  }
+}

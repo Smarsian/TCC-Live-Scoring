@@ -52,5 +52,10 @@
         "abbreviation":"BB",
         "image":"BB.png",
         "finale-game":true
+    },
+    "Trivia":{
+        "abbreviation":"Trivia",
+        "image":"",
+        "special-scoring":true
     }
 }

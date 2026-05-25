@@ -8,6 +8,7 @@ TEAM_HEADER = "Teams:"
 GAMES_HEADER = "Games:"
 POINTS_HEADER = "Points:"
 GAME_HEADER_PATTERN = re.compile(r"^Game\s+(\d+)\s*:\s*(.+)$", re.IGNORECASE)
+SPECIAL_SCORING_HEADER_PATTERN = re.compile(r"^Triv(?:ia|a)\s+Segment:$", re.IGNORECASE)
 
 
 def parse_numeric(value: str):
@@ -69,6 +70,13 @@ def parse_games(lines):
 	games = []
 	current_game = None
 	inside_points = False
+	current_game_number = 0
+
+	def finish_current_game():
+		nonlocal current_game
+		if current_game is not None:
+			games.append(current_game)
+			current_game = None
 
 	for line in lines:
 		if not line:
@@ -76,12 +84,26 @@ def parse_games(lines):
 
 		game_match = GAME_HEADER_PATTERN.match(line)
 		if game_match:
-			if current_game is not None:
-				games.append(current_game)
+			finish_current_game()
+			current_game_number += 1
 
 			current_game = {
 				"game-number": int(game_match.group(1)),
 				"game-name": game_match.group(2).strip(),
+				"special-scoring": False,
+				"entries": [],
+			}
+			inside_points = False
+			continue
+
+		if SPECIAL_SCORING_HEADER_PATTERN.match(line):
+			finish_current_game()
+			current_game_number += 1
+
+			current_game = {
+				"game-number": current_game_number,
+				"game-name": "Trivia",
+				"special-scoring": True,
 				"entries": [],
 			}
 			inside_points = False
@@ -99,8 +121,21 @@ def parse_games(lines):
 			continue
 
 		placement = parse_numeric(parts[0])
-		player = parts[1]
+		if current_game.get("special-scoring"):
+			points = parse_numeric(parts[-1])
+			team = " ".join(parts[1:-1]).strip()
+			if team:
+				current_game["entries"].append(
+					{
+						"place": placement,
+						"team": team,
+						"points": points,
+					}
+				)
+			continue
+
 		points = parse_numeric(parts[2])
+		player = parts[1]
 		current_game["entries"].append(
 			{
 				"place": placement,
@@ -109,8 +144,7 @@ def parse_games(lines):
 			}
 		)
 
-	if current_game is not None:
-		games.append(current_game)
+	finish_current_game()
 
 	return games
 
@@ -123,7 +157,8 @@ def rank_rows(rows, name_key):
 
 
 def build_output(event_name, teams, player_to_team, games):
-	game_stats = {}
+	game_stats = []
+	game_stats_by_name = {}
 	all_players = [player for players in teams.values() for player in players]
 	event_player_points = {
 		player: {"team": player_to_team.get(player, "Unknown"), "points": 0}
@@ -137,10 +172,19 @@ def build_output(event_name, teams, player_to_team, games):
 	for game in games:
 		game_player_points = {player: 0 for player in all_players}
 		team_points = {team_name: 0 for team_name in teams}
+		is_special_scoring = bool(game.get("special-scoring"))
 
 		for entry in game["entries"]:
-			player = entry["player"]
 			points = entry["points"]
+			if is_special_scoring:
+				team = entry["team"]
+				team_points.setdefault(team, 0)
+				team_points[team] += points
+				event_team_points.setdefault(team, 0)
+				event_team_points[team] += points
+				continue
+
+			player = entry["player"]
 			team = player_to_team.get(player, "Unknown")
 			game_player_points.setdefault(player, 0)
 			game_player_points[player] += points
@@ -154,16 +198,17 @@ def build_output(event_name, teams, player_to_team, games):
 			event_team_points.setdefault(team, 0)
 			event_team_points[team] += points
 
-		player_rows = [
-			{
-				"player": player,
-				"team": player_to_team.get(player, "Unknown"),
-				"points": points,
-			}
-			for player, points in game_player_points.items()
-		]
-
-		player_rows = rank_rows(player_rows, "player")
+		player_rows = []
+		if not is_special_scoring:
+			player_rows = [
+				{
+					"player": player,
+					"team": player_to_team.get(player, "Unknown"),
+					"points": points,
+				}
+				for player, points in game_player_points.items()
+			]
+			player_rows = rank_rows(player_rows, "player")
 
 		team_rows = [
 			{
@@ -174,10 +219,15 @@ def build_output(event_name, teams, player_to_team, games):
 		]
 		team_rows = rank_rows(team_rows, "team")
 
-		game_stats[game["game-name"]] = {
+		game_stat_entry = {
+			"game-number": game["game-number"],
+			"game-name": game["game-name"],
+			"special-scoring": is_special_scoring,
 			"player-leaderboard": player_rows,
 			"team-leaderboard": team_rows,
 		}
+		game_stats.append(game_stat_entry)
+		game_stats_by_name.setdefault(game["game-name"], []).append(game_stat_entry)
 
 	event_player_rows = [
 		{
@@ -205,6 +255,7 @@ def build_output(event_name, teams, player_to_team, games):
 		"event-player-leaderboard": event_player_rows,
 		"event-team-leaderboard": event_team_rows,
 		"game-stats": game_stats,
+		"game-stats-by-name": game_stats_by_name,
 	}
 
 
