@@ -77,21 +77,21 @@
       "place": 7
     },
     {
+      "player": "AlexTK473",
+      "team": "Orange Ocelots",
+      "points": 29.5,
+      "place": 8
+    },
+    {
       "player": "Dr_OrangeFox_",
       "team": "Orange Ocelots",
       "points": 28.5,
-      "place": 8
+      "place": 9
     },
     {
       "player": "BABOUSCA",
       "team": "Blue Bats",
       "points": 28,
-      "place": 9
-    },
-    {
-      "player": "AlexTK473",
-      "team": "Orange Ocelots",
-      "points": 22,
       "place": 10
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "team": "Orange Ocelots",
-      "points": 150.5,
+      "points": 158.0,
       "place": 3
     },
     {
@@ -583,20 +583,20 @@
           "place": 8
         },
         {
+          "player": "AlexTK473",
+          "team": "Orange Ocelots",
+          "points": 7.5,
+          "place": 9
+        },
+        {
           "player": "Certifiedd",
           "team": "Purple Pandas",
           "points": 7,
-          "place": 9
+          "place": 10
         },
         {
           "player": "_TresLeches",
           "team": "Green Guardians",
-          "points": 0,
-          "place": 10
-        },
-        {
-          "player": "AlexTK473",
-          "team": "Orange Ocelots",
           "points": 0,
           "place": 11
         },
@@ -634,7 +634,7 @@
       "team-leaderboard": [
         {
           "team": "Orange Ocelots",
-          "points": 57.5,
+          "points": 65.0,
           "place": 1
         },
         {
@@ -1217,20 +1217,20 @@
             "place": 8
           },
           {
+            "player": "AlexTK473",
+            "team": "Orange Ocelots",
+            "points": 7.5,
+            "place": 9
+          },
+          {
             "player": "Certifiedd",
             "team": "Purple Pandas",
             "points": 7,
-            "place": 9
+            "place": 10
           },
           {
             "player": "_TresLeches",
             "team": "Green Guardians",
-            "points": 0,
-            "place": 10
-          },
-          {
-            "player": "AlexTK473",
-            "team": "Orange Ocelots",
             "points": 0,
             "place": 11
           },
@@ -1268,7 +1268,7 @@
         "team-leaderboard": [
           {
             "team": "Orange Ocelots",
-            "points": 57.5,
+            "points": 65.0,
             "place": 1
           },
           {
