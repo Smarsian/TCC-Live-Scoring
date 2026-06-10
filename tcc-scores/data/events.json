@@ -348,6 +348,21 @@
             "score":"7-5",
             "points":"TCCRTS-Points.txt",
             "is-live":false
+        },
+        "TCC P26":
+        {
+            "event-num":3,
+            "date":"June 28, 2026",
+            "players":40,
+            "teams":10,
+            "game-order":[],
+            "unique-multiplier":[1,1.5,2,2.5,3],
+            "finale-game":"Surged",
+            "winner":"",
+            "runner-up":"",
+            "score":"",
+            "points":"TCCP26-Points.txt",
+            "is-live":true
         }
     }
 }
