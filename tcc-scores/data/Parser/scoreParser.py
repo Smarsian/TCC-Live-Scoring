@@ -276,31 +276,43 @@ def build_output(event_name, teams, player_to_team, games):
 def parse_raw_event_file(input_path: Path):
 	lines = [line.strip() for line in input_path.read_text(encoding="utf-8").splitlines()]
 
-	event_name = lines[0] if lines else input_path.stem
+	event_name = input_path.stem
+	body_lines = lines
+	if lines:
+		first_line = lines[0]
+		if (
+			first_line not in {TEAM_HEADER, GAMES_HEADER, POINTS_HEADER}
+			and not GAME_HEADER_PATTERN.match(first_line)
+			and not SPECIAL_SCORING_HEADER_PATTERN.match(first_line)
+		):
+			event_name = first_line
+			body_lines = lines[1:]
 
-	try:
-		teams_start = lines.index(TEAM_HEADER)
-	except ValueError as error:
-		raise ValueError(f"Input file '{input_path}' is missing the '{TEAM_HEADER}' section.") from error
+	teams_start = body_lines.index(TEAM_HEADER) if TEAM_HEADER in body_lines else None
+	games_start = body_lines.index(GAMES_HEADER) if GAMES_HEADER in body_lines else None
 
-	try:
-		games_start = lines.index(GAMES_HEADER)
-	except ValueError as error:
-		raise ValueError(f"Input file '{input_path}' is missing the '{GAMES_HEADER}' section.") from error
+	teams_block = []
+	games_block = []
 
-	if games_start <= teams_start:
-		raise ValueError("Invalid input order: 'Games:' must come after 'Teams:'.")
+	if teams_start is not None:
+		teams_end = games_start if games_start is not None and games_start > teams_start else len(body_lines)
+		if games_start is None:
+			for index in range(teams_start + 1, len(body_lines)):
+				line = body_lines[index]
+				if GAME_HEADER_PATTERN.match(line) or SPECIAL_SCORING_HEADER_PATTERN.match(line):
+					teams_end = index
+					games_block = body_lines[index:]
+					break
+		teams_block = body_lines[teams_start + 1 : teams_end]
 
-	teams_block = lines[teams_start + 1 : games_start]
-	games_block = lines[games_start + 1 :]
+	if games_start is not None:
+		games_block = body_lines[games_start + 1 :]
+	elif teams_start is None:
+		# With no explicit headers, treat the body as game data and parse whatever matches.
+		games_block = body_lines
 
 	teams, player_to_team = parse_teams(teams_block)
 	games = parse_games(games_block)
-
-	if not teams:
-		raise ValueError("No teams were parsed from the input file.")
-	if not games:
-		raise ValueError("No games were parsed from the input file.")
 
 	return build_output(event_name, teams, player_to_team, games)
 

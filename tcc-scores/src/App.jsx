@@ -9,6 +9,78 @@ const normalizeTeamName = (name) => name.toLowerCase().replaceAll('_', ' ').trim
 const normalizeGameName = (name) => name.toLowerCase().replaceAll('_', ' ').trim()
 
 const toLabel = (name) => name.replaceAll('_', ' ')
+const TEAM_COLOR_SORT_ORDER = ['red', 'orange', 'yellow', 'lime', 'green', 'cyan', 'aqua', 'blue', 'purple', 'pink']
+
+const getPlayerName = (row) => String(row?.player ?? row?.name ?? '').trim()
+
+const getTeamName = (row) => String(row?.team ?? '').trim()
+
+const getTeamSortRank = (teamName) => {
+  const normalizedTeam = normalizeTeamName(teamName)
+
+  for (let index = 0; index < TEAM_COLOR_SORT_ORDER.length; index += 1) {
+    const colorName = TEAM_COLOR_SORT_ORDER[index]
+    if (normalizedTeam.startsWith(colorName)) {
+      return index
+    }
+  }
+
+  return Number.POSITIVE_INFINITY
+}
+
+const compareByTeamThenPlayer = (left, right) => {
+  const leftTeamName = getTeamName(left)
+  const rightTeamName = getTeamName(right)
+
+  const teamRankDifference = getTeamSortRank(leftTeamName) - getTeamSortRank(rightTeamName)
+  if (teamRankDifference !== 0) {
+    return teamRankDifference
+  }
+
+  const teamNameDifference = leftTeamName.localeCompare(rightTeamName, undefined, { sensitivity: 'base' })
+  if (teamNameDifference !== 0) {
+    return teamNameDifference
+  }
+
+  return getPlayerName(left).localeCompare(getPlayerName(right), undefined, { sensitivity: 'base' })
+}
+
+const sortIndividualPlacementRows = (rows, sortConfig) => {
+  const { key, direction } = sortConfig
+  const directionMultiplier = direction === 'asc' ? 1 : -1
+
+  return [...rows].sort((left, right) => {
+    if (key === 'player') {
+      const playerDifference = getPlayerName(left).localeCompare(getPlayerName(right), undefined, {
+        sensitivity: 'base',
+      })
+
+      if (playerDifference !== 0) {
+        return playerDifference * directionMultiplier
+      }
+
+      return compareByTeamThenPlayer(left, right)
+    }
+
+    if (key === 'team') {
+      const teamDifference = compareByTeamThenPlayer(left, right)
+      if (teamDifference !== 0) {
+        return teamDifference * directionMultiplier
+      }
+
+      return getPlayerName(left).localeCompare(getPlayerName(right), undefined, { sensitivity: 'base' })
+    }
+
+    const leftPoints = toNumber(left.points ?? left.coins) ?? 0
+    const rightPoints = toNumber(right.points ?? right.coins) ?? 0
+
+    if (leftPoints !== rightPoints) {
+      return (leftPoints - rightPoints) * directionMultiplier
+    }
+
+    return compareByTeamThenPlayer(left, right)
+  })
+}
 
 const getFirstGameNameForEvent = (eventData) => eventData?.['game-order']?.[0] ?? ''
 const defaultGameMultipliers = [1, 1.5, 2, 2.5, 3]
@@ -211,6 +283,14 @@ function App() {
   )
   const [selectedGameIndex, setSelectedGameIndex] = useState(0)
   const [leaderboardView, setLeaderboardView] = useState('game')
+  const [individualSort, setIndividualSort] = useState({
+    key: 'points',
+    direction: 'desc',
+  })
+  const [gamePlayerSort, setGamePlayerSort] = useState({
+    key: 'points',
+    direction: 'desc',
+  })
 
   const eventData = useMemo(() => {
     if (!selectedSeason || !selectedEvent) {
@@ -579,6 +659,16 @@ function App() {
       : [],
   )
 
+  const sortedFinalEventPlayerLeaderboard = useMemo(
+    () => sortIndividualPlacementRows(finalEventPlayerLeaderboard, individualSort),
+    [finalEventPlayerLeaderboard, individualSort],
+  )
+
+  const sortedGamePlayerLeaderboard = useMemo(
+    () => sortIndividualPlacementRows(playerLeaderboard, gamePlayerSort),
+    [playerLeaderboard, gamePlayerSort],
+  )
+
   const selectedGamePlayerLeaderboard = useMemo(
     () =>
       sortLeaderboardEntries(
@@ -691,6 +781,54 @@ function App() {
 
   const toggleTheme = () => {
     setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'))
+  }
+
+  const handleIndividualSort = (columnKey) => {
+    setIndividualSort((currentSort) => {
+      if (currentSort.key === columnKey) {
+        return {
+          key: columnKey,
+          direction: currentSort.direction === 'asc' ? 'desc' : 'asc',
+        }
+      }
+
+      return {
+        key: columnKey,
+        direction: columnKey === 'points' ? 'desc' : 'asc',
+      }
+    })
+  }
+
+  const getAriaSortForColumn = (sortState, columnKey) => {
+    if (sortState.key !== columnKey) {
+      return 'none'
+    }
+
+    return sortState.direction === 'asc' ? 'ascending' : 'descending'
+  }
+
+  const getSortIndicatorForColumn = (sortState, columnKey) => {
+    if (sortState.key !== columnKey) {
+      return '↕'
+    }
+
+    return sortState.direction === 'asc' ? '↑' : '↓'
+  }
+
+  const handleGamePlayerSort = (columnKey) => {
+    setGamePlayerSort((currentSort) => {
+      if (currentSort.key === columnKey) {
+        return {
+          key: columnKey,
+          direction: currentSort.direction === 'asc' ? 'desc' : 'asc',
+        }
+      }
+
+      return {
+        key: columnKey,
+        direction: columnKey === 'points' ? 'desc' : 'asc',
+      }
+    })
   }
 
   return (
@@ -841,14 +979,38 @@ function App() {
                       <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">Player</th>
-                          <th scope="col">Team</th>
-                          <th scope="col">Points</th>
+                          <th scope="col" aria-sort={getAriaSortForColumn(individualSort, 'player')}>
+                            <button
+                              type="button"
+                              className="leaderboard-sort-button"
+                              onClick={() => handleIndividualSort('player')}
+                            >
+                              Player <span aria-hidden="true">{getSortIndicatorForColumn(individualSort, 'player')}</span>
+                            </button>
+                          </th>
+                          <th scope="col" aria-sort={getAriaSortForColumn(individualSort, 'team')}>
+                            <button
+                              type="button"
+                              className="leaderboard-sort-button"
+                              onClick={() => handleIndividualSort('team')}
+                            >
+                              Team <span aria-hidden="true">{getSortIndicatorForColumn(individualSort, 'team')}</span>
+                            </button>
+                          </th>
+                          <th scope="col" aria-sort={getAriaSortForColumn(individualSort, 'points')}>
+                            <button
+                              type="button"
+                              className="leaderboard-sort-button"
+                              onClick={() => handleIndividualSort('points')}
+                            >
+                              Points <span aria-hidden="true">{getSortIndicatorForColumn(individualSort, 'points')}</span>
+                            </button>
+                          </th>
                         </tr>
                       </thead>
                       <tbody>
-                        {finalEventPlayerLeaderboard.length > 0 ? (
-                          finalEventPlayerLeaderboard.map((row, index) => {
+                        {sortedFinalEventPlayerLeaderboard.length > 0 ? (
+                          sortedFinalEventPlayerLeaderboard.map((row, index) => {
                             const teamName = row.team ?? 'TBD'
                             const teamVisual = getTeamVisual(teamName)
 
@@ -858,7 +1020,7 @@ function App() {
                                 className={teamVisual?.color ? 'leaderboard-team-row' : ''}
                                 style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
                               >
-                                <td>{row.place ?? index + 1}</td>
+                                <td>{index + 1}</td>
                                 <td>{row.player ?? row.name ?? 'TBD'}</td>
                                 <td>
                                   <span className="leaderboard-team-cell">
@@ -1038,14 +1200,38 @@ function App() {
                           <thead>
                             <tr>
                               <th scope="col">#</th>
-                              <th scope="col">Player</th>
-                              <th scope="col">Team</th>
-                              <th scope="col">Points</th>
+                              <th scope="col" aria-sort={getAriaSortForColumn(gamePlayerSort, 'player')}>
+                                <button
+                                  type="button"
+                                  className="leaderboard-sort-button"
+                                  onClick={() => handleGamePlayerSort('player')}
+                                >
+                                  Player <span aria-hidden="true">{getSortIndicatorForColumn(gamePlayerSort, 'player')}</span>
+                                </button>
+                              </th>
+                              <th scope="col" aria-sort={getAriaSortForColumn(gamePlayerSort, 'team')}>
+                                <button
+                                  type="button"
+                                  className="leaderboard-sort-button"
+                                  onClick={() => handleGamePlayerSort('team')}
+                                >
+                                  Team <span aria-hidden="true">{getSortIndicatorForColumn(gamePlayerSort, 'team')}</span>
+                                </button>
+                              </th>
+                              <th scope="col" aria-sort={getAriaSortForColumn(gamePlayerSort, 'points')}>
+                                <button
+                                  type="button"
+                                  className="leaderboard-sort-button"
+                                  onClick={() => handleGamePlayerSort('points')}
+                                >
+                                  Points <span aria-hidden="true">{getSortIndicatorForColumn(gamePlayerSort, 'points')}</span>
+                                </button>
+                              </th>
                             </tr>
                           </thead>
                           <tbody>
-                            {playerLeaderboard.length > 0 ? (
-                              playerLeaderboard.map((row, index) => {
+                            {sortedGamePlayerLeaderboard.length > 0 ? (
+                              sortedGamePlayerLeaderboard.map((row, index) => {
                                 const teamName = row.team ?? 'TBD'
                                 const teamVisual = getTeamVisual(teamName)
 
@@ -1055,7 +1241,7 @@ function App() {
                                     className={teamVisual?.color ? 'leaderboard-team-row' : ''}
                                     style={teamVisual?.color ? { '--team-row-color': teamVisual.color } : undefined}
                                   >
-                                    <td>{row.place ?? index + 1}</td>
+                                    <td>{index + 1}</td>
                                     <td>{row.player ?? row.name ?? 'TBD'}</td>
                                     <td>
                                       <span className="leaderboard-team-cell">

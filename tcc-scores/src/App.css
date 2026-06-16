@@ -449,6 +449,24 @@
   font-weight: 700;
 }
 
+.leaderboard-sort-button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+}
+
+.leaderboard-sort-button:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 55%, #fff);
+  outline-offset: 2px;
+}
+
 .leaderboard-table td {
   background: color-mix(in srgb, var(--bg) 88%, transparent);
 }
