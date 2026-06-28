@@ -33,6 +33,14 @@ def normalize_for_sort(name: str) -> str:
 	return name.strip().lower()
 
 
+def build_player_to_team(teams):
+	player_to_team = {}
+	for team_name, players in teams.items():
+		for player in players:
+			player_to_team[player] = team_name
+	return player_to_team
+
+
 def resolve_input_path(raw_argument: str, raw_data_dir: Path) -> Path:
 	candidate = Path(raw_argument)
 	if candidate.exists():
@@ -159,6 +167,67 @@ def parse_games(lines):
 		)
 
 	finish_current_game()
+
+	return games
+
+
+def load_existing_teams(output_path: Path):
+	if not output_path.exists():
+		return None
+
+	try:
+		payload = json.loads(output_path.read_text(encoding="utf-8"))
+	except (OSError, json.JSONDecodeError):
+		return None
+
+	teams = payload.get("teams")
+	if not isinstance(teams, dict):
+		return None
+
+	normalized_teams = {}
+	for team_name, players in teams.items():
+		if not isinstance(team_name, str) or not isinstance(players, list):
+			return None
+		if not all(isinstance(player, str) for player in players):
+			return None
+		normalized_teams[team_name] = players
+
+	return normalized_teams
+
+
+def build_substitution_map(raw_teams, existing_teams):
+	if not existing_teams:
+		return {}
+
+	substitutions = {}
+	for team_name, raw_players in raw_teams.items():
+		existing_players = existing_teams.get(team_name)
+		if not isinstance(existing_players, list):
+			continue
+
+		missing_from_existing = [player for player in raw_players if player not in existing_players]
+		added_in_existing = [player for player in existing_players if player not in raw_players]
+
+		if len(missing_from_existing) != len(added_in_existing):
+			continue
+
+		for old_player, new_player in zip(missing_from_existing, added_in_existing):
+			substitutions[old_player] = new_player
+
+	return substitutions
+
+
+def apply_player_substitutions_to_games(games, substitution_map):
+	if not substitution_map:
+		return games
+
+	for game in games:
+		if game.get("special-scoring"):
+			continue
+		for entry in game.get("entries", []):
+			player = entry.get("player")
+			if player in substitution_map:
+				entry["player"] = substitution_map[player]
 
 	return games
 
@@ -314,7 +383,7 @@ def parse_raw_event_file(input_path: Path):
 	teams, player_to_team = parse_teams(teams_block)
 	games = parse_games(games_block)
 
-	return build_output(event_name, teams, player_to_team, games)
+	return event_name, teams, player_to_team, games
 
 
 def main():
@@ -334,12 +403,25 @@ def main():
 	output_dir.mkdir(parents=True, exist_ok=True)
 
 	input_path = resolve_input_path(args.input_file, raw_data_dir)
-	parsed_payload = parse_raw_event_file(input_path)
-
 	output_path = output_dir / f"{input_path.stem}.json"
+
+	event_name, teams, player_to_team, games = parse_raw_event_file(input_path)
+	existing_teams = load_existing_teams(output_path)
+	substitution_map = build_substitution_map(teams, existing_teams)
+
+	if existing_teams:
+		teams = existing_teams
+		player_to_team = build_player_to_team(teams)
+
+	games = apply_player_substitutions_to_games(games, substitution_map)
+	parsed_payload = build_output(event_name, teams, player_to_team, games)
 	output_path.write_text(json.dumps(parsed_payload, indent=2), encoding="utf-8")
 
-	print(f"Parsed '{input_path.name}' -> '{output_path}'")
+	substitution_count = len(substitution_map)
+	print(
+		f"Parsed '{input_path.name}' -> '{output_path}'"
+		f" (preserved substitutions: {substitution_count})"
+	)
 
 
 if __name__ == "__main__":
