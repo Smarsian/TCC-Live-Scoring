@@ -277,14 +277,14 @@
       "place": 35
     },
     {
-      "player": "CraftDude",
-      "team": "Unknown",
+      "player": "mMiror",
+      "team": "Orange Ocelots",
       "points": 33,
       "place": 36
     },
     {
-      "player": "mMiror",
-      "team": "Orange Ocelots",
+      "player": "yoshzz",
+      "team": "Green Geckos",
       "points": 33,
       "place": 37
     },
@@ -301,22 +301,10 @@
       "place": 39
     },
     {
-      "player": "rhemedy",
-      "team": "Unknown",
-      "points": 3,
-      "place": 40
-    },
-    {
       "player": "AngelaV",
       "team": "Green Geckos",
-      "points": 0,
-      "place": 41
-    },
-    {
-      "player": "yoshzz",
-      "team": "Green Geckos",
-      "points": 0,
-      "place": 42
+      "points": 3,
+      "place": 40
     }
   ],
   "event-team-leaderboard": [
@@ -367,13 +355,8 @@
     },
     {
       "team": "Green Geckos",
-      "points": 434,
+      "points": 470,
       "place": 10
-    },
-    {
-      "team": "Unknown",
-      "points": 36,
-      "place": 11
     }
   ],
   "game-stats": [
@@ -593,14 +576,14 @@
           "place": 35
         },
         {
-          "player": "CraftDude",
-          "team": "Unknown",
+          "player": "mMiror",
+          "team": "Orange Ocelots",
           "points": 33,
           "place": 36
         },
         {
-          "player": "mMiror",
-          "team": "Orange Ocelots",
+          "player": "yoshzz",
+          "team": "Green Geckos",
           "points": 33,
           "place": 37
         },
@@ -617,22 +600,10 @@
           "place": 39
         },
         {
-          "player": "rhemedy",
-          "team": "Unknown",
-          "points": 3,
-          "place": 40
-        },
-        {
           "player": "AngelaV",
           "team": "Green Geckos",
-          "points": 0,
-          "place": 41
-        },
-        {
-          "player": "yoshzz",
-          "team": "Green Geckos",
-          "points": 0,
-          "place": 42
+          "points": 3,
+          "place": 40
         }
       ],
       "team-leaderboard": [
@@ -683,13 +654,8 @@
         },
         {
           "team": "Green Geckos",
-          "points": 434,
+          "points": 470,
           "place": 10
-        },
-        {
-          "team": "Unknown",
-          "points": 36,
-          "place": 11
         }
       ]
     }
@@ -912,14 +878,14 @@
             "place": 35
           },
           {
-            "player": "CraftDude",
-            "team": "Unknown",
+            "player": "mMiror",
+            "team": "Orange Ocelots",
             "points": 33,
             "place": 36
           },
           {
-            "player": "mMiror",
-            "team": "Orange Ocelots",
+            "player": "yoshzz",
+            "team": "Green Geckos",
             "points": 33,
             "place": 37
           },
@@ -936,22 +902,10 @@
             "place": 39
           },
           {
-            "player": "rhemedy",
-            "team": "Unknown",
-            "points": 3,
-            "place": 40
-          },
-          {
             "player": "AngelaV",
             "team": "Green Geckos",
-            "points": 0,
-            "place": 41
-          },
-          {
-            "player": "yoshzz",
-            "team": "Green Geckos",
-            "points": 0,
-            "place": 42
+            "points": 3,
+            "place": 40
           }
         ],
         "team-leaderboard": [
@@ -1002,13 +956,8 @@
           },
           {
             "team": "Green Geckos",
-            "points": 434,
+            "points": 470,
             "place": 10
-          },
-          {
-            "team": "Unknown",
-            "points": 36,
-            "place": 11
           }
         ]
       }
