@@ -233,69 +233,69 @@
       "place": 27
     },
     {
+      "player": "bluebearchen",
+      "team": "Cyan Coyotes",
+      "points": 1224,
+      "place": 28
+    },
+    {
       "player": "Swizzy",
       "team": "Purple Pandas",
       "points": 1217.5,
-      "place": 28
+      "place": 29
     },
     {
       "player": "Bayern",
       "team": "Purple Pandas",
       "points": 1156.0,
-      "place": 29
+      "place": 30
     },
     {
       "player": "RicoSmeekoDiko",
       "team": "Red Rabbits",
       "points": 1116.5,
-      "place": 30
+      "place": 31
     },
     {
       "player": "LightSeeker_",
       "team": "Yellow Yaks",
       "points": 969,
-      "place": 31
+      "place": 32
     },
     {
       "player": "Rushynx",
       "team": "Lime Llamas",
       "points": 853.5,
-      "place": 32
+      "place": 33
     },
     {
       "player": "_Stripes",
       "team": "Orange Ocelots",
       "points": 825,
-      "place": 33
+      "place": 34
     },
     {
       "player": "mayplebean",
       "team": "Aqua Axolotls",
       "points": 715.0,
-      "place": 34
+      "place": 35
     },
     {
       "player": "Aceotts1",
       "team": "Orange Ocelots",
       "points": 706,
-      "place": 35
+      "place": 36
     },
     {
       "player": "JusttaAri",
       "team": "Cyan Coyotes",
       "points": 700.5,
-      "place": 36
-    },
-    {
-      "player": "bluebearchen",
-      "team": "Cyan Coyotes",
-      "points": 621,
       "place": 37
     },
     {
-      "player": "bluebearchen/Spygames",
-      "team": "Unknown",
-      "points": 603,
+      "player": "yoshzz",
+      "team": "Green Geckos",
+      "points": 539,
       "place": 38
     },
     {
@@ -305,28 +305,10 @@
       "place": 39
     },
     {
-      "player": "CraftDude",
-      "team": "Unknown",
-      "points": 324,
-      "place": 40
-    },
-    {
-      "player": "yoshzz",
-      "team": "Green Geckos",
-      "points": 215,
-      "place": 41
-    },
-    {
       "player": "AngelaV",
       "team": "Green Geckos",
-      "points": 57,
-      "place": 42
-    },
-    {
-      "player": "rhemedy",
-      "team": "Unknown",
-      "points": 45,
-      "place": 43
+      "points": 102,
+      "place": 40
     }
   ],
   "event-team-leaderboard": [
@@ -367,7 +349,7 @@
     },
     {
       "team": "Cyan Coyotes",
-      "points": 5503.5,
+      "points": 6106.5,
       "place": 8
     },
     {
@@ -377,13 +359,8 @@
     },
     {
       "team": "Green Geckos",
-      "points": 3698.5,
+      "points": 4067.5,
       "place": 10
-    },
-    {
-      "team": "Unknown",
-      "points": 972,
-      "place": 11
     }
   ],
   "game-stats": [
@@ -1679,8 +1656,8 @@
           "place": 15
         },
         {
-          "player": "bluebearchen/Spygames",
-          "team": "Unknown",
+          "player": "bluebearchen",
+          "team": "Cyan Coyotes",
           "points": 603,
           "place": 16
         },
@@ -1757,8 +1734,8 @@
           "place": 28
         },
         {
-          "player": "CraftDude",
-          "team": "Unknown",
+          "player": "yoshzz",
+          "team": "Green Geckos",
           "points": 324,
           "place": 29
         },
@@ -1817,8 +1794,8 @@
           "place": 38
         },
         {
-          "player": "rhemedy",
-          "team": "Unknown",
+          "player": "AngelaV",
+          "team": "Green Geckos",
           "points": 45,
           "place": 39
         },
@@ -1827,24 +1804,6 @@
           "team": "Orange Ocelots",
           "points": 0,
           "place": 40
-        },
-        {
-          "player": "AngelaV",
-          "team": "Green Geckos",
-          "points": 0,
-          "place": 41
-        },
-        {
-          "player": "bluebearchen",
-          "team": "Cyan Coyotes",
-          "points": 0,
-          "place": 42
-        },
-        {
-          "player": "yoshzz",
-          "team": "Green Geckos",
-          "points": 0,
-          "place": 43
         }
       ],
       "team-leaderboard": [
@@ -1879,29 +1838,24 @@
           "place": 6
         },
         {
-          "team": "Purple Pandas",
-          "points": 1734,
+          "team": "Green Geckos",
+          "points": 2091,
           "place": 7
         },
         {
-          "team": "Green Geckos",
-          "points": 1722,
+          "team": "Cyan Coyotes",
+          "points": 2082,
           "place": 8
         },
         {
-          "team": "Cyan Coyotes",
-          "points": 1479,
+          "team": "Purple Pandas",
+          "points": 1734,
           "place": 9
         },
         {
           "team": "Orange Ocelots",
           "points": 1314,
           "place": 10
-        },
-        {
-          "team": "Unknown",
-          "points": 972,
-          "place": 11
         }
       ]
     }
@@ -3208,8 +3162,8 @@
             "place": 15
           },
           {
-            "player": "bluebearchen/Spygames",
-            "team": "Unknown",
+            "player": "bluebearchen",
+            "team": "Cyan Coyotes",
             "points": 603,
             "place": 16
           },
@@ -3286,8 +3240,8 @@
             "place": 28
           },
           {
-            "player": "CraftDude",
-            "team": "Unknown",
+            "player": "yoshzz",
+            "team": "Green Geckos",
             "points": 324,
             "place": 29
           },
@@ -3346,8 +3300,8 @@
             "place": 38
           },
           {
-            "player": "rhemedy",
-            "team": "Unknown",
+            "player": "AngelaV",
+            "team": "Green Geckos",
             "points": 45,
             "place": 39
           },
@@ -3356,24 +3310,6 @@
             "team": "Orange Ocelots",
             "points": 0,
             "place": 40
-          },
-          {
-            "player": "AngelaV",
-            "team": "Green Geckos",
-            "points": 0,
-            "place": 41
-          },
-          {
-            "player": "bluebearchen",
-            "team": "Cyan Coyotes",
-            "points": 0,
-            "place": 42
-          },
-          {
-            "player": "yoshzz",
-            "team": "Green Geckos",
-            "points": 0,
-            "place": 43
           }
         ],
         "team-leaderboard": [
@@ -3408,29 +3344,24 @@
             "place": 6
           },
           {
-            "team": "Purple Pandas",
-            "points": 1734,
+            "team": "Green Geckos",
+            "points": 2091,
             "place": 7
           },
           {
-            "team": "Green Geckos",
-            "points": 1722,
+            "team": "Cyan Coyotes",
+            "points": 2082,
             "place": 8
           },
           {
-            "team": "Cyan Coyotes",
-            "points": 1479,
+            "team": "Purple Pandas",
+            "points": 1734,
             "place": 9
           },
           {
             "team": "Orange Ocelots",
             "points": 1314,
             "place": 10
-          },
-          {
-            "team": "Unknown",
-            "points": 972,
-            "place": 11
           }
         ]
       }

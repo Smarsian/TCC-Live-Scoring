@@ -251,7 +251,7 @@ KubaBabilon	729
 GamingGuy907	702
 Smarsian	675
 BubblestheFriendly	639
-bluebearchen/Spygames	603
+bluebearchen	603
 Rowan	603
 Tazerrr	603
 TheSlushyDealer	585
@@ -264,7 +264,7 @@ Glitch3959_	459
 LilllyWhiteWolf	441
 RicoSmeekoDiko	387
 Swizzy	369
-CraftDude	324
+yoshzz	324
 Woxst	279
 mayplebean	270
 Bayern	270
@@ -274,5 +274,5 @@ Aceotts1	216
 SKITATSTIC	153
 JusttaAri	126
 Rushynx	117
-rhemedy	45
+AngelaV	45
 _Stripes	0
