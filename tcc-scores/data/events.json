@@ -355,13 +355,13 @@
             "date":"June 28, 2026",
             "players":40,
             "teams":10,
-            "game-order":[],
+            "game-order":["Parkour Warrior","TGTTOS","Rocket Spleef Rush","Battle Box","Hole In The Wall"],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Red Rabbits",
+            "runner-up":"Lime Llamas",
+            "score":"7-3",
             "points":"TCCP26-Points.txt",
-            "is-live":true
+            "is-live":false
         }
     }
 }
