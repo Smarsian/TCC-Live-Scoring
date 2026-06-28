@@ -268,21 +268,21 @@
       "place": 33
     },
     {
+      "player": "bluebearchen",
+      "team": "Cyan Coyotes",
+      "points": 621,
+      "place": 34
+    },
+    {
       "player": "JusttaAri",
       "team": "Cyan Coyotes",
       "points": 574.5,
-      "place": 34
+      "place": 35
     },
     {
       "player": "Aceotts1",
       "team": "Orange Ocelots",
       "points": 490,
-      "place": 35
-    },
-    {
-      "player": "bluebearchen/Spygames",
-      "team": "Unknown",
-      "points": 460,
       "place": 36
     },
     {
@@ -300,32 +300,14 @@
     {
       "player": "yoshzz",
       "team": "Green Geckos",
-      "points": 180,
+      "points": 215,
       "place": 39
-    },
-    {
-      "player": "bluebearchen",
-      "team": "Cyan Coyotes",
-      "points": 161,
-      "place": 40
-    },
-    {
-      "player": "CraftDude",
-      "team": "Unknown",
-      "points": 35,
-      "place": 41
-    },
-    {
-      "player": "rhemedy",
-      "team": "Unknown",
-      "points": 30,
-      "place": 42
     },
     {
       "player": "AngelaV",
       "team": "Green Geckos",
-      "points": 27,
-      "place": 43
+      "points": 57,
+      "place": 40
     }
   ],
   "event-team-leaderboard": [
@@ -366,7 +348,7 @@
     },
     {
       "team": "Cyan Coyotes",
-      "points": 3564.5,
+      "points": 4024.5,
       "place": 8
     },
     {
@@ -376,13 +358,8 @@
     },
     {
       "team": "Green Geckos",
-      "points": 1911.5,
+      "points": 1976.5,
       "place": 10
-    },
-    {
-      "team": "Unknown",
-      "points": 525,
-      "place": 11
     }
   ],
   "game-stats": [
@@ -1361,8 +1338,8 @@
           "place": 12
         },
         {
-          "player": "bluebearchen/Spygames",
-          "team": "Unknown",
+          "player": "bluebearchen",
+          "team": "Cyan Coyotes",
           "points": 460,
           "place": 13
         },
@@ -1517,34 +1494,16 @@
           "place": 38
         },
         {
-          "player": "CraftDude",
-          "team": "Unknown",
+          "player": "yoshzz",
+          "team": "Green Geckos",
           "points": 35,
           "place": 39
         },
         {
-          "player": "rhemedy",
-          "team": "Unknown",
-          "points": 30,
-          "place": 40
-        },
-        {
           "player": "AngelaV",
           "team": "Green Geckos",
-          "points": 0,
-          "place": 41
-        },
-        {
-          "player": "bluebearchen",
-          "team": "Cyan Coyotes",
-          "points": 0,
-          "place": 42
-        },
-        {
-          "player": "yoshzz",
-          "team": "Green Geckos",
-          "points": 0,
-          "place": 43
+          "points": 30,
+          "place": 40
         }
       ],
       "team-leaderboard": [
@@ -1559,23 +1518,23 @@
           "place": 2
         },
         {
+          "team": "Cyan Coyotes",
+          "points": 1920.0,
+          "place": 3
+        },
+        {
           "team": "Blue Bats",
           "points": 1820.0,
-          "place": 3
+          "place": 4
         },
         {
           "team": "Lime Llamas",
           "points": 1762.5,
-          "place": 4
+          "place": 5
         },
         {
           "team": "Pink Parrots",
           "points": 1530.0,
-          "place": 5
-        },
-        {
-          "team": "Cyan Coyotes",
-          "points": 1460.0,
           "place": 6
         },
         {
@@ -1594,14 +1553,9 @@
           "place": 9
         },
         {
-          "team": "Unknown",
-          "points": 525,
-          "place": 10
-        },
-        {
           "team": "Green Geckos",
-          "points": 222.5,
-          "place": 11
+          "points": 287.5,
+          "place": 10
         }
       ]
     }
@@ -2589,8 +2543,8 @@
             "place": 12
           },
           {
-            "player": "bluebearchen/Spygames",
-            "team": "Unknown",
+            "player": "bluebearchen",
+            "team": "Cyan Coyotes",
             "points": 460,
             "place": 13
           },
@@ -2745,34 +2699,16 @@
             "place": 38
           },
           {
-            "player": "CraftDude",
-            "team": "Unknown",
+            "player": "yoshzz",
+            "team": "Green Geckos",
             "points": 35,
             "place": 39
           },
           {
-            "player": "rhemedy",
-            "team": "Unknown",
-            "points": 30,
-            "place": 40
-          },
-          {
             "player": "AngelaV",
             "team": "Green Geckos",
-            "points": 0,
-            "place": 41
-          },
-          {
-            "player": "bluebearchen",
-            "team": "Cyan Coyotes",
-            "points": 0,
-            "place": 42
-          },
-          {
-            "player": "yoshzz",
-            "team": "Green Geckos",
-            "points": 0,
-            "place": 43
+            "points": 30,
+            "place": 40
           }
         ],
         "team-leaderboard": [
@@ -2787,23 +2723,23 @@
             "place": 2
           },
           {
+            "team": "Cyan Coyotes",
+            "points": 1920.0,
+            "place": 3
+          },
+          {
             "team": "Blue Bats",
             "points": 1820.0,
-            "place": 3
+            "place": 4
           },
           {
             "team": "Lime Llamas",
             "points": 1762.5,
-            "place": 4
+            "place": 5
           },
           {
             "team": "Pink Parrots",
             "points": 1530.0,
-            "place": 5
-          },
-          {
-            "team": "Cyan Coyotes",
-            "points": 1460.0,
             "place": 6
           },
           {
@@ -2822,14 +2758,9 @@
             "place": 9
           },
           {
-            "team": "Unknown",
-            "points": 525,
-            "place": 10
-          },
-          {
             "team": "Green Geckos",
-            "points": 222.5,
-            "place": 11
+            "points": 287.5,
+            "place": 10
           }
         ]
       }
