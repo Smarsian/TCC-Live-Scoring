@@ -834,7 +834,17 @@ function App() {
   return (
     <main className="event-page">
       <header className="page-header">
-        <h1>The Coolio Championships LIVE Scores</h1>
+        <div>
+          <h1>The Coolio Championships LIVE Scores</h1>
+          <a
+            className="wiki-link"
+            href="https://the-coolio-events.fandom.com/wiki/The_Coolio_Events_Wiki"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Click here to see the Coolio Events Wiki!
+          </a>
+        </div>
         <button type="button" className="theme-toggle" onClick={toggleTheme}>
           {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
         </button>

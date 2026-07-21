@@ -26,6 +26,24 @@
   max-width: 16ch;
 }
 
+.wiki-link {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wiki-link:hover {
+  text-decoration: underline;
+}
+
+.wiki-link:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 55%, #fff);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 .theme-toggle {
   flex-shrink: 0;
   border: 1px solid var(--border);
