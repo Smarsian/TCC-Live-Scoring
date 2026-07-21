@@ -362,6 +362,20 @@
             "score":"7-3",
             "points":"TCCP26-Points.txt",
             "is-live":false
+        },
+        "TCC Party 2":
+        {
+            "event-num":5,
+            "date":"July 25, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":[],
+            "finale-game":"Surged",
+            "winner":"",
+            "runner-up":"",
+            "score":"",
+            "points":"TCCParty2-Points.txt",
+            "is-live":true
         }
     }
 }
