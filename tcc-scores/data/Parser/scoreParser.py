@@ -205,13 +205,14 @@ def build_substitution_map(raw_teams, existing_teams):
 		if not isinstance(existing_players, list):
 			continue
 
-		missing_from_existing = [player for player in raw_players if player not in existing_players]
-		added_in_existing = [player for player in existing_players if player not in raw_players]
+		incoming_players = [player for player in raw_players if player not in existing_players]
+		outgoing_players = [player for player in existing_players if player not in raw_players]
 
-		if len(missing_from_existing) != len(added_in_existing):
+		if len(incoming_players) != len(outgoing_players):
 			continue
 
-		for old_player, new_player in zip(missing_from_existing, added_in_existing):
+		# Translate historical point entries (old player) to substituted roster names (new player).
+		for old_player, new_player in zip(outgoing_players, incoming_players):
 			substitutions[old_player] = new_player
 
 	return substitutions
@@ -408,10 +409,6 @@ def main():
 	event_name, teams, player_to_team, games = parse_raw_event_file(input_path)
 	existing_teams = load_existing_teams(output_path)
 	substitution_map = build_substitution_map(teams, existing_teams)
-
-	if existing_teams:
-		teams = existing_teams
-		player_to_team = build_player_to_team(teams)
 
 	games = apply_player_substitutions_to_games(games, substitution_map)
 	parsed_payload = build_output(event_name, teams, player_to_team, games)

@@ -363,8 +363,11 @@
       "place": 10
     }
   ],
-  "game-stats": {
-    "TGTTOS": {
+  "game-stats": [
+    {
+      "game-number": 1,
+      "game-name": "TGTTOS",
+      "special-scoring": false,
       "player-leaderboard": [
         {
           "player": "a1",
@@ -660,7 +663,10 @@
         }
       ]
     },
-    "HITW": {
+    {
+      "game-number": 2,
+      "game-name": "HITW",
+      "special-scoring": false,
       "player-leaderboard": [
         {
           "player": "a1",
@@ -956,7 +962,10 @@
         }
       ]
     },
-    "SB": {
+    {
+      "game-number": 3,
+      "game-name": "SB",
+      "special-scoring": false,
       "player-leaderboard": [
         {
           "player": "a1",
@@ -1252,7 +1261,10 @@
         }
       ]
     },
-    "BB": {
+    {
+      "game-number": 4,
+      "game-name": "BB",
+      "special-scoring": false,
       "player-leaderboard": [
         {
           "player": "a1",
@@ -1548,7 +1560,10 @@
         }
       ]
     },
-    "RSR": {
+    {
+      "game-number": 5,
+      "game-name": "RSR",
+      "special-scoring": false,
       "player-leaderboard": [
         {
           "player": "a1",
@@ -1844,5 +1859,1512 @@
         }
       ]
     }
+  ],
+  "game-stats-by-name": {
+    "TGTTOS": [
+      {
+        "game-number": 1,
+        "game-name": "TGTTOS",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "a1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "player": "a2",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "player": "a3",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "player": "a4",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "player": "b1",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "player": "b2",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "player": "b3",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "player": "b4",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "c1",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "c2",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "c3",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "c4",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "g1",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "g2",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "g3",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "g4",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 16
+          },
+          {
+            "player": "l1",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 17
+          },
+          {
+            "player": "l2",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 18
+          },
+          {
+            "player": "l3",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 19
+          },
+          {
+            "player": "l4",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 20
+          },
+          {
+            "player": "o1",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 21
+          },
+          {
+            "player": "o2",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 22
+          },
+          {
+            "player": "o3",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 23
+          },
+          {
+            "player": "o4",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 24
+          },
+          {
+            "player": "p1",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 25
+          },
+          {
+            "player": "p2",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 26
+          },
+          {
+            "player": "p3",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 27
+          },
+          {
+            "player": "p4",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 28
+          },
+          {
+            "player": "pi1",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 29
+          },
+          {
+            "player": "pi2",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 30
+          },
+          {
+            "player": "pi3",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 31
+          },
+          {
+            "player": "pi4",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 32
+          },
+          {
+            "player": "r1",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 33
+          },
+          {
+            "player": "r2",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 34
+          },
+          {
+            "player": "r3",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 35
+          },
+          {
+            "player": "r4",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 36
+          },
+          {
+            "player": "y1",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 37
+          },
+          {
+            "player": "y2",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 38
+          },
+          {
+            "player": "y3",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 39
+          },
+          {
+            "player": "y4",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 40
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 10
+          }
+        ]
+      }
+    ],
+    "HITW": [
+      {
+        "game-number": 2,
+        "game-name": "HITW",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "a1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "player": "a2",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "player": "a3",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "player": "a4",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "player": "b1",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "player": "b2",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "player": "b3",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "player": "b4",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "c1",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "c2",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "c3",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "c4",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "g1",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "g2",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "g3",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "g4",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 16
+          },
+          {
+            "player": "l1",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 17
+          },
+          {
+            "player": "l2",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 18
+          },
+          {
+            "player": "l3",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 19
+          },
+          {
+            "player": "l4",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 20
+          },
+          {
+            "player": "o1",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 21
+          },
+          {
+            "player": "o2",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 22
+          },
+          {
+            "player": "o3",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 23
+          },
+          {
+            "player": "o4",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 24
+          },
+          {
+            "player": "p1",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 25
+          },
+          {
+            "player": "p2",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 26
+          },
+          {
+            "player": "p3",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 27
+          },
+          {
+            "player": "p4",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 28
+          },
+          {
+            "player": "pi1",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 29
+          },
+          {
+            "player": "pi2",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 30
+          },
+          {
+            "player": "pi3",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 31
+          },
+          {
+            "player": "pi4",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 32
+          },
+          {
+            "player": "r1",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 33
+          },
+          {
+            "player": "r2",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 34
+          },
+          {
+            "player": "r3",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 35
+          },
+          {
+            "player": "r4",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 36
+          },
+          {
+            "player": "y1",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 37
+          },
+          {
+            "player": "y2",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 38
+          },
+          {
+            "player": "y3",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 39
+          },
+          {
+            "player": "y4",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 40
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 10
+          }
+        ]
+      }
+    ],
+    "SB": [
+      {
+        "game-number": 3,
+        "game-name": "SB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "a1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "player": "a2",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "player": "a3",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "player": "a4",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "player": "b1",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "player": "b2",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "player": "b3",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "player": "b4",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "c1",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "c2",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "c3",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "c4",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "g1",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "g2",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "g3",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "g4",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 16
+          },
+          {
+            "player": "l1",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 17
+          },
+          {
+            "player": "l2",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 18
+          },
+          {
+            "player": "l3",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 19
+          },
+          {
+            "player": "l4",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 20
+          },
+          {
+            "player": "o1",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 21
+          },
+          {
+            "player": "o2",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 22
+          },
+          {
+            "player": "o3",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 23
+          },
+          {
+            "player": "o4",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 24
+          },
+          {
+            "player": "p1",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 25
+          },
+          {
+            "player": "p2",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 26
+          },
+          {
+            "player": "p3",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 27
+          },
+          {
+            "player": "p4",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 28
+          },
+          {
+            "player": "pi1",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 29
+          },
+          {
+            "player": "pi2",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 30
+          },
+          {
+            "player": "pi3",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 31
+          },
+          {
+            "player": "pi4",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 32
+          },
+          {
+            "player": "r1",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 33
+          },
+          {
+            "player": "r2",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 34
+          },
+          {
+            "player": "r3",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 35
+          },
+          {
+            "player": "r4",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 36
+          },
+          {
+            "player": "y1",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 37
+          },
+          {
+            "player": "y2",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 38
+          },
+          {
+            "player": "y3",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 39
+          },
+          {
+            "player": "y4",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 40
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 10
+          }
+        ]
+      }
+    ],
+    "BB": [
+      {
+        "game-number": 4,
+        "game-name": "BB",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "a1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "player": "a2",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "player": "a3",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "player": "a4",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "player": "b1",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "player": "b2",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "player": "b3",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "player": "b4",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "c1",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "c2",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "c3",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "c4",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "g1",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "g2",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "g3",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "g4",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 16
+          },
+          {
+            "player": "l1",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 17
+          },
+          {
+            "player": "l2",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 18
+          },
+          {
+            "player": "l3",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 19
+          },
+          {
+            "player": "l4",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 20
+          },
+          {
+            "player": "o1",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 21
+          },
+          {
+            "player": "o2",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 22
+          },
+          {
+            "player": "o3",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 23
+          },
+          {
+            "player": "o4",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 24
+          },
+          {
+            "player": "p1",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 25
+          },
+          {
+            "player": "p2",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 26
+          },
+          {
+            "player": "p3",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 27
+          },
+          {
+            "player": "p4",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 28
+          },
+          {
+            "player": "pi1",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 29
+          },
+          {
+            "player": "pi2",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 30
+          },
+          {
+            "player": "pi3",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 31
+          },
+          {
+            "player": "pi4",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 32
+          },
+          {
+            "player": "r1",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 33
+          },
+          {
+            "player": "r2",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 34
+          },
+          {
+            "player": "r3",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 35
+          },
+          {
+            "player": "r4",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 36
+          },
+          {
+            "player": "y1",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 37
+          },
+          {
+            "player": "y2",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 38
+          },
+          {
+            "player": "y3",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 39
+          },
+          {
+            "player": "y4",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 40
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 10
+          }
+        ]
+      }
+    ],
+    "RSR": [
+      {
+        "game-number": 5,
+        "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "a1",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "player": "a2",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "player": "a3",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "player": "a4",
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "player": "b1",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "player": "b2",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "player": "b3",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "player": "b4",
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "player": "c1",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "player": "c2",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 10
+          },
+          {
+            "player": "c3",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 11
+          },
+          {
+            "player": "c4",
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 12
+          },
+          {
+            "player": "g1",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 13
+          },
+          {
+            "player": "g2",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 14
+          },
+          {
+            "player": "g3",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 15
+          },
+          {
+            "player": "g4",
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 16
+          },
+          {
+            "player": "l1",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 17
+          },
+          {
+            "player": "l2",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 18
+          },
+          {
+            "player": "l3",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 19
+          },
+          {
+            "player": "l4",
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 20
+          },
+          {
+            "player": "o1",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 21
+          },
+          {
+            "player": "o2",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 22
+          },
+          {
+            "player": "o3",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 23
+          },
+          {
+            "player": "o4",
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 24
+          },
+          {
+            "player": "p1",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 25
+          },
+          {
+            "player": "p2",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 26
+          },
+          {
+            "player": "p3",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 27
+          },
+          {
+            "player": "p4",
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 28
+          },
+          {
+            "player": "pi1",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 29
+          },
+          {
+            "player": "pi2",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 30
+          },
+          {
+            "player": "pi3",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 31
+          },
+          {
+            "player": "pi4",
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 32
+          },
+          {
+            "player": "r1",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 33
+          },
+          {
+            "player": "r2",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 34
+          },
+          {
+            "player": "r3",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 35
+          },
+          {
+            "player": "r4",
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 36
+          },
+          {
+            "player": "y1",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 37
+          },
+          {
+            "player": "y2",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 38
+          },
+          {
+            "player": "y3",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 39
+          },
+          {
+            "player": "y4",
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 40
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Aqua Axolotls",
+            "points": 0,
+            "place": 1
+          },
+          {
+            "team": "Blue Bats",
+            "points": 0,
+            "place": 2
+          },
+          {
+            "team": "Cyan Coyotes",
+            "points": 0,
+            "place": 3
+          },
+          {
+            "team": "Green Geckos",
+            "points": 0,
+            "place": 4
+          },
+          {
+            "team": "Lime Llamas",
+            "points": 0,
+            "place": 5
+          },
+          {
+            "team": "Orange Ocelots",
+            "points": 0,
+            "place": 6
+          },
+          {
+            "team": "Pink Parrots",
+            "points": 0,
+            "place": 7
+          },
+          {
+            "team": "Purple Pandas",
+            "points": 0,
+            "place": 8
+          },
+          {
+            "team": "Red Rabbits",
+            "points": 0,
+            "place": 9
+          },
+          {
+            "team": "Yellow Yaks",
+            "points": 0,
+            "place": 10
+          }
+        ]
+      }
+    ]
   }
 }
