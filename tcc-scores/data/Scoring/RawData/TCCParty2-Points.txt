@@ -3,8 +3,8 @@ TCCP26
 Teams:
 Red Rabbits:
 Oniqed
-BubblestheFriendly
-ImaPlant
+CrystAxol
+ImaPlant 
 Anixy_Nightshade
 
 Orange Ocelots:
@@ -39,7 +39,7 @@ ItsCosmoMC
 
 Purple Pandas:
 cheeetahs
-ItzChoco
+ThatDudeChris
 spareddd
 TheeJahmes2211
 

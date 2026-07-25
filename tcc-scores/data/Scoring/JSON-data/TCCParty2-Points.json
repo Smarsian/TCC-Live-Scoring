@@ -3,7 +3,7 @@
   "teams": {
     "Red Rabbits": [
       "Oniqed",
-      "BubblestheFriendly",
+      "CrystAxol",
       "ImaPlant",
       "Anixy_Nightshade"
     ],
@@ -39,7 +39,7 @@
     ],
     "Purple Pandas": [
       "cheeetahs",
-      "ItzChoco",
+      "ThatDudeChris",
       "spareddd",
       "TheeJahmes2211"
     ],
@@ -107,14 +107,14 @@
       "place": 9
     },
     {
-      "player": "BubblestheFriendly",
-      "team": "Red Rabbits",
+      "player": "cheeetahs",
+      "team": "Purple Pandas",
       "points": 0,
       "place": 10
     },
     {
-      "player": "cheeetahs",
-      "team": "Purple Pandas",
+      "player": "CrystAxol",
+      "team": "Red Rabbits",
       "points": 0,
       "place": 11
     },
@@ -155,85 +155,85 @@
       "place": 17
     },
     {
-      "player": "ItzChoco",
-      "team": "Purple Pandas",
-      "points": 0,
-      "place": 18
-    },
-    {
       "player": "JusttaAri",
       "team": "Cyan Coyotes",
       "points": 0,
-      "place": 19
+      "place": 18
     },
     {
       "player": "JuztKillz",
       "team": "Pink Parrots",
       "points": 0,
-      "place": 20
+      "place": 19
     },
     {
       "player": "KaydenCoolio",
       "team": "Aqua Axolotls",
       "points": 0,
-      "place": 21
+      "place": 20
     },
     {
       "player": "Kodex13",
       "team": "Pink Parrots",
       "points": 0,
-      "place": 22
+      "place": 21
     },
     {
       "player": "Lightseeker",
       "team": "Cyan Coyotes",
       "points": 0,
-      "place": 23
+      "place": 22
     },
     {
       "player": "LillyWhiteWolf",
       "team": "Green Geckos",
       "points": 0,
-      "place": 24
+      "place": 23
     },
     {
       "player": "MCCI_Foxy",
       "team": "Cyan Coyotes",
       "points": 0,
-      "place": 25
+      "place": 24
     },
     {
       "player": "Oniqed",
       "team": "Red Rabbits",
       "points": 0,
-      "place": 26
+      "place": 25
     },
     {
       "player": "PulseOranges",
       "team": "Blue Bats",
       "points": 0,
-      "place": 27
+      "place": 26
     },
     {
       "player": "RowanArt",
       "team": "Blue Bats",
       "points": 0,
-      "place": 28
+      "place": 27
     },
     {
       "player": "Roy_Awesome_R",
       "team": "Green Geckos",
       "points": 0,
-      "place": 29
+      "place": 28
     },
     {
       "player": "Smarsian",
       "team": "Aqua Axolotls",
       "points": 0,
-      "place": 30
+      "place": 29
     },
     {
       "player": "spareddd",
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 30
+    },
+    {
+      "player": "ThatDudeChris",
       "team": "Purple Pandas",
       "points": 0,
       "place": 31
