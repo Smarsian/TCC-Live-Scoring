@@ -32,7 +32,7 @@
       "Aceotts1"
     ],
     "Blue Bats": [
-      "JAY_matwr",
+      "PulseOranges",
       "Apples05",
       "RowanArt",
       "ItsCosmoMC"
@@ -173,44 +173,44 @@
       "place": 20
     },
     {
-      "player": "JAY_matwr",
-      "team": "Blue Bats",
-      "points": 0,
-      "place": 21
-    },
-    {
       "player": "JuztKillz",
       "team": "Pink Parrots",
       "points": 0,
-      "place": 22
+      "place": 21
     },
     {
       "player": "KaydenCoolio",
       "team": "Aqua Axolotls",
       "points": 0,
-      "place": 23
+      "place": 22
     },
     {
       "player": "Kodex13",
       "team": "Pink Parrots",
       "points": 0,
-      "place": 24
+      "place": 23
     },
     {
       "player": "LillyWhiteWolf",
       "team": "Green Geckos",
       "points": 0,
-      "place": 25
+      "place": 24
     },
     {
       "player": "MCCI_Foxy",
       "team": "Cyan Coyotes",
       "points": 0,
-      "place": 26
+      "place": 25
     },
     {
       "player": "Oniqed",
       "team": "Red Rabbits",
+      "points": 0,
+      "place": 26
+    },
+    {
+      "player": "PulseOranges",
+      "team": "Blue Bats",
       "points": 0,
       "place": 27
     },
