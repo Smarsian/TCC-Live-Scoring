@@ -369,13 +369,13 @@
             "date":"July 25, 2026",
             "players":32,
             "teams":8,
-            "game-order":[],
+            "game-order":["TGTTOS","Sky Battle","Rocket Spleef Rush","Parkour Warrior","Hole In The Wall"],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Pink Parrots",
+            "runner-up":"Green Geckos",
+            "score":"7-1",
             "points":"TCCParty2-Points.txt",
-            "is-live":true
+            "is-live":false
         }
     }
 }
