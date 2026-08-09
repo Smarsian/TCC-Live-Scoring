@@ -60,7 +60,7 @@
     {
       "player": "xpyo",
       "team": "Orange Ocelots",
-      "points": 1849.0,
+      "points": 1949.0,
       "place": 1
     },
     {
@@ -172,21 +172,21 @@
       "place": 19
     },
     {
-      "player": "aiksgo",
-      "team": "Orange Ocelots",
-      "points": 868,
-      "place": 20
-    },
-    {
       "player": "Deyshy",
       "team": "Pink Parrots",
       "points": 859.0,
-      "place": 21
+      "place": 20
     },
     {
       "player": "DaRealJiit",
       "team": "Orange Ocelots",
       "points": 710.5,
+      "place": 21
+    },
+    {
+      "player": "aiksgo",
+      "team": "Orange Ocelots",
+      "points": 708,
       "place": 22
     },
     {
@@ -263,7 +263,7 @@
     },
     {
       "team": "Orange Ocelots",
-      "points": 4453.0,
+      "points": 4393.0,
       "place": 3
     },
     {
@@ -781,7 +781,7 @@
       "special-scoring": false,
       "player-leaderboard": [
         {
-          "player": "aiksgo",
+          "player": "xpyo",
           "team": "Orange Ocelots",
           "points": 420,
           "place": 1
@@ -823,21 +823,21 @@
           "place": 7
         },
         {
-          "player": "xpyo",
-          "team": "Orange Ocelots",
-          "points": 320,
-          "place": 8
-        },
-        {
           "player": "CrisRC",
           "team": "Purple Pandas",
           "points": 280,
-          "place": 9
+          "place": 8
         },
         {
           "player": "Tiptx",
           "team": "Aqua Axolotls",
           "points": 280,
+          "place": 9
+        },
+        {
+          "player": "aiksgo",
+          "team": "Orange Ocelots",
+          "points": 260,
           "place": 10
         },
         {
@@ -975,13 +975,13 @@
       ],
       "team-leaderboard": [
         {
-          "team": "Orange Ocelots",
-          "points": 1300,
+          "team": "Aqua Axolotls",
+          "points": 1260,
           "place": 1
         },
         {
-          "team": "Aqua Axolotls",
-          "points": 1260,
+          "team": "Orange Ocelots",
+          "points": 1240,
           "place": 2
         },
         {
@@ -1752,7 +1752,7 @@
         "special-scoring": false,
         "player-leaderboard": [
           {
-            "player": "aiksgo",
+            "player": "xpyo",
             "team": "Orange Ocelots",
             "points": 420,
             "place": 1
@@ -1794,21 +1794,21 @@
             "place": 7
           },
           {
-            "player": "xpyo",
-            "team": "Orange Ocelots",
-            "points": 320,
-            "place": 8
-          },
-          {
             "player": "CrisRC",
             "team": "Purple Pandas",
             "points": 280,
-            "place": 9
+            "place": 8
           },
           {
             "player": "Tiptx",
             "team": "Aqua Axolotls",
             "points": 280,
+            "place": 9
+          },
+          {
+            "player": "aiksgo",
+            "team": "Orange Ocelots",
+            "points": 260,
             "place": 10
           },
           {
@@ -1946,13 +1946,13 @@
         ],
         "team-leaderboard": [
           {
-            "team": "Orange Ocelots",
-            "points": 1300,
+            "team": "Aqua Axolotls",
+            "points": 1260,
             "place": 1
           },
           {
-            "team": "Aqua Axolotls",
-            "points": 1260,
+            "team": "Orange Ocelots",
+            "points": 1240,
             "place": 2
           },
           {
