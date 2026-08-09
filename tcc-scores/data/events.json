@@ -1,4 +1,21 @@
 {
+    "Special Events":
+    {
+        "TCC x CrystAxol":
+        {
+            "event-num":5,
+            "date":"August 9, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":[],
+            "finale-game":"Surged",
+            "winner":"",
+            "runner-up":"",
+            "score":"",
+            "points":"",
+            "is-live":true
+        }
+    },
     "Season 1":
     {
         "TCC 1":
