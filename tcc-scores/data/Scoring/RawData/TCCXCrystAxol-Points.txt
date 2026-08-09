@@ -85,7 +85,6 @@ zReggiee	121
 jotapex	120
 Thee_Jahmes2211	118
 
-Games:
 Game 2: HITW
 Points:
 juliopolis	373.5
@@ -120,3 +119,38 @@ ElVaqui	94.5
 aloowz	72
 spisielk	63
 zReggiee	54
+
+Game 3: BB
+Points:
+aiksgo	420
+skys0lerx	390
+eideh	380
+Pragghan	340
+Kadficaaa	330
+xpyo	320
+bottopr	320
+SantiiBuxi	320
+Tiptx	280
+CrisRC	280
+m4x_2684	240
+TarmacGraph	220
+aloowz	220
+Morbux	210
+CrystAxol	190
+DaRealJiit	180
+ElVaqui	180
+M_64	180
+KaydenCoolio	160
+spisielk	160
+jotapex	160
+zReggiee	150
+cheeetahs	120
+juliopolis	120
+shutsz	110
+Thee_Jahmes2211	100
+Deyshy	60
+EddyTaku	60
+iMetr1x	60
+CapyZzz_	50
+Joel38	50
+JOTAINK	40
