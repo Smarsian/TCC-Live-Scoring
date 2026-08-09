@@ -1,17 +1,11 @@
 TCC x CrystAxol
 
 Teams:
-Red Rabbits
-CrystAxol
-Kadficaaa
-Morbux
-skysolerx
-
 Red Rabbits:
 CrystAxol
 Kadficaaa
 Morbux
-skysolerx
+skys0lerx
 
 Orange Ocelots:
 aiksgo
@@ -20,7 +14,7 @@ eideh
 xpyo
 
 Yellow Yaks:
-Apojema
+CapyZzz_
 Joel38
 shutsz
 zReggiee
@@ -28,7 +22,7 @@ zReggiee
 Lime Llamas:
 cheeetahs
 KaydenCoolio
-leogod27
+Thee_Jahmes2211
 juliopolis
 
 Aqua Axolotls:
@@ -38,16 +32,16 @@ SantiiBuxi
 Tiptx
 
 Blue Bats:
-Berpol
+ElVaqui
 m4x_2684
 spisielk
-Tarmac
+TarmacGraph
 
 Purple Pandas:
 aloowz
 CrisRC
 jotapex
-Takeru
+M_64
 
 Pink Parrots:
 Deyshy
@@ -56,5 +50,5 @@ iMetr1x
 JOTAINK
 
 Games:
-Game 1:
-Points:
+Game 1: TGTTOS
+Points: 
