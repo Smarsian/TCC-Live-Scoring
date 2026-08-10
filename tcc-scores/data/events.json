@@ -3,17 +3,17 @@
     {
         "TCC x CrystAxol":
         {
-            "event-num":5,
+            "event-num":1,
             "date":"August 9, 2026",
             "players":32,
             "teams":8,
-            "game-order":[],
+            "game-order":["TGTTOS","Hole In The Wall","Battle Box","Parkour Warrior","Rocket Spleef Rush"],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Aqua Axolotls",
+            "runner-up":"Red Rabbits",
+            "score":"7-0",
             "points":"TCCXCrystAxol-Points.txt",
-            "is-live":true
+            "is-live":false
         }
     },
     "Season 1":
