@@ -211,6 +211,21 @@ const getMostRecentEventSelection = (allEvents) => {
   }
 }
 
+const getMostRecentCanonEventSelection = (allEvents) => {
+  const canonEvents = Object.entries(allEvents).filter(([, seasonData]) => seasonData?.['is-canon'])
+
+  if (canonEvents.length === 0) {
+    return getMostRecentEventSelection(allEvents)
+  }
+
+  const filteredEvents = canonEvents.reduce((accumulator, [seasonName, seasonData]) => {
+    accumulator[seasonName] = seasonData
+    return accumulator
+  }, {})
+
+  return getMostRecentEventSelection(filteredEvents)
+}
+
 const imageModules = import.meta.glob('../images/**/*.{png,jpg,jpeg,svg,webp}', {
   eager: true,
   import: 'default',
@@ -264,9 +279,24 @@ function App() {
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   }
 
-  const initialSelection = useMemo(() => getMostRecentEventSelection(events), [])
+  const initialSelection = useMemo(() => getMostRecentCanonEventSelection(events), [])
   const [theme, setTheme] = useState(getInitialTheme)
-  const seasons = useMemo(() => Object.keys(events), [])
+  const seasons = useMemo(() => {
+    const seasonEntries = Object.entries(events)
+
+    return seasonEntries
+      .sort(([leftSeasonName, leftSeasonData], [rightSeasonName, rightSeasonData]) => {
+        const leftCanonRank = leftSeasonData?.['is-canon'] ? 0 : 1
+        const rightCanonRank = rightSeasonData?.['is-canon'] ? 0 : 1
+
+        if (leftCanonRank !== rightCanonRank) {
+          return leftCanonRank - rightCanonRank
+        }
+
+        return leftSeasonName.localeCompare(rightSeasonName, undefined, { numeric: true, sensitivity: 'base' })
+      })
+      .map(([seasonName]) => seasonName)
+  }, [])
   const initialSeason = initialSelection.seasonName || seasons[0] || ''
   const [selectedSeason, setSelectedSeason] = useState(initialSeason)
 
