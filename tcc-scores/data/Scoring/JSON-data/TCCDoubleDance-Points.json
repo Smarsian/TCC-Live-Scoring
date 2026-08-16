@@ -1,0 +1,222 @@
+{
+  "event-name": "TCCDoubleDance",
+  "teams": {
+    "Red Rabbits": [
+      "thedracobee",
+      "Kodex13",
+      "LaggdLol",
+      "monkeking"
+    ],
+    "Lime Llamas": [
+      "OP_Riptide",
+      "APurplePenguin_",
+      "_Stripes",
+      "_slimeball"
+    ],
+    "Green Geckos": [
+      "MrPrawes",
+      "Apples05",
+      "KaydenCoolio",
+      "MinisterNickname"
+    ],
+    "Blue Bats": [
+      "JAY_matwr",
+      "bohead_",
+      "Rushynx",
+      "Dr_OrangeFox_"
+    ],
+    "Purple Pandas": [
+      "JavaJoseph_",
+      "Valbeepur",
+      "Aceotts1",
+      "spareddd"
+    ],
+    "Pink Parrots": [
+      "ImAPlant",
+      "BubblestheFriendly",
+      "Oniqed",
+      "ItsCosmoMC"
+    ]
+  },
+  "games": [],
+  "event-player-leaderboard": [
+    {
+      "player": "_slimeball",
+      "team": "Lime Llamas",
+      "points": 0,
+      "place": 1
+    },
+    {
+      "player": "_Stripes",
+      "team": "Lime Llamas",
+      "points": 0,
+      "place": 2
+    },
+    {
+      "player": "Aceotts1",
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 3
+    },
+    {
+      "player": "Apples05",
+      "team": "Green Geckos",
+      "points": 0,
+      "place": 4
+    },
+    {
+      "player": "APurplePenguin_",
+      "team": "Lime Llamas",
+      "points": 0,
+      "place": 5
+    },
+    {
+      "player": "bohead_",
+      "team": "Blue Bats",
+      "points": 0,
+      "place": 6
+    },
+    {
+      "player": "BubblestheFriendly",
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 7
+    },
+    {
+      "player": "Dr_OrangeFox_",
+      "team": "Blue Bats",
+      "points": 0,
+      "place": 8
+    },
+    {
+      "player": "ImAPlant",
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 9
+    },
+    {
+      "player": "ItsCosmoMC",
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 10
+    },
+    {
+      "player": "JavaJoseph_",
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 11
+    },
+    {
+      "player": "JAY_matwr",
+      "team": "Blue Bats",
+      "points": 0,
+      "place": 12
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Green Geckos",
+      "points": 0,
+      "place": 13
+    },
+    {
+      "player": "Kodex13",
+      "team": "Red Rabbits",
+      "points": 0,
+      "place": 14
+    },
+    {
+      "player": "LaggdLol",
+      "team": "Red Rabbits",
+      "points": 0,
+      "place": 15
+    },
+    {
+      "player": "MinisterNickname",
+      "team": "Green Geckos",
+      "points": 0,
+      "place": 16
+    },
+    {
+      "player": "monkeking",
+      "team": "Red Rabbits",
+      "points": 0,
+      "place": 17
+    },
+    {
+      "player": "MrPrawes",
+      "team": "Green Geckos",
+      "points": 0,
+      "place": 18
+    },
+    {
+      "player": "Oniqed",
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 19
+    },
+    {
+      "player": "OP_Riptide",
+      "team": "Lime Llamas",
+      "points": 0,
+      "place": 20
+    },
+    {
+      "player": "Rushynx",
+      "team": "Blue Bats",
+      "points": 0,
+      "place": 21
+    },
+    {
+      "player": "spareddd",
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 22
+    },
+    {
+      "player": "thedracobee",
+      "team": "Red Rabbits",
+      "points": 0,
+      "place": 23
+    },
+    {
+      "player": "Valbeepur",
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 24
+    }
+  ],
+  "event-team-leaderboard": [
+    {
+      "team": "Blue Bats",
+      "points": 0,
+      "place": 1
+    },
+    {
+      "team": "Green Geckos",
+      "points": 0,
+      "place": 2
+    },
+    {
+      "team": "Lime Llamas",
+      "points": 0,
+      "place": 3
+    },
+    {
+      "team": "Pink Parrots",
+      "points": 0,
+      "place": 4
+    },
+    {
+      "team": "Purple Pandas",
+      "points": 0,
+      "place": 5
+    },
+    {
+      "team": "Red Rabbits",
+      "points": 0,
+      "place": 6
+    }
+  ],
+  "game-stats": [],
+  "game-stats-by-name": {}
+}
