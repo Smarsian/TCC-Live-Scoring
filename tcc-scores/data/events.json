@@ -400,13 +400,13 @@
             "date":"August 22, 2026",
             "players":24,
             "teams":6,
-            "game-order":[],
+            "game-order":["Parkour Warrior", "Sky Battle", "Battle Box", "Rocket Spleef Rush", "Hole In The Wall"],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Red Rabbits",
+            "runner-up":"Blue Bats",
+            "score":"7-6",
             "points":"TCCDoubleDance-Points.txt",
-            "is-live":true
+            "is-live":false
         }
     }
 }
