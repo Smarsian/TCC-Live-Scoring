@@ -32,7 +32,7 @@ SpookyGodZero
 ItsCosmoMC
 
 Blue Banshees:
-BubblestheFriend
+Mine_Crafting/BubblestheFriend
 MinisterNickname
 qTad
 yseven
@@ -47,7 +47,7 @@ Fuchsia Frankensteins:
 Andreayay
 foufouv
 ThatzRed
-CropTopChloe
+CDogThePro/CropTopChloe
 
 Games:
 Game 1: TGTTOS
@@ -70,7 +70,7 @@ Andreayay	183
 AV80	181
 yseven	180
 juliopolis	171
-CropTopChloe	168
+CDogThePro/CropTopChloe	168
 MinisterNickname	165
 cheeetahs	162
 Dr_OrangeFox_	156
@@ -78,7 +78,7 @@ fruitcereal	150
 ASpookyPenguin	146
 Paradox_Error	141
 ThatzRed	133
-BubblestheFriend	128
+Mine_Crafting/BubblestheFriend	128
 Glitch3959_	124
 ItsCosmoMC	120
 RedTheCactus	100
@@ -106,13 +106,13 @@ MinisterNickname	150
 juliopolis	150
 ItsCosmoMC	127.5
 foufouv	127.5
-BubblestheFriend	120
+Mine_Crafting/BubblestheFriend	120
 AV80	120
 Andreayay	112.5
 Acegpuff	105
 Dr_OrangeFox_	105
 qTad	105
-CropTopChloe	97.5
+CDogThePro/CropTopChloe	97.5
 Glitch3959_	82.5
 KubaBabilon	82.5
 cheeetahs	75
@@ -121,4 +121,39 @@ Paradox_Error	45
 RedTheCactus	37.5
 
 Game 3: SB
+Points:
+OP_Spooktide	528
+SpookyGodZero	480
+ASpookyPenguin	470
+thedracobee	414
+Dr_OrangeFox_	366
+KaydenCoolio	356
+Frogmony	354
+cheeetahs	350
+ItsCosmoMC	330
+sp00kysp00kyy	328
+qTad	294
+JAY_matwr	288
+RatkingGaming	272
+fruitcereal	272
+Mine_Crafting/BubblestheFriend	258
+AV80	254
+MinisterNickname	228
+mMiror	224
+ItzChoco	218
+juliopolis	218
+yseven	212
+Acegpuff	194
+Paradox_Error	186
+cCerti	174
+ThatzRed	166
+Wo0o0o0ble_	162
+RedTheCactus	156
+Glitch3959_	142
+KubaBabilon	136
+Andreayay	98
+foufouv	96
+CDogThePro/CropTopChloe	84
+
+Game 4: RSR
 Points:
