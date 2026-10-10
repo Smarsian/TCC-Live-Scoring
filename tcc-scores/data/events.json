@@ -407,6 +407,20 @@
             "score":"7-6",
             "points":"TCCDoubleDance-Points.txt",
             "is-live":false
+        },
+                "TCC PT":
+        {
+            "event-num":7,
+            "date":"October 10, 2026",
+            "players":32,
+            "teams":8,
+            "game-order":[],
+            "finale-game":"Surged",
+            "winner":"",
+            "runner-up":"",
+            "score":"",
+            "points":"TCCPT-Points.txt",
+            "is-live":true
         }
     }
 }
