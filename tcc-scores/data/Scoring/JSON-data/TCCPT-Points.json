@@ -54,241 +54,242 @@
     "TGTTOS",
     "BB",
     "SB",
-    "RSR"
+    "RSR",
+    "PKW"
   ],
   "event-player-leaderboard": [
     {
       "player": "OP_Spooktide",
       "team": "Mustard Mummies",
-      "points": 926,
+      "points": 1448.5,
       "place": 1
-    },
-    {
-      "player": "SpookyGodZero",
-      "team": "Cyan Centipedes",
-      "points": 920.5,
-      "place": 2
-    },
-    {
-      "player": "thedracobee",
-      "team": "Red Ravens",
-      "points": 816,
-      "place": 3
-    },
-    {
-      "player": "Frogmony",
-      "team": "Lime Liches",
-      "points": 813,
-      "place": 4
-    },
-    {
-      "player": "sp00kysp00kyy",
-      "team": "Cyan Centipedes",
-      "points": 783.5,
-      "place": 5
-    },
-    {
-      "player": "ASpookyPenguin",
-      "team": "Cyan Centipedes",
-      "points": 773.5,
-      "place": 6
-    },
-    {
-      "player": "KaydenCoolio",
-      "team": "Red Ravens",
-      "points": 756,
-      "place": 7
-    },
-    {
-      "player": "RatkingGaming",
-      "team": "Lime Liches",
-      "points": 720,
-      "place": 8
     },
     {
       "player": "ItzChoco",
       "team": "Violet Vampires",
-      "points": 646,
-      "place": 9
+      "points": 1401,
+      "place": 2
     },
     {
-      "player": "cCerti",
-      "team": "Lime Liches",
-      "points": 632,
-      "place": 10
+      "player": "sp00kysp00kyy",
+      "team": "Cyan Centipedes",
+      "points": 1363.5,
+      "place": 3
+    },
+    {
+      "player": "SpookyGodZero",
+      "team": "Cyan Centipedes",
+      "points": 1328.0,
+      "place": 4
+    },
+    {
+      "player": "KaydenCoolio",
+      "team": "Red Ravens",
+      "points": 1253.5,
+      "place": 5
+    },
+    {
+      "player": "thedracobee",
+      "team": "Red Ravens",
+      "points": 1241,
+      "place": 6
     },
     {
       "player": "Dr_OrangeFox_",
       "team": "Mustard Mummies",
-      "points": 627,
-      "place": 11
+      "points": 1124.5,
+      "place": 7
     },
     {
       "player": "JAY_matwr",
       "team": "Red Ravens",
-      "points": 627,
-      "place": 12
+      "points": 1107,
+      "place": 8
     },
     {
       "player": "qTad",
       "team": "Blue Banshees",
-      "points": 622,
-      "place": 13
+      "points": 1084.5,
+      "place": 9
     },
     {
-      "player": "fruitcereal",
-      "team": "Violet Vampires",
-      "points": 617,
-      "place": 14
+      "player": "Frogmony",
+      "team": "Lime Liches",
+      "points": 1055.5,
+      "place": 10
     },
     {
       "player": "yseven",
       "team": "Blue Banshees",
-      "points": 602,
-      "place": 15
+      "points": 1034.5,
+      "place": 11
+    },
+    {
+      "player": "cCerti",
+      "team": "Lime Liches",
+      "points": 997,
+      "place": 12
+    },
+    {
+      "player": "CDogThePro/CropTopChloe",
+      "team": "Fuchsia Frankensteins",
+      "points": 992.0,
+      "place": 13
+    },
+    {
+      "player": "ASpookyPenguin",
+      "team": "Cyan Centipedes",
+      "points": 971.0,
+      "place": 14
     },
     {
       "player": "cheeetahs",
       "team": "Mustard Mummies",
-      "points": 587,
-      "place": 16
-    },
-    {
-      "player": "ItsCosmoMC",
-      "team": "Cyan Centipedes",
-      "points": 577.5,
-      "place": 17
-    },
-    {
-      "player": "mMiror",
-      "team": "Lime Liches",
-      "points": 574,
-      "place": 18
-    },
-    {
-      "player": "AV80",
-      "team": "Violet Vampires",
-      "points": 555,
-      "place": 19
-    },
-    {
-      "player": "MinisterNickname",
-      "team": "Blue Banshees",
-      "points": 543,
-      "place": 20
-    },
-    {
-      "player": "juliopolis",
-      "team": "Violet Vampires",
-      "points": 539,
-      "place": 21
-    },
-    {
-      "player": "Mine_Crafting/BubblestheFriend",
-      "team": "Blue Banshees",
-      "points": 506,
-      "place": 22
+      "points": 959.5,
+      "place": 15
     },
     {
       "player": "ThatzRed",
       "team": "Fuchsia Frankensteins",
-      "points": 471.5,
-      "place": 23
+      "points": 946.5,
+      "place": 16
+    },
+    {
+      "player": "fruitcereal",
+      "team": "Violet Vampires",
+      "points": 869.5,
+      "place": 17
+    },
+    {
+      "player": "RatkingGaming",
+      "team": "Lime Liches",
+      "points": 860,
+      "place": 18
+    },
+    {
+      "player": "Mine_Crafting/BubblestheFriend",
+      "team": "Blue Banshees",
+      "points": 848.5,
+      "place": 19
+    },
+    {
+      "player": "AV80",
+      "team": "Violet Vampires",
+      "points": 762.5,
+      "place": 20
+    },
+    {
+      "player": "mMiror",
+      "team": "Lime Liches",
+      "points": 754,
+      "place": 21
+    },
+    {
+      "player": "ItsCosmoMC",
+      "team": "Cyan Centipedes",
+      "points": 735.0,
+      "place": 22
     },
     {
       "player": "Wo0o0o0ble_",
       "team": "Orange Oozes",
-      "points": 442.5,
-      "place": 24
+      "points": 690.0,
+      "place": 23
     },
     {
       "player": "KubaBabilon",
       "team": "Orange Oozes",
-      "points": 424.5,
+      "points": 689.5,
+      "place": 24
+    },
+    {
+      "player": "Glitch3959_",
+      "team": "Orange Oozes",
+      "points": 688.5,
       "place": 25
     },
     {
       "player": "Andreayay",
       "team": "Fuchsia Frankensteins",
-      "points": 393.5,
+      "points": 681.0,
       "place": 26
-    },
-    {
-      "player": "Acegpuff",
-      "team": "Red Ravens",
-      "points": 389,
-      "place": 27
     },
     {
       "player": "Paradox_Error",
       "team": "Mustard Mummies",
-      "points": 372,
+      "points": 649.5,
+      "place": 27
+    },
+    {
+      "player": "MinisterNickname",
+      "team": "Blue Banshees",
+      "points": 635.5,
       "place": 28
     },
     {
-      "player": "CDogThePro/CropTopChloe",
-      "team": "Fuchsia Frankensteins",
-      "points": 349.5,
+      "player": "juliopolis",
+      "team": "Violet Vampires",
+      "points": 619,
       "place": 29
     },
     {
-      "player": "Glitch3959_",
-      "team": "Orange Oozes",
-      "points": 348.5,
+      "player": "Acegpuff",
+      "team": "Red Ravens",
+      "points": 576.5,
       "place": 30
     },
     {
       "player": "foufouv",
       "team": "Fuchsia Frankensteins",
-      "points": 296.5,
+      "points": 409.0,
       "place": 31
     },
     {
       "player": "RedTheCactus",
       "team": "Orange Oozes",
-      "points": 293.5,
+      "points": 368.5,
       "place": 32
     }
   ],
   "event-team-leaderboard": [
     {
       "team": "Cyan Centipedes",
-      "points": 3055.0,
+      "points": 4397.5,
       "place": 1
     },
     {
-      "team": "Lime Liches",
-      "points": 2739,
+      "team": "Mustard Mummies",
+      "points": 4182.0,
       "place": 2
     },
     {
       "team": "Red Ravens",
-      "points": 2588,
+      "points": 4178.0,
       "place": 3
     },
     {
-      "team": "Mustard Mummies",
-      "points": 2512,
+      "team": "Lime Liches",
+      "points": 3666.5,
       "place": 4
     },
     {
       "team": "Violet Vampires",
-      "points": 2357,
+      "points": 3652.0,
       "place": 5
     },
     {
       "team": "Blue Banshees",
-      "points": 2273,
+      "points": 3603.0,
       "place": 6
     },
     {
       "team": "Fuchsia Frankensteins",
-      "points": 1511.0,
+      "points": 3028.5,
       "place": 7
     },
     {
       "team": "Orange Oozes",
-      "points": 1509.0,
+      "points": 2436.5,
       "place": 8
     }
   ],
@@ -1019,6 +1020,247 @@
     {
       "game-number": 4,
       "game-name": "RSR",
+      "special-scoring": false,
+      "player-leaderboard": [
+        {
+          "player": "ItzChoco",
+          "team": "Violet Vampires",
+          "points": 755,
+          "place": 1
+        },
+        {
+          "player": "CDogThePro/CropTopChloe",
+          "team": "Fuchsia Frankensteins",
+          "points": 642.5,
+          "place": 2
+        },
+        {
+          "player": "sp00kysp00kyy",
+          "team": "Cyan Centipedes",
+          "points": 580,
+          "place": 3
+        },
+        {
+          "player": "OP_Spooktide",
+          "team": "Mustard Mummies",
+          "points": 522.5,
+          "place": 4
+        },
+        {
+          "player": "Dr_OrangeFox_",
+          "team": "Mustard Mummies",
+          "points": 497.5,
+          "place": 5
+        },
+        {
+          "player": "KaydenCoolio",
+          "team": "Red Ravens",
+          "points": 497.5,
+          "place": 6
+        },
+        {
+          "player": "JAY_matwr",
+          "team": "Red Ravens",
+          "points": 480,
+          "place": 7
+        },
+        {
+          "player": "ThatzRed",
+          "team": "Fuchsia Frankensteins",
+          "points": 475,
+          "place": 8
+        },
+        {
+          "player": "qTad",
+          "team": "Blue Banshees",
+          "points": 462.5,
+          "place": 9
+        },
+        {
+          "player": "yseven",
+          "team": "Blue Banshees",
+          "points": 432.5,
+          "place": 10
+        },
+        {
+          "player": "thedracobee",
+          "team": "Red Ravens",
+          "points": 425,
+          "place": 11
+        },
+        {
+          "player": "SpookyGodZero",
+          "team": "Cyan Centipedes",
+          "points": 407.5,
+          "place": 12
+        },
+        {
+          "player": "cheeetahs",
+          "team": "Mustard Mummies",
+          "points": 372.5,
+          "place": 13
+        },
+        {
+          "player": "cCerti",
+          "team": "Lime Liches",
+          "points": 365,
+          "place": 14
+        },
+        {
+          "player": "Mine_Crafting/BubblestheFriend",
+          "team": "Blue Banshees",
+          "points": 342.5,
+          "place": 15
+        },
+        {
+          "player": "Glitch3959_",
+          "team": "Orange Oozes",
+          "points": 340,
+          "place": 16
+        },
+        {
+          "player": "Andreayay",
+          "team": "Fuchsia Frankensteins",
+          "points": 287.5,
+          "place": 17
+        },
+        {
+          "player": "Paradox_Error",
+          "team": "Mustard Mummies",
+          "points": 277.5,
+          "place": 18
+        },
+        {
+          "player": "KubaBabilon",
+          "team": "Orange Oozes",
+          "points": 265,
+          "place": 19
+        },
+        {
+          "player": "fruitcereal",
+          "team": "Violet Vampires",
+          "points": 252.5,
+          "place": 20
+        },
+        {
+          "player": "Wo0o0o0ble_",
+          "team": "Orange Oozes",
+          "points": 247.5,
+          "place": 21
+        },
+        {
+          "player": "Frogmony",
+          "team": "Lime Liches",
+          "points": 242.5,
+          "place": 22
+        },
+        {
+          "player": "AV80",
+          "team": "Violet Vampires",
+          "points": 207.5,
+          "place": 23
+        },
+        {
+          "player": "ASpookyPenguin",
+          "team": "Cyan Centipedes",
+          "points": 197.5,
+          "place": 24
+        },
+        {
+          "player": "Acegpuff",
+          "team": "Red Ravens",
+          "points": 187.5,
+          "place": 25
+        },
+        {
+          "player": "mMiror",
+          "team": "Lime Liches",
+          "points": 180,
+          "place": 26
+        },
+        {
+          "player": "ItsCosmoMC",
+          "team": "Cyan Centipedes",
+          "points": 157.5,
+          "place": 27
+        },
+        {
+          "player": "RatkingGaming",
+          "team": "Lime Liches",
+          "points": 140,
+          "place": 28
+        },
+        {
+          "player": "foufouv",
+          "team": "Fuchsia Frankensteins",
+          "points": 112.5,
+          "place": 29
+        },
+        {
+          "player": "MinisterNickname",
+          "team": "Blue Banshees",
+          "points": 92.5,
+          "place": 30
+        },
+        {
+          "player": "juliopolis",
+          "team": "Violet Vampires",
+          "points": 80,
+          "place": 31
+        },
+        {
+          "player": "RedTheCactus",
+          "team": "Orange Oozes",
+          "points": 75,
+          "place": 32
+        }
+      ],
+      "team-leaderboard": [
+        {
+          "team": "Mustard Mummies",
+          "points": 1670.0,
+          "place": 1
+        },
+        {
+          "team": "Red Ravens",
+          "points": 1590.0,
+          "place": 2
+        },
+        {
+          "team": "Fuchsia Frankensteins",
+          "points": 1517.5,
+          "place": 3
+        },
+        {
+          "team": "Cyan Centipedes",
+          "points": 1342.5,
+          "place": 4
+        },
+        {
+          "team": "Blue Banshees",
+          "points": 1330.0,
+          "place": 5
+        },
+        {
+          "team": "Violet Vampires",
+          "points": 1295.0,
+          "place": 6
+        },
+        {
+          "team": "Lime Liches",
+          "points": 927.5,
+          "place": 7
+        },
+        {
+          "team": "Orange Oozes",
+          "points": 927.5,
+          "place": 8
+        }
+      ]
+    },
+    {
+      "game-number": 5,
+      "game-name": "PKW",
       "special-scoring": false,
       "player-leaderboard": [
         {
@@ -1992,6 +2234,249 @@
       {
         "game-number": 4,
         "game-name": "RSR",
+        "special-scoring": false,
+        "player-leaderboard": [
+          {
+            "player": "ItzChoco",
+            "team": "Violet Vampires",
+            "points": 755,
+            "place": 1
+          },
+          {
+            "player": "CDogThePro/CropTopChloe",
+            "team": "Fuchsia Frankensteins",
+            "points": 642.5,
+            "place": 2
+          },
+          {
+            "player": "sp00kysp00kyy",
+            "team": "Cyan Centipedes",
+            "points": 580,
+            "place": 3
+          },
+          {
+            "player": "OP_Spooktide",
+            "team": "Mustard Mummies",
+            "points": 522.5,
+            "place": 4
+          },
+          {
+            "player": "Dr_OrangeFox_",
+            "team": "Mustard Mummies",
+            "points": 497.5,
+            "place": 5
+          },
+          {
+            "player": "KaydenCoolio",
+            "team": "Red Ravens",
+            "points": 497.5,
+            "place": 6
+          },
+          {
+            "player": "JAY_matwr",
+            "team": "Red Ravens",
+            "points": 480,
+            "place": 7
+          },
+          {
+            "player": "ThatzRed",
+            "team": "Fuchsia Frankensteins",
+            "points": 475,
+            "place": 8
+          },
+          {
+            "player": "qTad",
+            "team": "Blue Banshees",
+            "points": 462.5,
+            "place": 9
+          },
+          {
+            "player": "yseven",
+            "team": "Blue Banshees",
+            "points": 432.5,
+            "place": 10
+          },
+          {
+            "player": "thedracobee",
+            "team": "Red Ravens",
+            "points": 425,
+            "place": 11
+          },
+          {
+            "player": "SpookyGodZero",
+            "team": "Cyan Centipedes",
+            "points": 407.5,
+            "place": 12
+          },
+          {
+            "player": "cheeetahs",
+            "team": "Mustard Mummies",
+            "points": 372.5,
+            "place": 13
+          },
+          {
+            "player": "cCerti",
+            "team": "Lime Liches",
+            "points": 365,
+            "place": 14
+          },
+          {
+            "player": "Mine_Crafting/BubblestheFriend",
+            "team": "Blue Banshees",
+            "points": 342.5,
+            "place": 15
+          },
+          {
+            "player": "Glitch3959_",
+            "team": "Orange Oozes",
+            "points": 340,
+            "place": 16
+          },
+          {
+            "player": "Andreayay",
+            "team": "Fuchsia Frankensteins",
+            "points": 287.5,
+            "place": 17
+          },
+          {
+            "player": "Paradox_Error",
+            "team": "Mustard Mummies",
+            "points": 277.5,
+            "place": 18
+          },
+          {
+            "player": "KubaBabilon",
+            "team": "Orange Oozes",
+            "points": 265,
+            "place": 19
+          },
+          {
+            "player": "fruitcereal",
+            "team": "Violet Vampires",
+            "points": 252.5,
+            "place": 20
+          },
+          {
+            "player": "Wo0o0o0ble_",
+            "team": "Orange Oozes",
+            "points": 247.5,
+            "place": 21
+          },
+          {
+            "player": "Frogmony",
+            "team": "Lime Liches",
+            "points": 242.5,
+            "place": 22
+          },
+          {
+            "player": "AV80",
+            "team": "Violet Vampires",
+            "points": 207.5,
+            "place": 23
+          },
+          {
+            "player": "ASpookyPenguin",
+            "team": "Cyan Centipedes",
+            "points": 197.5,
+            "place": 24
+          },
+          {
+            "player": "Acegpuff",
+            "team": "Red Ravens",
+            "points": 187.5,
+            "place": 25
+          },
+          {
+            "player": "mMiror",
+            "team": "Lime Liches",
+            "points": 180,
+            "place": 26
+          },
+          {
+            "player": "ItsCosmoMC",
+            "team": "Cyan Centipedes",
+            "points": 157.5,
+            "place": 27
+          },
+          {
+            "player": "RatkingGaming",
+            "team": "Lime Liches",
+            "points": 140,
+            "place": 28
+          },
+          {
+            "player": "foufouv",
+            "team": "Fuchsia Frankensteins",
+            "points": 112.5,
+            "place": 29
+          },
+          {
+            "player": "MinisterNickname",
+            "team": "Blue Banshees",
+            "points": 92.5,
+            "place": 30
+          },
+          {
+            "player": "juliopolis",
+            "team": "Violet Vampires",
+            "points": 80,
+            "place": 31
+          },
+          {
+            "player": "RedTheCactus",
+            "team": "Orange Oozes",
+            "points": 75,
+            "place": 32
+          }
+        ],
+        "team-leaderboard": [
+          {
+            "team": "Mustard Mummies",
+            "points": 1670.0,
+            "place": 1
+          },
+          {
+            "team": "Red Ravens",
+            "points": 1590.0,
+            "place": 2
+          },
+          {
+            "team": "Fuchsia Frankensteins",
+            "points": 1517.5,
+            "place": 3
+          },
+          {
+            "team": "Cyan Centipedes",
+            "points": 1342.5,
+            "place": 4
+          },
+          {
+            "team": "Blue Banshees",
+            "points": 1330.0,
+            "place": 5
+          },
+          {
+            "team": "Violet Vampires",
+            "points": 1295.0,
+            "place": 6
+          },
+          {
+            "team": "Lime Liches",
+            "points": 927.5,
+            "place": 7
+          },
+          {
+            "team": "Orange Oozes",
+            "points": 927.5,
+            "place": 8
+          }
+        ]
+      }
+    ],
+    "PKW": [
+      {
+        "game-number": 5,
+        "game-name": "PKW",
         "special-scoring": false,
         "player-leaderboard": [
           {
