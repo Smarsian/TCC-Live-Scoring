@@ -414,13 +414,13 @@
             "date":"October 10, 2026",
             "players":32,
             "teams":8,
-            "game-order":[],
+            "game-order":["TGTTOS","Battle Box","Sky Battle","Rocket Spleef Rush","Parkour Warrior"],
             "finale-game":"Surged",
-            "winner":"",
-            "runner-up":"",
-            "score":"",
+            "winner":"Cyan Centipedes",
+            "runner-up":"Mustard Mummies",
+            "score":"7-6",
             "points":"TCCPT-Points.txt",
-            "is-live":true
+            "is-live":false
         }
     }
 }
